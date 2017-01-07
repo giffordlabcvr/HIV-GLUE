@@ -1,0 +1,10 @@
+<ncbiImporter>
+  <sourceName>ncbi-refseqs</sourceName>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <specificPrimaryAccessions>
+	<!-- HXB2 strain reference -->
+	<primaryAccession></primaryAccession>
+  </specificPrimaryAccessions>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
