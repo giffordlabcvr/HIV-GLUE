@@ -1,9 +1,15 @@
 Begin Metadata;
 name             = HIV-1-CRF02;
 full_name        = HIV-1 CRF02;
-virus_group      = Lentivirus;
-virus_subgroup   = Primate lentivirus;
-virus_class      = II;
+virus_family     = Retroviridae;
+virus_subfamily  = Orthoretrovirinae;
+virus_supertribe = Mintakaretrovirinae;
+virus_tribe      = Lenti;
+virus_genus      = Lentivirus;
+virus_subgroup   = Primate;
+genome_coverage  = complete;
+genome_state     = complete;
+sequence_type    = locus;
 host_sci_name    = Homo_sapiens;
 host_common_name = Human;
 accession        = AB286856;
@@ -17,7 +23,7 @@ ORF	vpr	vpr	5583	5873
 ORF	vpu	vpu	6094	6339
 ORF	env	env	6257	8857
 ORF	nef	nef	8859	9485
-ORF	LTR	LTR	9154	9724
+ORF	LTR	ltr	9154	9724
 Endblock;
 
 ORIGIN

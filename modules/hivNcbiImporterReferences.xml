@@ -2,8 +2,16 @@
   <sourceName>ncbi-refseqs</sourceName>
   <giNumberFieldName>gb_gi_number</giNumberFieldName>
   <specificPrimaryAccessions>
-	<!-- HXB2 strain reference -->
-	<primaryAccession></primaryAccession>
+
+	<!-- HXB2 reference strain -->
+	<primaryAccession>NC_001802</primaryAccession>
+	<!-- NL43 reference strain -->
+	<primaryAccession>U26942</primaryAccession>
+	<!-- NY5/BRU (LAV-1) recombinant clone pNL4-3 -->
+	<primaryAccession>M19921</primaryAccession>
+	<!-- NL43I151V from USA -->
+	<primaryAccession>KM390026</primaryAccession>
+
   </specificPrimaryAccessions>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>

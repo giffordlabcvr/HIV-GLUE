@@ -1,9 +1,15 @@
 Begin Metadata;
 name             = HIV-1-A;
 full_name        = HIV-1 Subtype A;
-virus_group      = Lentivirus;
-virus_subgroup   = Primate lentivirus;
-virus_class      = II;
+virus_family     = Retroviridae;
+virus_subfamily  = Orthoretrovirinae;
+virus_supertribe = Mintakaretrovirinae;
+virus_tribe      = Lenti;
+virus_genus      = Lentivirus;
+virus_subgroup   = Primate;
+genome_coverage  = complete;
+genome_state     = complete;
+sequence_type    = locus;
 host_sci_name    = Homo_sapiens;
 host_common_name = Human;
 accession        = AM000053;
@@ -11,11 +17,11 @@ Endblock;
 
 Begin Features;
 ORF	gag	gag	792	2279
-ORF	Pol	Pol	2081	5089
+ORF	Pol	pol	2081	5089
 ORF	vif	vif	5037	5615
 ORF	vpu	vpu	6067	6309
 ORF	env	env	6227	8815
-ORF	nef	nef	8817	 9437
+ORF	nef	nef	8817	9437
 Endblock;
 
 ORIGIN
