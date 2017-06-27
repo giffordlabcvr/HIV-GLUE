@@ -1,28 +1,16 @@
-# HIV GLUE project
+delete project hiv_pairs
 
-delete project hiv-glue
+create project hiv_pairs "GLUE project for the studying HIV-1 donor-recipient pairs" --minVersion 0.1.50
 
-create project example "HIV-GLUE" --minVersion 0.1.52
+schema-project hiv_pairs
 
-schema-project example
-  run file glue/fieldDefinitions.glue
+  run file glue/hivSchemaExtensions.glue
+
   exit
 
-project example
+
+project hiv_pairs
 
   run file glue/projectSettings.glue
 
-  run file glue/features.glue
-
-  import source sources/ncbi-refseqs
-
-  #module genbankXmlPopulator populate
-
-  #run file glue/references.glue
-
-  #run file glue/alignmentTree.glue
-  
-  # validation fails at the moment because of RNA editing in the GP protein (insertion of 1 x A)
-  # validate
-  
-  exit
+ exit
