@@ -3,14 +3,60 @@
   <giNumberFieldName>gb_gi_number</giNumberFieldName>
   <specificPrimaryAccessions>
 
-	<!-- HXB2 reference strain -->
+	<!-- A1 92UG037 reference strain -->
+	<primaryAccession>U51190</primaryAccession>
+	<!-- A1 Q23 reference strain -->
+	<primaryAccession>AF004885</primaryAccession>
+	<!-- A1 SE7253 reference strain -->
+	<primaryAccession>AF069670</primaryAccession>
+	<!-- A1 98UG57136 reference strain -->
+	<primaryAccession>AF484509</primaryAccession>
+	<!-- A2 97CDKTB48 reference strain -->
+	<primaryAccession>AF286238</primaryAccession>
+	<!-- A2 94CY017.41 reference strain -->
+	<primaryAccession>AF286237</primaryAccession>
+	<!-- B HXB2 reference strain -->
 	<primaryAccession>NC_001802</primaryAccession>
-	<!-- NL43 reference strain -->
+	<!-- B NL43 reference strain -->
 	<primaryAccession>U26942</primaryAccession>
-	<!-- NY5/BRU (LAV-1) recombinant clone pNL4-3 -->
+	<!-- B NY5/BRU (LAV-1) recombinant clone pNL4-3 -->
 	<primaryAccession>M19921</primaryAccession>
-	<!-- NL43I151V from USA -->
+	<!-- B NL43I151V from USA -->
 	<primaryAccession>KM390026</primaryAccession>
+	<!-- B BK132 from USA -->
+
+	<primaryAccession>AY173951</primaryAccession>
+	<primaryAccession>AY423387</primaryAccession>
+	<primaryAccession>AY331295</primaryAccession>
+	<primaryAccession>U46016</primaryAccession>
+	<primaryAccession>U52953</primaryAccession>
+	<primaryAccession>AF067155</primaryAccession>
+	<primaryAccession>AY772699</primaryAccession>
+	<primaryAccession>K03454</primaryAccession>
+	<primaryAccession>U88824</primaryAccession>
+	<primaryAccession>AY371157</primaryAccession>
+	<primaryAccession>AY253311</primaryAccession>
+	<primaryAccession>AF005494</primaryAccession>
+	<primaryAccession>AF077336</primaryAccession>
+	<primaryAccession>AF075703</primaryAccession>
+	<primaryAccession>AJ249238</primaryAccession>
+	<primaryAccession>AJ249236</primaryAccession>
+	<primaryAccession>AJ249237</primaryAccession>
+	<primaryAccession>AY371158</primaryAccession>
+	<primaryAccession>AF377956</primaryAccession>
+	<primaryAccession>AF061642</primaryAccession>
+	<primaryAccession>AF061640</primaryAccession>
+	<primaryAccession>AF084936</primaryAccession>
+	<primaryAccession>U88826</primaryAccession>
+	<primaryAccession>AF005496</primaryAccession>
+	<primaryAccession>AF190127</primaryAccession>
+	<primaryAccession>AF190128</primaryAccession>
+	<primaryAccession>AF082394</primaryAccession>
+	<primaryAccession>AF082395</primaryAccession>
+	<!-- K EQTB11C reference strain -->
+	<primaryAccession>AJ249235</primaryAccession>
+	<!-- K MP535 reference strain -->
+	<primaryAccession>AJ249239</primaryAccession>
 
   </specificPrimaryAccessions>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
