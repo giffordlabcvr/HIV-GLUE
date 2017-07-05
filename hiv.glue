@@ -13,4 +13,13 @@ project hiv_pairs
 
   run file glue/projectSettings.glue
 
+  # Import modules
+  create module -f modules/hivGenbankXmlPopulator.xml genbankXmlPopulator
+	
+  import source sources/ncbi-refseqs/
+  import source sources/ncbi-pairsets/
+
+  # Populate certain fields from GenBank XML
+  module genbankXmlPopulator populate
+	
  exit
