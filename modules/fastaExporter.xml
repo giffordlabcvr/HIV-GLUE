@@ -1,0 +1,3 @@
+<fastaExporter>
+	<idTemplate>${gb_primary_accession}</idTemplate>
+</fastaExporter>

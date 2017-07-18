@@ -1,0 +1,49 @@
+  create feature whole_genome "Whole HIV-1 genome"
+  feature whole_genome set field displayName "Whole genome"
+  feature whole_genome set metatag INCLUDE_IN_SUMMARY true
+
+  create feature 5UTR -p whole_genome "5' Untranslated region"
+  feature 5UTR set field displayName "5' UTR"
+  feature 5UTR set metatag INCLUDE_IN_SUMMARY true
+
+  create feature Gag-Pol -p whole_genome "Gag-Pol"
+  feature Gag-Pol set field displayName "Gag-Pol"
+  feature Gag-Pol set metatag OWN_CODON_NUMBERING true
+  feature Gag-Pol set metatag INCLUDE_IN_SUMMARY true
+  feature Gag-Pol set metatag CODES_AMINO_ACIDS true
+  feature Gag-Pol set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature Gag -p whole_genome "Gag"
+  feature Gag set field displayName "Gag"
+  feature Gag set metatag OWN_CODON_NUMBERING true
+  feature Gag set metatag INCLUDE_IN_SUMMARY true
+  feature Gag set metatag CODES_AMINO_ACIDS true
+  feature Gag set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature p17 -p Gag "p17"
+  feature p17 set field displayName "p17"
+  feature p17 set metatag OWN_CODON_NUMBERING true
+  feature p17 set metatag INCLUDE_IN_SUMMARY true
+  feature p17 set metatag CODES_AMINO_ACIDS true
+  feature p17 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature Pol -p whole_genome "Pol"
+  feature Pol set field displayName "Pol"
+  feature Pol set metatag OWN_CODON_NUMBERING true
+  feature Pol set metatag INCLUDE_IN_SUMMARY true
+  feature Pol set metatag CODES_AMINO_ACIDS true
+  feature Pol set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature Vif -p whole_genome "Vif"
+  feature Vif set field displayName "Vif"
+  feature Vif set metatag OWN_CODON_NUMBERING true
+  feature Vif set metatag INCLUDE_IN_SUMMARY true
+  feature Vif set metatag CODES_AMINO_ACIDS true
+  feature Vif set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+
+  create feature 3UTR -p whole_genome "3' Untranslated region"
+  feature 3UTR set field displayName "3' UTR"
+  feature 3UTR set metatag INCLUDE_IN_SUMMARY true
+
+
