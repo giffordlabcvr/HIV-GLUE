@@ -21,5 +21,17 @@ project hiv_pairs
 
   # Populate certain fields from GenBank XML
   module genbankXmlPopulator populate
-	
+
+  # Features
+  run file glue/hivFeatures.glue
+
+  # References
+  run file glue/hivReferences.glue
+  validate
+
+  # Import alignment 
+  create module -f modules/unconstrainedAlignmentImporter.xml
+  module unconstrainedAlignmentImporter import AL_UNCONSTRAINED -f alignments/HIV.genome.refseqs.aln.fna
+
+
  exit
