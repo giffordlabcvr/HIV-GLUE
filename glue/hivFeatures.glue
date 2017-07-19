@@ -1,4 +1,5 @@
   create feature whole_genome "Whole HIV-1 genome"
+
   feature whole_genome set field displayName "Whole genome"
   feature whole_genome set metatag INCLUDE_IN_SUMMARY true
 
@@ -12,20 +13,55 @@
   feature Gag-Pol set metatag INCLUDE_IN_SUMMARY true
   feature Gag-Pol set metatag CODES_AMINO_ACIDS true
   feature Gag-Pol set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
-
+  
   create feature Gag -p whole_genome "Gag"
   feature Gag set field displayName "Gag"
   feature Gag set metatag OWN_CODON_NUMBERING true
   feature Gag set metatag INCLUDE_IN_SUMMARY true
   feature Gag set metatag CODES_AMINO_ACIDS true
   feature Gag set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
-
+  
   create feature p17 -p Gag "p17"
   feature p17 set field displayName "p17"
   feature p17 set metatag OWN_CODON_NUMBERING true
   feature p17 set metatag INCLUDE_IN_SUMMARY true
   feature p17 set metatag CODES_AMINO_ACIDS true
   feature p17 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+	
+  create feature p24 -p Gag "p24"
+  feature p24 set field displayName "p24"
+  feature p24 set metatag OWN_CODON_NUMBERING true
+  feature p24 set metatag INCLUDE_IN_SUMMARY true
+  feature p24 set metatag CODES_AMINO_ACIDS true
+  feature p24 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature p2 -p Gag "p2"
+  feature p2 set field displayName "p2"
+  feature p2 set metatag OWN_CODON_NUMBERING true
+  feature p2 set metatag INCLUDE_IN_SUMMARY true
+  feature p2 set metatag CODES_AMINO_ACIDS true
+  feature p2 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature p7 -p Gag "p7"
+  feature p7 set field displayName "p7"
+  feature p7 set metatag OWN_CODON_NUMBERING true
+  feature p7 set metatag INCLUDE_IN_SUMMARY true
+  feature p7 set metatag CODES_AMINO_ACIDS true
+  feature p7 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature p1 -p Gag "p1"
+  feature p1 set field displayName "p1"
+  feature p1 set metatag OWN_CODON_NUMBERING true
+  feature p1 set metatag INCLUDE_IN_SUMMARY true
+  feature p1 set metatag CODES_AMINO_ACIDS true
+  feature p1 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature p6 -p Gag "p6"
+  feature p6 set field displayName "p6"
+  feature p6 set metatag OWN_CODON_NUMBERING true
+  feature p6 set metatag INCLUDE_IN_SUMMARY true
+  feature p6 set metatag CODES_AMINO_ACIDS true
+  feature p6 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
   create feature Pol -p whole_genome "Pol"
   feature Pol set field displayName "Pol"
@@ -34,6 +70,34 @@
   feature Pol set metatag CODES_AMINO_ACIDS true
   feature Pol set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
+  create feature prot -p Pol "p6"
+  feature prot set field displayName "prot"
+  feature prot set metatag OWN_CODON_NUMBERING true
+  feature prot set metatag INCLUDE_IN_SUMMARY true
+  feature prot set metatag CODES_AMINO_ACIDS true
+  feature prot set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature p51 -p Pol "p51"
+  feature p51 set field displayName "p51"
+  feature p51 set metatag OWN_CODON_NUMBERING true
+  feature p51 set metatag INCLUDE_IN_SUMMARY true
+  feature p51 set metatag CODES_AMINO_ACIDS true
+  feature p51 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature p15 -p Pol "p15"
+  feature p15 set field displayName "p15"
+  feature p15 set metatag OWN_CODON_NUMBERING true
+  feature p15 set metatag INCLUDE_IN_SUMMARY true
+  feature p15 set metatag CODES_AMINO_ACIDS true
+  feature p15 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature p31 -p Pol "p31"
+  feature p31 set field displayName "p31"
+  feature p31 set metatag OWN_CODON_NUMBERING true
+  feature p31 set metatag INCLUDE_IN_SUMMARY true
+  feature p31 set metatag CODES_AMINO_ACIDS true
+  feature p31 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+  
   create feature Vif -p whole_genome "Vif"
   feature Vif set field displayName "Vif"
   feature Vif set metatag OWN_CODON_NUMBERING true
@@ -41,9 +105,63 @@
   feature Vif set metatag CODES_AMINO_ACIDS true
   feature Vif set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
+  create feature Vpr -p whole_genome "Vpr"
+  feature Vpr set field displayName "Vpr"
+  feature Vpr set metatag OWN_CODON_NUMBERING true
+  feature Vpr set metatag INCLUDE_IN_SUMMARY true
+  feature Vpr set metatag CODES_AMINO_ACIDS true
+  feature Vpr set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature Tat -p whole_genome "Tat"
+  feature Tat set field displayName "Tat"
+  feature Tat set metatag OWN_CODON_NUMBERING true
+  feature Tat set metatag INCLUDE_IN_SUMMARY true
+  feature Tat set metatag CODES_AMINO_ACIDS true
+  feature Tat set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature Rev -p whole_genome "Rev"
+  feature Rev set field displayName "Rev"
+  feature Rev set metatag OWN_CODON_NUMBERING true
+  feature Rev set metatag INCLUDE_IN_SUMMARY true
+  feature Rev set metatag CODES_AMINO_ACIDS true
+  feature Rev set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature Vpu -p whole_genome "Vpu"
+  feature Vpu set field displayName "Vpu"
+  feature Vpu set metatag OWN_CODON_NUMBERING true
+  feature Vpu set metatag INCLUDE_IN_SUMMARY true
+  feature Vpu set metatag CODES_AMINO_ACIDS true
+  feature Vpu set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature Env -p whole_genome "Env"
+  feature Env set field displayName "Env"
+  feature Env set metatag OWN_CODON_NUMBERING true
+  feature Env set metatag INCLUDE_IN_SUMMARY true
+  feature Env set metatag CODES_AMINO_ACIDS true
+  feature Env set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature gp120 -p Env "gp120"
+  feature gp120 set field displayName "gp120"
+  feature gp120 set metatag OWN_CODON_NUMBERING true
+  feature gp120 set metatag INCLUDE_IN_SUMMARY true
+  feature gp120 set metatag CODES_AMINO_ACIDS true
+  feature gp120 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature gp41 -p Env "gp41"
+  feature gp41 set field displayName "gp41"
+  feature gp41 set metatag OWN_CODON_NUMBERING true
+  feature gp41 set metatag INCLUDE_IN_SUMMARY true
+  feature gp41 set metatag CODES_AMINO_ACIDS true
+  feature gp41 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature Nef -p whole_genome "Nef"
+  feature Nef set field displayName "Nef"
+  feature Nef set metatag OWN_CODON_NUMBERING true
+  feature Nef set metatag INCLUDE_IN_SUMMARY true
+  feature Nef set metatag CODES_AMINO_ACIDS true
+  feature Nef set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
   create feature 3UTR -p whole_genome "3' Untranslated region"
   feature 3UTR set field displayName "3' UTR"
   feature 3UTR set metatag INCLUDE_IN_SUMMARY true
-
 
