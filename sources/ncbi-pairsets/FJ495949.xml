@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>FJ495949</GBSeq_locus>
+  <GBSeq_length>728</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>DNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>24-JUL-2016</GBSeq_update-date>
+  <GBSeq_create-date>03-JUN-2009</GBSeq_create-date>
+  <GBSeq_definition>HIV-1 isolate CH58S_N3 from USA envelope glycoprotein (env) pseudogene, partial sequence; and rev protein (rev) and tat protein (tat) genes, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>FJ495949</GBSeq_primary-accession>
+  <GBSeq_accession-version>FJ495949.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|FJ495949.1|</GBSeqid>
+    <GBSeqid>gi|238633894</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Human immunodeficiency virus 1 (HIV-1)</GBSeq_source>
+  <GBSeq_organism>Human immunodeficiency virus 1</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Primate lentivirus group</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..728</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Salazar-Gonzalez,J.F.</GBAuthor>
+        <GBAuthor>Salazar,M.G.</GBAuthor>
+        <GBAuthor>Keele,B.F.</GBAuthor>
+        <GBAuthor>Learn,G.H.</GBAuthor>
+        <GBAuthor>Giorgi,E.E.</GBAuthor>
+        <GBAuthor>Li,H.</GBAuthor>
+        <GBAuthor>Decker,J.M.</GBAuthor>
+        <GBAuthor>Wang,S.</GBAuthor>
+        <GBAuthor>Baalwa,J.</GBAuthor>
+        <GBAuthor>Kraus,M.H.</GBAuthor>
+        <GBAuthor>Parrish,N.F.</GBAuthor>
+        <GBAuthor>Shaw,K.S.</GBAuthor>
+        <GBAuthor>Guffey,M.B.</GBAuthor>
+        <GBAuthor>Bar,K.J.</GBAuthor>
+        <GBAuthor>Davis,K.L.</GBAuthor>
+        <GBAuthor>Ochsenbauer-Jambor,C.</GBAuthor>
+        <GBAuthor>Kappes,J.C.</GBAuthor>
+        <GBAuthor>Saag,M.S.</GBAuthor>
+        <GBAuthor>Cohen,M.S.</GBAuthor>
+        <GBAuthor>Mulenga,J.</GBAuthor>
+        <GBAuthor>Derdeyn,C.A.</GBAuthor>
+        <GBAuthor>Allen,S.</GBAuthor>
+        <GBAuthor>Hunter,E.</GBAuthor>
+        <GBAuthor>Markowitz,M.</GBAuthor>
+        <GBAuthor>Hraber,P.</GBAuthor>
+        <GBAuthor>Perelson,A.S.</GBAuthor>
+        <GBAuthor>Bhattacharya,T.</GBAuthor>
+        <GBAuthor>Haynes,B.F.</GBAuthor>
+        <GBAuthor>Korber,B.T.</GBAuthor>
+        <GBAuthor>Hahn,B.H.</GBAuthor>
+        <GBAuthor>Shaw,G.M.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Genetic identity, biological phenotype, and evolutionary pathways of transmitted/founder viruses in acute and early HIV-1 infection</GBReference_title>
+      <GBReference_journal>J. Exp. Med. 206 (6), 1273-1289 (2009)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1084/jem.20090378</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>19487424</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..728</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Hraber,P.T.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (28-NOV-2008) Los Alamos National Laboratory, Theoretical Biology and Biophysics (T10), MS K710, Los Alamos, NM 87545, USA</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>Annotation information was provided by the author. Some of the information does not have GenBank feature identifiers and is being provided in the comment section. Information in this section is searchable in HIV Database at Los Alamos (www.hiv.lanl.gov).; ##HIVDataBaseData-START## Sequence Name CH58S_N3 Patient code 700010058 Patient sex M Sample date 2006 Fiebig Stage 2 Viral Load 92581 Sample city North Carolina Culture method uncultured Sample tissue serum HLA type A*0101 A*2301 B*1402 B*5701 Cw*0701 Cw*0802 Subtype B DBID 4000861949 ##HIVDataBaseData-END##</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..728</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>728</GBInterval_to>
+          <GBInterval_accession>FJ495949.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Human immunodeficiency virus 1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>proviral</GBQualifier_name>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic DNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>CH58S_N3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Homo sapiens</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:11676</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>USA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>2006</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>subtype</GBQualifier_name>
+          <GBQualifier_value>B</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;728</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>728</GBInterval_to>
+          <GBInterval_accession>FJ495949.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>env</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>pseudo</GBQualifier_name>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;728</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>728</GBInterval_to>
+          <GBInterval_accession>FJ495949.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>env</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>pseudo</GBQualifier_name>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>&lt;713..&gt;728</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>713</GBInterval_from>
+          <GBInterval_to>728</GBInterval_to>
+          <GBInterval_accession>FJ495949.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>rev</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>&lt;713..&gt;728</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>713</GBInterval_from>
+          <GBInterval_to>728</GBInterval_to>
+          <GBInterval_accession>FJ495949.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>tat</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;713..&gt;728</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>713</GBInterval_from>
+          <GBInterval_to>728</GBInterval_to>
+          <GBInterval_accession>FJ495949.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>tat</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>tat protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ACR51845.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>PASQQ</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;713..&gt;728</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>713</GBInterval_from>
+          <GBInterval_to>728</GBInterval_to>
+          <GBInterval_accession>FJ495949.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>rev</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>rev protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ACR51846.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>PPPS</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>tgaattatataaatataaggtagtaaaaattgaaccattaggagtagcacccaccagggcaaagagaagagtggtgcagagagaaaaaagaggagtaggaataggagctatggtccttgggttcttgggagcagcaggaagcactatgggcgcagcatcaatgatgctgacggtacaagccagacaattgttgtctggtatagtgcaacagcagaacaatctgctgagagctattgaggcgcaacaacatatgttgcaactcacagtctggggcatcaagcagctccaggcaagagtcctggctctggaaagatacctaagggaccaacagctcctgggaatttggggctgctctggaaaactcatttgccccactgctgtgccttggaatgctagttggagtaacaaatcctattcagagatttggaataacatgacctggatagagtgggaaagagaaattgacaattacacaggggaaatatacaggttaattgaagaatcgcaaaaccaacaagaaaggaatgaaaaagacttattggaattagacaaatgggcaagtttgtggaattggtttgacatatcaaaatggctgtggtatataaaaatattcataatgatagtaggaggcatagtaggtcttagaatagtttttactgtactttctatagtgaatagagttaggcagggatactcaccattatcatttcagacccgcctcccagcag</GBSeq_sequence>
+</GBSeq>
