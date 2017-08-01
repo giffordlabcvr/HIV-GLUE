@@ -13,10 +13,8 @@
     create field gb_host VARCHAR 300
     create field earliest_collection_year INTEGER
     create field latest_collection_year INTEGER
-
-
     create field gb_pubmed_id VARCHAR
-    create field gb_subtype VARCHAR
+    create field subtype VARCHAR
     create field gb_country VARCHAR 200
     create field gb_country_iso VARCHAR 
 	create field gb_place_sampled VARCHAR 100
@@ -25,4 +23,8 @@
     create field gb_collection_month_day INTEGER
     create field gb_create_date DATE
     create field gb_update_date DATE
+    create field known_transmission_link VARCHAR
+    create field donor_recipient VARCHAR
+    create field sex VARCHAR
+
     exit
