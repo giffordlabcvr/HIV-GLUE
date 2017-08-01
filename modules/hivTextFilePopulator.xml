@@ -21,7 +21,7 @@
 	</textFileColumn>
 	<textFileColumn>
 		<header>Donor-Recipient</header>
-		<property>donor-recipient</property>
+		<property>donor_recipient</property>
 	</textFileColumn>
 	<textFileColumn>
 		<header>Sex</header>
@@ -30,7 +30,7 @@
 	</textFileColumn>
 	<textFileColumn>
 		<header>Sample_year</header>
-		<property>sample_year</property>
+		<property>gb_collection_year</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
 	<textFileColumn>
