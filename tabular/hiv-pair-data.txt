@@ -1,4 +1,4 @@
-Subject	Accession 	Reference	Donor-Recipient	Subtype	Sex	Country	Sample_year	Known_transmission_link
+Subtype	Accession 	Reference	Donor-Recipient	Subtype	Sex	Country	Sample_year	Known_transmission_link
 CH1064	KY111987	PubMed 28069935	Donor	C	Female	Malawi	2009	CH848
 CH1064	KY111988	PubMed 28069935	Donor	C	Female	Malawi	2009	CH848
 CH1064	KY111989	PubMed 28069935	Donor	C	Female	Malawi	2009	CH848
