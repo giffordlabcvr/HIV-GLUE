@@ -1,0 +1,4 @@
+create module --fileName modules/hivGenbankXmlPopulator.xml genbankXmlPopulator
+create module --fileName modules/hivTextFilePopulatorIyer.xml textFilePopulator
+create module --fileName modules/unconstrainedAlignmentImporter.xml
+
