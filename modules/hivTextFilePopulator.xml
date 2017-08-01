@@ -12,18 +12,16 @@
 	</textFileColumn>
 	<textFileColumn>
 		<header>Country</header>
-		<property>country</property>
+		<property>gb_country</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
 	<textFileColumn>
 		<header>Reference</header>
-		<property>reference</property>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull>		
+		<property>gb_pubmed_id</property>
 	</textFileColumn>
 	<textFileColumn>
 		<header>Donor-Recipient</header>
 		<property>donor-recipient</property>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 
 	</textFileColumn>
 	<textFileColumn>
 		<header>Sex</header>
