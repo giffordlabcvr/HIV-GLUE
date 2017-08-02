@@ -1,4 +1,4 @@
-Accession,Subtype,Reference,Donor-Recipient,Subtype,Sex,Country,Sample_year,Known_transmission_link
+Accession,Isolate,Reference,Donor-Recipient,Subtype,Sex,Country,Sample_year,Known_transmission_link
 KY111987,CH1064,28069935,Donor,C,Female,Malawi,2009,CH848
 KY111988,CH1064,28069935,Donor,C,Female,Malawi,2009,CH848
 KY111989,CH1064,28069935,Donor,C,Female,Malawi,2009,CH848
