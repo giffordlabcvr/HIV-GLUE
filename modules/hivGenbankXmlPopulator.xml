@@ -1,73 +1,73 @@
 <genbankXmlPopulator>
 	<gbPrimaryAccession>
-		<fieldPopulator fieldName="gb_primary_accession"/>
+		<propertyPopulator property="gb_primary_accession"/>
 	</gbPrimaryAccession>
 
 	<gbAccessionVersion>
-		<fieldPopulator fieldName="gb_accession_version"/>
+		<propertyPopulator property="gb_accession_version"/>
 	</gbAccessionVersion>
 
 	<gbLocus>
-		<fieldPopulator fieldName="gb_locus"/>
+		<propertyPopulator property="gb_locus"/>
 	</gbLocus>
 
 	<gbOtherID>
-		<fieldPopulator fieldName="gb_gi_number">
+		<propertyPopulator property="gb_gi_number">
 			<matchPattern>gi\|(\d+)</matchPattern>
 			<outputTemplate>${g1}</outputTemplate>
-		</fieldPopulator>
+		</propertyPopulator>
 	</gbOtherID>
 
 	<gbTaxonomy>
-		<fieldPopulator fieldName="gb_taxonomy"/>
+		<propertyPopulator property="gb_taxonomy"/>
 	</gbTaxonomy>
 
 	<gbLength>
-		<fieldPopulator fieldName="gb_length"/>
+		<propertyPopulator property="gb_length"/>
 	</gbLength>
 
 	<gbUpdateDate>
-		<fieldPopulator fieldName="gb_update_date"/>
+		<propertyPopulator property="gb_update_date"/>
 	</gbUpdateDate>
 
 	<gbCreateDate>
-		<fieldPopulator fieldName="gb_create_date"/>
+		<propertyPopulator property="gb_create_date"/>
 	</gbCreateDate>
 
 	<gbOrganism>
-		<fieldPopulator fieldName="gb_organism"/>
+		<propertyPopulator property="gb_organism"/>
 	</gbOrganism>
 
 	<gbReferencePubmed>
-		<fieldPopulator fieldName="gb_pubmed_id"/>
+		<propertyPopulator property="gb_pubmed_id"/>
 	</gbReferencePubmed>
 	
 	<gbDivision>
-		<fieldPopulator fieldName="gb_lab_construct">
+		<propertyPopulator property="gb_lab_construct">
 			<matchPattern>PAT</matchPattern>
 			<outputTemplate>true</outputTemplate>
-		</fieldPopulator>
+		</propertyPopulator>
 	</gbDivision>
 	
 	<gbFeature key="source">
 		<gbQualifier name="isolate">
-			<fieldPopulator fieldName="gb_isolate"/>
+			<propertyPopulator property="gb_isolate"/>
 		</gbQualifier>
 		<gbQualifier name="isolation_source">
-			<fieldPopulator fieldName="gb_isolation_source"/>
+			<propertyPopulator property="gb_isolation_source"/>
 		</gbQualifier>
 		<gbQualifier name="country">
-			<isoCountryFieldPopulator fieldName="gb_country_iso" codeStyle="ALPHA_3"/>
-			<fieldPopulator fieldName="gb_country"/>
-			<fieldPopulator fieldName="gb_place_sampled">
+			<isoCountryPropertyPopulator property="gb_country_iso" codeStyle="ALPHA_3"/>
+			<propertyPopulator property="gb_country"/>
+			<propertyPopulator property="gb_place_sampled">
 				<matchPattern>^.*:(.*)$</matchPattern>
 				<outputTemplate>${g1?trim}</outputTemplate>
-			</fieldPopulator>
+			</propertyPopulator>
 		</gbQualifier>
 
 
 		<gbQualifier name="host">
-			<fieldPopulator fieldName="gb_host">
+			<propertyPopulator property="gb_host">
 				<valueConverter>
 					<matchPattern>.*[Hh]omo [Ss]apiens.*</matchPattern>
 					<matchPattern>.*[Hh]uman.*</matchPattern>
@@ -78,32 +78,32 @@
 					<matchPattern>.*[Jj]apanese monkey.*</matchPattern>
 					<outputTemplate>Macaca fuscata</outputTemplate>
 				</valueConverter>
-			</fieldPopulator>
+			</propertyPopulator>
 		</gbQualifier>
 		
 		
 		<gbQualifier name="collection_date">
-			<fieldPopulator fieldName="gb_collection_month_day">
+			<propertyPopulator property="gb_collection_month_day">
 				<matchPattern>(\d{2})-[A-Za-z]{3}-\d{4}</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
-			</fieldPopulator>
-			<fieldPopulator fieldName="gb_collection_month">
+			</propertyPopulator>
+			<propertyPopulator property="gb_collection_month">
 				<matchPattern>\d{2}-([A-Za-z]{3})-\d{4}</matchPattern>
 				<outputTemplate>${g1?upper_case}</outputTemplate>
-			</fieldPopulator>
-			<fieldPopulator fieldName="gb_collection_year">
+			</propertyPopulator>
+			<propertyPopulator property="gb_collection_year">
 				<matchPattern>(\d{4})</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
-			</fieldPopulator>
+			</propertyPopulator>
 			<!-- if collection year is specified here then we have tight bounds on the earliest / latest collection year -->
-			<fieldPopulator fieldName="earliest_collection_year">
+			<propertyPopulator property="earliest_collection_year">
 				<matchPattern>(\d{4})</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
-			</fieldPopulator>
-			<fieldPopulator fieldName="latest_collection_year">
+			</propertyPopulator>
+			<propertyPopulator property="latest_collection_year">
 				<matchPattern>(\d{4})</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
-			</fieldPopulator>
+			</propertyPopulator>
 		</gbQualifier>
 	</gbFeature>
 </genbankXmlPopulator>
