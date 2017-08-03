@@ -14,25 +14,31 @@ project hiv_pairs
   
   run file glue/hivModules.glue
 
-  # Import modules
+  # Import sources 
   import source sources/ncbi-refseqs/
   import source sources/ncbi-pairsets/
 
-  # Populate certain fields from GenBank XML
+  # Populate sequence table fields from GenBank XML
   module genbankXmlPopulator populate
 
-  # Features
-  run file glue/hivFeatures.glue
+  # Define features
+   run file glue/hivFeatures.glue
 
-  # References
+  # Create references
   run file glue/hivReferences.glue
   validate
 
   # Import alignment 
   module unconstrainedAlignmentImporter import AL_UNCONSTRAINED -f alignments/HIV.genome.refseqs.aln.fna
 
-  # Import tabular data 
+  # Import alignment tree
+  run file glue/hivAlignmentTree.glue
+
+  # Import phylogeny
+  #run file glue/hivImportPhylogeny.glue
+
+  # Import data from tabular
   module textFilePopulator populate -f tabular/hiv-pair-data.txt
   validate
 
- exit
+  exit
