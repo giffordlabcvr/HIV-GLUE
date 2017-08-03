@@ -1,0 +1,22 @@
+  create alignment AL_MASTER -r REF_MASTER_NC_001802 
+  
+  alignment AL_MASTER
+    set field displayName "Human immunodeficiency virus (HIV-1)"
+    # reference sequences
+    add member -w "source.name in ('ncbi-refseqs')"
+    extract child AL_B  --refName REF_MASTER_NC_001802
+    demote member AL_B  --whereClause "sequence.subtype = 'B'" 
+    extract child AL_A1 --refName REF_A1_U51190
+    demote member AL_A1 --whereClause "sequence.subtype = 'A1'" 
+    extract child AL_A2 --refName REF_A2_AF286238
+    demote member AL_A2 --whereClause "sequence.subtype = 'A2'" 
+    extract child AL_C  --refName REF_C_U46016
+    demote member AL_C  --whereClause "sequence.subtype = 'C'" 
+    extract child AL_D  --refName REF_D_K03454
+    demote member AL_D  --whereClause "sequence.subtype = 'C'" 
+    extract child AL_F1  --refName REF_F1_AF005494
+    demote member AL_F1  --whereClause "sequence.subtype = 'F1'" 
+    extract child AL_F2  --refName REF_F2_AJ249236
+    demote member AL_F2  --whereClause "sequence.subtype = 'F2'" 
+    exit
+
