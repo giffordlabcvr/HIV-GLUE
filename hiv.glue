@@ -33,5 +33,6 @@ project hiv_pairs
 
   # Import tabular data 
   module textFilePopulator populate -f tabular/hiv-pair-data.txt
+  validate
 
  exit
