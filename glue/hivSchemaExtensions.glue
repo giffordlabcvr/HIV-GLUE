@@ -25,5 +25,9 @@
     create field known_transmission_link VARCHAR
     create field donor_recipient VARCHAR
     create field sex VARCHAR
-
     exit
+
+  table alignment
+    create field phylogeny VARCHAR 10000
+    exit 
+  
