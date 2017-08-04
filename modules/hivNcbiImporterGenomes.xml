@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ncbiImporter>
+  <sourceName>ncbi-hiv-genomes</sourceName>
+    <eSearchTerm>"Human immunodeficiency virus 1"[Organism] AND 7000:12000[SLEN]</eSearchTerm>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+  <eSearchRetMax>500000</eSearchRetMax>
+  <eFetchBatchSize>10</eFetchBatchSize>
+</ncbiImporter>
