@@ -1,8 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <ncbiImporter>
   <sourceName>ncbi-pairsets</sourceName>
-  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+  <eFetchBatchSize>500</eFetchBatchSize>
   <specificPrimaryAccessions>
-
+  
 	<primaryAccession>KP715723</primaryAccession>
 	<primaryAccession>KP715724</primaryAccession>
 	<primaryAccession>KP715725</primaryAccession>
