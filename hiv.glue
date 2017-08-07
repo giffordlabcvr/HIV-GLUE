@@ -39,7 +39,7 @@ project hiv_pairs
   #run file glue/hivImportPhylogeny.glue
 
   # Import data from tabular
-  #module textFilePopulator populate -f tabular/hiv-pair-data.txt
-  #validate
+  module textFilePopulator populate -f tabular/hiv-pair-data.txt
+  validate
 
   exit
