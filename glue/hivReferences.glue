@@ -10,7 +10,7 @@
   create reference REF_A1_U51190        ncbi-refseqs U51190
   create reference REF_A1_AF004885      ncbi-refseqs AF004885
   create reference REF_A1_AF069670      ncbi-refseqs AF069670
-  create reference REF_A1_AF484509      ncbi-refseqs AF484509
+  create reference REF_A1_AF077336      ncbi-refseqs AF077336
  
   # Subtype A2 references  
   create reference REF_A2_AF286238      ncbi-refseqs AF286238
@@ -26,14 +26,19 @@
   create reference REF_D_K03454         ncbi-refseqs K03454
   create reference REF_D_U88824         ncbi-refseqs U88824
   create reference REF_D_AY371157       ncbi-refseqs AY371157
+  create reference REF_D_AY253311       ncbi-refseqs AY253311
 
-  # Subtype F references  
+  # Subtype F1 references  
   create reference REF_F1_AF005494      ncbi-refseqs AF005494
-  create reference REF_F2_AJ249236      ncbi-refseqs AJ249236
-
-  # Subtype F references  
-  create reference REF_F1_AF005494      ncbi-refseqs AF005494
-  create reference REF_F2_AJ249236      ncbi-refseqs AJ249236
+  create reference REF_F1_AF077336      ncbi-refseqs AF077336
+  create reference REF_F1_AF075703      ncbi-refseqs AF075703
+  create reference REF_F1_AJ249238      ncbi-refseqs AJ249238
+  create reference REF_F1_AJ249236      ncbi-refseqs AJ249236
+ 
+  # Subtype F2 references  
+  create reference REF_F2_AJ249237      ncbi-refseqs AJ249237
+  create reference REF_F2_AY371158      ncbi-refseqs AY371158
+  create reference REF_F2_AF377956      ncbi-refseqs AF377956
 
   # Subtype G references  
   create reference REF_G_AF061642      ncbi-refseqs AF061642
