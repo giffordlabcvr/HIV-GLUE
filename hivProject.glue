@@ -29,17 +29,19 @@ project hiv_pairs
   run file glue/hivReferences.glue
   validate
 
+  # Import data from tabular
+  module textFilePopulator populate -f tabular/hiv-pair-data-combined.csv
+  validate
+
   # Import alignment 
   module unconstrainedAlignmentImporter import AL_UNCONSTRAINED -f alignments/HIV.genome.refseqs.aln.fna
 
   # Import alignment tree
   run file glue/hivAlignmentTree.glue
 
-  # Import phylogeny
-  #run file glue/hivImportPhylogeny.glue
+  # add the transmission pair study sequences into the alignment tree according to their genotype/subtype
+  run file glue/computeCuratedAlignments.glue
 
-  # Import data from tabular
-  module textFilePopulator populate -f tabular/hiv-pair-data-combined.csv
   validate
 
   exit

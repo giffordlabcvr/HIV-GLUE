@@ -1,0 +1,3 @@
+compute alignment AL_MASTER hivCompoundAligner -w "sequence.source.name = 'ncbi-pairsets'"
+compute alignment AL_B hcvCompoundAligner -w "sequence.source.name = 'ncbi-curated'"
+compute alignment AL_C hcvCompoundAligner -w "sequence.source.name = 'ncbi-curated'"
