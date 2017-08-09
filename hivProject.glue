@@ -30,7 +30,8 @@ project hiv_pairs
   validate
 
   # Import data from tabular
-  module textFilePopulator populate -f tabular/hiv-pair-data-combined.csv
+  module pairsTextFilePopulator  populate -f tabular/hiv-pair-data-combined.csv
+  module refseqTextFilePopulator populate -f tabular/hiv-reference-data.csv
   validate
 
   # Import alignment 
@@ -40,7 +41,7 @@ project hiv_pairs
   run file glue/hivAlignmentTree.glue
 
   # add the transmission pair study sequences into the alignment tree according to their genotype/subtype
-  run file glue/computeCuratedAlignments.glue
+  #run file glue/computeCuratedAlignments.glue
 
   validate
 

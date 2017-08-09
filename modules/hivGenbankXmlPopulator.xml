@@ -50,6 +50,7 @@
 	</gbDivision>
 	
 	<gbFeature key="source">
+
 		<gbQualifier name="isolate">
 			<propertyPopulator property="gb_isolate"/>
 		</gbQualifier>
@@ -65,6 +66,11 @@
 			</propertyPopulator>
 		</gbQualifier>
 
+		<gbQualifier name="subtype">
+			<propertyPopulator property="subtype">
+				<overwriteExistingNonNull>false</overwriteExistingNonNull>
+			</propertyPopulator>
+		</gbQualifier>
 
 		<gbQualifier name="host">
 			<propertyPopulator property="gb_host">
