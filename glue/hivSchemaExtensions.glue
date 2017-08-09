@@ -30,4 +30,10 @@
   table alignment
     create field phylogeny VARCHAR 10000
     exit 
-  
+
+  table variation
+    create field is_resistance_associated_variant BOOLEAN 
+    create field drm_substitutions VARCHAR 50
+    create field drm_first_codon INTEGER
+    create field drm_clinical_notes VARCHAR 500
+    exit
