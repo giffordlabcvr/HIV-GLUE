@@ -1,0 +1,14 @@
+<compoundAligner>
+	<aligners>
+		<codonAwareBlastAligner>
+			<featureName>Gag</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>Pol</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>Env</featureName>
+		</codonAwareBlastAligner>
+		<blastAligner/>
+	</aligners>
+</compoundAligner>
