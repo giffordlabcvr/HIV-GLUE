@@ -9,3 +9,5 @@
 
   # geneate the "uncommon AA" variations
   #module hcvAlignmentsToUncommonAaVariations transform tabular/constrained_alignments.txt --run
+
+  #import source sources/ncbi-hiv-genomes/

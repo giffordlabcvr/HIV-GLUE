@@ -1,5 +1,10 @@
-create module --fileName modules/hivGenbankXmlPopulator.xml genbankXmlPopulator
-create module --fileName modules/hivPairseqTextFilePopulator.xml pairsTextFilePopulator
-create module --fileName modules/hivReferenceTextFilePopulator.xml refseqTextFilePopulator
-create module --fileName modules/unconstrainedAlignmentImporter.xml
-create module --fileName modules/hivCompoundAligner.xml
+  create module --fileName modules/hivGenbankXmlPopulator.xml genbankXmlPopulator
+  create module --fileName modules/hivPairseqTextFilePopulator.xml pairsTextFilePopulator
+  create module --fileName modules/hivReferenceTextFilePopulator.xml refseqTextFilePopulator
+  create module --fileName modules/unconstrainedAlignmentImporter.xml
+  create module --fileName modules/hivCompoundAligner.xml
+  create module --fileName modules/kuiken2006CodonLabeler.xml kuiken2006CodonLabeler
+
+  create module --fileName modules/drugCategoryTextToCustomTableRows.xml drugCategoryTextToCustomTableRows
+  create module --fileName modules/drugTextToCustomTableRows.xml drugTextToCustomTableRows
+  create module --fileName modules/resistanceAssociatedSubstitutionsToVariations.xml resistanceAssociatedSubstitutionsToVariations

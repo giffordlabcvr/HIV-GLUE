@@ -1,0 +1,23 @@
+<freemarkerTextToGlueTransformer>
+	<freemarkerTemplate><![CDATA[
+reference REF_MASTER_NC_001802
+<#list rows as row>
+  <#assign gene>${row["Gene"]?trim}</#assign>
+  <#assign substitutions>${row["Substitutions"]?trim}</#assign>
+  <#assign firstCodonMatch = substitutions?matches("(\\d+)[A-Z].*")>
+  <#assign firstCodon = firstCodonMatch?groups[1]>
+  <#assign variationName>SDRM_{gene}_${substitutions}</#assign>
+  
+  feature-location ${gene}
+    create variation ${variationName} -t AMINO_ACID "Resistance associated substitution"
+    variation ${variationName}
+      set field displayName "${gene}:${substitutions}"
+      set field is_resistance_associated_variant true 
+      set field drm_substitutions "${substitutions}" 
+      set field drm_first_codon "${firstCodon}" 
+      exit  
+    exit
+</#list>
+  exit
+]]></freemarkerTemplate>
+</freemarkerTextToGlueTransformer>

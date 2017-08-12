@@ -27,6 +27,7 @@
     create field sex VARCHAR
     exit
 
+
   table alignment
     create field phylogeny VARCHAR 10000
     exit 
@@ -37,3 +38,19 @@
     create field drm_first_codon INTEGER
     create field drm_clinical_notes VARCHAR 500
     exit
+
+
+  create custom-table drug
+  create custom-table drug_category
+
+  table drug_category
+	create field display_name VARCHAR 100
+    exit
+
+  table drug
+	create field company_code VARCHAR 100
+	create field generation INTEGER
+	create field wave INTEGER
+    exit
+
+  create link drug drug_category -m MANY_TO_ONE

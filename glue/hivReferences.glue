@@ -108,9 +108,19 @@
       add segment 1680 1835
       exit
 
+    add feature-location prot
+    feature-location prot
+      add segment 1799 2095  
+      exit
+
+    add feature-location RT
+    feature-location RT
+      add segment 2096 3416  
+      exit
+
     add feature-location Pol
     feature-location Pol
-      add segment 1637 1798  
+      add segment 1631 4642  
       exit
 
     add feature-location Vif

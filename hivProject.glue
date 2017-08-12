@@ -11,38 +11,42 @@ schema-project hiv_pairs
 project hiv_pairs
 
   run file glue/projectSettings.glue
-  
+
   run file glue/hivModules.glue
 
-  # Import sources 
+  # Import reference sequences from GenBank XML files 
   import source sources/ncbi-refseqs/
-  import source sources/ncbi-pairsets/
-  #import source sources/ncbi-hiv-genomes/
-
-  # Populate sequence table fields from GenBank XML
   module genbankXmlPopulator populate
 
   # Define features
-   run file glue/hivFeatures.glue
-
+  run file glue/hivFeatures.glue
+ 
   # Create references
   run file glue/hivReferences.glue
   validate
 
-  # Import data from tabular
-  module pairsTextFilePopulator  populate -f tabular/hiv-pair-data-combined.csv
+  # Import tabular data for references
   module refseqTextFilePopulator populate -f tabular/hiv-reference-data.csv
-  validate
+
+  # Create 'alignment tree'
+  run file glue/hivAlignmentTree.glue
 
   # Import alignment 
   module unconstrainedAlignmentImporter import AL_UNCONSTRAINED -f alignments/HIV.genome.refseqs.aln.fna
 
-  # Import alignment tree
-  run file glue/hivAlignmentTree.glue
+  # Import data about drugs and drug resistance-associated mutations
+  run file glue/hivDrugResistance.glue
+
+  # Import transmission pair sequences from GenBank XML files 
+  import source sources/ncbi-pairsets/
+  module genbankXmlPopulator populate
+
+  # Import transmission pair data from tabular files
+  module pairsTextFilePopulator  populate -f tabular/hiv-pair-data-combined.csv
 
   # add the transmission pair study sequences into the alignment tree according to their genotype/subtype
   #run file glue/computeCuratedAlignments.glue
 
-  validate
+  #validate
+  #exit;
 
-  exit
