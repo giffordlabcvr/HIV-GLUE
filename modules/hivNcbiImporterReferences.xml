@@ -3,6 +3,7 @@
   <giNumberFieldName>gb_gi_number</giNumberFieldName>
   <specificPrimaryAccessions>
 
+	<!-- PURE SUBTYPES-->
 	<!-- A1 92UG037 reference strain -->
 	<primaryAccession>U51190</primaryAccession>
 	<!-- A1 Q23 reference strain -->
@@ -19,7 +20,6 @@
 	<primaryAccession>NC_001802</primaryAccession>
 	<!-- B HXB2 reference strain -->
 	<primaryAccession>K03455</primaryAccession>
-
 	<!-- B NL43 reference strain -->
 	<primaryAccession>U26942</primaryAccession>
 	<!-- B NY5/BRU (LAV-1) recombinant clone pNL4-3 -->
@@ -86,6 +86,20 @@
 	<primaryAccession>AJ249235</primaryAccession>
 	<!-- K MP535 reference strain -->
 	<primaryAccession>AJ249239</primaryAccession>
+
+	<!-- PURE CRFs-->
+	<!-- CRF01_AE -->
+	<primaryAccession>U54771</primaryAccession>
+	<!-- CRF02_AG -->
+	<primaryAccession>L39106</primaryAccession>
+	<!-- CRF06_AGJK -->
+	<primaryAccession>AF064699</primaryAccession>
+	<!-- CRF07_BC -->
+	<primaryAccession>AX149771</primaryAccession>
+	<!-- CRF08_BC -->
+	<primaryAccession>AY008715</primaryAccession>
+	<!-- CRF12_BF -->
+	<primaryAccession>AF385936</primaryAccession>
 
   </specificPrimaryAccessions>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
