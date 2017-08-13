@@ -45,7 +45,7 @@ project hiv_pairs
   module pairsTextFilePopulator  populate -f tabular/hiv-pair-data-combined.csv
 
   # add the transmission pair study sequences into the alignment tree according to their genotype/subtype
-  #run file glue/computeCuratedAlignments.glue
+  run file glue/computeCuratedAlignments.glue
 
   #validate
   #exit;

@@ -174,3 +174,64 @@
       exit
       
   exit  
+
+
+  # Define features on the subtype C reference
+  reference REF_C_U46016
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9031
+      exit
+
+    add feature-location Gag
+    feature-location Gag
+      add segment 170 1684
+      exit
+
+    add feature-location prot
+    feature-location prot
+      add segment 1799 2095  
+      exit
+
+    add feature-location RT
+    feature-location RT
+      add segment 2096 3416  
+      exit
+
+    add feature-location Pol
+    feature-location Pol
+      add segment 1456 4488  
+      exit
+
+    add feature-location Vif
+    feature-location Vif
+      add segment 4433 5011
+      exit
+
+    add feature-location Vpr
+    feature-location Vpr
+      add segment 4951 5241
+      exit
+
+    add feature-location Tat
+    feature-location Tat
+      add segment 5222 5350
+      exit
+
+    add feature-location Vpu
+    feature-location Vpu
+      add segment 5459 5719
+      exit
+
+    add feature-location Env
+    feature-location Env
+      add segment 5637 8192
+      exit
+
+    add feature-location Nef
+    feature-location Nef
+      add segment 8194 8817
+      exit
+      
+  exit  
