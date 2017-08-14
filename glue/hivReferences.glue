@@ -83,8 +83,8 @@
       add segment 336 731
       exit
 
-    add feature-location p24
-    feature-location p24
+    add feature-location CA
+    feature-location CA
       add segment 732 1424
       exit
 
@@ -232,6 +232,46 @@
     add feature-location Nef
     feature-location Nef
       add segment 8194 8817
+      exit
+      
+  exit  
+
+  # Define features on the subtype NL43
+  reference REF_B_NL43
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9000
+      exit
+
+    add feature-location Gag
+    feature-location Gag
+      add segment 168 1670
+      exit
+
+    add feature-location CA
+    feature-location CA
+      add segment 564 1283
+      exit
+
+    add feature-location prot
+    feature-location prot
+      add segment 1631 1927  
+      exit
+
+    add feature-location RT
+    feature-location RT
+      add segment 2096 3416  
+      exit
+
+    add feature-location Pol
+    feature-location Pol
+      add segment 1505 4474  
+      exit
+
+    add feature-location Env
+    feature-location Env
+      add segment 5599 8163  
       exit
       
   exit  
