@@ -1,0 +1,23 @@
+<freemarkerTextToGlueTransformer>
+	<freemarkerTemplate><![CDATA[
+reference REF_MASTER_NC_001802
+<#list rows as row>
+  <#assign gene>${row["Gene"]?trim}</#assign>
+  <#assign substitutions>${row["Substitutions"]?trim}</#assign>
+  <#assign firstCodonMatch = substitutions?matches("(\\d+)[A-Z].*")>
+  <#assign firstCodon = firstCodonMatch?groups[1]>
+  <#assign variationName>A3G_${gene}_${substitutions}</#assign>
+  
+  feature-location ${gene}
+    create variation ${variationName} -t AMINO_ACID "A3G"
+    variation ${variationName}
+      set field displayName "${gene}:${substitutions}"
+      set field variation_category "${variationName}" 
+      set field aa_position "${firstCodon}" 
+      set field aa_substitutions "${substitutions}" 
+      exit  
+    exit
+</#list>
+  exit
+]]></freemarkerTemplate>
+</freemarkerTextToGlueTransformer>
