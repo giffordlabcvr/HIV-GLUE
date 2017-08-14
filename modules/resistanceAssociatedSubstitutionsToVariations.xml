@@ -6,15 +6,15 @@ reference REF_MASTER_NC_001802
   <#assign substitutions>${row["Substitutions"]?trim}</#assign>
   <#assign firstCodonMatch = substitutions?matches("(\\d+)[A-Z].*")>
   <#assign firstCodon = firstCodonMatch?groups[1]>
-  <#assign variationName>SDRM_{gene}_${substitutions}</#assign>
+  <#assign variationName>SDRM_${gene}_${substitutions}</#assign>
   
   feature-location ${gene}
     create variation ${variationName} -t AMINO_ACID "Resistance associated substitution"
     variation ${variationName}
       set field displayName "${gene}:${substitutions}"
-      set field is_resistance_associated_variant true 
-      set field drm_substitutions "${substitutions}" 
-      set field drm_first_codon "${firstCodon}" 
+      set field variation_category "${variationName}" 
+      set field aa_position "${firstCodon}" 
+      set field aa_substitutions "${substitutions}" 
       exit  
     exit
 </#list>

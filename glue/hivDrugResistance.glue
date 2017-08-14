@@ -1,5 +1,14 @@
+# Drug resistance
+
 module drugCategoryTextToCustomTableRows transform tabular/drug_resistance/drugCategories.txt --run
 
 module drugTextToCustomTableRows transform tabular/drug_resistance/drugs.txt --run
 
 module resistanceAssociatedSubstitutionsToVariations transform tabular/drug_resistance/surveillanceDrugResistanceMutations.txt --run
+
+# A3G
+
+module resistanceAssociatedSubstitutionsToVariations transform tabular/drug_resistance/surveillanceDrugResistanceMutations.txt --run
+
+# Capsid mutants
+

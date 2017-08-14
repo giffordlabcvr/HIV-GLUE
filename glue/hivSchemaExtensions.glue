@@ -33,10 +33,10 @@
     exit 
 
   table variation
-    create field is_resistance_associated_variant BOOLEAN 
-    create field drm_substitutions VARCHAR 50
-    create field drm_first_codon INTEGER
-    create field drm_clinical_notes VARCHAR 500
+    create field variation_category VARCHAR
+    create field aa_substitutions VARCHAR 50
+    create field aa_position INTEGER
+    create field variation_notes VARCHAR 500
     exit
 
 
