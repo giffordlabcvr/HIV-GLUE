@@ -10,8 +10,10 @@ schema-project hiv_pairs
 
 project hiv_pairs
 
+  # Define settings for this project
   run file glue/projectSettings.glue
 
+  # Create modules used in project build
   run file glue/hivModules.glue
 
   # Import reference sequences from GenBank XML files 
@@ -21,11 +23,11 @@ project hiv_pairs
   # Define features
   run file glue/hivFeatures.glue
  
-  # Create references
+ # Create reference sequences
   run file glue/hivReferences.glue
   validate
 
-  # Import tabular data for references
+  # Import tabular data for reference sequences
   module refseqTextFilePopulator populate -f tabular/hiv-reference-data.csv
 
   # Create 'alignment tree'
@@ -48,5 +50,5 @@ project hiv_pairs
   run file glue/computeCuratedAlignments.glue
 
   #validate
-  #exit;
+  exit;
 
