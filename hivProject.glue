@@ -50,5 +50,3 @@ project hiv_pairs
   run file glue/computeCuratedAlignments.glue
 
   #validate
-  exit;
-

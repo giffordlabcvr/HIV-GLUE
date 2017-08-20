@@ -87,9 +87,11 @@
 	<!-- K MP535 reference strain -->
 	<primaryAccession>AJ249239</primaryAccession>
 
-	<!-- PURE CRFs-->
+	<!-- Circulating recombinant forms (CRFs) -->
 	<!-- CRF01_AE -->
 	<primaryAccession>U54771</primaryAccession>
+	<!-- HIV-1 IbNg AG reference strain -->
+	<primaryAccession>L39106</primaryAccession>
 	<!-- CRF02_AG -->
 	<primaryAccession>L39106</primaryAccession>
 	<!-- CRF06_AGJK -->
