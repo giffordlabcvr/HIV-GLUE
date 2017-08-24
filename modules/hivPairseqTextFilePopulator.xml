@@ -1,41 +1,56 @@
 <textFilePopulator>
 	<columnDelimiterRegex>,</columnDelimiterRegex>
+	
 	<textFileColumn>
 		<identifier>true</identifier>
 		<header>Accession</header>
 		<property>gb_primary_accession</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
+	
 	<textFileColumn>
 		<header>Subtype</header>
 		<property>subtype</property>
 	</textFileColumn>
+
 	<textFileColumn>
 		<header>Country</header>
 		<property>gb_country</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
+
+	<textFileColumn>
+		<header>Isolate</header>
+		<property>isolate</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+	</textFileColumn>
+	
 	<textFileColumn>
 		<header>Reference</header>
 		<property>gb_pubmed_id</property>
 	</textFileColumn>
+	
 	<textFileColumn>
 		<header>Donor-Recipient</header>
 		<property>donor_recipient</property>
 	</textFileColumn>
+	
 	<textFileColumn>
 		<header>Sex</header>
 		<property>sex</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
+	
 	<textFileColumn>
 		<header>Sample_year</header>
-		<property>gb_collection_year</property>
+		<property>collection_year</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
+	
 	<textFileColumn>
 		<header>Known_transmission_link</header>
 		<property>known_transmission_link</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
+	
 </textFilePopulator>
