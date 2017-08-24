@@ -39,18 +39,26 @@
     create field variation_notes VARCHAR 500
     exit
 
+  # Donor-recipient schema extension
+  create custom-table dr_isolate
+  create custom-table dr_patient
+  # dr_transmission represents a known Donor-Recipient relationship between patients 
+  create custom-table dr_transmission
 
-  create custom-table drug
-  create custom-table drug_category
 
-  table drug_category
-	create field display_name VARCHAR 100
+  table dr_isolate
+    create field sample_year INTEGER
     exit
 
-  table drug
-	create field company_code VARCHAR 100
-	create field generation INTEGER
-	create field wave INTEGER
+  table dr_patient
+	create field sex VARCHAR 10
+	create field country VARCHAR 100
     exit
 
-  create link drug drug_category -m MANY_TO_ONE
+  table dr_transmission
+    exit
+
+  create link sequence dr_isolate -m MANY_TO_ONE
+  create link dr_isolate dr_patient -m MANY_TO_ONE
+  create link dr_transmission --srcLinkName donor dr_patient --destLinkName transmissions_where_donor -m MANY_TO_ONE
+  create link dr_transmission --srcLinkName recipient dr_patient --destLinkName transmissions_where_recipient -m MANY_TO_ONE
