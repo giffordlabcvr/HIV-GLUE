@@ -34,7 +34,7 @@ project hiv_pairs
   module unconstrainedAlignmentImporter import AL_UNCONSTRAINED -f alignments/HIV.genome.refseqs.aln.fna
 
   # Import data about amino acid variations 
-  run file glue/hivAminoAcidVariations.glue
+  #run file glue/hivAminoAcidVariations.glue
 
   # Import transmission pair sequences from GenBank XML files 
   import source sources/ncbi-pairsets/
