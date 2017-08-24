@@ -17,11 +17,12 @@
     create field gb_country VARCHAR 200
     create field gb_country_iso VARCHAR
     create field gb_place_sampled VARCHAR 100
-    create field gb_collection_year INTEGER 
+    create field collection_year INTEGER 
     create field gb_collection_month VARCHAR
     create field gb_collection_month_day INTEGER
     create field gb_create_date DATE
     create field gb_update_date DATE
+    create field isolate VARCHAR
     create field known_transmission_link VARCHAR
     create field donor_recipient VARCHAR
     create field sex VARCHAR
@@ -39,10 +40,8 @@
     create field variation_notes VARCHAR 500
     exit
 
-  # Donor-recipient schema extension
   create custom-table dr_isolate
   create custom-table dr_patient
-  # dr_transmission represents a known Donor-Recipient relationship between patients 
   create custom-table dr_transmission
 
 
