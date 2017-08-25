@@ -1,31 +1,29 @@
   table sequence
-    create field gb_gi_number VARCHAR
+
     create field gb_primary_accession VARCHAR
     create field gb_accession_version VARCHAR
-    create field gb_locus VARCHAR
     create field gb_length INTEGER
     create field gb_lab_construct BOOLEAN
-    create field gb_organism VARCHAR 100
-    create field gb_taxonomy VARCHAR 500
-    create field gb_isolate VARCHAR 300
-    create field gb_isolation_source VARCHAR 300
-    create field gb_host VARCHAR 300
-    create field earliest_collection_year INTEGER
-    create field latest_collection_year INTEGER
     create field gb_pubmed_id VARCHAR
-    create field subtype VARCHAR
-    create field gb_country VARCHAR 200
-    create field gb_country_iso VARCHAR
-    create field gb_place_sampled VARCHAR 100
-    create field collection_year INTEGER 
+
     create field gb_collection_month VARCHAR
     create field gb_collection_month_day INTEGER
     create field gb_create_date DATE
     create field gb_update_date DATE
-    create field isolate VARCHAR
+
+    create field subtype VARCHAR
+    create field country VARCHAR 200
+    create field country_iso VARCHAR
+    create field place_sampled VARCHAR 100
+    
+    create field isolate_id VARCHAR 100
+    create field collection_year INTEGER 
     create field known_transmission_link VARCHAR
     create field donor_recipient VARCHAR
     create field sex VARCHAR
+    create field infection_status VARCHAR
+    create field tf_variants VARCHAR
+   
     exit
 
 
@@ -40,6 +38,8 @@
     create field variation_notes VARCHAR 500
     exit
 
+
+  # Create schema extension for hiv trasmission pairs
   create custom-table dr_isolate
   create custom-table dr_patient
   create custom-table dr_transmission

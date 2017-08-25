@@ -27,6 +27,9 @@ project hiv_pairs
   run file glue/hivReferences.glue
   validate
 
+  # Create 'alignment tree'
+  run file glue/hivAlignmentTree.glue
+
   # Import tabular data for reference sequences
   module refseqTextFilePopulator populate -f tabular/hiv-reference-data.csv
 
@@ -43,10 +46,7 @@ project hiv_pairs
   # Import transmission pair data from tabular files
   module pairsTextFilePopulator  populate -f tabular/hiv-pair-data-combined.csv
 
-  # Create 'alignment tree'
-  run file glue/hivAlignmentTree.glue
-
   # add the transmission pair study sequences into the alignment tree according to their genotype/subtype
-  run file glue/computeCuratedAlignments.glue
+  #run file glue/computeCuratedAlignments.glue
 
   #validate

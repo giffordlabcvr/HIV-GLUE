@@ -7,21 +7,6 @@
 		<propertyPopulator property="gb_accession_version"/>
 	</gbAccessionVersion>
 
-	<gbLocus>
-		<propertyPopulator property="gb_locus"/>
-	</gbLocus>
-
-	<gbOtherID>
-		<propertyPopulator property="gb_gi_number">
-			<matchPattern>gi\|(\d+)</matchPattern>
-			<outputTemplate>${g1}</outputTemplate>
-		</propertyPopulator>
-	</gbOtherID>
-
-	<gbTaxonomy>
-		<propertyPopulator property="gb_taxonomy"/>
-	</gbTaxonomy>
-
 	<gbLength>
 		<propertyPopulator property="gb_length"/>
 	</gbLength>
@@ -33,10 +18,6 @@
 	<gbCreateDate>
 		<propertyPopulator property="gb_create_date"/>
 	</gbCreateDate>
-
-	<gbOrganism>
-		<propertyPopulator property="gb_organism"/>
-	</gbOrganism>
 
 	<gbReferencePubmed>
 		<propertyPopulator property="gb_pubmed_id"/>
@@ -52,15 +33,13 @@
 	<gbFeature key="source">
 
 		<gbQualifier name="isolate">
-			<propertyPopulator property="gb_isolate"/>
+			<propertyPopulator property="isolate_id"/>
 		</gbQualifier>
-		<gbQualifier name="isolation_source">
-			<propertyPopulator property="gb_isolation_source"/>
-		</gbQualifier>
+				
 		<gbQualifier name="country">
-			<isoCountryPropertyPopulator property="gb_country_iso" codeStyle="ALPHA_3"/>
-			<propertyPopulator property="gb_country"/>
-			<propertyPopulator property="gb_place_sampled">
+			<isoCountryPropertyPopulator property="country_iso" codeStyle="ALPHA_3"/>
+			<propertyPopulator property="country"/>
+			<propertyPopulator property="place_sampled">
 				<matchPattern>^.*:(.*)$</matchPattern>
 				<outputTemplate>${g1?trim}</outputTemplate>
 			</propertyPopulator>
@@ -70,23 +49,7 @@
 			<propertyPopulator property="subtype">
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
 			</propertyPopulator>
-		</gbQualifier>
-
-		<gbQualifier name="host">
-			<propertyPopulator property="gb_host">
-				<valueConverter>
-					<matchPattern>.*[Hh]omo [Ss]apiens.*</matchPattern>
-					<matchPattern>.*[Hh]uman.*</matchPattern>
-					<matchPattern>.*humna.*</matchPattern>
-					<outputTemplate>Homo sapiens</outputTemplate>
-				</valueConverter>
-				<valueConverter>
-					<matchPattern>.*[Jj]apanese monkey.*</matchPattern>
-					<outputTemplate>Macaca fuscata</outputTemplate>
-				</valueConverter>
-			</propertyPopulator>
-		</gbQualifier>
-		
+		</gbQualifier>		
 		
 		<gbQualifier name="collection_date">
 			<propertyPopulator property="gb_collection_month_day">
@@ -101,15 +64,10 @@
 				<matchPattern>(\d{4})</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 			</propertyPopulator>
-			<!-- if collection year is specified here then we have tight bounds on the earliest / latest collection year -->
-			<propertyPopulator property="earliest_collection_year">
-				<matchPattern>(\d{4})</matchPattern>
-				<outputTemplate>${g1}</outputTemplate>
-			</propertyPopulator>
-			<propertyPopulator property="latest_collection_year">
-				<matchPattern>(\d{4})</matchPattern>
-				<outputTemplate>${g1}</outputTemplate>
-			</propertyPopulator>
+			
+			
+			
 		</gbQualifier>
+		
 	</gbFeature>
 </genbankXmlPopulator>
