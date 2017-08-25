@@ -12,7 +12,7 @@
 	</textFileColumn>
 	<textFileColumn>
 		<header>Country</header>
-		<property>gb_country</property>
+		<property>country</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
 </textFilePopulator>

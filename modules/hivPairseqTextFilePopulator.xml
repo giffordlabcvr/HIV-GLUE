@@ -11,28 +11,25 @@
 	<textFileColumn>
 		<header>Subtype</header>
 		<property>subtype</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
 
 	<textFileColumn>
 		<header>Country</header>
-		<property>gb_country</property>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+		<property>country</property>
+		<overwriteExistingNonNull>false</overwriteExistingNonNull>
 	</textFileColumn>
 
 	<textFileColumn>
 		<header>Isolate</header>
-		<property>isolate</property>
+		<property>isolate_id</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
-	
-	<textFileColumn>
-		<header>Reference</header>
-		<property>gb_pubmed_id</property>
-	</textFileColumn>
-	
+		
 	<textFileColumn>
 		<header>Donor-Recipient</header>
 		<property>donor_recipient</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
 	
 	<textFileColumn>
@@ -44,7 +41,7 @@
 	<textFileColumn>
 		<header>Sample_year</header>
 		<property>collection_year</property>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+		<overwriteExistingNonNull>false</overwriteExistingNonNull>
 	</textFileColumn>
 	
 	<textFileColumn>
@@ -52,5 +49,18 @@
 		<property>known_transmission_link</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
+
+	<textFileColumn>
+		<header>TF-variants</header>
+		<property>tf_variants</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+	</textFileColumn>
+
+	<textFileColumn>
+		<header>infection_status</header>
+		<property>infection_status</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+	</textFileColumn>
+
 	
 </textFilePopulator>
