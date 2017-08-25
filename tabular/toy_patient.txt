@@ -1,0 +1,5 @@
+id	country	sex
+fred	UK	M
+mary	UK	F
+jim	France	M
+polly	Germany	F
