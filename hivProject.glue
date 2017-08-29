@@ -40,11 +40,13 @@ project hiv_pairs
   #run file glue/hivAminoAcidVariations.glue
 
   # Import transmission pair sequences from GenBank XML files 
-  import source sources/ncbi-pairsets/
+  #import source sources/ncbi-pairsets/
+  import source sources/ncbi-pairsets-iyer/
   module genbankXmlPopulator populate
 
   # Import transmission pair data from tabular files
-  module pairsTextFilePopulator  populate -f tabular/hiv-pair-data-combined.csv
+  #module pairsTextFilePopulator  populate -f tabular/hiv-pair-data-combined.csv
+  module pairsTextFilePopulator  populate -f tabular/hiv-pair-data-combined-iyer.csv
 
   # add the transmission pair study sequences into the alignment tree according to their genotype/subtype
   #run file glue/computeCuratedAlignments.glue
