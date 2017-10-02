@@ -1,5 +1,16 @@
 id	country	sex
-fred	UK	M
-mary	UK	F
-jim	France	M
-polly	Germany	F
+CH0742	USA	M
+CH0148	USA	M
+CH0728	USA	M
+CH0492	Malawi	F
+CH0596	Malawi	F
+CH0212	South Africa	F
+CH1064	Malawi	F
+CH0378	USA	M
+CH0831	USA	M
+CH0040	USA	M
+CH0302	USA	F
+CH0427	Malawi	M
+CH0455	Malawi	M
+CH0162	South Africa	M
+CH0848	Malawi	M
