@@ -47,6 +47,7 @@
 
   table dr_isolate
     create field sample_year INTEGER
+	create field seq_type VARCHAR 100
     exit
 
   table dr_patient
