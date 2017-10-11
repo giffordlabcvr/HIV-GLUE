@@ -1,3 +1,0 @@
-donor	recipient
-fred	mary
-jim	polly
