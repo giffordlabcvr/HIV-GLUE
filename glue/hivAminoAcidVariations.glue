@@ -1,10 +1,9 @@
-# Important mutation data from experimental studies
+# Mutation data from experimental studies
 
-module capsidMutantsToVariations transform tabular/capsid-mutants.txt --run
+module capsidMutantsToVariations transform tabular/aa_variations/capsid-mutants.txt --run
 
-# Import data about drugs and drug resistance-associated mutations
+# Drug resistance-associated mutations
 
-module drugCategoryTextToCustomTableRows transform tabular/drugCategories.txt --run
-module drugTextToCustomTableRows transform tabular/drugs.txt --run
-module SDRMsToVariations transform tabular/sdrms.txt --run
-#module A3GtoVariations transform tabular/a3g-list.txt --run
+module SDRMsToVariations transform tabular/aa_variations/sdrms.txt --run
+#module A3GtoVariations transform tabular/aa_variations/a3g-list.txt --run
+

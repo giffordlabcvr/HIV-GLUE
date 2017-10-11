@@ -46,16 +46,18 @@
 
 
   table dr_isolate
-    create field sample_year INTEGER
-	create field seq_type VARCHAR 100
+    create field sample_date DATE
+    create field patient_id VARCHAR 50
+	create field seq_type VARCHAR 10
     exit
 
   table dr_patient
 	create field sex VARCHAR 10
-	create field country VARCHAR 100
+	create field country VARCHAR 50
     exit
 
   table dr_transmission
+	create field risk_factor VARCHAR 10
     exit
 
   create link sequence dr_isolate -m MANY_TO_ONE

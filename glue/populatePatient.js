@@ -1,6 +1,6 @@
 var loadResult;
 glue.inMode("module/hivTabularUtility", function() {
-	loadResult = glue.command(["load-tabular", "tabular/toy_patient.txt"], 
+	loadResult = glue.command(["load-tabular", "tabular/transmission-pairs/iyer/iyer_patient.txt"], 
 			{convertTableToObjects:true});
 	// glue.log("INFO", "load result was:", loadResult);
 });
