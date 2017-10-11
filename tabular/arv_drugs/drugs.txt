@@ -1,0 +1,20 @@
+Drug	Drug code	Drug category	Drug sub-category	Generation	Wave	Company code
+atazanavir	ATV	PI				
+darunavir	DRV	PI				
+fosamprenavir	FPV	PI				
+indinavir	IDV	PI				
+lopinavir	LPV	PI				
+nelfinavir	NFV	PI				
+SQV	SQV	PI				
+TPV	TPV	PI				
+lamivudine	3TC	NRTI				
+emtricitabine	FTC	NRTI				
+abacavir	ABC	NRTI				
+didanosine	DDI	NRTI				
+tenofovir	TDF	NRTI				
+stavudine	D4T	NRTI				
+zidovudine	ZDV	NRTI				
+nevirapine	NVP	NNRTI				
+efavirenz	EFV	NNRTI				
+etravirine	ETR	NNRTI				
+Rilpivirine	RPV	NNRTI				
