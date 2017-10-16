@@ -2,7 +2,7 @@ var loadResult;
 glue.inMode("module/hivTabularUtility", function() {
 	loadResult = glue.command(["load-tabular", "tabular/transmission-pairs/iyer/iyer_transmission.txt"], 
 			{convertTableToObjects:true});
-	 glue.log("INFO", "load result was:", loadResult);
+	 //glue.log("INFO", "load result was:", loadResult);
 });
 
 _.each(loadResult, function(transObj) {
