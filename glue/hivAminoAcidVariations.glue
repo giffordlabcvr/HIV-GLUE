@@ -1,9 +1,8 @@
-# Mutation data from experimental studies
+# Lethal mutation data from experimental studies
 
-module capsidMutantsToVariations transform tabular/aa_variations/capsid-mutants.txt --run
+module lethalMutationsToVariations transform tabular/aa_variations/lethal-mutations.txt --run
 
 # Drug resistance-associated mutations
 
 module SDRMsToVariations transform tabular/aa_variations/sdrms.txt --run
 #module A3GtoVariations transform tabular/aa_variations/a3g-list.txt --run
-

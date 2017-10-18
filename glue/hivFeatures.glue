@@ -98,12 +98,12 @@
   feature p15 set metatag CODES_AMINO_ACIDS true
   feature p15 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
-  create feature p31 -p Pol "p31"
-  feature p31 set field displayName "p31"
-  feature p31 set metatag OWN_CODON_NUMBERING true
-  feature p31 set metatag INCLUDE_IN_SUMMARY true
-  feature p31 set metatag CODES_AMINO_ACIDS true
-  feature p31 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+  create feature IN -p Pol "IN"
+  feature IN set field displayName "IN"
+  feature IN set metatag OWN_CODON_NUMBERING true
+  feature IN set metatag INCLUDE_IN_SUMMARY true
+  feature IN set metatag CODES_AMINO_ACIDS true
+  feature IN set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
   
   create feature Vif -p whole_genome "Vif"
   feature Vif set field displayName "Vif"

@@ -9,7 +9,7 @@ reference REF_B_NL43
   <#assign variationName>CapsidMut_${gene}_${substitutions}</#assign>
   
   feature-location ${gene}
-    create variation ${variationName} -t AMINO_ACID "Capsid mutants"
+    create variation ${variationName} -t AMINO_ACID "Lethal mutations"
     variation ${variationName}
       set field displayName "${gene}:${substitutions}"
       set field variation_category "${variationName}" 
