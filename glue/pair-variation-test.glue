@@ -1,0 +1,6 @@
+# Import the consensus sequence to the GLUE project
+
+# Import the alignment
+
+# Using the consensus sequence as a reference, generate a table of variations 
+# (i.e. differences from the reference) for each query sequence.
