@@ -1,14 +1,14 @@
-delete project hiv_cRNA
+delete project hiv_crna
 
-create project hiv_cRNA "GLUE project to support the centre for HIV RNA studies" --minVersion 0.1.50
+create project hiv_crna "GLUE project to support the centre for HIV RNA studies" --minVersion 0.1.50
 
-schema-project hiv_cRNA
+schema-project hiv_crna
 
   run file glue/hivSchemaExtensions.glue
 
   exit
 
-project hiv_cRNA
+project hiv_crna
 
   #~#  HIV basic skeleton project 
 
@@ -29,23 +29,20 @@ project hiv_cRNA
   run file glue/hivReferences.glue
   validate
 
-  # Create 'alignment tree'
-  run file glue/hivAlignmentTree.glue
-
   # Import tabular data for reference sequences
   module refseqTextFilePopulator populate -f tabular/refseq_data/hiv-reference-data.csv
 
   # Import reference genome alignment 
   module unconstrainedAlignmentImporter import AL_UNCONSTRAINED -f alignments/HIV.genome.refseqs.aln.fna
+  
+  # Create 'alignment tree'
+  run file glue/hivAlignmentTree.glue
 
-  # Import data about amino acid variations 
-  run file glue/hivAminoAcidVariations.glue
 
-
-  #~#  HIV cRNA project 
+  #~#  HIV cRNA project-specific build instructions
 
   # Import genome length set from GenBank
-  import source sources/ncbi-refseqs/ncbi-hiv-genomes
-
+  import source sources/ncbi-hiv-genomes/
+  module genbankXmlPopulator populate
 
   #validate

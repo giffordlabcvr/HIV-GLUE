@@ -11,7 +11,7 @@
     create field gb_create_date DATE
     create field gb_update_date DATE
 
-    create field subtype VARCHAR
+    create field subtype VARCHAR 100
     create field country VARCHAR 200
     create field country_iso VARCHAR
     create field place_sampled VARCHAR 100
