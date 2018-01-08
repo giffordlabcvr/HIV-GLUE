@@ -3,9 +3,15 @@
   feature whole_genome set field displayName "Whole genome"
   feature whole_genome set metatag INCLUDE_IN_SUMMARY true
 
+
+  # Non-coding features
+
   create feature 5UTR -p whole_genome "5' Untranslated region"
   feature 5UTR set field displayName "5' UTR"
   feature 5UTR set metatag INCLUDE_IN_SUMMARY true
+
+
+  # Coding features
 
   create feature Gag-Pol -p whole_genome "Gag-Pol"
   feature Gag-Pol set field displayName "Gag-Pol"
