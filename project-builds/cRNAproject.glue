@@ -32,8 +32,8 @@ project hiv_crna
   # Import tabular data for reference sequences
   module refseqTextFilePopulator populate -f tabular/refseq_data/hiv-reference-data.csv
 
-  # Import reference genome alignment 
-  module unconstrainedAlignmentImporter import AL_UNCONSTRAINED -f alignments/HIV.genome.refseqs.aln.fna
+  # Import alignments
+  run file glue/hivAlignments.glue
   
   # Create 'alignment tree'
   run file glue/hivAlignmentTree.glue
