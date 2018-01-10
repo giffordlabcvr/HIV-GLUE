@@ -22,6 +22,9 @@ project hiv_crna
   import source sources/ncbi-refseqs/
   module genbankXmlPopulator populate
 
+  # Import FASTA sequences from los alamos alignments
+  import source sources/lanl-fasta/
+
   # Define features
   run file glue/hivFeatures.glue
 
