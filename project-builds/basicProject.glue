@@ -30,14 +30,14 @@ project hiv_basic
   run file glue/hivReferences.glue
   validate
 
+  # Import alignments
+  run file glue/hivAlignments.glue
+
   # Create 'alignment tree'
   run file glue/hivAlignmentTree.glue
 
   # Import tabular data for reference sequences
   module refseqTextFilePopulator populate -f tabular/refseq_data/hiv-reference-data.csv
-
-  # Import alignment 
-  module unconstrainedAlignmentImporter import AL_UNCONSTRAINED -f alignments/HIV.genome.refseqs.aln.fna
 
   # Import data about amino acid variations 
   run file glue/hivAminoAcidVariations.glue
