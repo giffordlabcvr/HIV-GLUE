@@ -3,6 +3,11 @@ create module --fileName modules/hivNcbiImporterReferences.xml ncbiImporterRefer
 module ncbiImporterReferences import	
 export source ncbi-refseqs
 
-# NCBI refseqs 
+# NCBI/LANL 2016 genomes 
+create module --fileName modules/hivNcbiImporterGenomes.xml hivNcbiImporterGenomes
+module hivNcbiImporterGenomes import	
+export source ncbi-genomes
+
+# NCBI transmission pair sequences 
 #create module --fileName modules/hivNcbiImporterPairSeqsALL.xml ncbiImporterPairs
 #module ncbiImporterPairs import

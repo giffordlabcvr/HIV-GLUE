@@ -1,37 +1,11 @@
-  # TIP alignments
-
-
-  # INTERNAL alignments
-  
-
-  # ROOT alignments
 
   # Import reference genome alignment 
   module unconstrainedAlignmentImporter
     import AL_UNCONSTRAINED_genome_REF -f alignments/reference/HIV.genome.refseqs.aln.fna
     exit
     
-   
-  module unconstrainedAlignmentImporter
-    #import AL_UNCONSTRAINED_genome_1997 -f alignments/lanl/HIV1_ALL_1997_genome_DNA.fasta
-    #import AL_UNCONSTRAINED_genome_1998 -f alignments/lanl/HIV1_ALL_1998_genome_DNA.fasta
-    #import AL_UNCONSTRAINED_genome_1999 -f alignments/lanl/HIV1_ALL_1999_genome_DNA.fasta
-    #import AL_UNCONSTRAINED_genome_2000 -f alignments/lanl/HIV1_ALL_2000_genome_DNA.fasta
-    #import AL_UNCONSTRAINED_genome_2001 -f alignments/lanl/HIV1_ALL_2001_genome_DNA.fasta
-    #import AL_UNCONSTRAINED_genome_2002 -f alignments/lanl/HIV1_ALL_2002_genome_DNA.fasta
-    #import AL_UNCONSTRAINED_genome_2003 -f alignments/lanl/HIV1_ALL_2003_genome_DNA.fasta
-    #import AL_UNCONSTRAINED_genome_2004 -f alignments/lanl/HIV1_ALL_2004_genome_DNA.fasta
-    #import AL_UNCONSTRAINED_genome_2005 -f alignments/lanl/HIV1_ALL_2005_genome_DNA.fasta
-    #import AL_UNCONSTRAINED_genome_2006 -f alignments/lanl/HIV1_ALL_2006_genome_DNA.fasta
-    #import AL_UNCONSTRAINED_genome_2007 -f alignments/lanl/HIV1_ALL_2007_genome_DNA.fasta
-    #import AL_UNCONSTRAINED_genome_2008 -f alignments/lanl/HIV1_ALL_2008_genome_DNA.fasta
-    #import AL_UNCONSTRAINED_genome_2009 -f alignments/lanl/HIV1_ALL_2009_genome_DNA.fasta
-    #import AL_UNCONSTRAINED_genome_2010 -f alignments/lanl/HIV1_ALL_2010_genome_DNA.fasta
-    #import AL_UNCONSTRAINED_genome_2011 -f alignments/lanl/HIV1_ALL_2011_genome_DNA.fasta
-    #import AL_UNCONSTRAINED_genome_2012 -f alignments/lanl/HIV1_ALL_2012_genome_DNA.fasta
-    #import AL_UNCONSTRAINED_genome_2013 -f alignments/lanl/HIV1_ALL_2013_genome_DNA.fasta
-    #import AL_UNCONSTRAINED_genome_2014 -f alignments/lanl/HIV1_ALL_2014_genome_DNA.fasta
-    #import AL_UNCONSTRAINED_genome_2015 -f alignments/lanl/HIV1_ALL_2015_genome_DNA.fasta
-    #import AL_UNCONSTRAINED_genome_2016 -f alignments/lanl/HIV1_ALL_2016_genome_DNA.fasta
+  # Import LANL genome alignment 
+  module lanlAlignmentImporter
+    import AL_UNCONSTRAINED_genome_2016 -f alignments/lanl/HIV.genome.lanl.2016.fna
     exit
     
