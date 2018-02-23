@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AY561241</GBSeq_locus>
+  <GBSeq_length>8858</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>DNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>12-APR-2004</GBSeq_update-date>
+  <GBSeq_create-date>12-APR-2004</GBSeq_create-date>
+  <GBSeq_definition>HIV-1 isolate COL105 from Colombia genomic sequence</GBSeq_definition>
+  <GBSeq_primary-accession>AY561241</GBSeq_primary-accession>
+  <GBSeq_accession-version>AY561241.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|AY561241.1|</GBSeqid>
+    <GBSeqid>gi|46254426</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Human immunodeficiency virus 1 (HIV-1)</GBSeq_source>
+  <GBSeq_organism>Human immunodeficiency virus 1</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Primate lentivirus group</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..8858</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Sanchez,G.I.</GBAuthor>
+        <GBAuthor>Carrion,G.</GBAuthor>
+        <GBAuthor>Eyzaguirre,L.</GBAuthor>
+        <GBAuthor>Arias,S.</GBAuthor>
+        <GBAuthor>Negrete,M.</GBAuthor>
+        <GBAuthor>Montano,S.</GBAuthor>
+        <GBAuthor>Perez,J.</GBAuthor>
+        <GBAuthor>Russell,K.L.</GBAuthor>
+        <GBAuthor>Sateren,W.</GBAuthor>
+        <GBAuthor>Birx,D.L.</GBAuthor>
+        <GBAuthor>Carr,J.K.</GBAuthor>
+        <GBAuthor>Sanchez,J.L.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Molecular and epidemiological characterization of HIV-1 infected individuals from Medellin, Columbia</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..8858</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Sanchez,G.I.</GBAuthor>
+        <GBAuthor>Carrion,G.</GBAuthor>
+        <GBAuthor>Eyzaguirre,L.</GBAuthor>
+        <GBAuthor>Arias,S.</GBAuthor>
+        <GBAuthor>Negrete,M.</GBAuthor>
+        <GBAuthor>Montano,S.</GBAuthor>
+        <GBAuthor>Perez,J.</GBAuthor>
+        <GBAuthor>Russell,K.L.</GBAuthor>
+        <GBAuthor>Sateren,W.</GBAuthor>
+        <GBAuthor>Birx,D.L.</GBAuthor>
+        <GBAuthor>Carr,J.K.</GBAuthor>
+        <GBAuthor>Sanchez,J.L.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (27-FEB-2004) Molecular Surveillance Program, US Military HIV Research Program, Walter Reed Army Institute of Research, 1 Taft Court, Rockville, MD 20850, USA</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..8858</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>8858</GBInterval_to>
+          <GBInterval_accession>AY561241.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Human immunodeficiency virus 1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>proviral</GBQualifier_name>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic DNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>COL105</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>21 year old homosexual male in 2000</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:11676</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Colombia: Bogata</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>subtype</GBQualifier_name>
+          <GBQualifier_value>B</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>nonreplicating virus</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gcgagagcgtcagtattaagcggaggagaattagatcgatgaaaaaaaattcggttaaggccaggaggaaagaaacaatatagattaaaacatatagtatgggcaagcaaggagctagaacgattcgcagtcaatcctggcctgttagaaacatcagaaggctgtagacaaatactaggacaactacaaccatcccttcagacaggatcagaagaacttaagtcattatataatacagtagcaaccctctattatgtacatcaaaagataaaggttgcagacaccaaagaagctttaaagaaggtagaagaagagcaaaataaaagtaagaaaaaggcacagcaagcagcagctgacacaggaagcaacaagcaggtcagccaaaattaccctatagtacagaaccttcaggggcaaatggtacatcaggccatatcacctagaactttaaatgcataggttaaagtagtagaagaaaaggctttcagcccagaagtaatacccatgttttcagcattatcagaaaaggccaccccacaagatttaaacaccatgctaaacacagtaggaggacatcaagcagccatgcaaatgttaaaagacaccatcaatgaggaagctgcagaataagatagattgcacccagtgcatgcaaggcctattgcaccaggccaaatgagagaaccaagaggaagtgacatagcaggaactactagtacccttcaggaacaaataagatagatgacaaataatccacctatcccagtaggaaaaatctataaaagatagataatcctaggtttaaataaaatagtaaaaatgtatagccctaccagcattctagacataagacaaagaccaaaggaaccctttagagactatatagaccggttctataaaactctaagagccgagcaagcttcacaggatgtaaaaaattagatgacagaaaccttgttagtccagaatgcaaacccagattgtaagactattttaaaagcattaagaccagcagctacattagaagaaatgatgacagcatgtcaaggagtaggaggacctggccataaagcaaaaattttggcagaagcaatgagccaagtaacaaattcggctaacataatgatgcaaaaaagcaattttaagaatcaaaagaagattgttaagtgttttaattgtggcaaagaaaggcatatagccagaaattgcaaggcccctaagaaaagaggctgttaaaagtgtggacaggaaagacaccaaatgaaagattgtactaagagacaggccaattttttaaagaaaatctggccttcctccaagggaaggccaagaaattttcttcagagcagaccagagccaacagccccaccaggcccaccagaagagagcttcaggtttaaggaagagacaacaactccccctcagaagcaggagacgagagacaaggagctgtatcccttaacctccctcagatcactctttggcaacgacccctcgtcacaataaaaataagagggcaactaaaagaagctctattagatacaagagcagatgatacagtattagaagaaatgtgtttgccagaaaaataaaaaccaaaaatgatagaaaaaattagaggttttattaaagtaagacagtatgatcagatagccatagaaatctgtagacataaagctataagtacagtattaataagacctacacctgtcaacataattggcagaaatctgttgactcagattagttgcactttaaattttcccattagtcctattgaaactgtaccagtgaaattaaagccaggaatagatagcccaaaagttaaacaatggccattgacagaaaagaaaataaaagcattaacagaaatttgtacagaaatagaaaaaaaagaaaaaatttcaaaaattaggcctgaaaatccatacaatactccagtatttgccataaagaaaaaggacagtactaaatggcaaaaactagtagatttcagagaacttaataagagaactcaagacttctaagaagttcaattaagaataccacaccccgcaagattaaaaaagaaaaagtcagtaacagtactaaatataagtgatgcatatttttcagttcccttagataaagaattcagaaagtatactgcatttaccatacctagtataaataataagacaccgaagattagatatcagtacaatgtgctcccacaaagatagaaaagatcaccagcaatatttcaaagtagcatgacaaaaatcttagagccctttagaaaacaaaatccagacctaatcatctatcaatatatagacgatctgtatgtaagatctgacttaaaaataaggcagcacagaacaaaaatagaagaactaagacaacatctgttgaaatgaagatttaccacaccagacaaaaaacatcagaaaaaaccaccattcctttaaataagttatgaactccatcctgataaatagacagtacagcctatagtactgccagagaaagacagctagactgtcaatgacatacagaagttagtaaaaaaattaaattaggcaagtcagatttatgcaagaatcaaagtgaggcatttatgtaaactccttaaaagaaccaaagcactaacaaaagtagtaccactaacagaagaagcagaattagaactggcagaaaacagagaaattttaaaagaaccagtacatagagtgtattatgacccatcaaaagatttaatagcagaaatacagaagcaaaggctaagccaatagacatatcaaatttatcaagagccatttaaaaatctaaaaacaagaaaatatgcaagaacaaggggggcccacactaatgatgtaaaacaattaacagaggcagtgcaaaaaataaccctagaatgcatagtaatatgaggaaagactcctaaatttagactacccatacaaaaagaaacataagaaacatagtagacagaatattagcaagccacctagattcctaagtaagagtttgtcaatacccctcccttagtgaaattatagtaccagttagaaaaagagcccattgcaagagcagaaactttctatgtagataaggcagctaacaaagagactaaaataaaaaaagcaagatatgttactaacaaaagaagacaaaaagttatctccctaactgacacaacaaatcagaaaactaaattacaagcaattcatttagctttgcaagattcaagatcaaaagtaaacatagtaacagattcacaatatgcattaagaatcattcaagcacaaccagataaaagtgaatcagagttagtcaatcaaataatagagcagttaataaacaaagaaaaagtctacctggcataagtaccagcacacaaaaaaattaaaagaaatgaacaagtagataaattagtcagtgctaagatcaagaaaatactatttttaaataagatagatcaggcccaagaagaacatgaaaaatatcacagtaattagaaagcaatagctagtgattttaacctgccacctatagtagcaaaagaaatagtagccagctgtgacaaatgtcagctaaaaaaaaaagccatgcatagacaaatagactgtagtccaaagatatggcaactagattgtacacatttaaaaagaaaaattatcctagtagcagttcatgtagccagtagatatatagaagcagaagttattccagcagaaacagggcaagaaacagcatactttctcttaaaattagcaagaagatggccagtaaaaacagtacatacagacaatggccccaatttcaccagtactacagttaaggccgcctgttagtaggcgaagatcaagcaggaatttggcattccctacaatcctcaaagtcaaagagtagtaaaatctatgaataaaaaattaaagaaaattataagacaagtaaaagatcagactgaacatcttaagacagcagtacaaatggcagtattcattcacaattttaaaagaaaaggggggattgggggatacagtgcagaggaaagaataatagacataatagcaacagacctacaaactaaagaactacaaaaacaaattacaaaaattcaaaattttcaggtttattacagggacaacagagagccactttagaaaggaccagcaaagctcctctggaaaggtgaaggggcagtagtaatacaagataatagcgacataaaagtagtgccaagaagaaaagcaaagatcattaaagattatgaaaaacagatggcaggtgatgattgtatggcaagtagacaggatgaggattagaacatagaaaagtttagtaaaacaccatatgtatatttcaaagaaaactagaagatggttttatagacatcattatgaaaccactaatccaagaataagttcagaggtacacatcccactagaggaagaagagaaattagtaataacaacatattaaggtctgcatacaagagaaaaagactggcatttaggtcaaggagtctctgtaaaatagaagaaaaggagatatagcacacaagtagatcctaacctagcagaccaactaatccatctgtattactttgattgtttttcagaatctgctataagaaatgccatattaagacatagagttaggcctaggtgtaaatatcaagcaggacacaacaaggtaaggtctctacagtacttggcactagcagcattaataaaaccaaaaaagacaaagccacctttgcctagtgttacaaaactgacagaagataaatagaacaagccccagaagaccaaaggccacagaaagagccatacaatgaatagacactaaagctgttagaagaacttaagcaagaagcagttagacacttccctaagatatggctccatagcttagggcaatatatatatgaaacttatggggatacttgggcaggagtagaggccataataagaattctgcaacaactgctgtttattcatttcagaattaagtgtcaacatagcaaaataggcattattcgacagagaagagccagaaatagagccagtaaatcctaggctagcgccctagcagcatccaagaagtcagcctaggactccgtgtacctcttgctattgtaaacgctgttgctatcattgccaagtttgcttcataacaaaaggcttaggcatctcctatggcaggaagaagcagagacagcgacgaagaactcctcaagacagtcagactcatcaggtttctctatcagctcagtaagtacatgtgatgcaatctttaataatattagcaatagtagcattagtagtagcagcaatactagcaatagttgtgtagtccatagtattcatagaatatagaaaaatattaagacagaagaaaatagacaggttaattgataagataagagaaaaagcagaagacagtggcaatgagagcgatagtgaccaggaattacttatagaaatagggcaccttgctccttaggatgttgatgatctgtagtgctacagagaaattgtaggtcacagtctattatgaagtacctgtatagaaagatgcaaatgccactttattttgtgcatcagatgctagagcatatgacacagaagcacataatatttaggccacacatgcctgtgtgcccacagaccccgacccacaagaattaccactagaaaatgtgacagaaaagtttaacatgtagaaaaacaacatggtagaacagatgcaagaagatataatcagcttgtaagatcaaagcctaaagccatgtgtaaaattaaccccactctgtgttactctaaattgcactgatttaaatggcactagtgtgaatgctaataaggccactagtaatagaaagctagaagtaagagaagtaaaaaactgctctttcaatatcaccacagcaatggagaaagataaagtacagaaagaatatgcaactttttataagcttgatgtagtaccaataaataatgctagtacgaatagtaccagttataagctaataagttgtaacacctcagtcattacacaagcttgtccaaagataacctttgaaccaattcccatacattattgtgccccagctagttttgcgattctaaagtgtaatgataaaaatttcactagaataagacaatgtaaaaatgtcagcacagtacaatgtacacatagaattaagccagtagtatcaactcaattgttgttaaatggcagcctagcagaagaaaagatagtaattagatctgaaaatatcacagacaatactaaaaatataatagtacagctaaataaatctgtagcatttaattgtacaagacccaacaacaatacaagaaaaagtatacatataagaccaaagagagcattttatctaggacaaataataagaaatataagacaagcacattgtaacattagtaaagaaaaatagaataacactttaaaacaggtagttaataagataaaagaacaatttggcaataaaacaatagtctttaatcaatcctcaggagaagacccagaaattacaatgatcagttttaattgtagagaagaatttttctactgtaattcaacacaactgtttaacagtacttagaatgttaatgaaactcagagtgataatagtactaaaattatcacactcccatgcaaaataaaacagattataaacatgtggcaacaagtaagaaaagccatgtatgcccctcccatcaaaggacgaattaactgttcatcaataattacaaggctgctattaacaaaagatagcggtgataataatagcaacaccgagatcttcagacctagaagaggagatatgaaggacaattgaagaagtgaattatacaaatataaagtagtacaaattaaaccattaagagtagcacccactaaggcaaagagaagagtggtgcagagagaaaaaagagcattaagaataggagctgtgttctttaggttcttaggagcagcaggaagcactataggcgcagcgtcattgacgctgacagtacaggccagacaattattgtctagtatagtgcaacagcaaagaaatttgctgaatgctattgaggcgcaacagcatctgttgcaactcacagtctaaggcatcaagcagctccaggcaagagtccttgctgtggaaagatacctaagtgatcaacagctcctaagagtttaaagttgctctgaaaaactcatctgcaccactgctgtgccttagaataatagctaaagtgctagttagagtaatagaactaataaatctctagatggcatttaagaaaacatgacctagatgcagtaagaaaaagaaattagtaactacacaaacataatatatgacttacttaaagaatcgcaaatccaacaagaaaagaatgaactagacttattaaaattaaataaataggcaagtttgtagaattagtttaacatatcacaatggctgtagtatataaaaattttcataatgatagtaaaaggcttaataagtttaagaatagtttttgctatattatctatagtaaatagagttaggcaaaagtactcaccattatcgtttcagaccctcctcccagcatcgagaggacccgacaagcccgaaagaatcgaaaaagaaggtagagagagaagcaaagacagatccgtgcgattagtgagcagattcttagcacttttctaagacgacctgaagaacctgtgcctcttcagctaccgccacttaagagacttactctcgattgtaacaagaattatagaattcctaagacacaagaggtaagaagccctcaagtattagtagagtctcctgcagtattaaagtcagaagctaaagaatagtgctgttagcttgctcaatttcatagccatagcagtagctgaaaggacagacagagttatagaagtattacaaagaatttatagagctatttgcaatatacctagaagaataagacaaagattgaaaaaggctttgctataaaataagtggcaagtggtcaaaaagtaatatagttaaatggcctgctgtaagaagaaaaatgcagcaaactgcaccaacagcagagccagcagcagatgaagtaagagcagcatctcaagacctagaaagacatagagcaatcaccagtagcaatacagcagctaccaatgctgattgtgcctagctagaagcacaacaagaagatgaggaagtaagttttccagtcagacctcaagtacctttaagaccaatgactttcaaagaagctttagatcttagccactttttaaaagaaaaaggaaaactagaagggctaatttactcccagaaaagacaagatatccttgatctgtaggtctataacacacaaggctacttccctgactggcagaattacacatcagggccaaggataagatatccactgacctttggatggtgcttcaaactagtaccagtagagccagagaaggtagaagaggccaataaaggagagaacaacagcttgttacaccctatgagcctgcatagaatagatgacccagaaggagaggtgttagagtagagatttgacagccgcctggcatttcaccacgtagcccgagagctgcatcctgagtacttcaagaactgaactgctgacattgagcctccaaactgctgacatcgagcttctaacaaaggactttccgctgaagactttccaaggaagtgtggcctaggcaggaccaaggagtggcgagccctcagatgctgcatataagcagctgctttctgcctgtactaagtctctctagttagaccagatcagagcctaggagctctctagctagctaaagaacccactgct</GBSeq_sequence>
+</GBSeq>
