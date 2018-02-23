@@ -20,3 +20,34 @@
     demote member AL_F2  --whereClause "sequence.subtype = 'F2'" 
     exit
 
+
+  # Derive constrained alignment segments from unconstrained alignments
+  
+  alignment AL_A1
+    derive segments AL_UNCONSTRAINED_genome_2016 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_A2
+    derive segments AL_UNCONSTRAINED_genome_2016 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_B
+    derive segments AL_UNCONSTRAINED_genome_2016 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_C
+    derive segments AL_UNCONSTRAINED_genome_2016 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_D
+    derive segments AL_UNCONSTRAINED_genome_2016 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_F1
+    derive segments AL_UNCONSTRAINED_genome_2016 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_F2
+    derive segments AL_UNCONSTRAINED_genome_2016 -a --mergeStrategy OVERWRITE
+    exit
+

@@ -20,11 +20,13 @@ project hiv_basic
   run file glue/hivModules.glue
 
   # Import reference sequences from GenBank XML files 
-  import source sources/ncbi-refseqs/
-  module genbankXmlPopulator populate
+  #import source sources/ncbi-refseqs/
 
   # Import LANL sequences
-  import source sources/ncbi-genomes/
+  import source sources/ncbi-hiv-genomes/
+
+  module genbankXmlPopulator populate
+
 
   # Define features
   run file glue/hivFeatures.glue
