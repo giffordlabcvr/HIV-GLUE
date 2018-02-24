@@ -1,0 +1,15 @@
+# NCBI refseqs  
+#create module --fileName modules/hivNcbiImporterReferences.xml
+#module ncbiImporterReferences import	
+#export source ncbi-refseqs
+
+# NCBI/LANL 2016 genomes 
+#create module --fileName modules/hivNcbiImporterGenomes.xml 
+#module hivNcbiImporterGenomes import	
+#export source ncbi-lanl-genomes
+
+# NCBI/LANL 2016 genomes reduced set (no N, O, or SIV)
+create module --fileName modules/hivNcbiImporterGenomesReduced.xml 
+module hivNcbiImporterGenomesReduced import	
+export source ncbi-lanl-genomes
+

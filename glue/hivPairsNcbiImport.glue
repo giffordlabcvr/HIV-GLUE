@@ -1,0 +1,3 @@
+# NCBI transmission pair sequences 
+#create module --fileName modules/hivNcbiImporterPairSeqsALL.xml ncbiImporterPairs
+#module ncbiImporterPairs import
