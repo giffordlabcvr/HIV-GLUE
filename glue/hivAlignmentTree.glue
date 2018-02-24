@@ -3,7 +3,7 @@
   alignment AL_MASTER
     set field displayName "Human immunodeficiency virus (HIV-1)"
     # reference sequences
-    add member -w "source.name in ('ncbi-refseqs', 'ncbi-pairsets')"
+    add member -w "source.name in ('ncbi-hiv-genomes', 'ncbi-pairsets')"
     extract child AL_B  --refName REF_MASTER_NC_001802
     demote member AL_B  --whereClause "sequence.subtype = 'B'" 
     extract child AL_A1 --refName REF_A1_U51190

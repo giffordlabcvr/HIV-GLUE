@@ -39,7 +39,7 @@ project hiv_basic
   run file glue/hivAlignments.glue
 
   # Create 'alignment tree'
-  #run file glue/hivAlignmentTree.glue
+  run file glue/hivAlignmentTree.glue
 
   # Import tabular data for reference sequences
   #module refseqTextFilePopulator populate -f tabular/refseq_data/hiv-reference-data.csv
