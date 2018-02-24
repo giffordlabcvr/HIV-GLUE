@@ -4,7 +4,7 @@ create project hiv_pairs "GLUE project for the studying HIV-1 donor-recipient pa
 
 schema-project hiv_pairs
 
-  run file glue/hivSchemaExtensions.glue
+  run file glue/hivSchemaExtensionsPairs.glue
 
   exit
 
