@@ -23,7 +23,7 @@ project hiv_basic
   #import source sources/ncbi-refseqs/
 
   # Import LANL sequences
-  import source sources/ncbi-hiv-genomes/
+  import source sources/ncbi-lanl-genomes/
   module genbankXmlPopulator populate
 
   # Import tabular data for reference sequences

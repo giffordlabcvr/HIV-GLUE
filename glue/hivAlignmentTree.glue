@@ -3,13 +3,13 @@
   alignment AL_MASTER
     set field displayName "Human immunodeficiency virus (HIV-1)"
     # reference sequences
-    add member -w "source.name in ('ncbi-hiv-genomes', 'ncbi-pairsets')"
+    add member -w "source.name in ('ncbi-lanl-genomes', 'ncbi-pairsets')"
     extract child AL_B  --refName REF_MASTER_NC_001802
     demote member AL_B  --whereClause "sequence.subtype = 'B'" 
-    extract child AL_A1 --refName REF_A1_U51190
-    demote member AL_A1 --whereClause "sequence.subtype = '01_AE'" 
-    extract child AL_A2 --refName REF_A2_AF286238
-    demote member AL_A2 --whereClause "sequence.subtype = '02_AG'" 
+    extract child AL_01_AE --refName REF_A1_U51190
+    demote member AL_01_AE --whereClause "sequence.subtype = '01_AE'" 
+    extract child AL_02_AG --refName REF_A2_AF286238
+    demote member AL_02_AG --whereClause "sequence.subtype = '02_AG'" 
     extract child AL_C  --refName REF_C_U46016
     demote member AL_C  --whereClause "sequence.subtype = 'C'" 
     extract child AL_D  --refName REF_D_K03454
@@ -23,11 +23,11 @@
 
   # Derive constrained alignment segments from unconstrained alignments
   
-  alignment AL_A1
+  alignment AL_01_AE
     derive segments AL_UNCONSTRAINED_genome_2016 -a --mergeStrategy OVERWRITE
     exit
 
-  alignment AL_A2
+  alignment AL_02_AG
     derive segments AL_UNCONSTRAINED_genome_2016 -a --mergeStrategy OVERWRITE
     exit
 
