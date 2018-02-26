@@ -23,31 +23,31 @@
 
   # Derive constrained alignment segments from unconstrained alignments
   
+  alignment AL_B
+    derive segments AL_UNCONSTRAINED_genome_2016 --whereClause "sequence.subtype = 'B'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
   alignment AL_01_AE
-    derive segments AL_UNCONSTRAINED_genome_2016 -a --mergeStrategy OVERWRITE
+    derive segments AL_UNCONSTRAINED_genome_2016 --whereClause "sequence.subtype = '01_AE'" --existingMembersOnly --mergeStrategy OVERWRITE
     exit
 
   alignment AL_02_AG
-    derive segments AL_UNCONSTRAINED_genome_2016 -a --mergeStrategy OVERWRITE
-    exit
-
-  alignment AL_B
-    derive segments AL_UNCONSTRAINED_genome_2016 -a --mergeStrategy OVERWRITE
+    derive segments AL_UNCONSTRAINED_genome_2016 --whereClause "sequence.subtype = '02_AG'" --existingMembersOnly --mergeStrategy OVERWRITE
     exit
 
   alignment AL_C
-    derive segments AL_UNCONSTRAINED_genome_2016 -a --mergeStrategy OVERWRITE
+    derive segments AL_UNCONSTRAINED_genome_2016 --whereClause "sequence.subtype = 'C'" --existingMembersOnly --mergeStrategy OVERWRITE
     exit
 
   alignment AL_D
-    derive segments AL_UNCONSTRAINED_genome_2016 -a --mergeStrategy OVERWRITE
+    derive segments AL_UNCONSTRAINED_genome_2016 --whereClause "sequence.subtype = 'D'" --existingMembersOnly --mergeStrategy OVERWRITE
     exit
 
   alignment AL_F1
-    derive segments AL_UNCONSTRAINED_genome_2016 -a --mergeStrategy OVERWRITE
+    derive segments AL_UNCONSTRAINED_genome_2016 --whereClause "sequence.subtype = 'F1'" --existingMembersOnly --mergeStrategy OVERWRITE
     exit
 
   alignment AL_F2
-    derive segments AL_UNCONSTRAINED_genome_2016 -a --mergeStrategy OVERWRITE
+    derive segments AL_UNCONSTRAINED_genome_2016 --whereClause "sequence.subtype = 'F2'" --existingMembersOnly --mergeStrategy OVERWRITE
     exit
 
