@@ -1,7 +1,7 @@
   # HIV-1 reference sequence declarations
 
   # Subtype B references  
-  create reference REF_MASTER_NC_001802 ncbi-lanl-genomes NC_001802
+  create reference REF_MASTER_NC_001802 ncbi-lanl-genomes K03455
   create reference REF_B_HXB2           ncbi-lanl-genomes NC_001802
   create reference REF_B_NL43           ncbi-lanl-genomes U26942
   create reference REF_B_LAV-1          ncbi-lanl-genomes M19921
@@ -52,15 +52,16 @@
   create reference REF_H_AF190128      ncbi-lanl-genomes AF190128
 
   # Subtype J references  
-  create reference REF_H_AF082394      ncbi-lanl-genomes AF082394
-  create reference REF_H_AF082395      ncbi-lanl-genomes AF082395
+  create reference REF_J_AF082394      ncbi-lanl-genomes AF082394
+  create reference REF_J_AF082395      ncbi-lanl-genomes AF082395
 
   # Subtype K references  
-  create reference REF_H_AJ249235      ncbi-lanl-genomes AJ249235
-  create reference REF_H_AJ249239      ncbi-lanl-genomes AJ249239
+  create reference REF_K_AJ249235      ncbi-lanl-genomes AJ249235
+  create reference REF_K_AJ249239      ncbi-lanl-genomes AJ249239
 
 
   # Define features on the master reference (strain HXB2, subtype B)
+
   reference REF_MASTER_NC_001802
 
     add feature-location whole_genome

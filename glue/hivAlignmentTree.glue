@@ -22,6 +22,10 @@
 
 
   # Derive constrained alignment segments from unconstrained alignments
+
+  alignment AL_MASTER
+    derive segments AL_UNCONSTRAINED_genome_2016 -a --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
   
   alignment AL_B
     derive segments AL_UNCONSTRAINED_genome_2016 --whereClause "sequence.subtype = 'B'" --existingMembersOnly --mergeStrategy OVERWRITE
