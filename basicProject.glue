@@ -32,6 +32,7 @@ project hiv_basic
  
   # Define features
   run file glue/hivFeatures.glue
+  run file glue/hivFeatureLocations.glue
  
   # Create reference sequences
   run file glue/hivReferences.glue
