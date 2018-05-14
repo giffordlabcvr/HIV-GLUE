@@ -1,30 +1,30 @@
 <genbankXmlPopulator>
 	<gbPrimaryAccession>
-		<propertyPopulator property="gb_primary_accession"/>
+		<propertyPopulator property="primary_accession"/>
 	</gbPrimaryAccession>
 
 	<gbAccessionVersion>
-		<propertyPopulator property="gb_accession_version"/>
+		<propertyPopulator property="accession_version"/>
 	</gbAccessionVersion>
 
 	<gbLength>
-		<propertyPopulator property="gb_length"/>
+		<propertyPopulator property="length"/>
 	</gbLength>
 
 	<gbUpdateDate>
-		<propertyPopulator property="gb_update_date"/>
+		<propertyPopulator property="update_date"/>
 	</gbUpdateDate>
 
 	<gbCreateDate>
-		<propertyPopulator property="gb_create_date"/>
+		<propertyPopulator property="create_date"/>
 	</gbCreateDate>
 
 	<gbReferencePubmed>
-		<propertyPopulator property="gb_pubmed_id"/>
+		<propertyPopulator property="pubmed_id"/>
 	</gbReferencePubmed>
 	
 	<gbDivision>
-		<propertyPopulator property="gb_lab_construct">
+		<propertyPopulator property="lab_construct">
 			<matchPattern>PAT</matchPattern>
 			<outputTemplate>true</outputTemplate>
 		</propertyPopulator>
@@ -52,11 +52,11 @@
 		</gbQualifier>		
 		
 		<gbQualifier name="collection_date">
-			<propertyPopulator property="gb_collection_month_day">
+			<propertyPopulator property="collection_month_day">
 				<matchPattern>(\d{2})-[A-Za-z]{3}-\d{4}</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 			</propertyPopulator>
-			<propertyPopulator property="gb_collection_month">
+			<propertyPopulator property="collection_month">
 				<matchPattern>\d{2}-([A-Za-z]{3})-\d{4}</matchPattern>
 				<outputTemplate>${g1?upper_case}</outputTemplate>
 			</propertyPopulator>
