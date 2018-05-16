@@ -59,7 +59,7 @@
 
     add feature-location Pol
     feature-location Pol
-      add segment 1631 4642  
+      add segment 1655 4639  
       exit
 
     add feature-location Vif
