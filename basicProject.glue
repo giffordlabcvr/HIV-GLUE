@@ -36,7 +36,7 @@ project hiv_basic
   # Create reference sequences
   run file glue/hivReferences.glue
   run file glue/hivFeatureLocations.glue
-  validate
+  #validate
 
   # Import alignments
   run file glue/hivAlignments.glue
