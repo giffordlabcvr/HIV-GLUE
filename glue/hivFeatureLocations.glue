@@ -116,7 +116,7 @@
 
 
   # Define features on the subtype B reference 'NL43'
-  reference REF_B_NL43
+  reference REF_B_U26942
 
     add feature-location whole_genome
     feature-location whole_genome

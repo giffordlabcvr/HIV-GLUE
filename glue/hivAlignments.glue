@@ -1,11 +1,11 @@
 
   # Import reference genome alignment 
-  #module unconstrainedAlignmentImporter
-    #import AL_UNCONSTRAINED_genome_REF -f alignments/reference/HIV.genome.refseqs.aln.fna
-    #exit
+  module unconstrainedAlignmentImporter
+    import AL_UNCONSTRAINED_genome_REF -f alignments/reference/HIV.genome.refseqs.aln.fna
+    exit
     
   # Import LANL genome alignment 
-  module lanlAlignmentImporter
-    import AL_UNCONSTRAINED_genome_2016 -f alignments/lanl/HIV.genome.lanl.2016.fna
-    exit
+  # module lanlAlignmentImporter
+    # import AL_UNCONSTRAINED_genome_2016 -f alignments/lanl/HIV.genome.lanl.2016.fna
+    # exit
     
