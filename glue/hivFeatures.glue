@@ -84,11 +84,11 @@
 #   feature prot set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
   create feature RT -p Pol "RT"
-  feature prot set field displayName "RT"
-  feature prot set metatag OWN_CODON_NUMBERING true
-  feature prot set metatag INCLUDE_IN_SUMMARY true
-  feature prot set metatag CODES_AMINO_ACIDS true
-#   feature prot set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+  feature RT set field displayName "RT"
+  feature RT set metatag OWN_CODON_NUMBERING true
+  feature RT set metatag INCLUDE_IN_SUMMARY true
+  feature RT set metatag CODES_AMINO_ACIDS true
+#   feature RT set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
   create feature p51 -p Pol "p51"
   feature p51 set field displayName "p51"
