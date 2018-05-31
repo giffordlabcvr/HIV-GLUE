@@ -1,0 +1,9 @@
+
+  module hivRaxmlPhylogenyGenerator    
+    generate nucleotide phylogeny AL_UNCONSTRAINED --allMembers --outputFile trees/HIV-1_AL_UNCONSTRAINED.tre NEWICK_BOOTSTRAPS   
+    exit    
+
+  module hivPhyloUtility
+    reroot-phylogeny -i trees/HIV-1_AL_UNCONSTRAINED.tre NEWICK_BOOTSTRAPS -m -o trees/HIV-1_AL_UNCONSTRAINED_midpoint.tre NEWICK_BOOTSTRAPS
+    exit
+    
