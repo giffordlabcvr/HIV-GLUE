@@ -1,0 +1,139 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=45;
+	taxlabels
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF004885'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF005494'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF005496'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF061640'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF061642'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF064699'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF067155'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF069670'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF075703'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF077336'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF082394'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF082395'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF084936'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF190127'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF190128'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF286237'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF286238'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF377956'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF385936'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF484509'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AJ249235'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AJ249236'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AJ249237'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AJ249238'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AJ249239'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AY008715'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AY173951'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AY253311'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AY331295'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AY371157'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AY371158'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AY423387'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AY772699'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/K03454'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/KM390026'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/L39106'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/M19921'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/NC_001802'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/U26942'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/U46016'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/U51190'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/U52953'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/U54771'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/U88824'
+	'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/U88826'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF067155':0.034271,'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AY008715':0.046921)[&label=100]:0.022036,'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AY772699':0.073362)[&label=100]:0.0108,('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/U52953':0.054317,'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/U46016':0.059949)[&label=94]:0.010089)[&label=100]:0.080363,((('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AJ249235':0.064001,'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AJ249239':0.050323)[&label=100]:0.048134,(('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AJ249238':0.06337,('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF077336':0.045594,('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF075703':0.045071,('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF385936':0.068595,'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF005494':0.041233)[&label=78]:0.007234)[&label=72]:0.003829)[&label=100]:0.010421)[&label=100]:0.027812,('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AJ249236':0.057897,('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AJ249237':0.052751,('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF377956':0.039731,'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AY371158':0.042102)[&label=100]:0.011295)[&label=99]:0.008784)[&label=100]:0.027818)[&label=100]:0.02297)[&label=100]:0.022917,((('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/U88824':0.064373,'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AY253311':0.059586)[&label=100]:0.017015,('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AY371157':0.083579,'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/K03454':0.048455)[&label=70]:0.00716)[&label=100]:0.021393,('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AY423387':0.062255,(('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AY173951':0.040008,'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AY331295':0.065811)[&label=70]:0.00632,('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/NC_001802':0.01301,(('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/U26942':0.001691,'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/M19921':1.0E-6)[&label=70]:1.25E-4,'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/KM390026':1.15E-4)[&label=100]:0.01604)[&label=100]:0.017576)[&label=87]:0.008518)[&label=100]:0.036744)[&label=100]:0.041207)[&label=75]:0.006996)[&label=66]:0.006185,(('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF190127':0.068646,('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF190128':0.050373,'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF005496':0.048966)[&label=100]:0.02177)[&label=100]:0.052338,('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF082395':0.017771,'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF082394':0.0218)[&label=100]:0.104615)[&label=65]:0.010359)[&label=95]:0.00264,(('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF064699':0.100236,('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF061640':0.059138,('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF084936':0.067514,('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/U88826':0.048537,'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF061642':0.041406)[&label=43]:0.003124)[&label=89]:0.010758)[&label=100]:0.037194)[&label=100]:0.032092,(('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF286238':0.051125,'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF286237':0.06243)[&label=100]:0.051862,('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/L39106':0.084718,('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/U54771':0.113595,('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF484509':0.062173,('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF004885':0.050993,('alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/AF069670':0.047579,'alignment/AL_UNCONSTRAINED_genome_REF/member/ncbi-refseqs/U51190':0.053078):0.011053)[&label=100]:0.006339)[&label=91]:0.018712)[&label=100]:0.010017)[&label=62]:0.013109)[&label=90]:0.021329)[&label=100]:0.02155);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
