@@ -14,4 +14,6 @@
   create module --fileName modules/A3GtoVariations.xml A3GtoVariations
   create module --fileName modules/lethalMutationsToVariations.xml lethalMutationsToVariations
   
+  create module --fileName modules/hivPhylogenyImporter.xml hivPhyloImporter
+  
   create module --fileName modules/hivTabularUtility.xml 

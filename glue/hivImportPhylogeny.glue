@@ -4,7 +4,7 @@ module hivPhyloImporter
   --recursive  \
   --anyAlignment  \
   --whereClause "sequence.source.name in ('ncbi-refseqs') and sequence.referenceSequences.name != null and referenceMember = false"  \
-  --inputFile trees/HIV-1_AL_UNCONSTRAINED_midpoint.tre NEWICK_BOOTSTRAPS  \
+  --inputFile trees/HIV-1_AL_UNCONSTRAINED_genome_REF_midpoint.tre NEWICK_BOOTSTRAPS  \
   --fieldName phylogeny
 
   exit
