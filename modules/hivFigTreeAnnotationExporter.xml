@@ -1,0 +1,14 @@
+<figTreeAnnotationExporter>
+	<figTreeAnnotation>
+		<annotationName>year</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.major_clade')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	<figTreeAnnotation>
+		<annotationName>country</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.minor_clade')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	<figTreeAnnotation>
+		<annotationName>sequenceID</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.sequenceID')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+</figTreeAnnotationExporter>
