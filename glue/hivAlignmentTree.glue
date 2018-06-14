@@ -34,8 +34,6 @@
     demote member AL_02_AG    --whereClause "sequence.subtype = '02_AG'"   
     extract child AL_06_AGJK  --refName REF_CRF06_AF064699
     demote member AL_06_AGJK  --whereClause "sequence.subtype = '06_AGJK'" 
-    extract child AL_08_BC    --refName REF_CRF08_AY008715
-    demote member AL_08_BC    --whereClause "sequence.subtype = '08_BC'" 
     exit
 
 
@@ -83,9 +81,5 @@
 
   alignment AL_06_AGJK
     derive segments AL_UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = '06_AGJK'" --existingMembersOnly --mergeStrategy OVERWRITE
-    exit
-
-  alignment AL_08_BC
-    derive segments AL_UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = '08_BC'" --existingMembersOnly --mergeStrategy OVERWRITE
     exit
 
