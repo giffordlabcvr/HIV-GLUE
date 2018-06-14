@@ -27,14 +27,16 @@ project hiv_basic
   module genbankXmlPopulator populate
   module refseqTextFilePopulator populate -f tabular/refseq_data/hiv-reference-data.csv
 
+
+ 
+  # Define features
+  run file glue/hivFeatures.glue 
+
   # Create reference sequences
   run file glue/hivReferences.glue
   run file glue/hivFeatureLocations.glue
   #validate
 
- 
-  # Define features
-  run file glue/hivFeatures.glue 
 
   # Import alignments
   run file glue/hivAlignments.glue
@@ -43,7 +45,7 @@ project hiv_basic
   run file glue/hivAlignmentTree.glue
 
   # Import phylogeny
-  run file glue/hivImportPhylogeny.glue
+  #run file glue/hivImportPhylogeny.glue
 
   # Import data about amino acid variations 
   run file glue/hivAminoAcidVariations.glue
