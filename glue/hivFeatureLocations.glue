@@ -162,49 +162,6 @@
 
 
 
-  # Define features on the subtype A reference
-  reference REF_A1_U51190
-
-    add feature-location whole_genome
-    feature-location whole_genome
-      add segment 1 8999
-      exit
-
-    add feature-location gag
-    feature-location gag
-      add segment 160	1659
-      exit
-
-    add feature-location vif
-    feature-location vif
-      add segment 4408	4986
-      exit
-
-    add feature-location vpr
-    feature-location vpr
-      add segment 4926	5219
-      exit
- 
-    add feature-location tat
-    feature-location tat
-      add segment 7740	7830
-      exit
- 
-    add feature-location vpu
-    feature-location vpu
-      add segment 7740	7830
-      exit
-
-    add feature-location rev
-    feature-location rev
-      add segment 7740	7830
-      exit
-
-      
-  exit  
-
-
-
   # Define features on the subtype C reference
   reference REF_C_U46016
 
