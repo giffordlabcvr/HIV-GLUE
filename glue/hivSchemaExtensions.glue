@@ -20,10 +20,10 @@
    
     exit
 
-
   table alignment
     create field phylogeny VARCHAR 10000
-    exit 
+    create field clade_category VARCHAR 20
+  exit 
 
   table variation
     create field variation_category VARCHAR
