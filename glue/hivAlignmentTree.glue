@@ -42,7 +42,15 @@
   alignment AL_MASTER
     derive segments AL_UNCONSTRAINED_genome_REF -a --existingMembersOnly --mergeStrategy OVERWRITE
     exit
-  
+
+  alignment AL_A1
+    derive segments AL_UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'A1'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_A2
+    derive segments AL_UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'A2'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
   alignment AL_B
     derive segments AL_UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'B'" --existingMembersOnly --mergeStrategy OVERWRITE
     exit
@@ -83,3 +91,31 @@
     derive segments AL_UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = '06_AGJK'" --existingMembersOnly --mergeStrategy OVERWRITE
     exit
 
+
+
+  # Set clade category
+
+  alignment AL_MASTER set field clade_category genotype
+  alignment AL_A1 set field clade_category genotype
+  alignment AL_A2 set field clade_category genotype
+  alignment AL_B  set field clade_category genotype
+  alignment AL_C  set field clade_category genotype
+  alignment AL_D  set field clade_category genotype
+  alignment AL_F  set field clade_category genotype
+  alignment AL_G  set field clade_category genotype
+  alignment AL_H  set field clade_category genotype
+  alignment AL_K  set field clade_category genotype
+  alignment AL_01_AE  set field clade_category genotype
+  alignment AL_02_AG  set field clade_category genotype
+  alignment AL_06_AGJK  set field clade_category genotype
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
