@@ -95,19 +95,19 @@
 
   # Set clade category
 
-  alignment AL_MASTER set field clade_category genotype
-  alignment AL_A1 set field clade_category genotype
-  alignment AL_A2 set field clade_category genotype
-  alignment AL_B  set field clade_category genotype
-  alignment AL_C  set field clade_category genotype
-  alignment AL_D  set field clade_category genotype
-  alignment AL_F  set field clade_category genotype
-  alignment AL_G  set field clade_category genotype
-  alignment AL_H  set field clade_category genotype
-  alignment AL_K  set field clade_category genotype
-  alignment AL_01_AE  set field clade_category genotype
-  alignment AL_02_AG  set field clade_category genotype
-  alignment AL_06_AGJK  set field clade_category genotype
+  alignment AL_MASTER set field clade_category subtype
+  alignment AL_A1 set field clade_category subtype
+  alignment AL_A2 set field clade_category subtype
+  alignment AL_B  set field clade_category subtype
+  alignment AL_C  set field clade_category subtype
+  alignment AL_D  set field clade_category subtype
+  alignment AL_F  set field clade_category subtype
+  alignment AL_G  set field clade_category subtype
+  alignment AL_H  set field clade_category subtype
+  alignment AL_K  set field clade_category subtype
+  alignment AL_01_AE  set field clade_category subtype
+  alignment AL_02_AG  set field clade_category subtype
+  alignment AL_06_AGJK  set field clade_category subtype
 
  
  
