@@ -1,6 +1,4 @@
-# HIV-GLUE- A Sequence Data Resource for Hepatitis C Virus
-
-A GLUE project for human immunodeficiency virus (HIV).
+# HIV-GLUE- A Sequence Data Resource for human immunodeficiency virus (HIV).
 
 Human immunodeficiency viruses HIV-1 and HIV-2 are cause
 acquired immunodeficiency syndrome (AIDS).
