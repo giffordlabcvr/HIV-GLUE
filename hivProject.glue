@@ -1,14 +1,14 @@
-delete project hiv_basic
+delete project hiv
 
-create project hiv_basic "a basic GLUE project for HIV-1 - intended as a template that can be elaborated" --minVersion 0.1.50
+create project hiv "GLUE project for Human immunodeficiency virus (HIV-1)" --minVersion 0.1.50
 
-schema-project hiv_basic
+schema-project hiv
 
   run file glue/hivSchemaExtensions.glue
 
   exit
 
-project hiv_basic
+project hiv
 
 
   #~#  HIV basic skeleton project 
