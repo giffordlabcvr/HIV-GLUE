@@ -19,3 +19,6 @@
   create module --fileName modules/hivMaxLikelihoodGenotyper.xml
   create module --fileName modules/hivMaxLikelihoodPlacer.xml
   create module --fileName modules/hivMafftAligner.xml
+
+  create module --fileName modules/compareMembers.xml
+  
