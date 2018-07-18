@@ -45,9 +45,16 @@
 			</propertyPopulator>
 		</gbQualifier>
 
-		<gbQualifier name="subtype">
+		<gbQualifier name="note">
 			<propertyPopulator property="subtype">
-				<overwriteExistingNonNull>false</overwriteExistingNonNull>
+				<matchPattern>subtype:(.*)</matchPattern>
+				<outputTemplate>${g1?trim}</outputTemplate>
+
+				<valueConverter>
+					<matchPattern>.*clade B.*</matchPattern>
+					<outputTemplate>B</outputTemplate>
+				</valueConverter>
+
 			</propertyPopulator>
 		</gbQualifier>		
 		
