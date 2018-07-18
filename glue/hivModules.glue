@@ -2,8 +2,6 @@
   create module --fileName modules/hivPairseqTextFilePopulator.xml pairsTextFilePopulator
   create module --fileName modules/hivReferenceTextFilePopulator.xml refseqTextFilePopulator
   create module --fileName modules/unconstrainedAlignmentImporter.xml
-  create module --fileName modules/lanlAlignmentImporter.xml
-  create module --fileName modules/hivLanlTextFilePopulator.xml
   
   create module --fileName modules/hivCompoundAligner.xml
   create module --fileName modules/kuiken2006CodonLabeler.xml kuiken2006CodonLabeler
