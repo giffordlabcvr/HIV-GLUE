@@ -47,6 +47,26 @@
   feature PSI set metatag INCLUDE_IN_SUMMARY true
 
 
+  create feature 3UTR -p whole_genome "3' Untranslated region"
+  feature 3UTR set field displayName "3' UTR"
+  feature 3UTR set metatag INCLUDE_IN_SUMMARY true
+
+  create feature 3LTR -p 3UTR "3' long terminal repeat"
+  feature 3LTR set field displayName "3' LTR"
+  feature 3LTR set metatag INCLUDE_IN_SUMMARY true
+
+  create feature 3U3 -p 5LTR "3' LTR unique 3' region"
+  feature 3U3 set field displayName "3' U3"
+  feature 3U3 set metatag INCLUDE_IN_SUMMARY true
+
+  create feature 3R -p 3LTR "3' LTR repeat region"
+  feature 3R set field displayName "3' R"
+  feature 3R set metatag INCLUDE_IN_SUMMARY true
+
+  create feature 3U5 -p 3LTR "3' LTR unique 5' region"
+  feature 3U3 set field displayName "3' U5"
+  feature 3U3 set metatag INCLUDE_IN_SUMMARY true
+
   # Coding features
 
   create feature gag-pol -p whole_genome "gag-pol"
@@ -225,8 +245,4 @@
   feature nef set metatag INCLUDE_IN_SUMMARY true
   feature nef set metatag CODES_AMINO_ACIDS true
 #   feature nef set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
-
-  create feature 3UTR -p whole_genome "3' Untranslated region"
-  feature 3UTR set field displayName "3' UTR"
-  feature 3UTR set metatag INCLUDE_IN_SUMMARY true
 

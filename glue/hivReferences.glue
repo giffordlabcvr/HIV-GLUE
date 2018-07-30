@@ -3,9 +3,9 @@
   # Subtype B references  
   create reference REF_MASTER_NC_001802 ncbi-refseqs NC_001802
   create reference REF_B_NC_001802      ncbi-refseqs NC_001802
+  create reference REF_B_KM390026       ncbi-refseqs KM390026
   create reference REF_B_U26942         ncbi-refseqs U26942
   create reference REF_B_M19921         ncbi-refseqs M19921
-  create reference REF_B_KM390026       ncbi-refseqs KM390026
   create reference REF_B_AY173951       ncbi-refseqs AY173951
   create reference REF_B_AY423387       ncbi-refseqs AY423387
   create reference REF_B_AY331295       ncbi-refseqs AY331295

@@ -27,7 +27,6 @@ project hiv
   module genbankXmlPopulator populate
   module refseqTextFilePopulator populate -f tabular/refseq_data/hiv-reference-data.csv
 
-
  
   # Define features
   run file glue/hivFeatures.glue 
@@ -44,8 +43,7 @@ project hiv
   # Create 'alignment tree'
   run file glue/hivAlignmentTree.glue
 
-  # Import phylogeny
-  # failing just now
+  # Import phylogeny (failing just now)
   # run file glue/hivImportPhylogeny.glue
 
 

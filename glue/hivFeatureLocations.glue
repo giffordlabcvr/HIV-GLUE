@@ -116,7 +116,7 @@
 
 
   # Define features on the subtype B reference 'NL43'
-  reference REF_B_U26942
+  reference REF_B_KM390026
 
     add feature-location whole_genome
     feature-location whole_genome
@@ -125,39 +125,40 @@
 
     add feature-location gag
     feature-location gag
-      add segment 168 1670
-      exit
-
-    add feature-location capsid
-    feature-location capsid
-      add segment 564 1283
-      exit
-
-    add feature-location prot
-    feature-location prot
-      add segment 1631 1927  
-      exit
-
-    add feature-location RT
-    feature-location RT
-      add segment 2096 3416  
+      add segment 790 2292
       exit
 
     add feature-location pol
     feature-location pol
-      add segment 1505 4474  
+      add segment 2085 5096  
       exit
 
-    add feature-location integrase
-    feature-location integrase
-      add segment 3608 4474
+    add feature-location vif
+    feature-location vif
+      add segment 5041 5619
       exit
+
+    add feature-location vpr
+    feature-location vpr
+      add segment 5559 5849
+      exit
+
+    add feature-location tat
+    feature-location tat
+      add segment 8369 8414
+      exit
+
 
     add feature-location env
     feature-location env
-      add segment 5599 8163  
+      add segment 6221 8785
       exit
-      
+
+    add feature-location nef
+    feature-location nef
+      add segment 8787 9407
+      exit
+     
   exit  
 
 
