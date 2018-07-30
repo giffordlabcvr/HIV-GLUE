@@ -1,5 +1,4 @@
   create module --fileName modules/hivGenbankXmlPopulator.xml genbankXmlPopulator
-  create module --fileName modules/hivPairseqTextFilePopulator.xml pairsTextFilePopulator
   create module --fileName modules/hivReferenceTextFilePopulator.xml refseqTextFilePopulator
   create module --fileName modules/unconstrainedAlignmentImporter.xml
   
