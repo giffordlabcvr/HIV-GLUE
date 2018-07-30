@@ -120,7 +120,32 @@
 
     add feature-location whole_genome
     feature-location whole_genome
-      add segment 1 9000
+      add segment 1 9709
+      exit
+
+    add feature-location 5UTR
+    feature-location 5UTR
+      add segment 1 790
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 634
+      exit
+
+    add feature-location 5R
+    feature-location 5R
+      add segment 454 550
+      exit
+
+    add feature-location TAR
+    feature-location TAR
+      add segment 455 511
+      exit
+
+    add feature-location PolyA
+    feature-location PolyA
+      add segment 512 558
       exit
 
     add feature-location gag
@@ -148,7 +173,6 @@
       add segment 8369 8414
       exit
 
-
     add feature-location env
     feature-location env
       add segment 6221 8785
@@ -158,6 +182,12 @@
     feature-location nef
       add segment 8787 9407
       exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 9076 9709
+      exit
+
      
   exit  
 

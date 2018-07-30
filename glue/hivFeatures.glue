@@ -30,6 +30,10 @@
   feature TAR set field displayName "TAR"
   feature TAR set metatag INCLUDE_IN_SUMMARY true
 
+  create feature PolyA -p 5UTR "PolyA loop"
+  feature PolyA set field displayName "PolyA"
+  feature PolyA set metatag INCLUDE_IN_SUMMARY true
+
   create feature PBS -p 5UTR "Primer-binding site"
   feature PBS set field displayName "PBS"
   feature PBS set metatag INCLUDE_IN_SUMMARY true
