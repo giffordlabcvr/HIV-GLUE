@@ -148,6 +148,21 @@
       add segment 512 558
       exit
 
+    add feature-location cPPT
+    feature-location cPPT
+      add segment 4781 4799
+      exit
+
+    add feature-location CTS
+    feature-location CTS
+      add segment 4883 4898
+      exit
+
+    add feature-location RRE
+    feature-location RRE
+      add segment 7699 8053
+      exit
+
     add feature-location gag
     feature-location gag
       add segment 790 2292

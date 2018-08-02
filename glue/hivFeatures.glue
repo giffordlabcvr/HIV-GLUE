@@ -26,30 +26,41 @@
   feature 5U3 set field displayName "5' U5"
   feature 5U3 set metatag INCLUDE_IN_SUMMARY true
 
-  create feature TAR -p 5UTR "Trans-activation response element"
+  create feature TAR -p 5LTR "Trans-activation response element"
   feature TAR set field displayName "TAR"
   feature TAR set metatag INCLUDE_IN_SUMMARY true
 
-  create feature PolyA -p 5UTR "PolyA loop"
+  create feature PolyA -p whole_genome "PolyA loop"
   feature PolyA set field displayName "PolyA"
   feature PolyA set metatag INCLUDE_IN_SUMMARY true
 
-  create feature PBS -p 5UTR "Primer-binding site"
+  create feature PBS -p whole_genome "Primer-binding site"
   feature PBS set field displayName "PBS"
   feature PBS set metatag INCLUDE_IN_SUMMARY true
 
-  create feature DIS -p 5UTR "Dimerisation initiation site"
+  create feature DIS -p whole_genome "Dimerisation initiation site"
   feature DIS set field displayName "DIS"
   feature DIS set metatag INCLUDE_IN_SUMMARY true
 
-  create feature SD -p 5UTR "Splice donor region"
+  create feature SD -p whole_genome "Splice donor region"
   feature SD set field displayName "SD"
   feature SD set metatag INCLUDE_IN_SUMMARY true
 
-  create feature PSI -p 5UTR "Packaging signal"
+  create feature PSI -p whole_genome "Packaging signal"
   feature PSI set field displayName "PSI"
   feature PSI set metatag INCLUDE_IN_SUMMARY true
 
+  create feature cPPT -p whole_genome "Central polypurine tract"
+  feature cPPT set field displayName "cPPT"
+  feature cPPT set metatag INCLUDE_IN_SUMMARY true
+
+  create feature CTS -p whole_genome "Central termination sequence"
+  feature CTS set field displayName "CTS"
+  feature CTS set metatag INCLUDE_IN_SUMMARY true
+
+  create feature RRE -p whole_genome "Rev response element"
+  feature RRE set field displayName "RRE"
+  feature RRE set metatag INCLUDE_IN_SUMMARY true
 
   create feature 3UTR -p whole_genome "3' Untranslated region"
   feature 3UTR set field displayName "3' UTR"
