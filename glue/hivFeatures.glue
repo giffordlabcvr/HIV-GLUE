@@ -240,14 +240,14 @@
   feature env set metatag CODES_AMINO_ACIDS true
 #   feature env set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
-  create feature surface -p Env "surface"
+  create feature surface -p env "surface"
   feature surface set field displayName "surface"
   feature surface set metatag OWN_CODON_NUMBERING true
   feature surface set metatag INCLUDE_IN_SUMMARY true
   feature surface set metatag CODES_AMINO_ACIDS true
 #   feature surface set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
-  create feature transmembrane -p Env "transmembrane"
+  create feature transmembrane -p env "transmembrane"
   feature transmembrane set field displayName "transmembrane"
   feature transmembrane set metatag OWN_CODON_NUMBERING true
   feature transmembrane set metatag INCLUDE_IN_SUMMARY true

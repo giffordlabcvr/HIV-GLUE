@@ -1,13 +1,22 @@
 <compoundAligner>
 	<aligners>
 		<codonAwareBlastAligner>
-			<featureName>Gag</featureName>
+			<featureName>gag</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>Pol</featureName>
+			<featureName>pol</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>Env</featureName>
+			<featureName>env</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>vif</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>vpu</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>nef</featureName>
 		</codonAwareBlastAligner>
 		<blastAligner/>
 	</aligners>

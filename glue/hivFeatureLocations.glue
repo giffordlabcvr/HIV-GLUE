@@ -115,6 +115,124 @@
   exit  
 
 
+  # Define features on the master reference (strain HXB2, subtype B)
+
+  reference REF_B_NC_001802
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9181
+      exit
+
+    add feature-location 5UTR
+    feature-location 5UTR
+      add segment 97 181
+      exit
+
+    add feature-location gag
+    feature-location gag
+      add segment 336 1838
+      exit
+
+    add feature-location matrix
+    feature-location matrix
+      add segment 336 731
+      exit
+
+    add feature-location capsid
+    feature-location capsid
+      add segment 732 1424
+      exit
+
+    add feature-location p2
+    feature-location p2
+     add segment 1425 1466
+      exit
+
+    add feature-location p7
+    feature-location p7
+      add segment 1467 1631
+      exit
+
+    add feature-location p1
+    feature-location p1
+      add segment 1632 1679
+      exit
+
+   add feature-location p6
+    feature-location p6
+      add segment 1680 1835
+      exit
+
+    add feature-location prot
+    feature-location prot
+      add segment 1799 2095  
+      exit
+
+    add feature-location RT
+    feature-location RT
+      add segment 2096 3416  
+      exit
+
+    add feature-location pol
+    feature-location pol
+      add segment 1655 4639  
+      exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 4587 5165
+      exit
+
+    add feature-location vpr
+    feature-location vpr
+      add segment 5105 5341
+      exit
+
+    add feature-location tat
+    feature-location tat
+      add segment 7925 7969
+      exit
+
+    add feature-location rev
+    feature-location rev
+      add segment 7925 8197
+      exit
+
+    add feature-location vpu
+    feature-location vpu
+      add segment 5608 5856
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 5771 8341
+      exit
+
+    add feature-location surface
+    feature-location surface
+      add segment 5855 7303
+      exit
+
+    add feature-location transmembrane
+    feature-location transmembrane
+      add segment 7304 8338
+      exit
+
+    add feature-location nef
+    feature-location nef
+      add segment 8343 8963
+      exit
+
+    add feature-location 3UTR
+    feature-location 3UTR
+      add segment 8631 9085
+      exit
+      
+  exit  
+
+
+
   # Define features on the subtype B reference 'NL43'
   reference REF_B_KM390026
 
