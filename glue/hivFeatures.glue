@@ -147,12 +147,6 @@
   feature pol set metatag CODES_AMINO_ACIDS true
 #   feature pol set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
-  create feature ID2 -p pol "ID2"
-  feature ID2 set field displayName "ID2"
-  feature ID2 set metatag OWN_CODON_NUMBERING true
-  feature ID2 set metatag INCLUDE_IN_SUMMARY true
-  feature ID2 set metatag CODES_AMINO_ACIDS false
-
   create feature prot -p pol "prot"
   feature prot set field displayName "prot"
   feature prot set metatag OWN_CODON_NUMBERING true
@@ -181,36 +175,12 @@
   feature vif set metatag CODES_AMINO_ACIDS true
 #   feature vif set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
-  create feature IF -p vif "IF"
-  feature IF set field displayName "IF"
-  feature IF set metatag OWN_CODON_NUMBERING true
-  feature IF set metatag INCLUDE_IN_SUMMARY true
-  feature IF set metatag CODES_AMINO_ACIDS false
-
-  create feature JC2 -p vif "JC2"
-  feature JC2 set field displayName "JC2"
-  feature JC2 set metatag OWN_CODON_NUMBERING true
-  feature JC2 set metatag INCLUDE_IN_SUMMARY true
-  feature JC2 set metatag CODES_AMINO_ACIDS false
-
-  create feature JD1 -p vif "JD1"
-  feature JD1 set field displayName "JD1"
-  feature JD1 set metatag OWN_CODON_NUMBERING true
-  feature JD1 set metatag INCLUDE_IN_SUMMARY true
-  feature JD1 set metatag CODES_AMINO_ACIDS false
-
   create feature vpr -p whole_genome "vpr"
   feature vpr set field displayName "vpr"
   feature vpr set metatag OWN_CODON_NUMBERING true
   feature vpr set metatag INCLUDE_IN_SUMMARY true
   feature vpr set metatag CODES_AMINO_ACIDS true
 #   feature vpr set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
-
-  create feature KD2 -p vpr "KD2"
-  feature KD2 set field displayName "KD2"
-  feature KD2 set metatag OWN_CODON_NUMBERING true
-  feature KD2 set metatag INCLUDE_IN_SUMMARY true
-  feature KD2 set metatag CODES_AMINO_ACIDS false
 
   create feature tat -p whole_genome "tat"
   feature tat set field displayName "tat"
