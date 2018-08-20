@@ -386,3 +386,5 @@
       
   exit  
 
+  run script glue/hivLoadAdditionalFeatureLocs.js
+
