@@ -18,4 +18,6 @@
   create module --fileName modules/hivMafftAligner.xml
 
   create module --fileName modules/compareMembers.xml
+
+  create module --fileName modules/hivSubtypeRecogniser.xml
   
