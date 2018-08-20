@@ -14,6 +14,7 @@
     create field update_date DATE
 
     create field subtype VARCHAR 100
+    create field recogniser_subtype VARCHAR 100
     create field country VARCHAR 200
     create field country_iso VARCHAR
     create field place_sampled VARCHAR 100
@@ -23,7 +24,7 @@
   table alignment
     create field phylogeny VARCHAR 10000
     create field clade_category VARCHAR 20
-  exit 
+    exit 
 
   table variation
     create field variation_category VARCHAR
@@ -32,3 +33,6 @@
     create field variation_notes VARCHAR 500
     exit
 
+  table member_floc_note
+    create field reference_nt_coverage_pct DOUBLE
+    exit
