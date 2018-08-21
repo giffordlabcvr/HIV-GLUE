@@ -191,7 +191,8 @@
 
     add feature-location tat
     feature-location tat
-      add segment 7925 7969
+      add segment 5377 5591
+      add segment 7925 7970
       exit
 
     add feature-location rev
