@@ -1,4 +1,0 @@
-id	Display name
-PI	Protease inhibitor
-NRTI	Nucleoside inhibitor
-NNRTI	Non-nucleoside inhibitor
