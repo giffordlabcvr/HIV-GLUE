@@ -2,7 +2,7 @@ var refObjs;
 var features = ["gag", "pol", "env", "vif", "vpu", "nef"];
 
 glue.inMode("module/hivTabularUtility", function() {
-	refObjs = glue.tableToObjects(glue.command(["load-tabular", "tabular/refseq_data/hiv-reference-feature-locs.txt"]));
+	refObjs = glue.tableToObjects(glue.command(["load-tabular", "tabular/hiv-reference-feature-locs.txt"]));
 });
 
 _.each(refObjs, function(refObj) {
