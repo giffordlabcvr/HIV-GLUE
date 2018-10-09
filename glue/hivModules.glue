@@ -4,12 +4,6 @@
   
   create module --fileName modules/hivCompoundAligner.xml
   create module --fileName modules/kuiken2006CodonLabeler.xml kuiken2006CodonLabeler
-
-  create module --fileName modules/drugCategoryTextToCustomTableRows.xml drugCategoryTextToCustomTableRows
-  create module --fileName modules/drugTextToCustomTableRows.xml drugTextToCustomTableRows
-  create module --fileName modules/SDRMsToVariations.xml SDRMsToVariations
-  create module --fileName modules/A3GtoVariations.xml A3GtoVariations
-  create module --fileName modules/lethalMutationsToVariations.xml lethalMutationsToVariations
   
   create module --fileName modules/hivPhylogenyImporter.xml hivPhyloImporter  
   create module --fileName modules/hivTabularUtility.xml 
