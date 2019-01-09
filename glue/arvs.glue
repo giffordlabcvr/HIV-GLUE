@@ -1,3 +1,0 @@
-# Data about antiretroviral drugs  
-module drugCategoryTextToCustomTableRows transform tabular/arv_drugs/drugCategories.txt --run
-module drugTextToCustomTableRows transform tabular/arv_drugs/drugs.txt --run

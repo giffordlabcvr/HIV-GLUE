@@ -1,6 +1,0 @@
-# Drug resistance-associated mutations
-module SDRMsToVariations transform tabular/aa_variations/sdrms.txt --run
-
-# A3G-associated mutations
-#module A3GtoVariations transform tabular/aa_variations/a3g-list.txt --run
-
