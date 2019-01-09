@@ -1,0 +1,6 @@
+
+  # Import reference genome alignment 
+  module unconstrainedAlignmentImporter
+    import AL_UNCONSTRAINED_genome_REF -f alignments/reference/HIV.genome.refseqs.aln.fna
+    exit
+    

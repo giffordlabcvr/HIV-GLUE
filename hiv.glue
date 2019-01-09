@@ -25,7 +25,7 @@ project hiv
   
   # Import reference sequence side-data
   module genbankXmlPopulator populate
-  module refseqTextFilePopulator populate -f tabular/refseq_data/hiv-reference-data.csv
+  module refseqTextFilePopulator populate -f tabular/hiv-reference-data.csv
 
  
   # Define features
@@ -45,11 +45,6 @@ project hiv
 
   # Import phylogeny (failing just now)
   # run file glue/hivImportPhylogeny.glue
-
-
-  # Import data about amino acid variations 
-  # needs updating for glue 1.0.x
-  # run file glue/hivAminoAcidVariations.glue
 
 
   #validate

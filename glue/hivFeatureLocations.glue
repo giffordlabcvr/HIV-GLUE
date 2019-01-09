@@ -326,7 +326,6 @@
   exit  
 
 
-
   # Define features on the subtype C reference
   reference REF_C_U46016
 
@@ -386,6 +385,98 @@
       exit
       
   exit  
+
+
+  # Define features on the CRF01 reference
+  reference REF_CRF01_U54771
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9203
+      exit
+
+    add feature-location gag
+    feature-location gag
+      add segment 355 1866
+      exit
+
+    add feature-location pol
+    feature-location pol
+      add segment 1644 4670  
+      exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 4615 5187
+      exit
+
+    add feature-location vpr
+    feature-location vpr
+      add segment 5130 5417
+      exit
+
+    add feature-location vpu
+    feature-location vpu
+      add segment 5633 5701
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 5796 8369
+      exit
+
+    add feature-location nef
+    feature-location nef
+      add segment 8371 8985
+      exit
+      
+  exit  
+
+  # Define features on the CRF02 reference
+  reference REF_CRF02_L39106
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9201
+      exit
+
+    add feature-location gag
+    feature-location gag
+      add segment 330 1808
+      exit
+
+    add feature-location pol
+    feature-location pol
+      add segment 1610 4621  
+      exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 4566 5144
+      exit
+
+    add feature-location vpr
+    feature-location vpr
+      add segment 5084 5374
+      exit
+
+    add feature-location vpu
+    feature-location vpu
+      add segment 5595 5840
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 5758 8322
+      exit
+
+    add feature-location nef
+    feature-location nef
+      add segment 8324 8944
+      exit
+      
+  exit  
+
 
   run script glue/hivLoadAdditionalFeatureLocs.js
 
