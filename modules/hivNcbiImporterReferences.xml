@@ -1,5 +1,5 @@
 <ncbiImporter>
-  <sourceName>ncbi-curated</sourceName>
+  <sourceName>ncbi-refseqs</sourceName>
   <giNumberFieldName>gb_gi_number</giNumberFieldName>
   <specificPrimaryAccessions>
 
@@ -151,7 +151,9 @@
 	<primaryAccession>U03982</primaryAccession>
 	<primaryAccession>U21603</primaryAccession>
 	<primaryAccession>M33677</primaryAccession>
-	<primaryAccession>M60610</primaryAccession>		
+	<primaryAccession>M60610</primaryAccession>	
+	
+	
   </specificPrimaryAccessions>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>

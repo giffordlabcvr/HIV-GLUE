@@ -2,16 +2,14 @@
   create module --fileName modules/hivReferenceTextFilePopulator.xml refseqTextFilePopulator
   create module --fileName modules/unconstrainedAlignmentImporter.xml
   
-  create module --fileName modules/hivCompoundAligner.xml
   create module --fileName modules/kuiken2006CodonLabeler.xml kuiken2006CodonLabeler
-  
-  create module --fileName modules/hivPhylogenyImporter.xml hivPhyloImporter  
   create module --fileName modules/hivTabularUtility.xml 
+
+  create module --fileName modules/hivCompoundAligner.xml
+  create module --fileName modules/hivMafftAligner.xml
+  create module --fileName modules/hivSubtypeRecogniser.xml
+   
+  create module --fileName modules/hivPhylogenyImporter.xml hivPhyloImporter  
   create module --fileName modules/hivMaxLikelihoodGenotyper.xml
   create module --fileName modules/hivMaxLikelihoodPlacer.xml
-  create module --fileName modules/hivMafftAligner.xml
-
-  create module --fileName modules/compareMembers.xml
-
-  create module --fileName modules/hivSubtypeRecogniser.xml
   
