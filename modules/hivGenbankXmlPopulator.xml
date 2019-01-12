@@ -1,0 +1,73 @@
+<genbankXmlPopulator>
+	<gbPrimaryAccession>
+		<propertyPopulator property="primary_accession"/>
+	</gbPrimaryAccession>
+
+	<gbAccessionVersion>
+		<propertyPopulator property="accession_version"/>
+	</gbAccessionVersion>
+
+	<gbLength>
+		<propertyPopulator property="length"/>
+	</gbLength>
+
+	<gbUpdateDate>
+		<propertyPopulator property="update_date"/>
+	</gbUpdateDate>
+
+	<gbCreateDate>
+		<propertyPopulator property="create_date"/>
+	</gbCreateDate>
+
+	<gbReferencePubmed>
+		<propertyPopulator property="pubmed_id"/>
+	</gbReferencePubmed>
+	
+	<gbDivision>
+		<propertyPopulator property="lab_construct">
+			<matchPattern>PAT</matchPattern>
+			<outputTemplate>true</outputTemplate>
+		</propertyPopulator>
+	</gbDivision>
+	
+	<gbFeature key="source">
+
+		<gbQualifier name="isolate">
+			<propertyPopulator property="isolate_id"/>
+		</gbQualifier>
+				
+		<gbQualifier name="country">
+			<isoCountryPropertyPopulator property="country_iso" codeStyle="ALPHA_3"/>
+			<propertyPopulator property="country"/>
+			<propertyPopulator property="place_sampled">
+				<matchPattern>^.*:(.*)$</matchPattern>
+				<outputTemplate>${g1?trim}</outputTemplate>
+			</propertyPopulator>
+		</gbQualifier>
+
+		<gbQualifier name="subtype">
+			<propertyPopulator property="subtype">
+				<overwriteExistingNonNull>false</overwriteExistingNonNull>
+			</propertyPopulator>
+		</gbQualifier>		
+		
+		<gbQualifier name="collection_date">
+			<propertyPopulator property="collection_month_day">
+				<matchPattern>(\d{2})-[A-Za-z]{3}-\d{4}</matchPattern>
+				<outputTemplate>${g1}</outputTemplate>
+			</propertyPopulator>
+			<propertyPopulator property="collection_month">
+				<matchPattern>\d{2}-([A-Za-z]{3})-\d{4}</matchPattern>
+				<outputTemplate>${g1?upper_case}</outputTemplate>
+			</propertyPopulator>
+			<propertyPopulator property="collection_year">
+				<matchPattern>(\d{4})</matchPattern>
+				<outputTemplate>${g1}</outputTemplate>
+			</propertyPopulator>
+			
+			
+			
+		</gbQualifier>
+		
+	</gbFeature>
+</genbankXmlPopulator>
