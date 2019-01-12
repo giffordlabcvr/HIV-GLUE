@@ -1,31 +1,14 @@
 <compoundAligner>
 	<aligners>
 		<codonAwareBlastAligner>
-			<featureName>gag</featureName>
-			<minimumBitScore>75</minimumBitScore>
+			<featureName>Gag</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>pol</featureName>
-			<minimumBitScore>75</minimumBitScore>
+			<featureName>Pol</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>env</featureName>
-			<minimumBitScore>75</minimumBitScore>
+			<featureName>Env</featureName>
 		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>vif</featureName>
-			<minimumBitScore>75</minimumBitScore>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>vpu</featureName>
-			<minimumBitScore>75</minimumBitScore>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>nef</featureName>
-			<minimumBitScore>75</minimumBitScore>
-		</codonAwareBlastAligner>
-		<blastAligner>
-			<minimumBitScore>75</minimumBitScore>
-		</blastAligner>
+		<blastAligner/>
 	</aligners>
 </compoundAligner>
