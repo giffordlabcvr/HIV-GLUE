@@ -1,0 +1,121 @@
+  create alignment AL_MASTER -r REF_MASTER_NC_001802 
+  
+  alignment AL_MASTER
+
+    set field displayName "Human immunodeficiency virus (HIV-1)"
+ 
+    # reference sequences
+    add member -w "source.name in ('ncbi-refseqs')"
+
+    extract child AL_A1  --refName REF_A1_AF484509
+    demote member AL_A1  --whereClause "sequence.subtype = 'A1'" 
+    extract child AL_A2  --refName REF_A2_AF286238
+    demote member AL_A2  --whereClause "sequence.subtype = 'A2'" 
+    extract child AL_B   --refName REF_B_NC_001802
+    demote member AL_B   --whereClause "sequence.subtype = 'B'" 
+    extract child AL_C   --refName REF_C_U46016
+    demote member AL_C   --whereClause "sequence.subtype = 'C'" 
+    extract child AL_D   --refName REF_D_K03454
+    demote member AL_D   --whereClause "sequence.subtype = 'D'" 
+    extract child AL_F   --refName REF_F_AF005494
+    demote member AL_F   --whereClause "sequence.subtype = 'F'" 
+    extract child AL_G   --refName REF_G_AF061642
+    demote member AL_G   --whereClause "sequence.subtype = 'G'" 
+    extract child AL_H   --refName REF_H_AF005496
+    demote member AL_H   --whereClause "sequence.subtype = 'H'" 
+    extract child AL_J   --refName REF_J_AF082394
+    demote member AL_J   --whereClause "sequence.subtype = 'J'" 
+    extract child AL_K   --refName REF_K_AJ249235
+    demote member AL_K   --whereClause "sequence.subtype = 'K'" 
+
+    extract child AL_01_AE    --refName REF_CRF01_U54771
+    demote member AL_01_AE    --whereClause "sequence.subtype = '01_AE'" 
+    extract child AL_02_AG    --refName REF_CRF02_L39106
+    demote member AL_02_AG    --whereClause "sequence.subtype = '02_AG'"   
+    extract child AL_06_AGJK  --refName REF_CRF06_AF064699
+    demote member AL_06_AGJK  --whereClause "sequence.subtype = '06_AGJK'" 
+    exit
+
+
+  # Derive constrained alignment segments from unconstrained alignments
+
+  alignment AL_MASTER
+    derive segments AL_UNCONSTRAINED_genome_REF -a --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_A1
+    derive segments AL_UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'A1'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_A2
+    derive segments AL_UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'A2'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_B
+    derive segments AL_UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'B'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_C
+    derive segments AL_UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'C'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_D
+    derive segments AL_UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'D'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_F
+    derive segments AL_UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'F'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_G
+    derive segments AL_UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'G'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_H
+    derive segments AL_UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'H'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_K
+    derive segments AL_UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'K'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_01_AE
+    derive segments AL_UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = '01_AE'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_02_AG
+    derive segments AL_UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = '02_AG'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_06_AGJK
+    derive segments AL_UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = '06_AGJK'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+
+
+  # Set clade category
+
+  alignment AL_MASTER set field clade_category subtype
+  alignment AL_A1 set field clade_category subtype
+  alignment AL_A2 set field clade_category subtype
+  alignment AL_B  set field clade_category subtype
+  alignment AL_C  set field clade_category subtype
+  alignment AL_D  set field clade_category subtype
+  alignment AL_F  set field clade_category subtype
+  alignment AL_G  set field clade_category subtype
+  alignment AL_H  set field clade_category subtype
+  alignment AL_K  set field clade_category subtype
+  alignment AL_01_AE  set field clade_category subtype
+  alignment AL_02_AG  set field clade_category subtype
+  alignment AL_06_AGJK  set field clade_category subtype
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
