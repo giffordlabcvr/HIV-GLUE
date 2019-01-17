@@ -1,4 +1,4 @@
-  # HIV-1 reference sequence declarations
+  # HIV-1M reference sequence declarations
 
   # Subtype B references  
   create reference REF_MASTER_NC_001802 ncbi-refseqs NC_001802
@@ -33,18 +33,16 @@
   create reference REF_A2_AF286238      ncbi-refseqs AF286238
   create reference REF_A2_AF286237      ncbi-refseqs AF286237
 
-
   # Subtype F references  
   create reference REF_F_AF077336       ncbi-refseqs AF077336
   create reference REF_F_AF075703       ncbi-refseqs AF075703  
-  create reference REF_F_AF385936       ncbi-refseqs AF385936   # CRF_12 BF
+  create reference REF_F_AF385936       ncbi-refseqs AF385936  # CRF_12 BF
   create reference REF_F_AF005494       ncbi-refseqs AF005494
   create reference REF_F_AJ249238       ncbi-refseqs AJ249238
   create reference REF_F_AJ249236       ncbi-refseqs AJ249236
   create reference REF_F_AF377956       ncbi-refseqs AF377956
   create reference REF_F_AY371158       ncbi-refseqs AY371158
   create reference REF_F_AJ249237       ncbi-refseqs AJ249237
-
 
   # Subtype G references  
   create reference REF_G_AF061642       ncbi-refseqs AF061642
@@ -65,7 +63,6 @@
   create reference REF_K_AJ249235       ncbi-refseqs AJ249235
   create reference REF_K_AJ249239       ncbi-refseqs AJ249239
 
- 
   # CRF_01 AE references  
   create reference REF_CRF01_U54771     ncbi-refseqs U54771
   create reference REF_CRF01_AF069670   ncbi-refseqs AF069670
@@ -75,4 +72,52 @@
 
   # CRF_06 AGJK references  
   create reference REF_CRF06_AF064699   ncbi-refseqs AF064699
+
+  # HIV-1N reference sequence declarations
+
+
+  # HIV-1O reference sequence declarations
+
+  # HIV-1P reference sequence declarations
+
+  # HIV-2A reference sequence declarations
+
+  # HIV-2B reference sequence declarations
+
+  # Primate lentivirus reference sequence declarations
+  create reference SIVcol               ncbi-refseqs AF301156
+  create reference SIVcpz               ncbi-refseqs AY169968
+  create reference SIVden               ncbi-refseqs AJ580407
+  create reference SIVdrl1              ncbi-refseqs AY159321
+  create reference SIVgor               ncbi-refseqs FJ424871
+  create reference SIVgsn               ncbi-refseqs AF468659
+  create reference SIVlhoest            ncbi-refseqs AF075269
+  create reference SIVmac               ncbi-refseqs M33262
+  create reference SIVmnd               ncbi-refseqs AF328295
+  create reference SIVmus               ncbi-refseqs KF304707
+  create reference SIVocm               ncbi-refseqs FM165200
+  create reference SIVrcm               ncbi-refseqs AF382829
+  create reference SIVrtg               ncbi-refseqs KJ461716
+  create reference SIVsab               ncbi-refseqs U04005
+  create reference SIVsmm               ncbi-refseqs JX860430
+  create reference SIVsun               ncbi-refseqs AF131870
+  create reference SIVsyk               ncbi-refseqs AY523867
+  create reference SIVtal               ncbi-refseqs AY655744
+  create reference SIVwrc               ncbi-refseqs AM713177
+
+  
+  # Non-primate lentivirus reference sequence declarations
+  create reference REF_BIV              ncbi-refseqs M32690
+  create reference REF_JDV              ncbi-refseqs U21603
+  create reference REF_EIAV             ncbi-refseqs M16575
+  create reference REF_FIV              ncbi-refseqs M25381
+  create reference REF_SRLV-A           ncbi-refseqs M60610
+  create reference REF_SRLV-B           ncbi-refseqs M33677
+
+  # Endogenous lentivirus reference sequence declarations  
+  # pSIVgml  
+  # RELIK
+
+
+
 
