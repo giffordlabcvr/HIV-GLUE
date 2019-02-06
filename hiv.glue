@@ -19,15 +19,15 @@ project hiv
   # Create modules used in project build
   run file glue/hivModules.glue
 
-
+  
   # Import reference sequences from GenBank XML files 
   import source sources/ncbi-refseqs/
+  import source sources/fasta/
   
   # Import reference sequence side-data
   module genbankXmlPopulator populate
   module refseqTextFilePopulator populate -f tabular/hiv-reference-data.csv
 
- 
   # Define features
   run file glue/hivFeatures.glue 
 

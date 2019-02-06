@@ -1,5 +1,10 @@
+  # Import root alignment 
+  create module --fileName modules/rootAlignmentImporter.xml rootAlignmentImporter
+  module rootAlignmentImporter
+    import AL_UNCONSTRAINED_lentivirus_root_REF -f alignments/root/lentivirus-internal.fna
+    exit
 
-  # Import reference genome alignment 
+  # Import reference genome alignment for HIV-1 M group
   module unconstrainedAlignmentImporter
     import AL_UNCONSTRAINED_genome_REF -f alignments/internal/HIV.genome.refseqs.aln.fna
     exit
