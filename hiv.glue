@@ -10,7 +10,6 @@ schema-project hiv
 
 project hiv
 
-
   #~#  HIV basic skeleton project 
 
   # Define settings for this project
@@ -19,7 +18,6 @@ project hiv
   # Create modules used in project build
   run file glue/hivModules.glue
 
-  
   # Import reference sequences from GenBank XML files 
   import source sources/ncbi-refseqs/
   import source sources/fasta/
@@ -34,18 +32,12 @@ project hiv
   # Create reference sequences
   run file glue/hivReferences.glue
   run file glue/hivFeatureLocations.glue
-  #validate
-
 
   # Import alignments
   run file glue/hivAlignments.glue
 
   # Create 'alignment tree'
   run file glue/hivAlignmentTree.glue
-
-  # Import phylogeny (failing just now)
-  # run file glue/hivImportPhylogeny.glue
-
 
   #validate
 

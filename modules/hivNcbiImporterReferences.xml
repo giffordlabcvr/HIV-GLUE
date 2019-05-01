@@ -152,7 +152,8 @@
 	<primaryAccession>U21603</primaryAccession>
 	<primaryAccession>M33677</primaryAccession>
 	<primaryAccession>M60610</primaryAccession>	
-	
+	<primaryAccession>AF188114</primaryAccession>	
+	<primaryAccession>DJ048201</primaryAccession>	
 	
   </specificPrimaryAccessions>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
