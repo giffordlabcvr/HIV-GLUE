@@ -7,7 +7,22 @@
 			<featureName>Pol</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
+			<featureName>Vif</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>Vpr</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>Vpu</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
 			<featureName>Env</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>Tat</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>Nef</featureName>
 		</codonAwareBlastAligner>
 		<blastAligner/>
 	</aligners>
