@@ -19,9 +19,11 @@
 		<propertyPopulator property="create_date"/>
 	</gbCreateDate>
 
-	<gbReferencePubmed>
-		<propertyPopulator property="pubmed_id"/>
-	</gbReferencePubmed>
+	<gbReference>
+		<gbRefPubmed>
+			<propertyPopulator property="pubmed_id"/>
+		</gbRefPubmed>
+	</gbReference>
 	
 	<gbDivision>
 		<propertyPopulator property="lab_construct">
