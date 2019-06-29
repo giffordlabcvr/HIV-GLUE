@@ -20,7 +20,7 @@ project hiv
 
   # Import reference sequences from GenBank XML files 
   import source sources/ncbi-refseqs/
-  import source sources/fasta/
+  import source sources/fasta-refseqs/
   
   # Import reference sequence side-data
   module genbankXmlPopulator populate
