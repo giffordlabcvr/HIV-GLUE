@@ -80,8 +80,9 @@
 
     add feature-location rev
     feature-location rev
-      add segment 7925 8197
-      exit
+      add segment 5516 5591
+      add segment 7925 8199
+     exit
 
     add feature-location vpu
     feature-location vpu
