@@ -12,4 +12,5 @@
   create module --fileName modules/hivPhylogenyImporter.xml hivPhyloImporter  
   create module --fileName modules/hivMaxLikelihoodGenotyper.xml
   create module --fileName modules/hivMaxLikelihoodPlacer.xml
-  
+
+  create module --fileName modules/hivGagPolTranslationModifier.xml  

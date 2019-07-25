@@ -17,6 +17,14 @@
       add segment 336 1838
       exit
 
+    add feature-location gag-pol
+    feature-location gag-pol
+      add segment 336 1634
+      add segment 1635 1639 --translationModifier hivGagPolTranslationModifier
+      add segment 1640 4642
+      exit
+
+
     add feature-location matrix
     feature-location matrix
       add segment 336 731
@@ -42,7 +50,7 @@
       add segment 1632 1679
       exit
 
-   add feature-location p6
+   add feature-location p6	
     feature-location p6
       add segment 1680 1835
       exit
@@ -54,7 +62,7 @@
 
     add feature-location RT
     feature-location RT
-      add segment 2096 3416  
+      add segment 2096 3415 
       exit
 
     add feature-location pol
@@ -173,7 +181,7 @@
 
     add feature-location RT
     feature-location RT
-      add segment 2096 3416  
+      add segment 2096 3415
       exit
 
     add feature-location pol
