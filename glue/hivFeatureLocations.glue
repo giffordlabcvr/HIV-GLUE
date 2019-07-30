@@ -19,9 +19,9 @@
 
     add feature-location gag-pol
     feature-location gag-pol
-      add segment 336 1634
-      add segment 1635 1639 --translationModifier hivGagPolTranslationModifier
-      add segment 1640 4642
+      add segment 336 1634 --spliceIndex 1
+      add segment 1635 1639 --translationModifier hivGagPolTranslationModifier --spliceIndex 2
+      add segment 1640 4642 --spliceIndex 3
       exit
 
 
@@ -82,14 +82,14 @@
 
     add feature-location tat
     feature-location tat
-      add segment 5377 5591
-      add segment 7925 7970
+      add segment 5377 5591 --spliceIndex 1
+      add segment 7925 7970 --spliceIndex 2
       exit
 
     add feature-location rev
     feature-location rev
-      add segment 5516 5591
-      add segment 7925 8199
+      add segment 5516 5591 --spliceIndex 1
+      add segment 7925 8199 --spliceIndex 2
      exit
 
     add feature-location vpu
