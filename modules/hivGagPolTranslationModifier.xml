@@ -9,15 +9,4 @@
 			<segmentNtIndex>3</segmentNtIndex>
 		</duplicateNucleotide>
 	</preTranslationNtModifications>
-	<!-- This specifies that 2 amino acids are generated, one dependent on nucleotides 1-3 and the second on nucleotides 3-5 -->
-	<outputAminoAcid>
-		<dependentNtPosition>1</dependentNtPosition>	
-		<dependentNtPosition>2</dependentNtPosition>	
-		<dependentNtPosition>3</dependentNtPosition>	
-	</outputAminoAcid>
-	<outputAminoAcid>
-		<dependentNtPosition>3</dependentNtPosition>	
-		<dependentNtPosition>4</dependentNtPosition>	
-		<dependentNtPosition>5</dependentNtPosition>	
-	</outputAminoAcid>
 </translationModifier>
