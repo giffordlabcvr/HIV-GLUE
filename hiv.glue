@@ -1,6 +1,6 @@
 delete project hiv
 
-create project hiv "GLUE project for human immunodeficiency virus (HIV-1)" --minVersion 1.1.41
+create project hiv "GLUE project for human immunodeficiency virus (HIV-1)" --minVersion 1.1.46
 
 schema-project hiv
 
