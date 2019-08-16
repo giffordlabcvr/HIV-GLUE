@@ -1,4 +1,4 @@
-  # HIV-1M reference sequence declarations
+  ## HIV-1M reference sequence declarations
 
   # Subtype B references  
   create reference REF_MASTER_NC_001802 ncbi-refseqs NC_001802
@@ -65,7 +65,6 @@
 
   # CRF_01 AE references  
   create reference REF_CRF01_U54771     ncbi-refseqs U54771
-  create reference REF_CRF01_AF069670   ncbi-refseqs AF069670
 
   # CRF_02 AG references  
   create reference REF_CRF02_L39106     ncbi-refseqs L39106
@@ -74,17 +73,23 @@
   create reference REF_CRF06_AF064699   ncbi-refseqs AF064699
 
   # HIV-1N reference sequence declarations
-
-
+  create reference REF_GrpN	            ncbi-refseqs DQ017382
+  
   # HIV-1O reference sequence declarations
+  create reference REF_GrpO	            ncbi-refseqs L20571
 
   # HIV-1P reference sequence declarations
+  create reference REF_GrpP	            ncbi-refseqs HQ179987
+
+  ## HIV-2 reference sequence declarations
 
   # HIV-2A reference sequence declarations
-
+  create reference REF_HIV2A	        ncbi-refseqs M30502
+  
   # HIV-2B reference sequence declarations
+  create reference REF_HIV2B	        ncbi-refseqs X61240
 
-  # Primate lentivirus reference sequence declarations
+  ## Simian lentivirus reference sequence declarations
   create reference SIVcol               ncbi-refseqs AF301156
   create reference SIVcpz               ncbi-refseqs AY169968
   create reference SIVden               ncbi-refseqs AJ580407
@@ -106,7 +111,7 @@
   create reference SIVwrc               ncbi-refseqs AM713177
 
   
-  # Non-primate lentivirus reference sequence declarations
+  ## Non-primate lentivirus reference sequence declarations
   create reference REF_BIV              ncbi-refseqs M32690
   create reference REF_JDV              ncbi-refseqs U21603
   create reference REF_EIAV             ncbi-refseqs M16575
@@ -114,9 +119,18 @@
   create reference REF_SRLV-A           ncbi-refseqs M60610
   create reference REF_SRLV-B           ncbi-refseqs M33677
 
-  # Endogenous lentivirus reference sequence declarations  
+  ## Endogenous lentivirus reference sequence declarations  
+
   # pSIVgml  
+  create reference REF_pSIVgml          fasta-refseqs pSIVgml
+
   # RELIK
+  create reference REF_RELIK            fasta-refseqs RELIK
+
+  # Mink endogenous lentivirus
+  create reference REF_MELVmpf          fasta-refseqs MELVmpf
+  
+  # Colugo endogenous lentivirus
 
 
 

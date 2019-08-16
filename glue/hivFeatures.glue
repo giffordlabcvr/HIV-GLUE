@@ -50,6 +50,10 @@
   feature PSI set field displayName "PSI"
   feature PSI set metatag INCLUDE_IN_SUMMARY true
 
+  create feature FE -p whole_genome "Frameshift signal"
+  feature FE set field displayName "FE"
+  feature FE set metatag INCLUDE_IN_SUMMARY true
+
   create feature cPPT -p whole_genome "Central polypurine tract"
   feature cPPT set field displayName "cPPT"
   feature cPPT set metatag INCLUDE_IN_SUMMARY true
