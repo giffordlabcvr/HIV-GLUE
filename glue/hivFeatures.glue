@@ -37,6 +37,14 @@
   create feature PBS -p whole_genome "Primer-binding site"
   feature PBS set field displayName "PBS"
   feature PBS set metatag INCLUDE_IN_SUMMARY true
+  
+  create feature GSL3 -p whole_genome "gag stem loop 3"
+  feature GSL3 set field displayName "GSL3"
+  feature GSL3 set metatag INCLUDE_IN_SUMMARY true
+  
+  create feature PSL1 -p whole_genome "pol stem loop 1"
+  feature PSL1 set field displayNAme "PSL1"
+  feature PSL1 set metatag INCLUDE_IN_SUMMARY true
 
   create feature DIS -p whole_genome "Dimerisation initiation site"
   feature DIS set field displayName "DIS"

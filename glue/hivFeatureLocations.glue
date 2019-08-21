@@ -7,9 +7,29 @@
       add segment 1 9181
       exit
 
+    add feature-location 5R
+    feature-location 5R
+      add segment 1 96
+      exit
+    
     add feature-location 5UTR
     feature-location 5UTR
       add segment 97 181
+      exit
+      
+    add feature-location PBS
+    feature-location PBS
+      add segment 182 199
+      exit
+      
+    add feature-location DIS
+    feature-location DIS
+      add segment 240 279
+      exit
+      
+    add feature-location SD
+    feature-location SD
+      add segment 282 300
       exit
 
     add feature-location gag
@@ -24,10 +44,14 @@
       add segment 1640 4642 --spliceIndex 3
       exit
 
-
     add feature-location matrix
     feature-location matrix
       add segment 336 731
+      exit
+      
+    add feature-location GSL3
+    feature-location GSL3
+      add segment 400 483
       exit
 
     add feature-location capsid
@@ -58,6 +82,11 @@
     add feature-location prot
     feature-location prot
       add segment 1799 2095  
+      exit
+      
+    add feature-location PSL1
+    feature-location PSL1
+      add segment 2012 2124
       exit
 
     add feature-location RT
@@ -111,6 +140,11 @@
     feature-location surface
       add segment 5855 7303
       exit
+      
+    add feature-location RRE
+    feature-location RRE
+      add segment 7265-7601
+      exit
 
     add feature-location transmembrane
     feature-location transmembrane
@@ -126,6 +160,12 @@
     feature-location 3UTR
       add segment 8631 9085
       exit
+      
+    add feature-location 3R
+    feature-location 3R
+      add segment 9086 9181
+      exit
+      
       
   exit  
 
