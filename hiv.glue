@@ -39,5 +39,5 @@ project hiv
   # Create 'alignment tree'
   run file glue/hivAlignmentTree.glue
 
-  #validate
+  validate
 

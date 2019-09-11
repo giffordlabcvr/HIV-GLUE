@@ -7,16 +7,16 @@
       add segment 1 9181
       exit
 
-    add feature-location 5R
-    feature-location 5R
-      add segment 1 96
-      exit
-    
     add feature-location 5UTR
     feature-location 5UTR
-      add segment 97 181
+      add segment 1 181
       exit
-      
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 96
+      exit
+          
     add feature-location PBS
     feature-location PBS
       add segment 182 199
@@ -173,13 +173,14 @@
 
     add feature-location 3UTR
     feature-location 3UTR
-      add segment 8631 9085
+      add segment 8964 9181
       exit
-      
-    add feature-location 3R
-    feature-location 3R
+
+    add feature-location 3LTR
+    feature-location 3LTR
       add segment 9086 9181
       exit
+      
       
       
   exit  
