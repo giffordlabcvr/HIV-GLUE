@@ -1,9 +1,12 @@
 # Clean up previous extension build if it exists
-  run file glue/hivConvarDeletePreviousBuild.glue  
+  run file glue/hivCuratedDeletePreviousBuild.glue  
 
 project hiv
 
   #~#  Build the project extension with 'curated' sequences
+
+  # Create modules used in project build
+  run file glue/hivCuratedModules.glue
 
   # Import reference sequences from GenBank XML files 
   run file glue/hivCuratedImportSources.glue  

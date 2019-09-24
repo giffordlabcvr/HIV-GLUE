@@ -38,10 +38,7 @@ project hiv
   #run script glue/hivRefseqsInheritFeatureLocations.js
 
   # Import alignments and create constrained alignment tree
-  #run file glue/hivCreateReferenceAlignmentsHIV-1.glue
-  #run file glue/hivCreateReferenceAlignmentsSIV.glue
-  #run file glue/hivCreateReferenceAlignmentsLenti.glue
-
+  run file glue/hivCreateReferenceAlignmentsHIV-1.glue
 
   validate
   
