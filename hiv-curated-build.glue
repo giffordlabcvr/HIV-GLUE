@@ -1,7 +1,9 @@
+# Clean up previous extension build if it exists
+  run file glue/hivConvarDeletePreviousBuild.glue  
+
 project hiv
 
-  #~#  HIV basic skeleton project 
-
+  #~#  Build the project extension with 'curated' sequences
 
   # Import reference sequences from GenBank XML files 
   run file glue/hivImportCuratedSources.glue  
