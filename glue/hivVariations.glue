@@ -11,20 +11,4 @@ reference REF_MASTER_NC_001802
 
   exit
   
-  
-  feature-location env
-    create variation McCoy1_RT -t aminoAcidSimplePolymorphism --labeledCodon 336 337
-    variation McCoy1
-      set metatag SIMPLE_AA_PATTERN RT
-    exit
-    create variation McCoy2_GK -t aminoAcidSimplePolymorphism --labeledCodon 336 337
-    variation McCoy2
-      set metatag SIMPLE_AA_PATTERN GK
-    exit
-    create variation McCoy3 -t aminoAcidSimplePolymorphism --labeledCodon 336 337
-    variation McCoy3_AK
-      set metatag SIMPLE_AA_PATTERN AK
-    exit
-  exit
-
 exit
