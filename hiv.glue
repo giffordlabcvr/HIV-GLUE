@@ -34,7 +34,7 @@ project hiv
   # Attach feature locations to the HIV-1 master reference 
   run file glue/hivFeatureLocations.glue
 
-  # Inherit features from master reference to all other
+  # Inherit features from HIV-1 master reference to all other HIV-1 reference sequences
   #run script glue/hivRefseqsInheritFeatureLocations.js
 
   # Import alignments
