@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EF154075</GBSeq_locus>
+    <GBSeq_length>766</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>14-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>13-MAR-2007</GBSeq_create-date>
+    <GBSeq_definition>Feline immunodeficiency virus strain PN19 envelope glycoprotein (env) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>EF154075</GBSeq_primary-accession>
+    <GBSeq_accession-version>EF154075.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|EF154075.1|</GBSeqid>
+      <GBSeqid>gi|126842885</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Feline immunodeficiency virus</GBSeq_source>
+    <GBSeq_organism>Feline immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Feline lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..766</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hayward,J.J.</GBAuthor>
+          <GBAuthor>Taylor,J.</GBAuthor>
+          <GBAuthor>Rodrigo,A.G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Phylogenetic analysis of feline immunodeficiency virus in feral and companion domestic cats of New Zealand</GBReference_title>
+        <GBReference_journal>J. Virol. 81 (6), 2999-3004 (2007)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1128/JVI.02090-06</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>17192306</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..766</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hayward,J.J.</GBAuthor>
+          <GBAuthor>Taylor,J.</GBAuthor>
+          <GBAuthor>Rodrigo,A.G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (01-DEC-2006) School of Biological Sciences, University of Auckland, Private Bag 92019, Auckland Mail Centre, Auckland 1142, New Zealand</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..766</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>766</GBInterval_to>
+            <GBInterval_accession>EF154075.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Feline immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>PN19</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>domestic cat</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Felis catus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11673</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>New Zealand: Wellington</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype: A</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;766</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>766</GBInterval_to>
+            <GBInterval_accession>EF154075.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;766</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>766</GBInterval_to>
+            <GBInterval_accession>EF154075.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>V3-V6</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ABO27612.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>KWEQTDVMFQCERKQSQPGTWVRTISSWKQRNRWEWRPDFESERVKVSLQCNSTRNLTFAMRSSGDYGEVTGAWIEFGCHRNKSKLHSEARFRIRCRWNVGDNTSLIDTCGGTQNISGANPVDCTMYANKMYNCSLQNGFTMKVDDLIMHFNMTKAVEMYNIAGNWSCTSDLPPTWGYMNCNCTXXXXXXXXXKMACPRNQGILRNWYNPVAGLRQSLEKYQVVKQPDYLVVPGEVMEYKPRRKRAAIHVMLALA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aaatgggaacaaactgatgtaatgtttcaatgtgaaagaaaacaaagtcagccaggaacctgggtcagaacaatctcatcatggaaacaacggaacagatgggaatggagacctgattttgaaagtgaaagggttaaggtatctttgcaatgtaatagtacaagaaatcttacctttgcaatgaggagctcaggagattatggagaagtaacgggagcatggatagagtttggatgtcatagaaataaatcaaaacttcattctgaagcaaggtttagaattagatgtagatggaatgtaggggataatacttcactcattgatacatgtggaggaactcaaaatatttcaggtgcaaatcctgtagattgtaccatgtatgcaaataaaatgtataactgttccttacaaaatgggtttactatgaaggtagatgaccttattatgcatttcaatatgacaaaagctgtagaaatgtataacattgctggaaattggtcttgtacatctgacttgccaccaacatggggatatatgaattgtaattgtacannnnnnnnnnnnnnnnnnnnnnnnnnnaaaatggcatgtcctagaaaccaaggcatcttaagaaattggtataacccagtagcaggattacgacaatccttagaaaaatatcaagttgtaaaacaaccagattacttagtggtcccaggggaggtcatggaatataaacctagaaggaaaagggcagctattcatgttatgttagctcttgcaa</GBSeq_sequence>
+  </GBSeq>

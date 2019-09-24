@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AX709105</GBSeq_locus>
+    <GBSeq_length>561</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>04-APR-2003</GBSeq_update-date>
+    <GBSeq_create-date>04-APR-2003</GBSeq_create-date>
+    <GBSeq_definition>Sequence 16 from Patent WO02072851</GBSeq_definition>
+    <GBSeq_primary-accession>AX709105</GBSeq_primary-accession>
+    <GBSeq_accession-version>AX709105.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|AX709105.1|</GBSeqid>
+      <GBSeqid>pat|WO|02072851|16</GBSeqid>
+      <GBSeqid>gi|29564768</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Bovine immunodeficiency virus (BIV)</GBSeq_source>
+    <GBSeq_organism>Bovine immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Bovine lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..561</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Luo,T.</GBAuthor>
+          <GBAuthor>Plavec,I.</GBAuthor>
+          <GBAuthor>Kaleko,M.</GBAuthor>
+          <GBAuthor>Douglas,J.L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Lentiviral packaging constructs</GBReference_title>
+        <GBReference_journal>WO02072851-A2 16 19-SEP-2002 Novartis AG (CH); Novartis-Erfindungen Verwaltungsgesellschaft m.b.H. (AT)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..561</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>561</GBInterval_to>
+            <GBInterval_accession>AX709105.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bovine immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11657</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1..561</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>561</GBInterval_to>
+            <GBInterval_accession>AX709105.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Sequence of Rev gene</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggatcaggacctagaccgcgcggaacgcggggaaaggggaggaggatccgaagaactgcttcaggaggagatcaacgaagggaggctgacagccagagaagctttacaaacatggatcaataacgattctcctaggtatgttaagaagctgcgccaaggtcagccagaattaccaacatctcccggcggaggaggaggacggggacacagagccagaaagctccccggcgagaggagacccggcttctggaagtctctacgagaattggttgaacaaaataggagaaagcaagaacgacgcctatcgggtctggacagaagaatacaacagcttgaggatcttgttcgccacatgtcgctgggatctcctgacccctcaactccttcagcttccgttctttctgttaaccctcctgctcaaactcctttgggacatcttccgccacgctcctattttaaacttaaaagggtggactgtggggcagggtgggacctcaggacaacagcagcccccggacttcccatatgtgaattggactggatccagggaacaaaataa</GBSeq_sequence>
+  </GBSeq>

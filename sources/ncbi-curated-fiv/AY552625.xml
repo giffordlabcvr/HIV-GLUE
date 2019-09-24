@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY552625</GBSeq_locus>
+    <GBSeq_length>646</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>23-MAR-2004</GBSeq_create-date>
+    <GBSeq_definition>Feline immunodeficiency virus isolate Ple-336 subtype B polyprotein-like (pol) gene, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>AY552625</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY552625.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY552625.1|</GBSeqid>
+      <GBSeqid>gi|45549778</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Feline immunodeficiency virus</GBSeq_source>
+    <GBSeq_organism>Feline immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Feline lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..646</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Troyer,J.L.</GBAuthor>
+          <GBAuthor>Pecon-Slattery,J.</GBAuthor>
+          <GBAuthor>Roelke,M.E.</GBAuthor>
+          <GBAuthor>Black,L.</GBAuthor>
+          <GBAuthor>Packer,C.</GBAuthor>
+          <GBAuthor>O'Brien,S.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Patterns of feline immunodeficiency virus multiple infection and genome divergence in a free-ranging population of African lions</GBReference_title>
+        <GBReference_journal>J. Virol. 78 (7), 3777-3791 (2004)</GBReference_journal>
+        <GBReference_pubmed>15016897</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..646</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Antunes,A.</GBAuthor>
+          <GBAuthor>Troyer,J.L.</GBAuthor>
+          <GBAuthor>Roelke,M.E.</GBAuthor>
+          <GBAuthor>Pecon-Slattery,J.</GBAuthor>
+          <GBAuthor>Packer,C.</GBAuthor>
+          <GBAuthor>Winterbach,C.</GBAuthor>
+          <GBAuthor>Winterbach,H.</GBAuthor>
+          <GBAuthor>Hemson,G.</GBAuthor>
+          <GBAuthor>Frank,L.</GBAuthor>
+          <GBAuthor>Stander,P.</GBAuthor>
+          <GBAuthor>Siefert,L.</GBAuthor>
+          <GBAuthor>Driciru,M.</GBAuthor>
+          <GBAuthor>Funston,P.J.</GBAuthor>
+          <GBAuthor>Alexander,K.A.</GBAuthor>
+          <GBAuthor>Prager,K.C.</GBAuthor>
+          <GBAuthor>Mills,G.</GBAuthor>
+          <GBAuthor>Wildt,D.</GBAuthor>
+          <GBAuthor>Bush,M.</GBAuthor>
+          <GBAuthor>O'Brien,S.J.</GBAuthor>
+          <GBAuthor>Johnson,W.E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>The evolutionary dynamics of the lion Panthera leo revealed by host and viral population genomics</GBReference_title>
+        <GBReference_journal>PLoS Genet. 4 (11), E1000251 (2008)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1371/journal.pgen.1000251</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>18989457</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..646</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Troyer,J.L.</GBAuthor>
+          <GBAuthor>Pecon-Slattery,J.</GBAuthor>
+          <GBAuthor>Roelke,M.E.</GBAuthor>
+          <GBAuthor>Black,L.</GBAuthor>
+          <GBAuthor>Packer,C.</GBAuthor>
+          <GBAuthor>O'Brien,S.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (19-FEB-2004) Laboratory of Genomic Diversity, National Cancer Institute, NCI-Frederick, Building 560, room 11-10a, Frederick, MD 21702, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..646</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>646</GBInterval_to>
+            <GBInterval_accession>AY552625.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Feline immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>FIV-Ple</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Ple-336</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>lion</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11673</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype: B</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;646</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>646</GBInterval_to>
+            <GBInterval_accession>AY552625.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>pol</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;646</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>646</GBInterval_to>
+            <GBInterval_accession>AY552625.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>pol</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>similar to polyprotein</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ccaggagaggtacggattataccaacaggagttaaattaatgttgccaaaaggtcattgggggttggtaataggaaaatcttctataggaagacagggattagatgtattgggaggtgtaatagatgaaggatatagaggagaaataggagttataatgatgaatctaaatagaaaaagtataactttaaaagaaaagcacaagatagcacaactaattataataccatgtaaacatgaatctttagagcaaggagaaataaaattagattcagcaagaggagaaggaggtatggttcaacaggtgcatttgcctcatggatagataaaatagaagaggcagaaataaatcatgagagattccattcagatcctgaatatctgagaacagaatttggacttcctaagcaagtggcagaagaaataaaaagaaaatgtccattatgcattgtacagggtgaacaacctatgggaaaactgagaattggaccaggaatatggcagatagattgtactcatttagatggaaaaataatattagtagcagtaaatacagaatcaggatatatttgggctagaataatattacaagaaacagcagaaaacactgtaagaatactattacaattaatttcagaacatcatgt</GBSeq_sequence>
+  </GBSeq>

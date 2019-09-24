@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>GQ338291</GBSeq_locus>
+    <GBSeq_length>1170</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>24-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>05-AUG-2009</GBSeq_create-date>
+    <GBSeq_definition>Equine infectious anemia virus isolation-source Horse A2239 envelope protein gp90 (SU) mRNA, SU-V55.1 allele, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>GQ338291</GBSeq_primary-accession>
+    <GBSeq_accession-version>GQ338291.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|GQ338291.1|</GBSeqid>
+      <GBSeqid>gi|254971445</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Equine infectious anemia virus</GBSeq_source>
+    <GBSeq_organism>Equine infectious anemia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Equine lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1170</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Taylor,S.D.</GBAuthor>
+          <GBAuthor>Leib,S.R.</GBAuthor>
+          <GBAuthor>Carpenter,S.</GBAuthor>
+          <GBAuthor>Mealey,R.H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Selection of a rare neutralization-resistant variant following passive transfer of convalescent immune plasma in equine infectious anemia virus-challenged SCID horses</GBReference_title>
+        <GBReference_journal>J. Virol. 84 (13), 6536-6548 (2010)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1128/JVI.00218-10</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>20392850</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1170</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Taylor,S.D.</GBAuthor>
+          <GBAuthor>Leib,S.R.</GBAuthor>
+          <GBAuthor>Carpenter,S.</GBAuthor>
+          <GBAuthor>Mealey,R.H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Variable effects of broadly neutralizing immune plasma in lentivirus-challenged large animals with severe combined immunodeficiency: complete protection to selection of a common escape variant</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..1170</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Taylor,S.D.</GBAuthor>
+          <GBAuthor>Leib,S.R.</GBAuthor>
+          <GBAuthor>Carpenter,S.</GBAuthor>
+          <GBAuthor>Mealey,R.H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (30-JUN-2009) Veterinary Microbiology and Pathology, Washington State University, PO Box 647040, Pullman, WA 99164-7040, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1170</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1170</GBInterval_to>
+            <GBInterval_accession>GQ338291.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Equine infectious anemia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>WSU5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>Horse A2239</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Equus caballus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11665</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Mar-2009</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1170</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1170</GBInterval_to>
+            <GBInterval_accession>GQ338291.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>SU</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>allele</GBQualifier_name>
+            <GBQualifier_value>SU-V55.1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1170</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1170</GBInterval_to>
+            <GBInterval_accession>GQ338291.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>SU</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>allele</GBQualifier_name>
+            <GBQualifier_value>SU-V55.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope protein gp90</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ACT98127.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>SKYGENTIFQPYCYNNDSKNSMAESKEARDQEMNLKEESKEEKRRNDWWKIGMFLLCLAGTTGGILWWYEGLPQQHYIGLVAIGGRLNGSGQSNAIECWGSFPGCRPFQNYFSYETSRSMHMDNNTVTLLEAYHREITFIYKSSCTDSDHCQEYLCKGLDLNSSNSYWGFEWLECNQTENLKTIVVPENEMVKINDNGTWIPKGCNETWARVKHCPIDILYGIHPIRLCVQPPFFLVQEKGIANTSRIGNCGPTIFLGVLEDNKGVVRGNETVCEMGRLDIYRPDYTGIYQVPILYRCNFTNITSCNKEPIISVIMYETNQVQYLLCKNNNSNSGDYKCVVQSFGVIGQAHLELPRPNKRIRNQNFNQYNCSINNKTELETWKLVKTSGI</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tccaagtatggggaaaacacaatatttcaaccttattgttataataatgacagtaagaacagcatggcagaatcgaaggaagcaagagaccaagagatgaacctgaaagaagaatctaaagaagaaaaaagaagaaatgactggtggaaaataggtatgtttctgctatgcttagcaggaactactggaggaatactttggtggtatgaaggactcccacagcaacattatatagggttggtagcgatagggggaagattaaacggatctggccaatcaaatgctatagaatgctggggttccttcccggggtgtagaccatttcaaaattacttcagttatgagaccagtagaagcatgcatatggataataatacggttacattattagaagcttatcatagagagataacattcatttataagtcttcttgcacagatagtgatcattgtcaagagtatctatgtaaaggacttgatcttaattcctctaactcttattggggatttgaatggctagaatgtaatcaaacagaaaatcttaagactatagtagtacctgaaaatgaaatggtaaaaatcaatgataatgggacctggatacctaaggggtgtaatgagacgtgggcaagagtaaaacattgtcctatagatattttatatgggatacatccaatcaggctgtgtgtacagccaccattttttctggtacaggagaaagggattgctaatacttctagaattggcaattgtgggccaacaatatttcttggggttttagaagataataagggagtagtacgggggaatgagacagtttgcgagatgggtcgcctagatatatatagaccggattatacagggatctatcaagtacctatattgtatagatgtaatttcactaacataacttcctgcaataaggagccaataatcagtgttatcatgtatgaaacaaaccaggtacagtatttattgtgtaaaaataataatagtaatagtggtgattataaatgtgtagtacaaagttttggagttataggacaggcacacttagaactgcctagacctaacaaaagaataaggaatcaaaactttaaccaatataactgctctataaataacaaaacagaattagaaacatggaagttagtaaagacttctggcata</GBSeq_sequence>
+  </GBSeq>

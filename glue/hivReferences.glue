@@ -1,14 +1,27 @@
   ## HIV-1M reference sequence declarations
 
+  # Subtype A references  
+  create reference REF_A_AF177366      ncbi-refseqs AF177366
+
+  # Subtype A1 references  
+  create reference REF_A1_AF484509      ncbi-refseqs AF484509
+  create reference REF_A1_U51190        ncbi-refseqs U51190
+  create reference REF_A1_AF004885      ncbi-refseqs AF004885
+  create reference REF_A1_AF069670      ncbi-refseqs AF069670
+  
+  # Subtype A2 references  
+  create reference REF_A2_AF286238      ncbi-refseqs AF286238
+  create reference REF_A2_AF286237      ncbi-refseqs AF286237
+
   # Subtype B references  
   create reference REF_MASTER_NC_001802 ncbi-refseqs NC_001802
   create reference REF_B_NC_001802      ncbi-refseqs NC_001802
   create reference REF_B_KM390026       ncbi-refseqs KM390026
   create reference REF_B_U26942         ncbi-refseqs U26942
-  create reference REF_B_M19921         ncbi-refseqs M19921
-  create reference REF_B_AY173951       ncbi-refseqs AY173951
-  create reference REF_B_AY423387       ncbi-refseqs AY423387
-  create reference REF_B_AY331295       ncbi-refseqs AY331295
+  #create reference REF_B_M19921         ncbi-refseqs M19921
+  #create reference REF_B_AY173951       ncbi-refseqs AY173951
+  #create reference REF_B_AY423387       ncbi-refseqs AY423387
+  #create reference REF_B_AY331295       ncbi-refseqs AY331295
 
   # Subtype D references    
   create reference REF_D_K03454         ncbi-refseqs K03454
@@ -21,22 +34,12 @@
   create reference REF_C_AY772699       ncbi-refseqs AY772699
   create reference REF_C_AF067155       ncbi-refseqs AF067155
   create reference REF_C_U52953         ncbi-refseqs U52953   
-  create reference REF_CRF08_AY008715   ncbi-refseqs AY008715 # CRF_08 BC 
-
-  # Subtype A1 references  
-  create reference REF_A1_AF484509      ncbi-refseqs AF484509
-  create reference REF_A1_U51190        ncbi-refseqs U51190
-  create reference REF_A1_AF004885      ncbi-refseqs AF004885
-  create reference REF_A1_AF069670      ncbi-refseqs AF069670
-  
-  # Subtype A2 references  
-  create reference REF_A2_AF286238      ncbi-refseqs AF286238
-  create reference REF_A2_AF286237      ncbi-refseqs AF286237
+  #create reference REF_CRF08_AY008715   ncbi-refseqs AY008715 # CRF_08 BC 
 
   # Subtype F references  
   create reference REF_F_AF077336       ncbi-refseqs AF077336
   create reference REF_F_AF075703       ncbi-refseqs AF075703  
-  create reference REF_F_AF385936       ncbi-refseqs AF385936  # CRF_12 BF
+  #create reference REF_F_AF385936       ncbi-refseqs AF385936  # CRF_12 BF
   create reference REF_F_AF005494       ncbi-refseqs AF005494
   create reference REF_F_AJ249238       ncbi-refseqs AJ249238
   create reference REF_F_AJ249236       ncbi-refseqs AJ249236
@@ -109,7 +112,6 @@
   create reference SIVsyk               ncbi-refseqs AY523867
   create reference SIVtal               ncbi-refseqs AY655744
   create reference SIVwrc               ncbi-refseqs AM713177
-
   
   ## Non-primate lentivirus reference sequence declarations
   create reference REF_BIV              ncbi-refseqs M32690

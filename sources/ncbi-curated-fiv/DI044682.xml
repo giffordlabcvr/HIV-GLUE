@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>DI044682</GBSeq_locus>
+    <GBSeq_length>21</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>21-FEB-2008</GBSeq_update-date>
+    <GBSeq_create-date>21-FEB-2008</GBSeq_create-date>
+    <GBSeq_definition>Multi-Subtype FIV Vaccines</GBSeq_definition>
+    <GBSeq_primary-accession>DI044682</GBSeq_primary-accession>
+    <GBSeq_accession-version>DI044682.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|DI044682.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020047003434|7</GBSeqid>
+      <GBSeqid>gi|168292394</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020047003434-A/7</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Feline immunodeficiency virus</GBSeq_source>
+    <GBSeq_organism>Feline immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Feline lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..21</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Yamanoto,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Multi-Subtype FIV Vaccines</GBReference_title>
+        <GBReference_journal>KR1020047003434-A 7 08-MAR-2004</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>PN KR 1020047003434-A/7~PD 2004-03-08~PA YAMANOTO,J.~PR US08/519,386 (1995-08-25)~TY DNA~OS Feline immunodeficiency virus~CO.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..21</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>21</GBInterval_to>
+            <GBInterval_accession>DI044682.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Feline immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11673</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gtacaaatagtagtagtacaa</GBSeq_sequence>
+  </GBSeq>

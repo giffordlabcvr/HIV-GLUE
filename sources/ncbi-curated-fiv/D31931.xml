@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>FIVLTR3</GBSeq_locus>
+    <GBSeq_length>361</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>07-FEB-1999</GBSeq_update-date>
+    <GBSeq_create-date>25-OCT-1995</GBSeq_create-date>
+    <GBSeq_definition>Feline immunodeficiency virus genomic RNA, LTR sequence</GBSeq_definition>
+    <GBSeq_primary-accession>D31931</GBSeq_primary-accession>
+    <GBSeq_accession-version>D31931.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|D31931.1|FIVLTR3</GBSeqid>
+      <GBSeqid>gi|1772469</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>long terminal repeat</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Feline immunodeficiency virus</GBSeq_source>
+    <GBSeq_organism>Feline immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Feline lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..361</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Yamada,H.</GBAuthor>
+          <GBAuthor>Miyazawa,T.</GBAuthor>
+          <GBAuthor>Tomonaga,K.</GBAuthor>
+          <GBAuthor>Kawaguchi,Y.</GBAuthor>
+          <GBAuthor>Maeda,K.</GBAuthor>
+          <GBAuthor>Castellano,M.C.</GBAuthor>
+          <GBAuthor>Kai,C.</GBAuthor>
+          <GBAuthor>Tohya,Y.</GBAuthor>
+          <GBAuthor>Mikami,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Phylogenetic analysis of the long terminal repeat of feline immunodeficiency viruses from Japan, Argentina and Australia</GBReference_title>
+        <GBReference_journal>Arch. Virol. 140 (1), 41-52 (1995)</GBReference_journal>
+        <GBReference_pubmed>7646348</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..361</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Yamada,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (25-JUN-1994) Hiroshi Yamada, Faculty of Agriculture, The University of Tokyo, Department of Microbiology; 1-1-1 Yayoi, Bunkyo-ku, Tokyo 113, Japan (Tel:03-3812-2111(ex.5396), Fax:03-5689-7346)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On Jan 10, 1997 this sequence version replaced gi:1041022.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..361</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>361</GBInterval_to>
+            <GBInterval_accession>D31931.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Feline immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>KYO-1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11673</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>1..361</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>361</GBInterval_to>
+            <GBInterval_accession>D31931.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgggaagattattgggatcctgaagaaatagagaaaatgctgatggactgaggccgtacataaacaagtgacagatggaaaacagctgaatatgagtcagagttaaatgctagcagctgcttaaccgcaaaaccacatcctatgtaaagcttgccgatgacgtatatcttgctccattgtaagagtatataaccagtgtgttttaaagcttcgaggagtctctctgttgagggctttcgagttctcccttgaggctcccacagatacaattaaaaattgagctttgagattgaaccctgtcgtgtatctgtgtaatctttcttacctgcgaatccctggagtccgggccagggacttcgca</GBSeq_sequence>
+  </GBSeq>

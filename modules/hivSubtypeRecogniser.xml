@@ -1,5 +1,6 @@
 <blastSequenceRecogniser>
 	<blastRunner/>
+	<referenceSequence>REF_A_AF177366</referenceSequence>
 	<referenceSequence>REF_A1_AF484509</referenceSequence>
 	<referenceSequence>REF_A2_AF286238</referenceSequence>
 	<referenceSequence>REF_B_NC_001802</referenceSequence>
@@ -10,6 +11,13 @@
 	<referenceSequence>REF_H_AF005496</referenceSequence>
 	<referenceSequence>REF_J_AF082394</referenceSequence>
 	<referenceSequence>REF_K_AJ249235</referenceSequence>
+	<recognitionCategory>
+		<id>A</id>
+		<minimumIdentityPct>80</minimumIdentityPct>
+	  	<minimumBitScore>500</minimumBitScore>
+	  	<minimumTotalAlignLength>300</minimumTotalAlignLength>
+	  	<referenceSequence>REF_A_AF177366</referenceSequence>
+	</recognitionCategory>
 	<recognitionCategory>
 		<id>A1</id>
 		<minimumIdentityPct>80</minimumIdentityPct>

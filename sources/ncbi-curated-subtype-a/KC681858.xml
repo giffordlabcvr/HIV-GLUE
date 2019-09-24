@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KC681858</GBSeq_locus>
+    <GBSeq_length>279</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>14-JUN-2016</GBSeq_update-date>
+    <GBSeq_create-date>14-MAR-2014</GBSeq_create-date>
+    <GBSeq_definition>HIV-1 clone A2-2 from Russia reverse transcriptase (pol) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KC681858</GBSeq_primary-accession>
+    <GBSeq_accession-version>KC681858.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KC681858.1|</GBSeqid>
+      <GBSeqid>gi|537480686</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human immunodeficiency virus 1 (HIV-1)</GBSeq_source>
+    <GBSeq_organism>Human immunodeficiency virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Primate lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..279</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Tchurikov,N.A.</GBAuthor>
+          <GBAuthor>Fedoseeva,D.M.</GBAuthor>
+          <GBAuthor>Gashnikova,N.M.</GBAuthor>
+          <GBAuthor>Sosin,D.V.</GBAuthor>
+          <GBAuthor>Gorbacheva,M.A.</GBAuthor>
+          <GBAuthor>Alembekov,I.R.</GBAuthor>
+          <GBAuthor>Chechetkin,V.R.</GBAuthor>
+          <GBAuthor>Kravatsky,Y.V.</GBAuthor>
+          <GBAuthor>Kretova,O.V.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Conserved sequences in the current strains of HIV-1 subtype A in Russia are effectively targeted by artificial RNAi in vitro</GBReference_title>
+        <GBReference_journal>Gene 583 (1), 78-83 (2016)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.gene.2016.03.001</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>26947394</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..279</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Tchurikov,N.A.</GBAuthor>
+          <GBAuthor>Fedoseeva,D.M.</GBAuthor>
+          <GBAuthor>Kretova,O.V.</GBAuthor>
+          <GBAuthor>Gashnikova,N.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Analysis of pol region in HIV-1 isolates subtype A in Russia selected as containing perspective target for artificial RNAi. Each sequence represents a single clone taken from a pooled sample of several isolates of the same subtype</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..279</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Tchurikov,N.A.</GBAuthor>
+          <GBAuthor>Fedoseeva,D.M.</GBAuthor>
+          <GBAuthor>Kretova,O.V.</GBAuthor>
+          <GBAuthor>Gashnikova,N.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (21-FEB-2013) Genome Organization, Engelhardt Institute of Molecular Biology Russian Scademy of Sciences, Vavilov str. 32, Moscow 117334, Russia</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..279</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>279</GBInterval_to>
+            <GBInterval_accession>KC681858.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human immunodeficiency virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>pool of isolates 10RU6587 (01-Sep-2010), 11RU6933 (25-Aug-2011), 11RU6949 (25-Aug-2011), 10RU6483 (09-Aug-2010) and 11RU1996 (21-Jul-2005)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11676</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>A2-2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Russia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collected_by</GBQualifier_name>
+            <GBQualifier_value>N.M. Gashnikova</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;279</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>279</GBInterval_to>
+            <GBInterval_accession>KC681858.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>pol</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;279</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>279</GBInterval_to>
+            <GBInterval_accession>KC681858.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>pol</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>pol protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>reverse transcriptase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AGU71443.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>TKILEPFRAKNPDIVICQYMDDLYVGSDLEIGQYRTKIEELRAHLLSWGFTTPDKKHQKEPPFLWMGYELHPDKWTAQPIVLPDKESWTVND</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gacaaagatcttagagccctttagagcaaaaaatccagacatagttatctgtcaatacatggatgacttgtatgtaggctctgatttagaaatagggcaatatagaacaaaaatagaggagttaagagcccatttgttgagctggggatttactacaccagacaaaaagcatcagaaagaacctccatttctttggatgggatatgaactccatcctgacaaatggacagcccagcctatagtgttaccagataaggaaagctggactgtcaatgatat</GBSeq_sequence>
+  </GBSeq>

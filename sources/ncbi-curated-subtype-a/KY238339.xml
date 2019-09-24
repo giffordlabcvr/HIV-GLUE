@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KY238339</GBSeq_locus>
+    <GBSeq_length>131</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>14-DEC-2016</GBSeq_update-date>
+    <GBSeq_create-date>14-DEC-2016</GBSeq_create-date>
+    <GBSeq_definition>HIV-1 isolate PRM_045_or_047_V3-def from Russia nonfunctional envelope glycoprotein (env) gene, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>KY238339</GBSeq_primary-accession>
+    <GBSeq_accession-version>KY238339.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KY238339.1|</GBSeqid>
+      <GBSeqid>gi|1112940591</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human immunodeficiency virus 1 (HIV-1)</GBSeq_source>
+    <GBSeq_organism>Human immunodeficiency virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Primate lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..131</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Moskaleychik,F.F.</GBAuthor>
+          <GBAuthor>Laga,V.Y.</GBAuthor>
+          <GBAuthor>Delgado,E.</GBAuthor>
+          <GBAuthor>Vega,Y.</GBAuthor>
+          <GBAuthor>Fernandez-Garcia,A.</GBAuthor>
+          <GBAuthor>Perez-Alvarez</GBAuthor>
+          <GBAuthor>Kornilaeva,G.V.</GBAuthor>
+          <GBAuthor>Pronin,A.Y.</GBAuthor>
+          <GBAuthor>Zhernov,Y.V.</GBAuthor>
+          <GBAuthor>Thomson,M.M.</GBAuthor>
+          <GBAuthor>Bobkova,M.R.</GBAuthor>
+          <GBAuthor>Karamov,E.V.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>[Rapid spread of the HIV-1 circular recombinant CRF02-AG in Russia and neighboring countries]</GBReference_title>
+        <GBReference_journal>Vopr. Virusol. 60 (6), 14-19 (2015)</GBReference_journal>
+        <GBReference_pubmed>27024911</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..131</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Moskaleychik,F.F.</GBAuthor>
+          <GBAuthor>Laga,V.Y.</GBAuthor>
+          <GBAuthor>Delgado,E.</GBAuthor>
+          <GBAuthor>Vega,Y.</GBAuthor>
+          <GBAuthor>Fernandez-Garcia,A.</GBAuthor>
+          <GBAuthor>Perez-Alvarez,L.</GBAuthor>
+          <GBAuthor>Kornilaeva,G.</GBAuthor>
+          <GBAuthor>Pronin,A.</GBAuthor>
+          <GBAuthor>Zhernov,Y.</GBAuthor>
+          <GBAuthor>Thomson,M.</GBAuthor>
+          <GBAuthor>Bobkova,M.</GBAuthor>
+          <GBAuthor>Karamov,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-NOV-2016) Ministry of Health and Social Development, N. F. Gamaleya Federal Research Center for Epidemiology &amp; Microbiology, Gamaleya, Moscow 123098, Russian Federation</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>Annotation information was provided by the author. Some of the information does not have GenBank feature identifiers and is being provided in the comment section. Information in this section is searchable in HIV Database at Los Alamos (hiv.lanl.gov).; ; ##HIVDataBaseData-START## ; Infection city :: Perm ; Infection country :: Russia ; Patient code :: PRM045or047 ; Patient comment :: may be patient PRM045 or PRM047 ; Sample city :: Perm ; Sample tissue :: plasma ; ##HIVDataBaseData-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..131</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>131</GBInterval_to>
+            <GBInterval_accession>KY238339.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human immunodeficiency virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>PRM_045_or_047_V3-def</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11676</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Russia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Sep-2011</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Minor defective component of amplificate differing from prevailing PRM_045_or_047_V3 by deletion of 447 nucleotides after position 107;
+subtype: A1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;131</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>131</GBInterval_to>
+            <GBInterval_accession>KY238339.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;131</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>131</GBInterval_to>
+            <GBInterval_accession>KY238339.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>nonfunctional envelope glycoprotein due to mutation</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gattagatctgagaatatcacagacaatagcaaaactataatagtacagcttaaggatcctgtaaacatcacttgtatcagacctggcaacaatacaagaacaagtaccttcagacctataggaggagata</GBSeq_sequence>
+  </GBSeq>

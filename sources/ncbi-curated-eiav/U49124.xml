@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EIU49124</GBSeq_locus>
+    <GBSeq_length>323</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>01-JAN-1900</GBSeq_update-date>
+    <GBSeq_create-date>08-MAR-1996</GBSeq_create-date>
+    <GBSeq_definition>Equine infectious anemia virus long terminal repeat, clone 3</GBSeq_definition>
+    <GBSeq_primary-accession>U49124</GBSeq_primary-accession>
+    <GBSeq_accession-version>U49124.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|U49124.1|EIU49124</GBSeqid>
+      <GBSeqid>gi|1218055</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Equine infectious anemia virus</GBSeq_source>
+    <GBSeq_organism>Equine infectious anemia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Equine lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..323</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Madden,C.R.</GBAuthor>
+          <GBAuthor>Shih,D.S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Analysis of the long terminal repeat from a cytopathic strain of Equine infectious anemia virus</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..323</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Madden,C.R.</GBAuthor>
+          <GBAuthor>Shih,D.S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (13-FEB-1996) Charles R. Madden, Biochemistry, Louisiana State University, 322 Choppin Hall, Baton Rouge, LA 70803, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..323</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>323</GBInterval_to>
+            <GBInterval_accession>U49124.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Equine infectious anemia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11665</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>fetal donkey dermal (FDD) cell culture adapted virus</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>1..323</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>323</GBInterval_to>
+            <GBInterval_accession>U49124.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgtggggtttttatgaggggttttataaatgattataagagtaaaaggaaagttgctgatgctctcataaccttgcataacccaaaggactagctcatgttgctaggcaactaaaccgcaataaccgcatttgtgacgcgagttccacatttgtgacgcatttaacttcctgtttttacagtatataagtgcttgtattctgacaatcgggcactcagattctgcggtctgagtcccttctctgctgggctgaaaaggcctttgtaataaatataattctctactcagtccctgtctctagtttgtctgttcgagatcctaca</GBSeq_sequence>
+  </GBSeq>

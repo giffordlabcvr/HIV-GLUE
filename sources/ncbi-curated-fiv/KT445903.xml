@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KT445903</GBSeq_locus>
+    <GBSeq_length>452</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>09-DEC-2015</GBSeq_update-date>
+    <GBSeq_create-date>09-DEC-2015</GBSeq_create-date>
+    <GBSeq_definition>Feline immunodeficiency virus isolate Pco-12 pol protein (pol) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KT445903</GBSeq_primary-accession>
+    <GBSeq_accession-version>KT445903.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KT445903.1|</GBSeqid>
+      <GBSeqid>gi|959241987</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Feline immunodeficiency virus</GBSeq_source>
+    <GBSeq_organism>Feline immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Feline lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..452</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Furtado,M.M.</GBAuthor>
+          <GBAuthor>Barros,I.</GBAuthor>
+          <GBAuthor>Brandao,P.</GBAuthor>
+          <GBAuthor>Catao-Diaz,J.</GBAuthor>
+          <GBAuthor>Cavalcanti,S.</GBAuthor>
+          <GBAuthor>Cullen,L.</GBAuthor>
+          <GBAuthor>Filoni,C.</GBAuthor>
+          <GBAuthor>Jacomo,A.</GBAuthor>
+          <GBAuthor>Jorge,R.</GBAuthor>
+          <GBAuthor>Silva,N.</GBAuthor>
+          <GBAuthor>Silveira,L.</GBAuthor>
+          <GBAuthor>Taniwaki,S.</GBAuthor>
+          <GBAuthor>Ferreira Neto,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Feline Immunodeficiency Virus, Feline Parvovirus and Feline Herpesvirus-1 detected in free ranging and captive neotropical felids from Brazil</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..452</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Furtado,M.M.</GBAuthor>
+          <GBAuthor>Barros,I.</GBAuthor>
+          <GBAuthor>Brandao,P.</GBAuthor>
+          <GBAuthor>Catao-Diaz,J.</GBAuthor>
+          <GBAuthor>Cavalcanti,S.</GBAuthor>
+          <GBAuthor>Cullen,L.</GBAuthor>
+          <GBAuthor>Filoni,C.</GBAuthor>
+          <GBAuthor>Jacomo,A.</GBAuthor>
+          <GBAuthor>Jorge,R.</GBAuthor>
+          <GBAuthor>Silva,N.</GBAuthor>
+          <GBAuthor>Silveira,L.</GBAuthor>
+          <GBAuthor>Taniwaki,S.</GBAuthor>
+          <GBAuthor>Ferreira Neto,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (18-AUG-2015) Preventive Veterinary Medicine and Animal Health, Faculty of Veterinary Medicine and Animal Science, University of Sao Paulo, Av. Prof. Dr. Orlando Marques de Paiva, 87, Sao Paulo, SP 05508-270, Brazil</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..452</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>452</GBInterval_to>
+            <GBInterval_accession>KT445903.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Feline immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Pco-12</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>PBMCs of infected animals</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Puma concolor</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11673</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Brazil: Emas National Park, Goias</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;452</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>452</GBInterval_to>
+            <GBInterval_accession>KT445903.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>pol</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;452</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>452</GBInterval_to>
+            <GBInterval_accession>KT445903.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>pol</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>pol protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ALR35029.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>KKSGKWRMLIDFRELNAKTEKGAEVQLGLPHPAGLQKRKIVTVLDIADAYFTIPLDPDYQPYTAFTLPSVNNNRPGRRYVWKSLPQGWVLSPLIYQSTLDKILEPFRKKYNNEIDLYQYMDDIYIGSDKSIGQHRKIVQELRELLIWWGF</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aagaaatcaggaaaatggagaatgttaattgatttcagagaattaaatgcaaaaacagaaaagggagctgaggttcaattaggattaccacaccctgctggtttacagaaaagaaaaattgtcacagttttagatatagcagatgcttattttacaatccctttggacccagattaccaaccttacacagcttttactcttccatctgtaaataataatagaccaggaaggagatatgtgtggaagagtttgccacaaggatgggtgttgagtcctttaatttatcaaagtacgttagacaaaattttggagccatttagaaagaaatacaataatgaaatagacttatatcaatatatggatgacatttacataggatcagataaatctattgggcaacatagaaaaatagtacaagaattaagagaattacttatttggtggggatttga</GBSeq_sequence>
+  </GBSeq>

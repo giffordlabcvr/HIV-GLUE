@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>A40120</GBSeq_locus>
+    <GBSeq_length>255</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>05-MAR-1997</GBSeq_update-date>
+    <GBSeq_create-date>05-MAR-1997</GBSeq_create-date>
+    <GBSeq_definition>Sequence 3 from Patent WO9420622</GBSeq_definition>
+    <GBSeq_primary-accession>A40120</GBSeq_primary-accession>
+    <GBSeq_accession-version>A40120.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|A40120.1|</GBSeqid>
+      <GBSeqid>pat|WO|9420622|3</GBSeqid>
+      <GBSeqid>gi|2296282</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Feline immunodeficiency virus</GBSeq_source>
+    <GBSeq_organism>Feline immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Feline lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..255</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Keldermans,C.E.</GBAuthor>
+          <GBAuthor>Horzinek,M.C.</GBAuthor>
+          <GBAuthor>De,R.A.</GBAuthor>
+          <GBAuthor>Egberink,H.F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>POLYPEPTIDE FRAGMENT CAPABLE OF INDUCING NEUTRALISING ANTIBODIES AGAINST FELINE IMMUNO-DEFICIENCY VIRUS</GBReference_title>
+        <GBReference_journal>WO9420622-A1 3 15-SEP-1994 AKZO NOBEL NV (NL)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..255</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>255</GBInterval_to>
+            <GBInterval_accession>A40120.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Feline immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>FIV-113</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11673</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gcttattataacaattgtaaatgggagcggactgatgtaaagtttcagtgtcaaagaacacagagtcagcctgggtcatggattagggcaatctcgtcgtggaagcaagggaatagatgggaatggagaccagattttgaaagtgaaagggtgaaagtatcgctacaatgtaatagcacaagaaatctaacctttgcaatgagaagttcaggagattatggcgaaataacgggagcttggatagagtttggatgt</GBSeq_sequence>
+  </GBSeq>

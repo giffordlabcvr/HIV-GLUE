@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF548462</GBSeq_locus>
+    <GBSeq_length>305</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>12-JAN-2004</GBSeq_create-date>
+    <GBSeq_definition>Bovine immunodeficiency virus strain 4.5 from Australia pol polyprotein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AF548462</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF548462.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF548462.1|</GBSeqid>
+      <GBSeqid>gi|33334546</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Bovine immunodeficiency virus (BIV)</GBSeq_source>
+    <GBSeq_organism>Bovine immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Bovine lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..305</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lew,A.E.</GBAuthor>
+          <GBAuthor>Bock,R.E.</GBAuthor>
+          <GBAuthor>Miles,J.</GBAuthor>
+          <GBAuthor>Cuttell,L.B.</GBAuthor>
+          <GBAuthor>Steer,P.</GBAuthor>
+          <GBAuthor>Nadin-Davis,S.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Sensitive and specific detection of bovine immunodeficiency virus and bovine syncytial virus by 5' Taq nuclease assays with fluorescent 3' minor groove binder-DNA probes</GBReference_title>
+        <GBReference_journal>J. Virol. Methods 116 (1), 1-9 (2004)</GBReference_journal>
+        <GBReference_pubmed>14715301</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..305</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lew,A.E.</GBAuthor>
+          <GBAuthor>Miles,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-SEP-2002) Queensland Department of Primary Industries, Agency for Food and Fibre Sciences, 665 Fairfield Rd., Yeerongpilly, Brisbane, QLD 4105, Australia</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..305</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>305</GBInterval_to>
+            <GBInterval_accession>AF548462.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bovine immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>4.5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11657</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Australia</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;305</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>305</GBInterval_to>
+            <GBInterval_accession>AF548462.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>pol polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAQ12297.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>NLCKYLGITKTTGIPYNPQSQGVVERAHRDLKDRLVAYQGDCETVEAALSLALVSLNKKEGGIGGHTPYEIYQESEHTKYQDQLEQQFSKQKIEKWCYVRN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aatctatgtaagtatctggggatcacaaaaactacgggaataccctacaacccacaatcccagggagttgttgaaagagcccacagagatctaaaagacagattggtagcttatcagggagattgtgaaaccgtagaagcagcccttagcctcgcattagtttctttaaataaaaaagaagggggaatagggggccatacaccatatgaaatataccaagaatcagaacataccaaataccaagaccaactagaacaacaattttcaaaacaaaaaattgaaaagtggtgttacgtaagaaacag</GBSeq_sequence>
+  </GBSeq>
