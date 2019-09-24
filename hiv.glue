@@ -20,7 +20,6 @@ project hiv
 
   # Import reference sequences from GenBank XML files 
   run file glue/hivImportReferenceSources.glue  
-  #run file glue/hivImportCuratedSources.glue  
  
   # Import reference sequence side-data
   module genbankXmlPopulator populate
@@ -40,13 +39,6 @@ project hiv
 
   # Import alignments
   run file glue/hivCreateReferenceAlignments.glue
-  #run file glue/hivCreateCratedAlignments.glue
-
-  # Populate fields using GenBank file data
-  module genbankXmlPopulator populate
-
-  # Populate fields using tabular file data
-  #run file glue/hivLoadCuratedTabularData.glue  
 
   validate
   
