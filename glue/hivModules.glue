@@ -13,4 +13,9 @@
   create module --fileName modules/hivMaxLikelihoodGenotyper.xml
   create module --fileName modules/hivMaxLikelihoodPlacer.xml
 
-  create module --fileName modules/hivGagPolTranslationModifier.xml  
+  create module --fileName modules/hivGagPolTranslationModifier.xml
+  
+  create module -t blastFastaAlignmentImporter
+ 
+  create module --fileName modules/hivTextFilePopulatorLanlSequences.xml
+  create module --fileName modules/hivFastaAlignmentExporter.xml

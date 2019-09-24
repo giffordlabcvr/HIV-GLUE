@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>BD107646</GBSeq_locus>
+    <GBSeq_length>300</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>18-SEP-2002</GBSeq_update-date>
+    <GBSeq_create-date>18-SEP-2002</GBSeq_create-date>
+    <GBSeq_definition>FIV vaccine</GBSeq_definition>
+    <GBSeq_primary-accession>BD107646</GBSeq_primary-accession>
+    <GBSeq_accession-version>BD107646.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|BD107646.1|</GBSeqid>
+      <GBSeqid>pat|JP|2002501369|5</GBSeqid>
+      <GBSeqid>gi|23202464</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2002501369-A/5</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Feline immunodeficiency virus</GBSeq_source>
+    <GBSeq_organism>Feline immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Feline lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..300</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Neil,J.C.</GBAuthor>
+          <GBAuthor>Rigby,M.A.</GBAuthor>
+          <GBAuthor>Jarrett,J.O.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>FIV vaccine</GBReference_title>
+        <GBReference_journal>JP2002501369-A 5 15-JAN-2002 THE UNIVERSITY COURT OF THE UNIVERSITY OF GLASGOW</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Feline immunodeficiency virus~PN JP 2002501369-A/5~PD 15-JAN-2002~PF 10-MAR-1998 JP 1998539351~PR 11-MAR-1997 GB 9704977.9~PI JAMES CHARLES NEIL,MARK ALAN RIGBY,JAMES OSWALD JARRETT PC C12N15/49,A61K31/70,A61K48/00~CC BASES 3401 TO 3700 OF FIV GENOME~CC REGION OF FIV GENOME WHICH IS DELETED~FH Key Location/Qualifiers~FT source 1..300~FT /organism='Feline immunodeficiency virus'.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..300</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>300</GBInterval_to>
+            <GBInterval_accession>BD107646.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Feline immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11673</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tagacaaaagaaaaaggcagaaaatacatgtgatatagccttaagagcatgctataagataagagaagagtctattataagaataggaaaagaaccaagatatgaaatacctacttctagagaagcctgggaatcaaatttaattaattcaccatatcttaaggccccacctcctgaggtagaatatatccatgctgctttgaatataaagagagcgttaagtatgataaaagatgctccaataccaggagcagaaacatggtatatagatggaggtagaaagctaggaaaagcagcaaa</GBSeq_sequence>
+  </GBSeq>

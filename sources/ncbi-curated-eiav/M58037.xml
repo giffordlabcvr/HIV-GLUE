@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EIALTRC</GBSeq_locus>
+    <GBSeq_length>323</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>06-MAR-1995</GBSeq_update-date>
+    <GBSeq_create-date>02-AUG-1993</GBSeq_create-date>
+    <GBSeq_definition>Equine infectious anemia virus long terminal repeat</GBSeq_definition>
+    <GBSeq_primary-accession>M58037</GBSeq_primary-accession>
+    <GBSeq_accession-version>M58037.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|M58037.1|EIALTRC</GBSeqid>
+      <GBSeqid>gi|323781</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>long terminal repeat</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Equine infectious anemia virus</GBSeq_source>
+    <GBSeq_organism>Equine infectious anemia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Equine lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..323</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Carpenter,S.</GBAuthor>
+          <GBAuthor>Alexandersen,S.</GBAuthor>
+          <GBAuthor>Long,M.J.</GBAuthor>
+          <GBAuthor>Perryman,S.</GBAuthor>
+          <GBAuthor>Chesebro,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Identification of a hypervariable region in the long terminal repeat of equine infectious anemia virus</GBReference_title>
+        <GBReference_journal>J. Virol. 65 (3), 1605-1610 (1991)</GBReference_journal>
+        <GBReference_pubmed>1847479</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>Original source text: Equine infectious anemia virus (strain Massachusetts, individual_isolate Th-1.131 RNA, clone 24.131.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..323</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>323</GBInterval_to>
+            <GBInterval_accession>M58037.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Equine infectious anemia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Massachusetts</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>TH-1.131</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11665</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>24.131</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgtggggtttttatgaggggttttataaatgattataagagtaaaaagaaagttgctgatgctctcataaccttgtataacccaaaggactagctcatgttgctaggcaactaaaccgcaatatcctgtagttcctcaatatagttccgcatttgtgacgtgttaagttcctgtttttacagtatataagtgcttgtattctgacaattgggcactcagattctgcggtctgagtcccttctctgctgggctgaaaaggcctttgtaataaatataattctctactcagtccctgtctctagtttgtctgttcgagatcctac</GBSeq_sequence>
+  </GBSeq>

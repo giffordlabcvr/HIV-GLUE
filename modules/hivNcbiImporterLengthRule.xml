@@ -1,0 +1,14 @@
+<!-- Import HIV sequences from NCBI -->
+<ncbiImporter>
+  <database>nuccore</database>
+  <sourceName>ncbi-curated</sourceName>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <!-- publication date range such as 1900/01/01:2016/12/31[PDAT] may be used to limit incoming update -->
+  <eSearchTerm>
+  	"Human immunodeficiency virus 1"[Organism] AND 
+  	5000:11000[SLEN]</eSearchTerm>
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+  <maxDownloaded>3000</maxDownloaded>
+  <eFetchBatchSize>100</eFetchBatchSize>
+  <eSearchRetMax>200000</eSearchRetMax>
+</ncbiImporter>

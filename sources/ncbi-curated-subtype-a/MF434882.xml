@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MF434882</GBSeq_locus>
+    <GBSeq_length>1047</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>03-AUG-2017</GBSeq_update-date>
+    <GBSeq_create-date>03-AUG-2017</GBSeq_create-date>
+    <GBSeq_definition>HIV-1 isolate 14061114 from Cameroon pol protein (pol) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>MF434882</GBSeq_primary-accession>
+    <GBSeq_accession-version>MF434882.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MF434882.1|</GBSeqid>
+      <GBSeqid>gi|1226628938</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human immunodeficiency virus 1 (HIV-1)</GBSeq_source>
+    <GBSeq_organism>Human immunodeficiency virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Primate lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1047</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ngo-Malabo,E.T.</GBAuthor>
+          <GBAuthor>Ngoupo,P.A.</GBAuthor>
+          <GBAuthor>Sadeuh-Mba,S.A.</GBAuthor>
+          <GBAuthor>Akongnwi,E.</GBAuthor>
+          <GBAuthor>Banai,R.</GBAuthor>
+          <GBAuthor>Ngono,L.</GBAuthor>
+          <GBAuthor>Njouom,R.</GBAuthor>
+          <GBAuthor>Bilong-Bilong,C.F.</GBAuthor>
+          <GBAuthor>Kfutwah,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>HIV Drug Resistance Testing in a Resource Limited Setting with high Viral Diversity: The first Twenty Eight Months Experience</GBReference_title>
+        <GBReference_journal>Curr. HIV Res. (2017) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.2174/1570162X15666170725143835</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>28745207</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1047</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ngo-Malabo,E.T.</GBAuthor>
+          <GBAuthor>Ngoupo,P.A.</GBAuthor>
+          <GBAuthor>Sadeuh-Mba,S.A.</GBAuthor>
+          <GBAuthor>Akongnwi,E.</GBAuthor>
+          <GBAuthor>Banai,R.</GBAuthor>
+          <GBAuthor>Ngono,L.</GBAuthor>
+          <GBAuthor>Njouom,R.</GBAuthor>
+          <GBAuthor>Bilong-Bilong,C.F.</GBAuthor>
+          <GBAuthor>Kfutwah,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (04-JUL-2017) Virology Department, Centre Pasteur of Cameroon, PO Box: 1274, 451 Rue 2005, Yaounde 2, Yaounde, Center +237, Cameroon</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Mega6 v. 6.06 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1047</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1047</GBInterval_to>
+            <GBInterval_accession>MF434882.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human immunodeficiency virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>M</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>14061114</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11676</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Cameroon</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2014</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: A</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1047</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1047</GBInterval_to>
+            <GBInterval_accession>MF434882.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>pol</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1047</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1047</GBInterval_to>
+            <GBInterval_accession>MF434882.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>pol</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>contains protease and reverse transcriptase; polymerase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>pol protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ASP69961.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEDIDLPGKWKPKMIGGIGGFIKVRQYEQILIEICGKKAIGTVLVGPTPVNIIGRNMLTQIGCTLNFXXXXXXXVPVTLKPGMDGPKVKQWPLTEEKIKALTEICEEMEKEGKISKIGPENPYNTPVFAIKKKDSTKWRKLVDFRELNKRTQDFWEVQLGIPHPAGLKKKKSVTVLDVGDAYFSVPLHEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILDPFRAKNPEIVIYQYMDDLYVXSDLEIEQHRTKIEELRAHLLSWGFTTPDKKHQKEPPFLWMGYELHPDKWTVQPIELPEKE</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cctcaaatcactctttggcaacgaccccttgtcacaataaaaataggaggacaactaaaagaagctctactagatacaggagcagatgatacagtattagaagacatagatttaccaggaaaatggaaaccaaaaatgatagggggaattggaggttttatcaaggtcagacaatatgaacaaatacttatagaaatttgtggaaaaaaggctataggtacagtattagtaggacctacccctgtcaacataattggamgaaatatgttgactcagattggctgtactttaaatttcnnnnnnnnnnnnnnnnnnnntgtaccagtaacattaaagccaggaatggatggaccaaaagttaaacaatggccattgacagaagaaaaaataaaagcattaacagaaatttgtgaggaaatggaaaaggaaggaaaaatttcaaaaattgggcctgaaaacccatacaatactccagtatttgctataaagaaaaaagacagcactaaatggagaaaattagtagatttcagagaactcaataaaagaactcaggatttctgggaagttcaattaggaataccacatccagcgggtttaaaaaagaaaaaatcagtaacagtactggatgtgggggatgcatacttttcagttcctttacatgaagactttaggaagtacactgcattcaccatacctagtataaacaatgagacaccaggaataaggtatcagtacaatgtgcttccacagggatggaaaggatcaccagcaatattccaaagtagcatgacaaaaatcttagatcccttcagagcaaaaaatccagaaatagttatctatcaatacatggatgacttgtatgtagsatctgatttagaaatagaacagcatagaacaaaaatagaggagttaagggctcatttattgagctgggggtttactacaccagacaaaaagcatcaaaaggaacccccatttctctggatgggatatgaactccatcctgacaaatggacagtccagcctatagagctgccagaaaaagaa</GBSeq_sequence>
+  </GBSeq>

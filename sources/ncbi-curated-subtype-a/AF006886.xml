@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF006886</GBSeq_locus>
+    <GBSeq_length>379</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>21-JUL-1997</GBSeq_create-date>
+    <GBSeq_definition>HIV-1 strain 190.574 from Uganda, gp41, immunodominant region (env) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AF006886</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF006886.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF006886.1|</GBSeqid>
+      <GBSeqid>gi|4101854</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human immunodeficiency virus 1 (HIV-1)</GBSeq_source>
+    <GBSeq_organism>Human immunodeficiency virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Primate lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..379</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Brennan,C.A.</GBAuthor>
+          <GBAuthor>Lund,J.K.</GBAuthor>
+          <GBAuthor>Golden,A.</GBAuthor>
+          <GBAuthor>Yamaguchi,J.</GBAuthor>
+          <GBAuthor>Vallari,A.S.</GBAuthor>
+          <GBAuthor>Phillips,J.F.</GBAuthor>
+          <GBAuthor>Kataaha,P.K.</GBAuthor>
+          <GBAuthor>Jackson,J.B.</GBAuthor>
+          <GBAuthor>Devare,S.G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Serologic and Phylogenetic Characterization of HIV-1 Subtypes in Uganda</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..379</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Brennan,C.A.</GBAuthor>
+          <GBAuthor>Lund,J.K.</GBAuthor>
+          <GBAuthor>Golden,A.</GBAuthor>
+          <GBAuthor>Yamaguchi,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (06-JUN-1997) D-9NG, Abbott Laboratories, 1401 Sheridan Rd, North Chicago, IL 60064, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..379</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>379</GBInterval_to>
+            <GBInterval_accession>AF006886.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human immunodeficiency virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>190.574</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11676</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>plasma collected from asymptomatic blood donor at the Nakasero Blood Bank, Kampala, Uganda;
+sequence obtained by direct sequencing of RT-PCR product</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;379</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>379</GBInterval_to>
+            <GBInterval_accession>AF006886.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;379</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>379</GBInterval_to>
+            <GBInterval_accession>AF006886.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>immunodominant region</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>gp41</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAD01330.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>LKAIEAQQHLLKLTVWGIKQLQARVLAVERYLRDQQLLGIWGCSGKLICTTNVPWNSSWSNKSQDEIWHNMTWLQWDKEIDQYTDTIYRLIEESQNQQEKNEQDLLALDKWANLWNWFDISNWLWY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ctgaaggctatagaggctcaacagcatctgttgaaactcacagtctggggcattaaacagctccaggcaagagtcctggctgtggaaagatacctaagggatcaacagctccttggaatttggggctgctctggaaaactcatctgcaccactaatgtgccctggaactctagttggagtaataaatctcaggatgaaatatggcataacatgacctggctgcaatgggataaagaaattgaccaatacacagacacaatatataggctaattgaagaatcgcagaaccagcaggaaaagaatgaacaagacttattggcattggacaagtgggcaaatctgtggaattggtttgacatatcaaattggctgtggtatc</GBSeq_sequence>
+  </GBSeq>

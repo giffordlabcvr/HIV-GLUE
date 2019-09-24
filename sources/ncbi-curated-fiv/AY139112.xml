@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY139112</GBSeq_locus>
+    <GBSeq_length>640</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>28-JAN-2004</GBSeq_update-date>
+    <GBSeq_create-date>27-OCT-2002</GBSeq_create-date>
+    <GBSeq_definition>Feline immunodeficiency virus strain TX132 nonfunctional capsid protein (gag) gene, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>AY139112</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY139112.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY139112.1|</GBSeqid>
+      <GBSeqid>gi|24415514</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Feline immunodeficiency virus</GBSeq_source>
+    <GBSeq_organism>Feline immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Feline lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..640</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Weaver,E.A.</GBAuthor>
+          <GBAuthor>Collisson,E.W.</GBAuthor>
+          <GBAuthor>Slater,M.</GBAuthor>
+          <GBAuthor>Zhu,G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Phylogenetic analyses of Texas isolates indicate an evolving subtype of the clade B feline immunodeficiency viruses</GBReference_title>
+        <GBReference_journal>J. Virol. 78 (4), 2158-2163 (2004)</GBReference_journal>
+        <GBReference_pubmed>14747582</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..640</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Weaver,E.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (05-AUG-2002) Veterinary Pathobiology, Texas A&amp;M University College of Veterinary Medicine, Hwy 60 VRB 1197 Rm. 223, College Station, TX 77843-4467, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..640</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>640</GBInterval_to>
+            <GBInterval_accession>AY139112.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Feline immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>TX132</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11673</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype: F</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;640</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>640</GBInterval_to>
+            <GBInterval_accession>AY139112.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;640</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>640</GBInterval_to>
+            <GBInterval_accession>AY139112.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>nonfunctional capsid protein due to mutation</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aaccagtcaatggagccccccagtatgtggatataaaatcaaatatgtaggtcatttttatggagaaggcaagagaggggctaggaggtgaggaggtccaactgtggttcaccgccttttctgctaatttaacatcaactgatatggctacattaattatgtccgcacctggctgtgcagcagataaagaaatcctagatgaaacactgaaacagatgacagctgagtatgatcgtacccatcctcctgatgggcctagaccgctgccctatttcactgctgcagagattatgggaataggattaactcaagaacaacaagcagaacccagatttgcaccagccagaatgcagtgtagagcatggtaccttgaagcattaggaaagttggcagccataaaagctaaatctccccgagcagtacaattgaagcagggagctaaagaggattactcctcatttatagatagactatttgctcaaatagatcaagagcagaacacagctgaagtaaagctgtatttaaaacaatctttaagtatagccaatgctaatccagattgtaaaagagcaatgggtcatctaaaaccagaaagtactttagattccaatctgagcggctgtgaagaagtaggatcacc</GBSeq_sequence>
+  </GBSeq>

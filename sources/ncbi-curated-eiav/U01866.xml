@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EIU01866</GBSeq_locus>
+    <GBSeq_length>8359</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>24-MAY-1995</GBSeq_update-date>
+    <GBSeq_create-date>29-SEP-1993</GBSeq_create-date>
+    <GBSeq_definition>Equine infectious anemia virus clone pSPEIAV19, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>U01866</GBSeq_primary-accession>
+    <GBSeq_accession-version>U01866.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|U01866.1|EIU01866</GBSeqid>
+      <GBSeqid>gi|403554</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Equine infectious anemia virus</GBSeq_source>
+    <GBSeq_organism>Equine infectious anemia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Equine lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..8359</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Payne,S.L.</GBAuthor>
+          <GBAuthor>Rausch,J.</GBAuthor>
+          <GBAuthor>Rushlow,K.</GBAuthor>
+          <GBAuthor>Montelaro,R.C.</GBAuthor>
+          <GBAuthor>Issel,C.</GBAuthor>
+          <GBAuthor>Flaherty,M.</GBAuthor>
+          <GBAuthor>Perry,S.</GBAuthor>
+          <GBAuthor>Sellon,D.</GBAuthor>
+          <GBAuthor>Fuller,F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Characterization of infectious molecular clones of equine infectious anaemia virus</GBReference_title>
+        <GBReference_journal>J. Gen. Virol. 75 (Pt 2), 425-429 (1994)</GBReference_journal>
+        <GBReference_pubmed>8113766</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..8359</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Payne,S.L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (16-SEP-1993) Susan L. Payne, Molecular Biology and Microbiology, Case Western Reserve University, 10900 Euclid Ave, Cleveland, OH 44106-4960, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..8359</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>8359</GBInterval_to>
+            <GBInterval_accession>U01866.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Equine infectious anemia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11665</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>pSPEIAV19</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1..59</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>59</GBInterval_to>
+            <GBInterval_accession>U01866.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>duplication of envelope sequences 7909 to 7969 generated during cloning</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>60..381</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>60</GBInterval_from>
+            <GBInterval_to>381</GBInterval_to>
+            <GBInterval_accession>U01866.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>7969..8289</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>7969</GBInterval_from>
+            <GBInterval_to>8289</GBInterval_to>
+            <GBInterval_accession>U01866.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>8290..8359</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>8290</GBInterval_from>
+            <GBInterval_to>8359</GBInterval_to>
+            <GBInterval_accession>U01866.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>duplication of 5' leader 382 to 451 generated during cloning.</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aaatcctggcacatctcatgtatcaatgcctcagtatgtttagaaaaacaaggggggaactgtggggtttttatgaggggttttataaatgattataagagtaaaaagaaagttgctgatgctctcataaccttgtataacccaaaggactagctcatgttgctaggcaactaaaccgcaataaccgcatttgtgacgcgagttccccattggtgacgcgttaacttcctgtttttacagtatataagtgcttgtattctgacaattgggactcagattctgcggtctgagtcccttctctgctgggctgaaaaggcctttgtaataaatataattctctactcagtccctgtctctagtttgtctgttcgagatcctacagttggcgcccgaacagggacctgagaggggcgcagaccctacctgttgaacctggctgatcgtaggatccccgggacagcagaggagaacttacagaagtcttctggaggtgttcctggccagaacacaggaggacaggtaagatgggagaccctttgacatggagcaaggcgctcaagaagttagagaaggtgacggtacaagggtctcagaaattaactactggtaactgtaattgggcgctaagtctagtagacttatttcatgataccaactttgtaaaagaaaaggactggcagctgagggatgtcattccattgctggaagatgtaactcagacgctgtcaggacaagaaagagaggcctttgaaagaacatggtgggcaatttctgctgtaaagatgggcctccagattaataatgtagtagatggaaaggcatcattccagctcctaagagcgaaatatgaaaagaagactgctaataaaaagcagtctgagccctctgaagaatatccaatcatgatagatggggctggaaacagaaattttagacctctaacacctagaggatatactacttgggtgaataccatacagacaaatggtctattaaatgaagctagtcaaaacttatttgggatattatcagtagactgtacttctgaagaaatgaatgcatttttggatgtggtacctggccaggcaggacaaaagcagatattacttgatgcaattgataagatagcagatgattgggataatagacatccattaccgaatgctccactggtggcaccaccacaagggcctattcccatgacagcaaggtttattagaggtttaggagtacctagagaaagacagatggagcctgcttttgatcagtttaggcagacatatagacaatggataatagaagccatgtcagaaggcatcaaagtgatgattggaaaacctaaagctcaaaatattaggcaaggagctaaggaaccttacccagaatttgtagacagactattatcccaaataaaaagtgagggacatccacaagagatttcaaaattcttgactgatacactgactattcagaacgcaaatgaggaatgtagaaatgctatgagacatttaagaccagaggatacattagaagagaaaatgtatgcttgcagagacattggaactacaaaacaaaagatgatgttattggcaaaagcacttcagactggtcttgcgggcccatttaaaggtggagccttgaaaggagggccactaaaggcagcacaaacatgttataactgtgggaagccaggacatttatctagtcaatgtagagcacctaaagtctgttttaaatgtaaacagcctggacatttctcaaagcaatgcagaagtgttccaaaaaacgggaagcaaggggctcaagggaggccccagaaacaaactttcccgatacaacagaagagtcagcacaacaaatctgttgtacaagagactcctcagactcaaaatctgtacccagatctgagcgaaataaaaaaggaatacaatgtcaaggagaaggatcaagtagaggatctcaacctggacagtttgtgggagtaacatataatctagagaaaaggcctactacaatagtattaattaatgatactcccttaaatgtactgttagacacaggagcagatacttcagtgttgactactgcacattataataggttaaaatatagagggagaaaatatcaagggacgggaataataggagtgggaggaaatgtggaaacattttctacgcctgtgactataaagaaaaagggtagacacattaagacaagaatgctagtggcagatattccagtgactattttgggacgagatattcttcaggacttaggtgcaaaattggttttggcacagctctccaaggaaataaaatttagaaaaatagagttaaaagagggcacaatggggccaaaaattcctcaatggccactcactaaggagaaactagaaggggccaaagagatagtccaaagactattgtcagagggaaaaatatcagaagctagtgacaataatccttataattcacccatatttgtaataaaaaagaggtctggcaaatggaggttattacaagatctgagagaattaaacaaaacagtacaagtaggaacggaaatatccagaggattgcctcacccgggaggattaattaaatgtaaacacatgactgtattagatattggagatgcatatttcactatacccttagatccagagtttagaccatatacagctttcactattccctccattaatcatcaagaaccagataaaagatatgtgtggaaatgtttaccacaaggattcgtgttgagcccatatatatatcagaaaacattacaggaaattttacaaccttttagggaaagatatcctgaagtacaattgtatcaatatatggatgatttgttcatgggaagtaatggttctaaaaaacaacacaaagagttaatcatagaattaagggcgatcttactggaaaagggttttgagacaccagatgataaattacaagaagtgccaccttatagctggctaggttatcaactttgtcctgaaaattggaaagtacaaaaaatgcaattagacatggtaaagaatccaacccttaatgatgtgcaaaaattaatggggaatataacatggatgagctcagggatcccagggttgacagtaaaacacattgcagctactactaagggatgtttagagttgaatcaaaaagtaatttggacggaagaggcacaaaaagagttagaagaaaataatgagaagattaaaaatgctcaagggttacaatattataatccagaagaagaaatgttatgtgaggttgaaattacaaaaaattatgaggcaacttatgttataaaacaatcacaaggaatcctatgggcaggtaaaaagattatgaaggctaataagggatggtcaacagtaaaaaatttaatgttattgttgcaacatgtggcaacagaaagtattactagagtaggaaaatgtccaacgtttaaggtaccatttaccaaagagcaagtaatgtgggaaatgcaaaaaggatggtattattcttggctcccagaaatagtatatacacatcaagtagttcatgatgattggagaatgaaattggtagaagaacctacatcaggaataacaatatacactgatgggggaaaacaaaatggagaaggaatagcagcttatgtgaccagtaatgggagaactaaacagaaaaggttaggacctgtcactcatcaagttgctgaaagaatggcaatacaaatggcattagaggataccagagataaacaagtaaatatagtaactgatagttattattgttggaaaaatattacagaaggattaggtttagaaggaccacaaagtccttggtggcctataatacaaaatatacgagaaaaagagatagtttattttgcttgggtacctggtcacaaagggatatatggtaatcaattggcagatgaagccgcaaaaataaaagaagaaatcatgctagcataccaaggcacacaaattaaagagaaaagagatgaagatgcagggtttgacttatgtgttccttatgacatcatgatacctgtatctgacacaaaaatcatacccacagatgtaaaaattcaagttcctcctaatagctttggatgggtcactgggaaatcatcaatggcaaaacaggggttattaattaatggaggaataattgatgaaggatatacaggagaaatacaagtgatatgtactaatattggaaaaagtaatattaaattaatagagggacaaaaatttgcacaattaattatactacagcatcactcaaattccagacagccttgggatgaaaataaaatatctcagagaggggataaaggatttggaagtacaggagtattctgggtagaaaatattcaggaagcacaagatgaacatgagaattggcatacatcaccaaagatattggcaagaaattataagataccattgactgtagcaaaacagataactcaagaatgtcctcattgcactaagcaaggatcaggacctgcaggttgtgtcatgagatctcctaatcattggcaggcagattgcacacatttggacaataagataatattgacttttgtagagtcaaattcaggatacatacatgctacattattgtcaaaagaaaatgcattatgtacttcattggctattttagaatgggcaagattgttttcaccaaagtccttacacacagataacggcactaattttgtggcagaaccagttgtaaatttgttgaagttcctaaagatagcacataccacaggaataccatatcatccagaaagtcagggtattgtagaaagggcaaataggaccttgaaagagaagattcaaagtcatagagacaacactcaaacactggaggcagctttacaacttgctctcattacttgtaacaaagggagggaaagtatgggaggacagacaccatgggaagtatttatcactaatcaagcacaagtaatacatgagaaacttttactacagcaagcacaatcctccaaaaaattttgtttttacaaaatccctggtgaacatgattggaagggacctactagggtgctgtggaagggtgatggtgcagtagtagttaatgatgaaggaaagggaataattgctgtaccattaaccaggactaagttactaataaaaccaaattgagtattgttgcaggaagcaagacccaactaccattgtcagctgtgtttcctgaggtctctaggaattgattacctcgatgcttcattaaggaagaagaataaacaaagactgaaggcaatccaacaaggaagacaacctcaatatttgttataaggtttgatatatgggagtatttggtaaaggggtaacatggtcagcatcgcattctatgggggaatcccagggggaatctcaacccctattacccaacagtcagaaaaatctaagtgtgaggagaacacaatgtttcaaccttattgttataataatgacagtaagaacagcatggcagaatcgaaggaagcaagagaccaagaaatgaacctgaaagaagaatctaaagaagaaaaaagaagaaatgactggtggaaaataggtatgtttctgttatgcttagcaggaactactggaggaatactttggtggtatgaaggactcccacagcaacattatatagggttggtggcgatagggggaagattaaacggatctggccaatcaaatgctatagaatgctggggttccttcccggggtgtagaccatttcaaaattacttcagttatgagaccaatagaagcatgcatatggataataatactgctacattattagaagcttatcatagagagataacattcatttataagtcttcttgcacagatagtgatcattgtcaagagtatcaatgtaaaaaagttaatcttaattcctctgactcctctaactctgtacgtgttgaggatgtaatgaacacagcggaatattggggatttaaatggctagaatgtaatcaaacagaaaattttaagactatattagtacctgaaaatgaaatggtaaatatcaatgatactgatacctggatacctaaggggtgtaatgagacgtgggcaagagtgaaacgttgtcctatagatattttatatgggatacatccaatcaggctgtgtgtacagccaccattttttctggtacaggagaaagggattgctgatacttctagaattggcaattgtgggccaacaatatttcttggggttttagaagataataagggagtagtacggggggattatacagcttgcaatgtgcgtcgcctaaatataaatagaaaggattatacagggatctatcaagtacctatattttatacatgtactttcactaacataacttcctgcaataatgagccaataatcagtgttatcatgtatgaaacaaaccaggtacaatatttattgtgtaataataataatagtaataattataattgtgtagtacaaagttttggagttataggacaggcacacttagaactgcctagacctaacaaaagaataaggaaccaaagctttaaccaatataactgctctataaataacaaaacagaattagaaacatggaagttagtaaagacttctggcataactcctttacctatttcttctgaagctaacactggactaattagacataagagagattttggtataagtgcaatagtggcagctattgtagccgctactgctattgctgctagcgctactatgtcttatgttgctctaactgaggttaacaaaataatggaagtacaaaatcatacttttgaggtagaaaatagtactctaaatggtatggatttaatagaacgacaaataaagatattatatgctatgattcttcaaacacatgcagatgttcaactgttaaaggaaagacaacaggtagaggagacatttaatttaattggatgtatagaaagaacacatgtattttgtcatactggtcatccctggaatatgtcatggggacatttaaatgagtcaacacaatgggatgactgggtaagcaaaatggaagatttaaatcaagagatactaactacacttcatggagccaggaacaatttggcacaatccatgataacattcaatacaccagatagtatagctcaatttggaaaagacctttggagtcatattggaaattggattcctggattgggagcttccattataaaatatatagtgatgtttttgcttatttatttgttactaacctcttcgcctaagatcctcagggccctctggaaggtgaccagtggtgcagggtcctccggcagtcgttacctgaagaaaaaattccatcacaaacatgcatcgcgagaagacacctgggaccaggcccaacacaacatacacctagcaggcgtgaccggtggatcaggggacaaatactacaagcagaagtactccaggaacgactggaatggagaatcagaggagtacaacaggcggccaaagagctgggtgaagtcaatcgaggcatttggagagagctatatttccgagaagaccaaaggggagatttctcagcctggggcggctatcaacgagcacaagaacggctctggggggaacaatcctcaccaagggtccttagacctggagattcgaagcgaaggaggaaacatttatgactgttgcattaaagcccaagaaggaactctcgctatcccttgctgtggatttcccttatggctattttggggactagtaattatagtaggacgcatagcaggctatggattacgtggactcgctgttataataaggatttgtattagaggcttaaatttgatatttgaaataatcagaaaaatgcttgattatattggaagagctttaaatcctggcacatctcatgtatcaatgcctcagtatgtttagaaaaacaaggggggaactgtggggtttttatgaggggttttataaatgattataagagtaaaaagaaagttgctgatgctctcataaccttgtataacccaaaggactagctcatgttgctaggcaactaaaccgcaataaccgcatttgtgacgcgagttccccattggtgacgcgttaacttcctgtttttacagtatataagtgcttgtattctgacaattgggactcagattctgcggtctgagtcccttctctgctgggctgaaaaggcctttgtaataaatataattctctactcagtccctgtctctagtttgtctgttcgagatcctacagttggcgcccgaacagggacctgagaggggcgcagaccctacctgttgaacctggctgatcgtaggatcc</GBSeq_sequence>
+  </GBSeq>

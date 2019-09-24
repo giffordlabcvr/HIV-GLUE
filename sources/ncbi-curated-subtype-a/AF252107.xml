@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF252107</GBSeq_locus>
+    <GBSeq_length>354</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>14-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>18-SEP-2000</GBSeq_create-date>
+    <GBSeq_definition>HIV-1 strain CAM170 subtype A from Cameroon envelope glycoprotein (env) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AF252107</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF252107.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF252107.1|</GBSeqid>
+      <GBSeqid>gi|10180852</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human immunodeficiency virus 1 (HIV-1)</GBSeq_source>
+    <GBSeq_organism>Human immunodeficiency virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Primate lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..354</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Fonjungo,P.N.</GBAuthor>
+          <GBAuthor>Mpoudi,E.N.</GBAuthor>
+          <GBAuthor>Torimiro,J.N.</GBAuthor>
+          <GBAuthor>Alemnji,G.A.</GBAuthor>
+          <GBAuthor>Eno,L.T.</GBAuthor>
+          <GBAuthor>Nkengasong,J.N.</GBAuthor>
+          <GBAuthor>Gao,F.</GBAuthor>
+          <GBAuthor>Rayfield,M.</GBAuthor>
+          <GBAuthor>Folks,T.M.</GBAuthor>
+          <GBAuthor>Pieniazek,D.</GBAuthor>
+          <GBAuthor>Lal,R.B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Presence of diverse human immunodeficiency virus type 1 viral variants in Cameroon</GBReference_title>
+        <GBReference_journal>AIDS Res. Hum. Retroviruses 16 (13), 1319-1324 (2000)</GBReference_journal>
+        <GBReference_pubmed>10957729</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..354</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Fonjungo,P.N.</GBAuthor>
+          <GBAuthor>Mpoudi,E.N.</GBAuthor>
+          <GBAuthor>Torimiro,J.N.</GBAuthor>
+          <GBAuthor>Alemnji,G.A.</GBAuthor>
+          <GBAuthor>Eno,L.T.</GBAuthor>
+          <GBAuthor>Ngengasong,J.N.</GBAuthor>
+          <GBAuthor>Gao,F.</GBAuthor>
+          <GBAuthor>Rayfield,M.</GBAuthor>
+          <GBAuthor>Folks,T.M.</GBAuthor>
+          <GBAuthor>Pieniazek,D.</GBAuthor>
+          <GBAuthor>Lal,R.B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (04-APR-2000) HIV/Retrovirus Disease Branch, DASTLR, Centers for Disease Control and Prevention, 1600 Clifton Road, Mail Stop G-19, Atlanta, GA 30333, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..354</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>354</GBInterval_to>
+            <GBInterval_accession>AF252107.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human immunodeficiency virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>CAM170</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11676</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Cameroon</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype: A</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;354</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>354</GBInterval_to>
+            <GBInterval_accession>AF252107.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;354</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>354</GBInterval_to>
+            <GBInterval_accession>AF252107.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>gp41 domain</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAG14316.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>AQQHLLKLTVWGIKQLQARVLALERYLQDQQRLGIWGCSGKLICTTTVPWNSSWSNSIWNNMTWLQWDKEINNYTSIIYGLIEESQNQQEKNEQDLLALDKWANLWNWFDISNWLWYI</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gctcaacaacatctgttgaaactcacggtctggggcattaaacagctccaggcaagagtcctggctctggaaagatacctacaggatcaacagcgcctaggaatttggggctgctctggaaaactcatctgcaccactactgtaccatggaactctagttggagtaatagcatatggaataacatgacctggttgcaatgggataaagaaattaataattacacaagcataatatatgggctaattgaagaatcgcagaaccagcaggaaaagaatgaacaagatttattggcattggacaaatgggcaaatctgtggaattggtttgacatatcaaactggctatggtatata</GBSeq_sequence>
+  </GBSeq>

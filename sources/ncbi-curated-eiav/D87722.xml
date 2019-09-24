@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>D87722</GBSeq_locus>
+    <GBSeq_length>491</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>12-MAY-1998</GBSeq_create-date>
+    <GBSeq_definition>Equine infectious anemia virus proviral DNA for envelope protein, partial cds, clone F1V-21</GBSeq_definition>
+    <GBSeq_primary-accession>D87722</GBSeq_primary-accession>
+    <GBSeq_accession-version>D87722.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|D87722.1|</GBSeqid>
+      <GBSeqid>gi|3157470</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>env</GBKeyword>
+      <GBKeyword>envelope protein</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Equine infectious anemia virus</GBSeq_source>
+    <GBSeq_organism>Equine infectious anemia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Equine lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..491</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Zheng,Y.</GBAuthor>
+          <GBAuthor>Nakaya,T.</GBAuthor>
+          <GBAuthor>Sentsui,H.</GBAuthor>
+          <GBAuthor>Kameoka,M.</GBAuthor>
+          <GBAuthor>Kishi,M.</GBAuthor>
+          <GBAuthor>Takahashi,H.</GBAuthor>
+          <GBAuthor>Kono,Y.</GBAuthor>
+          <GBAuthor>Ikuta,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Insertions, duplications and substitutions in restricted gp90 regions o f equine infectious anemia virus occurred during febrile episodes in an experime ntally infected horse</GBReference_title>
+        <GBReference_journal>J. Gen. Virol. (1996) In press</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..491</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Zheng,Y.H.</GBAuthor>
+          <GBAuthor>Sentsui,H.</GBAuthor>
+          <GBAuthor>Nakaya,T.</GBAuthor>
+          <GBAuthor>Kono,Y.</GBAuthor>
+          <GBAuthor>Ikuta,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>In vivo dynamics of equine infectious anemia viruses emerging during febrile episodes: insertions/duplications at the principal neutralizing domain</GBReference_title>
+        <GBReference_journal>J. Virol. 71 (7), 5031-5039 (1997)</GBReference_journal>
+        <GBReference_pubmed>9188568</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..491</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ikuta,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (04-SEP-1996) Kazuyoshi Ikuta, Hokkaido University, Institute of immunological science; Kita-15 Nishi-7, Kita-Ku, Sapporo, Hokkaido 060, Japan (E-mail:zyonghui@imm.hokudai.ac.jp, Tel:011-707-6837, Fax:011-707-6837)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On May 27, 1998 this sequence version replaced gi:3127975.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..491</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>491</GBInterval_to>
+            <GBInterval_accession>D87722.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Equine infectious anemia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>F1V</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11665</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>map</GBQualifier_name>
+            <GBQualifier_value>nt. pos. 5801-6306</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>F1V-21</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>isolated from primary macrophages;
+this strain is a variant of V70 isolated from the serum of horse no. 493</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;491</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>491</GBInterval_to>
+            <GBInterval_accession>D87722.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;491</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>491</GBInterval_to>
+            <GBInterval_accession>D87722.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>gp90 variable region</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BAA26025.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>QEYQCQKVNVNESTECQKVNESTEYWGFKWLECNQTENLKTILVPENEIVNINDNDTWIPKGCNETWARVKRCPIDILYGIHPIRLCVQPPFFLVQENRAANNSRISNCGPTIFLGVLEDNKGVMRGNSTTCEVNKKVIKRKDYTGIYQVPIFYTCNFTNITS</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gtcaagagtatcaatgtcaaaaagttaatgttaatgagagtacggaatgtcaaaaagttaatgagagtacggaatattggggatttaaatggctagaatgtaatcaaacagaaaatcttaagactatattagtacctgaaaatgagatagtaaatatcaatgataatgatacctggatacctaaggggtgtaatgagacgtgggcaagagtgaaacgttgtcctatagatattttatatgggatacatccaatcaggctgtgtgtacagccaccattttttctggtacaggagaacagggctgctaacaattctagaattagcaattgtgggccaacaatatttcttggggttttagaagataataagggagtaatgcgggggaatagtacaacttgcgaagtgaataaaaaagtaataaagagaaaggattatacagggatctatcaagtacctatattttatacatgtaatttcactaacataacttcc</GBSeq_sequence>
+  </GBSeq>

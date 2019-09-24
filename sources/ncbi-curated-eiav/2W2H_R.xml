@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>2W2H_R</GBSeq_locus>
+    <GBSeq_length>22</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>10-OCT-2012</GBSeq_update-date>
+    <GBSeq_create-date>10-DEC-2008</GBSeq_create-date>
+    <GBSeq_definition>Chain R, Structural Basis Of Transcription Activation By The Cyclin T1-Tat-Tar Rna Complex From Eiav</GBSeq_definition>
+    <GBSeq_primary-accession>2W2H_R</GBSeq_primary-accession>
+    <GBSeq_accession-version>2W2H_R</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>pdb|2W2H|R</GBSeqid>
+      <GBSeqid>gi|217035273</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Equine infectious anemia virus</GBSeq_source>
+    <GBSeq_organism>Equine infectious anemia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Equine lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..22</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Anand,K.</GBAuthor>
+          <GBAuthor>Schulte,A.</GBAuthor>
+          <GBAuthor>Vogel-Bachmayr,K.</GBAuthor>
+          <GBAuthor>Scheffzek,K.</GBAuthor>
+          <GBAuthor>Geyer,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Structural insights into the cyclin T1-Tat-TAR RNA transcription activation complex from EIAV</GBReference_title>
+        <GBReference_journal>Nat. Struct. Mol. Biol. 15 (12), 1287-1292 (2008)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1038/nsmb.1513</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>19029897</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..22</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Anand,K.</GBAuthor>
+          <GBAuthor>Geyer,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (30-OCT-2008)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>SEQRES.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..22</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>22</GBInterval_to>
+            <GBInterval_accession>2W2H_R</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Equine infectious anemia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>other RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11665</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>nctcagattctgcggtctgagc</GBSeq_sequence>
+  </GBSeq>

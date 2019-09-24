@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF177368</GBSeq_locus>
+    <GBSeq_length>942</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>13-AUG-2000</GBSeq_create-date>
+    <GBSeq_definition>HIV-1 patient 190.574 from Uganda reverse transcriptase (pol) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AF177368</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF177368.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF177368.1|</GBSeqid>
+      <GBSeqid>gi|9798853</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human immunodeficiency virus 1 (HIV-1)</GBSeq_source>
+    <GBSeq_organism>Human immunodeficiency virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Primate lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..942</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Becker-Pergola,G.</GBAuthor>
+          <GBAuthor>Kataaha,P.</GBAuthor>
+          <GBAuthor>Johnston-Dow,L.</GBAuthor>
+          <GBAuthor>Fung,S.</GBAuthor>
+          <GBAuthor>Jackson,J.B.</GBAuthor>
+          <GBAuthor>Eshleman,S.H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Analysis of HIV type 1 protease and reverse transcriptase in antiretroviral drug-naive Ugandan adults</GBReference_title>
+        <GBReference_journal>AIDS Res. Hum. Retroviruses 16 (8), 807-813 (2000)</GBReference_journal>
+        <GBReference_pubmed>10826487</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..942</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Becker-Pergola,G.</GBAuthor>
+          <GBAuthor>Kataaha,P.</GBAuthor>
+          <GBAuthor>Johnston-Dow,L.</GBAuthor>
+          <GBAuthor>Fung,S.</GBAuthor>
+          <GBAuthor>Jackson,J.B.</GBAuthor>
+          <GBAuthor>Eshleman,S.H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (12-AUG-1999) Pathology, Johns Hopkins University, School of Medicine, 720 Rutland Ave., Baltimore, MD 21205, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>Region: HIV-1 Reverse Transcritase.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..942</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>942</GBInterval_to>
+            <GBInterval_accession>AF177368.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human immunodeficiency virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>patient 190.574</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11676</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Uganda</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype A (env/gag/pol)</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;942</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>942</GBInterval_to>
+            <GBInterval_accession>AF177368.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>pol</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;942</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>942</GBInterval_to>
+            <GBInterval_accession>AF177368.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>pol</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>reverse transcriptase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAF98719.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>PISPIETVPVKLKPGMDGPKVKQWPLTEEKIKALTEICTDMEKEGKISKIGPENPYNTPIFAIKKKDSTKWRKLVDFRELNKRTQDFWEVQLGIPHPAGLKKKKSVTVLDVGDAYFSVPLDESFRKYTAFTIPSTNNETPGIRYQYNVLPQGWKGSPSIFQSSMIKILEPFRXKNPEIIIYQYMDDLYVGSDLEIGQHRAKIEELRAHLLSWGFTTPDKKHQKEPPFLWMGYELHPDKWTVQPIELPEKESWTVNDIQKLVGKLNWASQIYAGIKVKQLCKLLRGTKALTDVVPLTKEAELELAENREILKDPV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ccaattagtcctattgaaactgtaccagtaaaattaaaaccaggaatggatgggccaaaggttaaacaatggccattgacagaagaaaaaataaaagcattaacagaaatttgtacagatatggaaaaggaaggaaaaatttcaaaaattgggcctgaaaatccatacaatactccaatatttgctataaagaaaaaagacagcactaaatggagaaaattagtagatttcagagagctcaataaaagaactcaagatttttgggaagttcaattaggaataccgcatccagcrggcttaaaaaagaaaaaatcagtaacagtactagatgtgggggacgcatatttttcagttcccttagatgaaagctttagaaagtatactgcattcaccatacctagtacaaacaatgaaacaccaggaatcaggtatcagtacaatgtgcttccacagggatggaaaggatcaccgtcaatattccaaagtagcatgataaaaatcttggagccctttagatyaaagaatccagaaataattatctatcaatacatggatgacttgtatgtaggatctgatctagaaatagggcagcatagagcaaaaatagaggagttgagggctcatctattaagctggggatttactacaccagacaaaaagcatcagaaagaacctccatttctttggatgggatatgaactccatcctgacaagtggacagtccaacctatagagctgccagaaaaagaaagctggactgtcaatgatatacagaaattagtgggaaaactaaattgggcaagtcagatttatgcagggattaaagtaaagcaactgtgtaaactccttaggggaaccaaagcactaacagatgtggtaccactaactaaggaagcagagttagaattggcagagaacagggarattttaaaagaccctgtg</GBSeq_sequence>
+  </GBSeq>

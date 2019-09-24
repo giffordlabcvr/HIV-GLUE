@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EIAOMPP</GBSeq_locus>
+    <GBSeq_length>1786</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>03-NOV-1992</GBSeq_update-date>
+    <GBSeq_create-date>02-AUG-1993</GBSeq_create-date>
+    <GBSeq_definition>Equine infectious anemia virus proviral envelope protein gene, partial cds, clone FD</GBSeq_definition>
+    <GBSeq_primary-accession>M87587</GBSeq_primary-accession>
+    <GBSeq_accession-version>M87587.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|M87587.1|EIAOMPP</GBSeqid>
+      <GBSeqid>gi|323789</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>envelope protein</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Equine infectious anemia virus</GBSeq_source>
+    <GBSeq_organism>Equine infectious anemia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Equine lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1786</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Perry,S.T.</GBAuthor>
+          <GBAuthor>Flaherty,M.T.</GBAuthor>
+          <GBAuthor>Kelley,M.J.</GBAuthor>
+          <GBAuthor>Clabough,D.L.</GBAuthor>
+          <GBAuthor>Tronick,S.R.</GBAuthor>
+          <GBAuthor>Coggins,L.</GBAuthor>
+          <GBAuthor>Whetter,L.</GBAuthor>
+          <GBAuthor>Lengel,C.R.</GBAuthor>
+          <GBAuthor>Fuller,F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>The surface envelope protein gene region of equine infectious anemia virus is not an important determinant of tropism in vitro</GBReference_title>
+        <GBReference_journal>J. Virol. 66 (7), 4085-4097 (1992)</GBReference_journal>
+        <GBReference_pubmed>1318398</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>Original source text: Equine infectious anemia virus (strain Wyoming wild type non-cell culture adapted) blood RNA.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1786</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1786</GBInterval_to>
+            <GBInterval_accession>M87587.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Equine infectious anemia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Wyoming wild type non-cell culture adapted</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11665</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>tissue_type</GBQualifier_name>
+            <GBQualifier_value>blood</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..1786</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1786</GBInterval_to>
+            <GBInterval_accession>M87587.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1786</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1786</GBInterval_to>
+            <GBInterval_accession>M87587.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAA43017.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>IHPIRLCVQPPFFLVQEKGIANNSRISNCGPTIFLGVLEDNKGVIRGNSTICKVNITEIKRKDYTGIYQVPIFYTCNFTNITSCNDESIIRFIMYETNQVQCLLCNKNNNSNNYNCVVQSFGVIGQAHLELPRLNKRIRNQSFNQYNCSINNKTELETWKLVKTSGITPLPISSEANTGLIRHKRDFGVSAVVAAIVAATAIAASATMSYVALTEVNKIMEVQNHTFEVENSTLNGMDLIKQQIKILYAMILQTHADVQLLKERQQVEETFNLIGCIERTHVFCHTGHPWNMSWGHLNESTQWDDWVSKMENLNQEILTTLHGVRNNLAQSMITFDTPDSIAQFGKDLWSHIANWNPGLGASIIKYIVVFLLIYLLLTSPPKILRALWKVTSGAGSSGSRYLKKKFHRKHASREDTWDQAQHNIHLAGVTGGSGDKYYRQKYSRNDWNGESKEYNRWPKNWVKSIEAFGESYISEKTKGEISQPGATINEHKNGAGGNNPHQGSLDLEIRSEGGNIYDCCIKAQEGTLAIPCCGFPLWLFWGLLIIVGRIAGYGLRGLAVIIRICIRGLNLIFEIIRKMLDYIGRALNPGTSHVS</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggatacatccaatcaggctgtgtgtacagccaccattttttctggtacaggagaaagggattgctaataattctagaattagcaattgtgggccaacaatatttcttggggttttagaagataataagggagtaatacgggggaatagtacaatttgcaaagtgaatatcacagaaataaagagaaaggattatacagggatctatcaagtacctatattttatacatgtaatttcactaacataacttcctgcaatgatgagtcaataatcaggtttatcatgtatgaaacaaaccaggtacaatgtttattgtgtaataagaataataatagtaataattataattgtgtagtacaaagttttggagttataggacaggcacacttagaactgcctagacttaacaaaagaataagaaaccaaagctttaaccaatataactgctctataaataacaaaacagaattagaaacatggaagttagtaaagacttctggcataactcctttacctatttcttctgaagctaacactggactaattagacataagagagattttggtgtaagtgcagtggtggcagctattgtagccgctactgctattgctgctagcgctactatgtcttatgttgctctaactgaggttaacaaaataatggaagtacaaaatcatacttttgaggtagaaaatagtactctaaatggtatggatttaataaaacaacaaataaagatattatatgctatgattcttcaaacacatgcagatgttcaactgttaaaggaaagacaacaagtagaggagacatttaatttaattggatgtatagaaagaacacatgtattttgtcatactggtcatccctggaatatgtcatggggacatttaaatgagtcaacacaatgggatgactgggtaagcaaaatggaaaatttaaatcaagagatactaactacacttcatggagtcaggaacaatttggcacaatccatgataacatttgatacaccagatagtatagctcaatttggaaaagacctttggagtcatattgcaaattggaatcctggattgggagcttccattataaaatatatagtggtgtttttgcttatttatttgttactaacctctccgcctaagatcctcagggccctctggaaagtgaccagtggtgcagggtcctccggcagtcgctacctgaagaaaaaatttcatcgcaaacatgcatcgcgagaagacacctgggaccaggcccaacacaacatacacctagcaggcgtgaccggtggatcaggggacaaatactacaggcagaagtactccaggaacgactggaatggagaatcaaaggagtacaacaggtggccaaagaactgggtgaagtcaatcgaggcatttggagagagctacatttccgagaagaccaaaggggagatttctcagcctggggcgactatcaacgagcacaagaacggcgctggggggaacaatcctcaccaagggtccttagacctggagattcgaagcgaaggaggaaacatttatgactgttgcattaaagcccaagaaggaactctcgctatcccttgctgtggatttcccttatggctattttggggactgttaattatagtaggacgcatagcaggctatggattgcgtggactcgctgttataataaggatttgtattagaggcttaaatttgatatttgaaataatcagaaaaatgcttgattatattggaagagctttaaatcctggcacatctcatgtatc</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>FIVSEQF</GBSeq_locus>
+    <GBSeq_length>591</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>01-JAN-1900</GBSeq_update-date>
+    <GBSeq_create-date>11-JUN-1993</GBSeq_create-date>
+    <GBSeq_definition>Feline immunodeficiency virus DNA sequence</GBSeq_definition>
+    <GBSeq_primary-accession>L16942</GBSeq_primary-accession>
+    <GBSeq_accession-version>L16942.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|L16942.1|FIVSEQF</GBSeqid>
+      <GBSeqid>gi|290719</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Feline immunodeficiency virus</GBSeq_source>
+    <GBSeq_organism>Feline immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Feline lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..591</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Greene,W.K.</GBAuthor>
+          <GBAuthor>Meers,J.</GBAuthor>
+          <GBAuthor>Chadwick,B.</GBAuthor>
+          <GBAuthor>Carnegie,P.R.</GBAuthor>
+          <GBAuthor>Robinson,W.F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Nucleotide sequences of Australian isolates of the feline immunodeficiency virus: comparison with other feline lentiviruses</GBReference_title>
+        <GBReference_journal>Arch. Virol. 132 (3-4), 369-379 (1993)</GBReference_journal>
+        <GBReference_pubmed>8397502</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>Original source text: Feline immunodeficiency virus (individual_isolate S90) DNA.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..591</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>591</GBInterval_to>
+            <GBInterval_accession>L16942.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Feline immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>S90</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11673</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>attgaagctttaacagaaatagtagaaagactagaaagagaagggaaagtaaaaagagcagatccaaataatccatggaacacaccagtatttgctataaaaaagaaaagtggaaaatggagaatgctcatagattttagagaattgaacaaactaactgagaaaggagcagaggtccaattgggattacctcatcctgccggtttacaaatgaaaaaacaagtaacagtattagatataggggatgcatatttcaccattccccttgatccagattatgctccttatacagcatttactttacctaggaagaataatgcgggaccaggaagaagatatgtgtggtgtagcctaccacaaggctggattttaagtccattaatatatcaaagtacattagataatataatacaaccttttattagacaaaatcctcagttagatatttaccaatatatggatgatatttatataggatcaaacttaagtaaaaaagaacataaagaaaaggtagaagaattaagaaaattactattaaggtggtggggatttgaaactccagaagataaattacaggaagaacccccatat</GBSeq_sequence>
+  </GBSeq>
