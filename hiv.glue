@@ -37,8 +37,11 @@ project hiv
   # Inherit features from HIV-1 master reference to all other HIV-1 reference sequences
   #run script glue/hivRefseqsInheritFeatureLocations.js
 
-  # Import alignments
-  run file glue/hivCreateReferenceAlignments.glue
+  # Import alignments and create constrained alignment tree
+  #run file glue/hivCreateReferenceAlignmentsHIV-1.glue
+  #run file glue/hivCreateReferenceAlignmentsSIV.glue
+  #run file glue/hivCreateReferenceAlignmentsLenti.glue
+
 
   validate
   
