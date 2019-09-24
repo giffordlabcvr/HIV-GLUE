@@ -1,0 +1,118 @@
+#~# Create HIV-1 constrained alignment tree
+create alignment  AL_HIV-1_MASTER -r REF_MASTER_NC_001802 
+alignment AL_HIV-1_MASTER
+
+  set field displayName "Human immunodeficiency virus (HIV-1)"
+  add member -w "source.name in ('ncbi-refseqs')"
+  
+  # Extract group M subtypes
+  extract child AL_HIV-1_A_references   --refName REF_A_AF177366
+  demote member AL_HIV-1_A_references   --whereClause "sequence.subtype = 'A'" 
+  #extract child AL_HIV-1_A1_references  --refName REF_A1_AF484509
+  #demote member AL_HIV-1_A1_references  --whereClause "sequence.subtype = 'A1'" 
+  extract child AL_HIV-1_A2_references  --refName REF_A2_AF286238
+  demote member AL_HIV-1_A2_references  --whereClause "sequence.subtype = 'A2'" 
+  extract child AL_HIV-1_B_references   --refName REF_MASTER_NC_001802
+  demote member AL_HIV-1_B_references   --whereClause "sequence.subtype = 'B'" 
+  extract child AL_HIV-1_C_references   --refName REF_C_U46016
+  demote member AL_HIV-1_C_references   --whereClause "sequence.subtype = 'C'" 
+  extract child AL_HIV-1_D_references   --refName REF_D_K03454
+  demote member AL_HIV-1_D_references   --whereClause "sequence.subtype = 'D'" 
+  extract child AL_HIV-1_F_references   --refName REF_F_AF005494
+  demote member AL_HIV-1_F_references   --whereClause "sequence.subtype = 'F'" 
+  extract child AL_HIV-1_G_references   --refName REF_G_AF061642
+  demote member AL_HIV-1_G_references   --whereClause "sequence.subtype = 'G'" 
+  extract child AL_HIV-1_H_references   --refName REF_H_AF005496
+  demote member AL_HIV-1_H_references   --whereClause "sequence.subtype = 'H'" 
+  extract child AL_HIV-1_K_references   --refName REF_K_AJ249235
+  demote member AL_HIV-1_K_references   --whereClause "sequence.subtype = 'K'" 
+
+  # Extract group M CRFs
+  extract child AL_HIV-1_01_AE_references    --refName REF_CRF01_U54771
+  demote member AL_HIV-1_01_AE_references    --whereClause "sequence.subtype = '01_AE'" 
+  extract child AL_HIV-1_02_AG_references    --refName REF_CRF02_L39106
+  demote member AL_HIV-1_02_AG_references    --whereClause "sequence.subtype = '02_AG'"   
+  extract child AL_HIV-1_06_AGJK_references  --refName REF_CRF06_AF064699
+  demote member AL_HIV-1_06_AGJK_references  --whereClause "sequence.subtype = '06_AGJK'" 
+  exit
+  
+#~# Import reference genome alignment for HIV-1 M group
+
+module unconstrainedAlignmentImporter
+  import AL_HIV-1__UNCONSTRAINED_genome_REF -f alignments/internal/HIV.genome.refseqs.aln.fna
+  exit
+
+#~# Set clade category
+
+alignment AL_HIV-1_MASTER        set field clade_category subtype
+alignment AL_HIV-1_A_references        set field clade_category subtype
+#alignment AL_HIV-1_A1_references       set field clade_category subtype
+alignment AL_HIV-1_A2_references       set field clade_category subtype
+alignment AL_HIV-1_B_references        set field clade_category subtype
+alignment AL_HIV-1_C_references        set field clade_category subtype
+alignment AL_HIV-1_D_references        set field clade_category subtype
+alignment AL_HIV-1_F_references        set field clade_category subtype
+alignment AL_HIV-1_G_references        set field clade_category subtype
+alignment AL_HIV-1_H_references        set field clade_category subtype
+alignment AL_HIV-1_K_references        set field clade_category subtype
+alignment AL_HIV-1_01_AE_references    set field clade_category subtype
+alignment AL_HIV-1_02_AG_references    set field clade_category subtype
+alignment AL_HIV-1_06_AGJK_references  set field clade_category subtype
+
+#~# Derive constrained alignment segments from unconstrained alignments
+
+alignment AL_HIV-1_MASTER
+  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF -a --existingMembersOnly --mergeStrategy OVERWRITE
+  exit
+
+alignment AL_HIV-1_A_references
+  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'A'" --existingMembersOnly --mergeStrategy OVERWRITE
+  exit
+
+#alignment AL_HIV-1_A1_references
+#  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'A1'" --existingMembersOnly --mergeStrategy OVERWRITE
+#  exit
+
+alignment AL_HIV-1_A2_references
+  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'A2'" --existingMembersOnly --mergeStrategy OVERWRITE
+  exit
+
+alignment AL_HIV-1_B_references
+  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'B'" --existingMembersOnly --mergeStrategy OVERWRITE
+  exit
+
+alignment AL_HIV-1_C_references
+  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'C'" --existingMembersOnly --mergeStrategy OVERWRITE
+  exit
+
+alignment AL_HIV-1_D_references
+  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'D'" --existingMembersOnly --mergeStrategy OVERWRITE
+  exit
+
+alignment AL_HIV-1_F_references
+  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'F'" --existingMembersOnly --mergeStrategy OVERWRITE
+  exit
+
+alignment AL_HIV-1_G_references
+  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'G'" --existingMembersOnly --mergeStrategy OVERWRITE
+  exit
+
+alignment AL_HIV-1_H_references
+  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'H'" --existingMembersOnly --mergeStrategy OVERWRITE
+  exit
+
+alignment AL_HIV-1_K_references
+  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'K'" --existingMembersOnly --mergeStrategy OVERWRITE
+  exit
+
+alignment AL_HIV-1_01_AE_references
+  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = '01_AE'" --existingMembersOnly --mergeStrategy OVERWRITE
+  exit
+
+alignment AL_HIV-1_02_AG_references
+  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = '02_AG'" --existingMembersOnly --mergeStrategy OVERWRITE
+  exit
+
+alignment AL_HIV-1_06_AGJK_references
+  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = '06_AGJK'" --existingMembersOnly --mergeStrategy OVERWRITE
+  exit
