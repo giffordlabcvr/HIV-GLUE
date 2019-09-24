@@ -46,7 +46,7 @@ project hiv
   module genbankXmlPopulator populate
 
   # Populate fields using tabular file data
-  run file glue/hivLoadTabularData.glue  
+  #run file glue/hivLoadCuratedTabularData.glue  
 
   validate
   

@@ -1,4 +1,4 @@
-#~# Create HIV-1 constrained alignment tree
+#~# Create HIV-1 constrained alignment tree for reference sequences
 create alignment  AL_HIV-1_MASTER -r REF_MASTER_NC_001802 
 alignment AL_HIV-1_MASTER
 
@@ -39,7 +39,7 @@ alignment AL_HIV-1_MASTER
 #~# Import reference genome alignment for HIV-1 M group
 
 module unconstrainedAlignmentImporter
-  import AL_HIV-1__UNCONSTRAINED_genome_REF -f alignments/internal/HIV.genome.refseqs.aln.fna
+  import AL_HIV-1_MASTER_UNCONSTRAINED -f alignments/internal/HIV.genome.refseqs.aln.fna
   exit
 
 #~# Set clade category
@@ -62,57 +62,57 @@ alignment AL_HIV-1_06_AGJK_references  set field clade_category subtype
 #~# Derive constrained alignment segments from unconstrained alignments
 
 alignment AL_HIV-1_MASTER
-  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF -a --existingMembersOnly --mergeStrategy OVERWRITE
+  derive segments AL_HIV-1_MASTER_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE
   exit
 
 alignment AL_HIV-1_A_references
-  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'A'" --existingMembersOnly --mergeStrategy OVERWRITE
+  derive segments AL_HIV-1_MASTER_UNCONSTRAINED --whereClause "sequence.subtype = 'A'" --existingMembersOnly --mergeStrategy OVERWRITE
   exit
 
 #alignment AL_HIV-1_A1_references
-#  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'A1'" --existingMembersOnly --mergeStrategy OVERWRITE
+#  derive segments AL_HIV-1_MASTER_UNCONSTRAINED --whereClause "sequence.subtype = 'A1'" --existingMembersOnly --mergeStrategy OVERWRITE
 #  exit
 
 alignment AL_HIV-1_A2_references
-  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'A2'" --existingMembersOnly --mergeStrategy OVERWRITE
+  derive segments AL_HIV-1_MASTER_UNCONSTRAINED --whereClause "sequence.subtype = 'A2'" --existingMembersOnly --mergeStrategy OVERWRITE
   exit
 
 alignment AL_HIV-1_B_references
-  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'B'" --existingMembersOnly --mergeStrategy OVERWRITE
+  derive segments AL_HIV-1_MASTER_UNCONSTRAINED --whereClause "sequence.subtype = 'B'" --existingMembersOnly --mergeStrategy OVERWRITE
   exit
 
 alignment AL_HIV-1_C_references
-  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'C'" --existingMembersOnly --mergeStrategy OVERWRITE
+  derive segments AL_HIV-1_MASTER_UNCONSTRAINED --whereClause "sequence.subtype = 'C'" --existingMembersOnly --mergeStrategy OVERWRITE
   exit
 
 alignment AL_HIV-1_D_references
-  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'D'" --existingMembersOnly --mergeStrategy OVERWRITE
+  derive segments AL_HIV-1_MASTER_UNCONSTRAINED --whereClause "sequence.subtype = 'D'" --existingMembersOnly --mergeStrategy OVERWRITE
   exit
 
 alignment AL_HIV-1_F_references
-  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'F'" --existingMembersOnly --mergeStrategy OVERWRITE
+  derive segments AL_HIV-1_MASTER_UNCONSTRAINED --whereClause "sequence.subtype = 'F'" --existingMembersOnly --mergeStrategy OVERWRITE
   exit
 
 alignment AL_HIV-1_G_references
-  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'G'" --existingMembersOnly --mergeStrategy OVERWRITE
+  derive segments AL_HIV-1_MASTER_UNCONSTRAINED --whereClause "sequence.subtype = 'G'" --existingMembersOnly --mergeStrategy OVERWRITE
   exit
 
 alignment AL_HIV-1_H_references
-  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'H'" --existingMembersOnly --mergeStrategy OVERWRITE
+  derive segments AL_HIV-1_MASTER_UNCONSTRAINED --whereClause "sequence.subtype = 'H'" --existingMembersOnly --mergeStrategy OVERWRITE
   exit
 
 alignment AL_HIV-1_K_references
-  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = 'K'" --existingMembersOnly --mergeStrategy OVERWRITE
+  derive segments AL_HIV-1_MASTER_UNCONSTRAINED --whereClause "sequence.subtype = 'K'" --existingMembersOnly --mergeStrategy OVERWRITE
   exit
 
 alignment AL_HIV-1_01_AE_references
-  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = '01_AE'" --existingMembersOnly --mergeStrategy OVERWRITE
+  derive segments AL_HIV-1_MASTER_UNCONSTRAINED --whereClause "sequence.subtype = '01_AE'" --existingMembersOnly --mergeStrategy OVERWRITE
   exit
 
 alignment AL_HIV-1_02_AG_references
-  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = '02_AG'" --existingMembersOnly --mergeStrategy OVERWRITE
+  derive segments AL_HIV-1_MASTER_UNCONSTRAINED --whereClause "sequence.subtype = '02_AG'" --existingMembersOnly --mergeStrategy OVERWRITE
   exit
 
 alignment AL_HIV-1_06_AGJK_references
-  derive segments AL_HIV-1__UNCONSTRAINED_genome_REF --whereClause "sequence.subtype = '06_AGJK'" --existingMembersOnly --mergeStrategy OVERWRITE
+  derive segments AL_HIV-1_MASTER_UNCONSTRAINED --whereClause "sequence.subtype = '06_AGJK'" --existingMembersOnly --mergeStrategy OVERWRITE
   exit
