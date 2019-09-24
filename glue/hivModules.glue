@@ -17,3 +17,5 @@
   
   create module -t blastFastaAlignmentImporter
  
+  create module --fileName modules/hivTextFilePopulatorLanlSequences.xml
+  create module --fileName modules/hivFastaAlignmentExporter.xml
