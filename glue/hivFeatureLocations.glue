@@ -11,10 +11,20 @@
     feature-location 5R
       add segment 1 96
       exit
+      
+    add feature-location TAR
+    feature-location TAR
+      add segment 1 60
+      exit
     
     add feature-location 5UTR
     feature-location 5UTR
       add segment 97 181
+      exit
+      
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 300
       exit
       
     add feature-location PBS
@@ -156,6 +166,11 @@
       add segment 5855 7303
       exit
       
+    add feature-location asp
+    feature-location asp
+      add segment 6919 7488
+      exit
+      
     add feature-location RRE
     feature-location RRE
       add segment 7265 7601
@@ -174,6 +189,11 @@
     add feature-location 3UTR
     feature-location 3UTR
       add segment 8631 9085
+      exit
+          
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8759 9181
       exit
       
     add feature-location 3R
