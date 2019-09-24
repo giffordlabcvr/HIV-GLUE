@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AB021118</GBSeq_locus>
+    <GBSeq_length>633</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>03-JUN-1999</GBSeq_create-date>
+    <GBSeq_definition>Feline immunodeficiency virus proviral DNA for envelope glycoprotein, partial cds, strain TSU226</GBSeq_definition>
+    <GBSeq_primary-accession>AB021118</GBSeq_primary-accession>
+    <GBSeq_accession-version>AB021118.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|AB021118.1|</GBSeqid>
+      <GBSeqid>gi|4996325</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>TSU226.ENV</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Feline immunodeficiency virus</GBSeq_source>
+    <GBSeq_organism>Feline immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Feline lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..633</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Nishimura,Y.</GBAuthor>
+          <GBAuthor>Goto,Y.</GBAuthor>
+          <GBAuthor>Yoneda,K.</GBAuthor>
+          <GBAuthor>Endo,Y.</GBAuthor>
+          <GBAuthor>Mizuno,T.</GBAuthor>
+          <GBAuthor>Hamachi,M.</GBAuthor>
+          <GBAuthor>Maruyama,H.</GBAuthor>
+          <GBAuthor>Kinoshita,H.</GBAuthor>
+          <GBAuthor>Koga,S.</GBAuthor>
+          <GBAuthor>Komori,M.</GBAuthor>
+          <GBAuthor>Fushuku,S.</GBAuthor>
+          <GBAuthor>Ushinohama,K.</GBAuthor>
+          <GBAuthor>Akuzawa,M.</GBAuthor>
+          <GBAuthor>Watari,T.</GBAuthor>
+          <GBAuthor>Hasegawa,A.</GBAuthor>
+          <GBAuthor>Tsujimoto,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Interspecies transmission of feline immunodeficiency virus from the domestic cat to the Tsushima cat (Felis bengalensis euptilura) in the wild</GBReference_title>
+        <GBReference_journal>J. Virol. 73 (9), 7916-7921 (1999)</GBReference_journal>
+        <GBReference_pubmed>10438892</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..633</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Nishimura,Y.</GBAuthor>
+          <GBAuthor>Goto,Y.</GBAuthor>
+          <GBAuthor>Tsujimoto,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (10-DEC-1998) Yoshiaki Nishimura, The University of Tokyo, Department of Veterinary Internal Medicine; 1-1-1 Yayoi, Bunkyo-ku, Tokyo 113, Japan (E-mail:aa57140@ecc-mail.hongo.ecc.u-tokyo.ac.jp, Tel:81-3-3812-2111(ex.5403), Fax:81-3-5800-6866)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..633</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>633</GBInterval_to>
+            <GBInterval_accession>AB021118.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Feline immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>TSU226</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11673</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;633</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>633</GBInterval_to>
+            <GBInterval_accession>AB021118.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>TSU226.env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;633</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>633</GBInterval_to>
+            <GBInterval_accession>AB021118.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>TSU226.env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>V3-V5 region</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BAA78406.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>AAYYNSCKWEQTDVKFQCQRTQSQPGTWLRTIASWRQNNRWVWRPDFESDKVKISLQCNSTKNLTFAMRSSGDYGEITGAWIEFGCYRNKSKFHDEARFRIRCRWNTGTNTSLIDTCGNNPNVTGANPVDCTMRANTMYNCSLQNGFTMKIEDLIVHFNMTKAVEMYNIAGNWSCNSDIPSGWGYMNCNCTNSTSSITSSMAKMECPREHG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gcagcttattataatagctgtaaatgggaacaaactgatgtgaaatttcagtgtcaaagaacacaaagtcaaccaggaacatggcttaggacaattgcctcatggagacagaacaatagatgggtatggaggccagactttgaaagtgacaaggtgaaaatatcattacagtgtaatagtacaaaaaatttaacctttgctatgagaagctcaggtgattatggtgaaataacgggagcatggatagaatttggatgttacaggaataaatctaaatttcatgatgaagcaagatttagaatacgatgtagatggaatacaggaactaacacttcactcattgacacatgtgggaataatccgaatgtcacgggagccaatcccgtagattgtactatgagggcaaatactatgtacaattgttctttgcagaatggctttactatgaaaatagaagacctcattgtacattttaatatgacaaaagctgtggaaatgtataatattgctgggaattggtcttgtaattctgatataccatcgggatggggatacatgaactgtaattgtacaaatagtacgagttcaattacgagttcaatggcaaaaatggagtgccctagggaacatggc</GBSeq_sequence>
+  </GBSeq>

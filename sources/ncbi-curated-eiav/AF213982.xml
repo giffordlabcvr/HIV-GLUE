@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF213982</GBSeq_locus>
+    <GBSeq_length>381</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>30-JAN-2000</GBSeq_create-date>
+    <GBSeq_definition>Equine infectious anemia virus strain Th-6 clone Th-6.R2 Rev (rev) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AF213982</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF213982.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF213982.1|</GBSeqid>
+      <GBSeqid>gi|6815785</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Equine infectious anemia virus</GBSeq_source>
+    <GBSeq_organism>Equine infectious anemia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Equine lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..381</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Belshan,M.</GBAuthor>
+          <GBAuthor>Harris,M.E.</GBAuthor>
+          <GBAuthor>Shoemaker,A.E.</GBAuthor>
+          <GBAuthor>Hope,T.J.</GBAuthor>
+          <GBAuthor>Carpenter,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Biological characterization of Rev variation in equine infectious anemia virus</GBReference_title>
+        <GBReference_journal>J. Virol. 72 (5), 4421-4426 (1998)</GBReference_journal>
+        <GBReference_pubmed>9557734</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..381</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Belshan,M.</GBAuthor>
+          <GBAuthor>Harris,M.E.</GBAuthor>
+          <GBAuthor>Shoemaker,A.E.</GBAuthor>
+          <GBAuthor>Hope,T.J.</GBAuthor>
+          <GBAuthor>Carpenter,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (10-DEC-1999) Microbiology, Immunology, and Preventive Medicine, Iowa State University, Ames, IA 50011, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..381</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>381</GBInterval_to>
+            <GBInterval_accession>AF213982.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Equine infectious anemia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Th-6</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11665</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>Th-6.R2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>isolated from Th-6 infected horse macrophage cultures; identical in clones Th-6.R4 and Th-6.R5</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..381</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>381</GBInterval_to>
+            <GBInterval_accession>AF213982.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>rev</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..381</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>381</GBInterval_to>
+            <GBInterval_accession>AF213982.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>rev</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>Rev</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAF28732.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>QWCRVLRQSLPEEKIPSQTCIARRHLGPGPTQHTPSRRDRWIRGQILQAEVLQERLEWRIRGVQQVAKELGEVIRGIWRELYFREDQRGDFSRWGGYQRAQERLWGEQSSPRVLRPGDSKRRRKHL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cagtggtgcagggtcctccggcagtcgttacctgaagaaaaaattccatcacaaacatgcatcgcgagaagacacctgggaccaggcccaacacaacatacacctagcaggcgtgaccggtggatcaggggacaaatactacaagcagaagtactccaggaacgactggaatggagaatcagaggagtacaacaggtggccaaagagctgggtgaagtcattcgaggcatttggagagagctatatttccgagaagaccaaaggggagatttctcacgctggggcggctatcaacgagcacaagaacggctctggggggaacaatcctcaccaagagtccttagacctggagattcgaagcgaaggaggaaacatttatga</GBSeq_sequence>
+  </GBSeq>

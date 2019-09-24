@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EU480467</GBSeq_locus>
+    <GBSeq_length>2571</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>07-FEB-2009</GBSeq_create-date>
+    <GBSeq_definition>HIV-1 isolate MAL154 from Mali envelope glycoprotein (env) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>EU480467</GBSeq_primary-accession>
+    <GBSeq_accession-version>EU480467.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|EU480467.1|</GBSeqid>
+      <GBSeqid>gi|186966820</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human immunodeficiency virus 1 (HIV-1)</GBSeq_source>
+    <GBSeq_organism>Human immunodeficiency virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Primate lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2571</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Imamichi,H.</GBAuthor>
+          <GBAuthor>Koita,O.</GBAuthor>
+          <GBAuthor>Dabitao,D.</GBAuthor>
+          <GBAuthor>Dao,S.</GBAuthor>
+          <GBAuthor>Ibrah,M.</GBAuthor>
+          <GBAuthor>Sogoba,D.</GBAuthor>
+          <GBAuthor>Dewar,R.L.</GBAuthor>
+          <GBAuthor>Berg,S.C.</GBAuthor>
+          <GBAuthor>Jiang,M.K.</GBAuthor>
+          <GBAuthor>Parta,M.</GBAuthor>
+          <GBAuthor>Washington,J.A.</GBAuthor>
+          <GBAuthor>Polis,M.A.</GBAuthor>
+          <GBAuthor>Lane,H.C.</GBAuthor>
+          <GBAuthor>Tounkara,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Identification and characterization of CRF02_AG, CRF06_cpx, and CRF09_cpx recombinant subtypes in Mali, West Africa</GBReference_title>
+        <GBReference_journal>AIDS Res. Hum. Retroviruses 25 (1), 45-55 (2009)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1089/aid.2008.0111</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>19182920</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2571</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Imamichi,H.</GBAuthor>
+          <GBAuthor>Koita,O.</GBAuthor>
+          <GBAuthor>Dabitao,D.</GBAuthor>
+          <GBAuthor>Dao,S.</GBAuthor>
+          <GBAuthor>Ibrah,M.</GBAuthor>
+          <GBAuthor>Sogoba,D.</GBAuthor>
+          <GBAuthor>Dewar,R.L.</GBAuthor>
+          <GBAuthor>Berg,S.C.</GBAuthor>
+          <GBAuthor>Jiang,M.-K.</GBAuthor>
+          <GBAuthor>Parta,M.</GBAuthor>
+          <GBAuthor>Washington,J.A.</GBAuthor>
+          <GBAuthor>Polis,M.A.</GBAuthor>
+          <GBAuthor>Lane,H.C.</GBAuthor>
+          <GBAuthor>Tounkara,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (11-FEB-2008) Laboratory of Molecular Retrovirology, Clinical Services Program, SAIC-Frederick, Inc., P.O. Box B, Bldg.550, Rm. 201-A, Frederick, MD 21702, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2571</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2571</GBInterval_to>
+            <GBInterval_accession>EU480467.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human immunodeficiency virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>MAL154</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11676</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Mali</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..&gt;2571</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2571</GBInterval_to>
+            <GBInterval_accession>EU480467.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..&gt;2571</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2571</GBInterval_to>
+            <GBInterval_accession>EU480467.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ACC96265.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MRVMGTQRNYTPLWRWGMIFLCMLIICKTTGNLWVTVYYGVPVWRDAETTLFCASDAKAYEQEVHNVWATRACVPTDPNPQEIELKNVTEKFNMWKNNMVDQMHTDIISLWDQSLKPCVKLTPLCVTLECAYNITNNSTSNNITAEVREEIKNCSFNATTEIRDKIKKVYALFYRADIVSMNNNSQYRLINCNTSAITQACPKVSFEPIPIHYCAPAGFVILKCKDKRFNGTGPCMNVSSVQCTHGIKPVVSTQLLLNGSLAEEEVMIRSENFTNNAKTIIVQLVKPVTINCTRPNNNTRESIRIGPGQTFYATGEIIGDIRLAYCTVNRTDWNNTLQKVAKQLGTQFNTSKITFTNSSGGDLEITTHSFNCRGEFFYCNTSGLFNSTWYGTDNSTWQQNETNLNETIILPCRIKQIVRMWQEVGQAMYANPIKGVINCMSNITGLLLTRDGGNTSGANETFRPGGGDMRDNWRSELYKYKVVKIEPLGVAPTPAKRRVVEREKRAVGLGAVFFGFLGAAGSTMGAASLTLTVQARQLLSGIVQQQNNLLRAIEAQQHMLKLTVWGIKQLQARVLAVERFLRDQQLLGIWGCSGKIICTTSVPWNSSWSNKSQHEIWDNMTWLQWDKEISNYTEIIYGLIEESQNQQEKNEQELLALDKWSNLWNWFGITKWLWYIKIFIIIVGGLIGLRIVFAVLTIINRVRQGYSPLSLQIHPLHPGEVDRPGRIEEEGGEQGRDRSIRLVSGFLALAWNDLRSLCLFSYHRLRDLILIAARAVELLGYSSLKGLRLGWGALKYLWNLLSYWGQELKNSAISLLDTIAIAVANWTDRIIEIVQRAGRAICNIPTRIRQGLERALL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgagagtgatggggacacagaggaattatacacccttgtggaggtgggggatgatattcctttgcatgctaataatttgtaagactacaggaaatttgtgggtcacagtctattatggggtaccggtgtggagagacgcagagaccaccctattttgtgcatcagatgctaaagcatatgagcaagaagtacataatgtttgggctacacgcgcctgtgtacccacagaccctaacccacaagaaatagaattgaaaaatgtgacagaaaagtttaacatgtggaaaaataacatggtagatcagatgcatacagatataatcagtttatgggaccaaagcttaaaaccatgtgtaaaactaacccctctctgtgtcactttagagtgtgcttacaacatcactaacaatagcactagcaacaacataactgctgaagtacgagaggaaataaaaaattgctctttcaatgcaaccacagaaataagagataagataaagaaagtgtatgcacttttttatagagctgatatagtatcaatgaataacaatagtcagtataggttaataaattgtaatacctcagccattacacaggcctgtccaaaagtatccttcgagccaattcccatacattattgtgccccagctggttttgtgattctaaagtgtaaagacaagagattcaatggaacagggccatgcatgaatgtcagctcagtacaatgcacacatggaatcaagccagtagtatcaactcaactactgttgaatggcagtctagcagaagaagaggtaatgatcagatctgaaaatttcacaaacaatgccaaaaccataatagtacagcttgttaagcctgtaacaattaattgtaccagacccaacaacaatacaagagaaagtatacgtataggaccaggacaaacattttatgcaacaggagaaataataggggatataagactagcatattgtactgtcaatagaacagactggaataatactttacaaaaggtagctaaacagttaggaacacagtttaacacatcaaagataacctttactaactcctcaggaggagatttagaaattacaacacatagctttaattgtagaggagaatttttctactgcaatacatcaggcctgtttaatagtacttggtatggcactgacaatagtacttggcagcagaatgagacaaatttaaatgagactataattctcccatgcagaataaaacaaattgtacgtatgtggcaggaagtaggacaagcaatgtatgccaatcccattaaaggagtaataaactgtatgtcaaacattacagggctactactaacaagagatggtgggaatactagtggtgcaaatgagacgttcagacctggaggaggagatatgagggacaattggagaagtgaattatacaaatataaagtagtaaaaattgaaccactaggagtagcacctactccggcaaagagaagagtggtggaaagagaaaaaagagcagttggactgggagctgtcttctttgggttcctaggagcagcaggaagtacgatgggcgcggcgtcattgacgctgacggtacaggccagacaactattgtctggcatcgtacagcagcagaacaatctgctgagggctatagaggctcaacagcacatgttgaaactcacagtctggggcattaaacagctccaggcaagagtcctggctgtggaaaggttcctaagggatcaacagctcctaggaatttggggttgctctggaaaaatcatctgtaccactagtgtgccctggaactccagttggagtaataaatctcagcatgaaatatgggataacatgacctggctgcaatgggataaagaaattagcaattacacagaaataatatacggtctaattgaagaatcacagaaccagcaggaaaagaatgaacaagaattattggcgttggacaagtggtcaaatctgtggaattggtttggtataacaaaatggctgtggtatataaaaatatttataataatagtaggaggcttgataggtttaagaatagtttttgctgtgcttactataataaatagagttaggcagggatactcacctctatcattgcagatccaccccctccatccaggggaagtcgacaggcccggaagaatcgaagaagaaggtggagagcaaggcagagacagatcgattcgattagtgagcggattcttagcacttgcctggaacgacctacggagcctgtgcctcttcagctaccaccgcttgagagacttaatcttgattgcagcgagggcagtggaacttctgggatacagcagtctcaagggactgagactggggtggggagccctcaaatacctgtggaatcttctgtcatactggggtcaggaactaaagaatagtgctattagtttgcttgatacaatagcaatagcagtagctaactggacagatagaattatagaaatagtacaaagagctggtagagctatttgcaacatacctacaagaataagacaaggcttagaaagggctttgcta</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>X16988</GBSeq_locus>
+    <GBSeq_length>2580</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>09-SEP-2004</GBSeq_update-date>
+    <GBSeq_create-date>25-JAN-1990</GBSeq_create-date>
+    <GBSeq_definition>Equine infectious anemia virus RNA for envelope protein</GBSeq_definition>
+    <GBSeq_primary-accession>X16988</GBSeq_primary-accession>
+    <GBSeq_accession-version>X16988.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|X16988.1|</GBSeqid>
+      <GBSeqid>gi|59246</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>env gene</GBKeyword>
+      <GBKeyword>glycoprotein</GBKeyword>
+      <GBKeyword>gp45 protein</GBKeyword>
+      <GBKeyword>gp90 protein</GBKeyword>
+      <GBKeyword>polyprotein</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Equine infectious anemia virus</GBSeq_source>
+    <GBSeq_organism>Equine infectious anemia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Equine lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2580</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>McGuire,T.C.</GBAuthor>
+          <GBAuthor>Lacy,P.A.</GBAuthor>
+          <GBAuthor>O'Rourke,K.I.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>cDNA sequence of the env gene of a pathogenic equine infectious anemia lentivirus variant</GBReference_title>
+        <GBReference_journal>Nucleic Acids Res. 18 (1), 196 (1990)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1093/nar/18.1.196</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>2155398</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2580</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>McGuire,T.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (21-OCT-1989) McGuire T. C., Washington State University, Veterinary Micro-Pathology Department, Bustad Rm. 402, Pullman, WA 99164-7040, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>See &lt;M16575&gt; for overlapping sequences. N.B. there are many conflicts between the published sequences of the equine infectious anemia virus.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2580</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2580</GBInterval_to>
+            <GBInterval_accession>X16988.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Equine infectious anemia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>EIAV-WSU5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11665</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>pWU5-2500 and pWSU5-X37</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>cell_type</GBQualifier_name>
+            <GBQualifier_value>foetal equine kidney</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..2580</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2580</GBInterval_to>
+            <GBInterval_accession>X16988.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein precursor (859 AA)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAA34856.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GOA:P16082</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR000328</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR001361</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>UniProtKB/Swiss-Prot:P16082</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MVSIAFYGGIPGGISTPITQQSEKSKYEENTMFQPYCYNNDSKNSMAESKEARDQEMNLKEESKEEKRRNDWWKIGMFLLCLAGTTGGILWWYEGLPQQHYIGLVAIGGRLNGSGQSNAIECWGSFPGCRPFQNYFSYETNRSMHMDNNTATLLEAYHREITFIYKSSCTDSDHCQEYQCKKVNLNSSDSSNSVRVEDVTNTAEYWGFKWLECNQTENFKTILVPENEMVNINDTDTWIPKGCNETWARVKRCPIDILYGIHPIRLCVQPPFFLVQEKGIADTSRIGNCGPTIFLGVLEDNKGVVRGDYTACNVSRLNINRKDYTGIYQVPIFYTCTFTNITSCNNEPIISVIMYETNQVQYLLCNNNNSNNYNCVVQSFGVIGQAHLELPRPNKRIRNQSFNQYNCSINNKTELETWKLVKTSGITPLPISSEANTGLIRHKRDFGISAIVAAIVAATAIAASATMSYVALTEVNKIMEVQNHTFEVENSTLNGMDLIERQIKILYAMILQTHADVQLLKERQQVEETFNLIGCIERTHVFCHTGHPWNMSWGHLNESTQWDDWVSKMEDLNQEILTTLHGARNNLAQSMITFNTPDSIAQFGKDLWSHIGNWIPGLGASIIKYIVMFLLIYLLLTSSPKILRALWKVTSGAGSSGSRYLKKKFHHKHASREDTWDQAQHNIHLAGVTGGSGDKYYKQKYSRNDWNGESEEYNRRPKSWVKSIEAFGESYISEKTKGEISQPGAAINEHKNGSGGNNPHQGSLDLEIRSEGGNIYDCCIKAQEGTLAIPCCGFPLWLFWGLVIIVGRIAGYGLRGLAVIIRICTRGLNLIFEIIRKMLDYIGRALNPGTSHVSMPQYV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>sig_peptide</GBFeature_key>
+        <GBFeature_location>1..87</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>87</GBInterval_to>
+            <GBInterval_accession>X16988.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>signal peptide (AA -29 to -1)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>MVSIAFYGGIPGGISTPITQQSEKSKYEE</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>88..2577</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>88</GBInterval_from>
+            <GBInterval_to>2577</GBInterval_to>
+            <GBInterval_accession>X16988.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope polyprotein (gp90/gp45) (830 AA)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>NTMFQPYCYNNDSKNSMAESKEARDQEMNLKEESKEEKRRNDWWKIGMFLLCLAGTTGGILWWYEGLPQQHYIGLVAIGGRLNGSGQSNAIECWGSFPGCRPFQNYFSYETNRSMHMDNNTATLLEAYHREITFIYKSSCTDSDHCQEYQCKKVNLNSSDSSNSVRVEDVTNTAEYWGFKWLECNQTENFKTILVPENEMVNINDTDTWIPKGCNETWARVKRCPIDILYGIHPIRLCVQPPFFLVQEKGIADTSRIGNCGPTIFLGVLEDNKGVVRGDYTACNVSRLNINRKDYTGIYQVPIFYTCTFTNITSCNNEPIISVIMYETNQVQYLLCNNNNSNNYNCVVQSFGVIGQAHLELPRPNKRIRNQSFNQYNCSINNKTELETWKLVKTSGITPLPISSEANTGLIRHKRDFGISAIVAAIVAATAIAASATMSYVALTEVNKIMEVQNHTFEVENSTLNGMDLIERQIKILYAMILQTHADVQLLKERQQVEETFNLIGCIERTHVFCHTGHPWNMSWGHLNESTQWDDWVSKMEDLNQEILTTLHGARNNLAQSMITFNTPDSIAQFGKDLWSHIGNWIPGLGASIIKYIVMFLLIYLLLTSSPKILRALWKVTSGAGSSGSRYLKKKFHHKHASREDTWDQAQHNIHLAGVTGGSGDKYYKQKYSRNDWNGESEEYNRRPKSWVKSIEAFGESYISEKTKGEISQPGAAINEHKNGSGGNNPHQGSLDLEIRSEGGNIYDCCIKAQEGTLAIPCCGFPLWLFWGLVIIVGRIAGYGLRGLAVIIRICTRGLNLIFEIIRKMLDYIGRALNPGTSHVSMPQYV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>88..1332</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>88</GBInterval_from>
+            <GBInterval_to>1332</GBInterval_to>
+            <GBInterval_accession>X16988.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>gp90 protein (415 AA)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>NTMFQPYCYNNDSKNSMAESKEARDQEMNLKEESKEEKRRNDWWKIGMFLLCLAGTTGGILWWYEGLPQQHYIGLVAIGGRLNGSGQSNAIECWGSFPGCRPFQNYFSYETNRSMHMDNNTATLLEAYHREITFIYKSSCTDSDHCQEYQCKKVNLNSSDSSNSVRVEDVTNTAEYWGFKWLECNQTENFKTILVPENEMVNINDTDTWIPKGCNETWARVKRCPIDILYGIHPIRLCVQPPFFLVQEKGIADTSRIGNCGPTIFLGVLEDNKGVVRGDYTACNVSRLNINRKDYTGIYQVPIFYTCTFTNITSCNNEPIISVIMYETNQVQYLLCNNNNSNNYNCVVQSFGVIGQAHLELPRPNKRIRNQSFNQYNCSINNKTELETWKLVKTSGITPLPISSEANTGLIRHKR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>1333..2577</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1333</GBInterval_from>
+            <GBInterval_to>2577</GBInterval_to>
+            <GBInterval_accession>X16988.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>gp45 protein (415 AA)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>DFGISAIVAAIVAATAIAASATMSYVALTEVNKIMEVQNHTFEVENSTLNGMDLIERQIKILYAMILQTHADVQLLKERQQVEETFNLIGCIERTHVFCHTGHPWNMSWGHLNESTQWDDWVSKMEDLNQEILTTLHGARNNLAQSMITFNTPDSIAQFGKDLWSHIGNWIPGLGASIIKYIVMFLLIYLLLTSSPKILRALWKVTSGAGSSGSRYLKKKFHHKHASREDTWDQAQHNIHLAGVTGGSGDKYYKQKYSRNDWNGESEEYNRRPKSWVKSIEAFGESYISEKTKGEISQPGAAINEHKNGSGGNNPHQGSLDLEIRSEGGNIYDCCIKAQEGTLAIPCCGFPLWLFWGLVIIVGRIAGYGLRGLAVIIRICTRGLNLIFEIIRKMLDYIGRALNPGTSHVSMPQYV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggtcagcatcgcattctatggggggatcccagggggaatctcaacccctattacccaacagtcagaaaaatccaagtatgaggaaaacacaatgtttcaaccttattgttataataatgacagtaagaacagcatggcagaatcgaaggaagcaagagaccaagaaatgaacctgaaagaagaatctaaagaagaaaaaagaagaaatgactggtggaaaataggtatgtttctgttatgcttagcaggaactactggaggaatactttggtggtatgaaggactcccacagcaacattatatagggttggtagcgatagggggaagattaaacggatctggccaatcaaatgctatagaatgctggggttccttcccggggtgtagaccatttcaaaattacttcagttatgagaccaatagaagcatgcatatggataataatactgctacattattagaagcttatcatagagagataacattcatttataagtcttcttgcacagatagtgatcattgtcaagagtatcaatgtaaaaaagttaatcttaattcctctgactcctctaactctgtacgtgttgaggatgtaacgaacacagcggaatattggggatttaaatggctagaatgtaatcaaacagaaaattttaagactatattagtacctgaaaatgaaatggtaaatatcaatgatactgatacctggatacctaaggggtgtaatgagacgtgggcaagagtgaaacgttgtcctatagatattttatatgggatacatccaatcaggctgtgtgtacagccaccattttttctggtacaggagaaagggattgctgatacttctagaattggcaattgtgggccaacaatatttcttggggttttagaagataataagggagtagtacggggggattatacagcctgcaatgtgagtcgcctaaatataaatagaaaggattatacagggatctatcaagtacctatattttatacatgtactttcactaacataacttcctgcaataatgagccaataatcagtgttatcatgtatgaaacaaaccaggtacaatatttattgtgtaataataataatagtaataattataattgtgtagtacaaagttttggagttataggacaggcacacttagaactgcctagacctaacaaaagaataaggaatcaaagctttaaccaatataactgctctataaataacaaaacagaattagaaacatggaagttagtaaagacttctggcataactcctttacctatttcttctgaagctaacactggactaattagacataagagagattttggtataagtgcaatagtggcagctattgtagccgctactgctattgctgctagcgctactatgtcttatgttgctctaactgaggttaacaaaataatggaagtacaaaatcatacttttgaggtagaaaatagtactctaaatggtatggatttaatagaacgacaaataaagatattatatgctatgattcttcaaacacatgcagatgttcaactgttaaaggaaagacaacaggtagaggagacatttaatttaattggatgtatagaaagaacacatgtattttgtcatactggtcatccctggaatatgtcatggggacatttaaatgagtcaacacaatgggatgactgggtaagcaaaatggaagatttaaatcaagagatactaactacacttcatggagccaggaacaatttggcacaatccatgataacattcaatacaccagatagtatagctcaatttggaaaagacctttggagtcatattggaaattggattcctggattgggagcttccattataaaatatatagtgatgtttttgcttatttatttgttactaacctcttcgcctaagatcctcagggccctctggaaagtgaccagtggtgcagggtcctccggcagtcgttacctgaagaaaaaattccatcacaaacatgcatcacgagaagacacctgggaccaggcccaacacaacatacacctagcaggcgtgaccggtggatcaggggacaaatactacaagcagaagtactccaggaacgactggaatggagaatcagaggagtacaacaggcggccaaagagctgggtgaagtcaatcgaggcatttggagagagctatatttccgagaagaccaaaggggagatttctcagcctggggcggctatcaacgagcacaagaacggctctggggggaacaatcctcaccaagggtccttagacctggagattcgaagcgaaggaggaaacatttatgactgttgcattaaagcccaagaaggaactctcgctatcccttgctgtggatttcccttatggctattttggggactagtaattatagtaggacgcatagcaggctatggattacgtggactcgctgttataataaggatttgtactagaggcttaaatttgatatttgaaataatcagaaaaatgcttgattatattggaagagctttaaatcctggcacatctcatgtatcaatgcctcagtatgtttag</GBSeq_sequence>
+  </GBSeq>

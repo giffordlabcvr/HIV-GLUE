@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EU915484</GBSeq_locus>
+    <GBSeq_length>2693</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>20-OCT-2008</GBSeq_update-date>
+    <GBSeq_create-date>30-AUG-2008</GBSeq_create-date>
+    <GBSeq_definition>Feline immunodeficiency virus isolate Sangre envelope glycoprotein mRNA, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>EU915484</GBSeq_primary-accession>
+    <GBSeq_accession-version>EU915484.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|EU915484.1|</GBSeqid>
+      <GBSeqid>gi|197253272</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Feline immunodeficiency virus</GBSeq_source>
+    <GBSeq_organism>Feline immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Feline lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2693</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>McEwan,W.A.</GBAuthor>
+          <GBAuthor>McMonagle,E.L.</GBAuthor>
+          <GBAuthor>Logan,N.</GBAuthor>
+          <GBAuthor>Serra,R.C.</GBAuthor>
+          <GBAuthor>Kat,P.</GBAuthor>
+          <GBAuthor>Vandewoude,S.</GBAuthor>
+          <GBAuthor>Hosie,M.J.</GBAuthor>
+          <GBAuthor>Willett,B.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genetically divergent strains of feline immunodeficiency virus from the domestic cat (Felis catus) and the African lion (Panthera leo) share usage of CD134 and CXCR4 as entry receptors</GBReference_title>
+        <GBReference_journal>J. Virol. 82 (21), 10953-10958 (2008)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1128/JVI.01312-08</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>18715917</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2693</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>McEwan,W.A.</GBAuthor>
+          <GBAuthor>McMonagle,E.L.</GBAuthor>
+          <GBAuthor>Logan,N.</GBAuthor>
+          <GBAuthor>Serra,R.C.</GBAuthor>
+          <GBAuthor>Kat,P.</GBAuthor>
+          <GBAuthor>Vandewoude,S.</GBAuthor>
+          <GBAuthor>Hosie,M.J.</GBAuthor>
+          <GBAuthor>Willett,B.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (22-JUL-2008) Faculty of Veterinary Medicine, University of Glasgow, Bearsden Road, Glasgow G61 1QH, UK</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2693</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2693</GBInterval_to>
+            <GBInterval_accession>EU915484.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Feline immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Sangre</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Panthera leo</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11673</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Botswana</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2003</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>PCR_primers</GBQualifier_name>
+            <GBQualifier_value>fwd_seq: atatagatggcagaaggaggaagagta, rev_seq: tttttaggtattagactcatcattcacct</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype: E</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..2682</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2682</GBInterval_to>
+            <GBInterval_accession>EU915484.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ACH54081.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MAEGGRVDLVEGAVGMRPKGQGEEEHDYGIGMNPDFIGPYEGEMLLDYEILQYVTEEGPFRPGHNPFRGPGITEEEKLELCKILQTKLREIKSQMLEGPSSNITPGKYRRLRYLQYSDMNIQNQMSLLFFQCCYYLKDRIGKARENIDVPISPQARFEAKEKGRTFNILARRICGISSFILLLFISLSIWKSVHGQIVWRLPPIVIPIEETDTILWDCWAPGEPACEDYMGYLMDLKAQTNLTIKGPTLGDWAREIWLGLIRKATKQCTRKGIYKKWNDTITGPQGCANDSCIHITVSIPDYSCYLERIENWLMGMVNFSICVAEGKMLLNKETQNLQYCTERFQIPLINYTFGPNQTCKWNLTEETEKELPKCGWWNQNAIYNVCQWEQSNVTFQCARXQSQPGRWVKSRSSWKSKNRYIWIPDITATNVKVTLQCNVSEDLTFAMRDSADTGDVTGAWIEFGCLRKENKTAGLEELMMRIRCRWNEGINVRDIDTCGNNNNVSGANPVNCTMFANTPYNCTIQNSFLLKLDTDIIHFNLSKILDLKGIVGNWSCASVQHKQWGYMKCNCSDDRKNSSNKMSCPAKTGILRNWYNPVLALKTTLQKYTIVKQPDYVVVPQSILNNEVKKKKEKRAAIHVILALSTILSLAGAGAGVTAISLVSEYHHVLQSHQQAIEKITTALKVADIRLIALEHQMLTLGLKVEALEKFVYTAFAMQVLGCREQQFFCKIPQKYITSYNLTLNDTFWNGGNITLIEWYNKTKDLQRKFQEIIMEIEQSSAEGQQGLKELEEWESWTGWIKAIPKYLKSLVGGFVGIIIIILGIIIGLPILVDCTRNMMNKIVGYVQIKEEMVILAEQCTESDSESEIDVTGEETQLMVNPEKREVNDESNT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggcagaaggaggaagagtagatttagtggaaggagcagtaggaatgagaccaaaaggtcaaggagaagaagaacatgattatgggatagggatgaatccagattttataggtccatatgaaggagaaatgttattagattatgagattttacaatatgtcacggaagagggaccttttagaccaggacacaacccatttagaggaccaggaataactgaagaagagaaattagaattatgtaaaatattacaaacaaagcttagggaaataaagtctcaaatgttggaaggaccatcatcgaatatcactccaggtaagtataggagattaagatatcttcagtactcagatatgaatattcagaatcaaatgtctcttttgttttttcagtgttgttattatctaaaggacaggattggaaaagctagagaaaatatagacgttccgatcagtcctcaggcaagatttgaagcaaaggaaaagggaagaacctttaatatattagccagaagaatctgtggtatttcatcttttatattattgctctttattagtctcagtatatggaaaagtgttcatggtcaaatagtgtggagattgccacctatagtaatacctatagaagaaacagataccatcctatgggattgttgggctccaggagaacctgcatgtgaagattatatgggatatttaatggatttaaaggctcagactaatttaacaataaaaggacctacattaggagattgggctagagaaatatggcttggattaataagaaaagcaacaaaacagtgtacgaggaaagggatatataaaaaatggaatgatacaatcacgggacctcagggatgtgctaacgattcatgtattcatattacagttagtatacctgattattcatgttatttagaaagaatagaaaattggttaatgggaatggtaaatttttctatttgtgtagcagaaggaaaaatgttattaaacaaagaaacacaaaatttacaatattgtacagaaagatttcaaatccctttgataaattacacttttggaccaaatcagacatgtaagtggaatctaacagaagaaacagaaaaggaattgcctaaatgtggttggtggaatcaaaacgcaatctataacgtatgtcagtgggaacaatcaaatgtaacatttcaatgtgcaagancacaaagtcaaccaggtagatgggttaaatcaagaagctcttggaagagtaagaatagatacatatggatacctgatataacagcaacaaatgtaaaggttactttacaatgtaatgtatcagaagatttaacttttgctatgagagatagtgcagacactggagatgtgacaggggcatggattgaatttggatgccttagaaaagaaaataaaacagcagggttagaagaattaatgatgagaattagatgtagatggaatgaagggataaatgtgagggatatcgatacctgtgggaataataataatgtatcaggggcaaacccagttaattgtactatgttcgcaaatactccttacaattgtacaattcaaaactctttcttattaaaacttgatactgacattattcattttaatttaagtaaaattttagatttaaaaggaatagtgggaaattggagctgtgcatctgttcaacataaacaatggggatatatgaagtgtaattgtagtgatgataggaaaaattctagtaataaaatgagttgtccagcaaaaacaggaatattgagaaattggtataatccagttctagcactaaaaactacactccaaaagtatactatagtaaaacaaccagattatgtagtagtacctcaaagtattctcaataatgaagtgaaaaagaaaaaagaaaaaagagcagctattcatgtaattttagccctatctactatattatcattagcaggtgccggggctggagttacagcaatatcattggtgtcagagtatcatcatgtattacaatcacatcagcaggctatagaaaaaattacaacagcattaaaagtagctgatataagactgatagcattagaacatcaaatgctaacattgggactaaaggtagaagctctagagaagtttgtatatactgcatttgcaatgcaagttttgggatgtagagaacaacaatttttctgtaagataccacaaaaatatattacatcatataacttaactttaaatgacacattttggaacgggggcaatataaccttaatagaatggtataataagactaaagatctacaaagaaagtttcaagaaataattatggaaatagaacaaagtagtgcagaaggacaacaagggttaaaggaattagaggaatgggaatcatggacagggtggataaaagcaattcctaaatatttaaaaagtctagtaggaggatttgtaggtattataataataattcttggaattataatagggttacctattttggtggattgtacaagaaacatgatgaataaaatagtgggttatgtacaaataaaagaagaaatggtaatattggcagaacaatgtacagagtcagattcagaatcagagattgatgtgactggggaagaaactcagctgatggtaaaccctgaaaagagagaggtgaatgatgagtctaatacctaaagcgggccgtc</GBSeq_sequence>
+  </GBSeq>

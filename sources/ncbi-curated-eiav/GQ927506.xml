@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>GQ927506</GBSeq_locus>
+    <GBSeq_length>313</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>24-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>14-OCT-2009</GBSeq_create-date>
+    <GBSeq_definition>Equine infectious anemia virus clone O-10 gag gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>GQ927506</GBSeq_primary-accession>
+    <GBSeq_accession-version>GQ927506.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|GQ927506.1|</GBSeqid>
+      <GBSeqid>gi|261036324</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Equine infectious anemia virus</GBSeq_source>
+    <GBSeq_organism>Equine infectious anemia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Equine lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..313</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Cappelli,K.</GBAuthor>
+          <GBAuthor>Capomaccio,S.</GBAuthor>
+          <GBAuthor>Cook,F.R.</GBAuthor>
+          <GBAuthor>Felicetti,M.</GBAuthor>
+          <GBAuthor>Marenzoni,M.L.</GBAuthor>
+          <GBAuthor>Coppola,G.</GBAuthor>
+          <GBAuthor>Verini-Supplizi,A.</GBAuthor>
+          <GBAuthor>Coletti,M.</GBAuthor>
+          <GBAuthor>Passamonti,F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular Detection, Epidemiology, and Genetic Characterization of Novel European Field Isolates of Equine Infectious Anemia Virus</GBReference_title>
+        <GBReference_journal>J. Clin. Microbiol. 49 (1), 27-33 (2011)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1128/JCM.01311-10</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>21084503</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..313</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Cappelli,K.</GBAuthor>
+          <GBAuthor>Capomaccio,S.</GBAuthor>
+          <GBAuthor>Felicetti,M.</GBAuthor>
+          <GBAuthor>Marenzoni,M.L.</GBAuthor>
+          <GBAuthor>Verini-Supplizi,A.</GBAuthor>
+          <GBAuthor>Coletti,M.</GBAuthor>
+          <GBAuthor>Passamonti,F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Gag genetic diversity of Equine infectious anemia virus</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..313</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Cappelli,K.</GBAuthor>
+          <GBAuthor>Capomaccio,S.</GBAuthor>
+          <GBAuthor>Felicetti,M.</GBAuthor>
+          <GBAuthor>Marenzoni,M.L.</GBAuthor>
+          <GBAuthor>Verini-Supplizi,A.</GBAuthor>
+          <GBAuthor>Coletti,M.</GBAuthor>
+          <GBAuthor>Passamonti,F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (21-SEP-2009) Dipartimento di Patologia Diagnostica e Clinica Veterinaria, University of Perugia, Via san Costanzo 4, Perugia 06126, Italia</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..313</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>313</GBInterval_to>
+            <GBInterval_accession>GQ927506.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Equine infectious anemia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>blood</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Equus caballus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11665</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>O-10</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Italy</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Mar-2009</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;313</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>313</GBInterval_to>
+            <GBInterval_accession>GQ927506.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ACX54431.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>WALSLVDLLHDTNFSKEKDWQLRDILPLLEDVSQTLTGQEKEAFEKTWWAIVAVKKGLQIGHVGDGRATYQLLKAKYERAPSKKQHPEPQEEYPIMIDGAGNR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgtgggcgctaagtttggtggacttactgcatgacaccaatttcagtaaagaaaaagactggcaattgagagatattcttccattgctggaagatgtctctcaaaccttgacaggacaagaaaaagaggcatttgagaaaacatggtgggcaattgttgctgtaaagaagggcctacaaattgggcatgtaggcgatggaagggcaacatatcaattgttaaaagcaaaatatgaaagagctcctagtaagaaacaacatcctgagcctcaggaagaatatccaatcatgatagatggggctggaaacagaaa</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>X68019</GBSeq_locus>
+    <GBSeq_length>1353</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>18-APR-2005</GBSeq_update-date>
+    <GBSeq_create-date>18-AUG-1992</GBSeq_create-date>
+    <GBSeq_definition>Feline Immunodeficiency Virus GAG gene</GBSeq_definition>
+    <GBSeq_primary-accession>X68019</GBSeq_primary-accession>
+    <GBSeq_accession-version>X68019.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|X68019.1|</GBSeqid>
+      <GBSeqid>gi|59282</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>gag gene</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Feline immunodeficiency virus</GBSeq_source>
+    <GBSeq_organism>Feline immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Feline lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1353</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Verschoor,E.J.</GBAuthor>
+          <GBAuthor>van Vliet,A.</GBAuthor>
+          <GBAuthor>Horzinek,M.C.</GBAuthor>
+          <GBAuthor>de Ron,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Expression of feline immunodeficiency virus prP55-GAG and prGP150-ENV</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1353</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Verschoor,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (31-JUL-1992) E.J. Verschoor, Dept of Virology, Veterinary Faculty, State University of Utrecht, Yalelaan 1, 3584 CL Utrecht, THE NETHERLANDS</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1353</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1353</GBInterval_to>
+            <GBInterval_accession>X68019.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Feline immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>FIV-113</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11673</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>cell_line</GBQualifier_name>
+            <GBQualifier_value>feline thymocytes</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..1353</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1353</GBInterval_to>
+            <GBInterval_accession>X68019.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>GAG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1353</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1353</GBInterval_to>
+            <GBInterval_accession>X68019.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>GAG</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAA48157.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GOA:Q66963</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>HSSP:1EIA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR000721</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR001878</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR008916</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR008919</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR013084</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>UniProtKB/TrEMBL:Q66963</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MGNGQGRDWKMAIKRCSNVAVGVGGKSKKFGEGNFRWAIRMANVSTGREPGDIPETLDQLRLVICDLQERREKFGSSKEIDMAITTLKVFAVVGLLNMTVSTAAAAENMYTQMGLDTRPSTKEAGGKEEGPPQAYPIQTVNGAPQYVALDPKMVSIFMEKAREGLGGEEVQLWFTAFSANLTLTDMATLIMAAPGCAADKEILDESLKQLTAEYDRTHPPDGPRPLPYFTAAEIMGIGLTQEQQAEPRFAPARMQCRAWYLEALGKLAAIKAKSPRAVQLRQGAKEDYSSFIDRLFAQIDQEQNTAEVKLYLKQSLNIANANADCKKAMSHLKPESTLEEKLRACQEIGSPGYKMQLLAEALTKVQVVQSKGSGPVCFNCKKPGHLARQCRDVKKCNKCGKPGHLAARCWQGGKMNSGNWKAGRAAAPVNQVQQAVMPSAPPVEEKLLDL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggggaacggacaggggcgagattggaaaatggccattaaaagatgtagtaatgttgctgtaggagtaggggggaagagtaaaaaatttggagaagggaatttcagatgggccatcagaatggctaatgtatctacaggacgagaacctggtgatataccagagactttagatcaactaaggttggttatttgcgatttacaagaaagaagagaaaaatttggatctagcaaggaaattgacatggcaattacaactttgaaagtctttgcagtagtaggacttttaaatatgacagtgtccactgctgccgcggccgaaaatatgtatactcagatgggattagacactagaccatctacaaaagaagcaggaggaaaagaggaaggccctccacaggcatatcctattcaaacagtaaatggagcaccacaatatgtagcacttgacccaaaaatggtgtccatttttatggaaaaagcaagagaaggattaggaggtgaggaagttcaactatggttcacagccttctctgcaaatttaacacttactgatatggccacattaataatggccgcaccagggtgcgctgcagataaagaaatattggatgaaagcctaaagcaattgacagcagaatatgatcgtacacatccccctgatggtcctagaccattaccatattttactgcagcagaaattatgggtataggattaactcaagaacagcaagcagaaccaagatttgcaccagctaggatgcagtgtagagcatggtatcttgaggcattaggaaaattggccgccataaaagctaagtctcctcgagctgtgcagttaagacagggagctaaagaagattattcatcttttatagaccgattatttgcccaaatagatcaagaacagaatacagctgaagttaagctatatttaaaacagtcattaaacatagctaatgctaatgcagactgcaaaaaggcaatgagtcatctcaaaccagaaagtaccctagaagaaaaattgagggcttgtcaagaaataggatccccaggatataaaatgcaactcttggcagaagctcttacaaaagttcaagtagtgcaatcaaaaggatcaggaccagtgtgttttaattgtaaaaaaccaggacatctagcaaggcagtgtagagacgtgaaaaaatgtaataaatgtggaaagcctggtcatttagctgctagatgttggcaaggtggtaagatgaactcgggaaactggaaggcggggcgagctgcagccccagtaaatcaagtgcagcaagcagtaatgccatctgcccctccagtggaggagaaactattggatttgtaa</GBSeq_sequence>
+  </GBSeq>

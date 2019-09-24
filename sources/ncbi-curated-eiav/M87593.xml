@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EIAREVLIKE</GBSeq_locus>
+    <GBSeq_length>303</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>20-MAY-1994</GBSeq_update-date>
+    <GBSeq_create-date>02-AUG-1993</GBSeq_create-date>
+    <GBSeq_definition>Equine infectious anemia virus proviral rev-like protein gene, partial cds, clone NSI-12</GBSeq_definition>
+    <GBSeq_primary-accession>M87593</GBSeq_primary-accession>
+    <GBSeq_accession-version>M87593.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|M87593.1|EIAREVLIKE</GBSeqid>
+      <GBSeqid>gi|323814</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>rev-like protein</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Equine infectious anemia virus</GBSeq_source>
+    <GBSeq_organism>Equine infectious anemia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Equine lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..303</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Perry,S.T.</GBAuthor>
+          <GBAuthor>Flaherty,M.T.</GBAuthor>
+          <GBAuthor>Kelley,M.J.</GBAuthor>
+          <GBAuthor>Clabough,D.L.</GBAuthor>
+          <GBAuthor>Tronick,S.R.</GBAuthor>
+          <GBAuthor>Coggins,L.</GBAuthor>
+          <GBAuthor>Whetter,L.</GBAuthor>
+          <GBAuthor>Lengel,C.R.</GBAuthor>
+          <GBAuthor>Fuller,F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>The surface envelope protein gene region of equine infectious anemia virus is not an important determinant of tropism in vitro</GBReference_title>
+        <GBReference_journal>J. Virol. 66 (7), 4085-4097 (1992)</GBReference_journal>
+        <GBReference_pubmed>1318398</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>Original source text: Equine infectious anemia virus (strain Wyoming wild type non-cell culture adapted) blood RNA.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..303</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>303</GBInterval_to>
+            <GBInterval_accession>M87593.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Equine infectious anemia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Wyoming wild type non-cell culture adapted</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11665</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>tissue_type</GBQualifier_name>
+            <GBQualifier_value>blood</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;303</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>303</GBInterval_to>
+            <GBInterval_accession>M87593.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Xxx</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_except</GBQualifier_name>
+            <GBQualifier_value>(pos:107..109,aa:OTHER)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>rev-like protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAA43028.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>CIARRHLGPGPTQHTPSRRDRWIREQILQAEVLQEXLEWRIRGVQQVAKELGEVNRGIWRELHFREDQRGDFSAWGDYQQAQERRWGEQSSPRVLRPGDS</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgcatcgcgagaagacacctgggaccaggcccaacacaacatacacctagcaggcgtgaccggtggatcagggaacaaatactacaggcagaagtactccaggaatgactggaatggagaatcagaggagtacaacaggtggccaaagagctgggtgaagtcaatcgaggcatttggagagagctacatttccgagaagaccaaaggggagatttctcagcctggggcgactatcaacaagcacaagaacggcgctggggggaacaatcctcaccaagggtccttagacctggagattcgaa</GBSeq_sequence>
+  </GBSeq>

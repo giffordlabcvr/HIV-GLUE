@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>S69205</GBSeq_locus>
+    <GBSeq_length>354</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>22-SEP-1994</GBSeq_update-date>
+    <GBSeq_create-date>23-SEP-1994</GBSeq_create-date>
+    <GBSeq_definition>LTR R-U5 {5' end, provirus} [feline immunodeficiency virus FIV, UK8 isolate, Genomic RNA, 354 nt]</GBSeq_definition>
+    <GBSeq_primary-accession>S69205</GBSeq_primary-accession>
+    <GBSeq_accession-version>S69205.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>bbm|335477</GBSeqid>
+      <GBSeqid>bbs|145296</GBSeqid>
+      <GBSeqid>gb|S69205.1|</GBSeqid>
+      <GBSeqid>gi|545831</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Feline immunodeficiency virus</GBSeq_source>
+    <GBSeq_organism>Feline immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Feline lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..354</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Thompson,F.J.</GBAuthor>
+          <GBAuthor>Elder,J.</GBAuthor>
+          <GBAuthor>Neil,J.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Cis- and trans-regulation of feline immunodeficiency virus: identification of functional binding sites in the long terminal repeat</GBReference_title>
+        <GBReference_journal>J. Gen. Virol. 75 (PT 3), 545-554 (1994)</GBReference_journal>
+        <GBReference_pubmed>8126451</GBReference_pubmed>
+        <GBReference_remark>GenBank staff at the National Library of Medicine created this entry [NCBI gibbsq 145296] from the original journal article.</GBReference_remark>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..354</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>354</GBInterval_to>
+            <GBInterval_accession>S69205.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Feline immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11673</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..354</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>354</GBInterval_to>
+            <GBInterval_accession>S69205.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>LTR R-U5</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mRNA</GBFeature_key>
+        <GBFeature_location>216..&gt;354</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>216</GBInterval_from>
+            <GBInterval_to>354</GBInterval_to>
+            <GBInterval_accession>S69205.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>LTR R-U5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transcription</GBQualifier_name>
+            <GBQualifier_value>GAGTCTCTCTGTTGAGGACTTTCGAGTTCTCCCTTGAGGCTCCCACAGATACAATAAATATTTGAGATTGAACCCTGTCAAGTATCTGTGTAATCTTTTCTACCTGTGAGGTCTCGGAATCCGGGCCGAGAACTTCGCA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgggatgagtattggaaccctgaagaaatagaaagaatgcttatggactaaggactgtcacaaacaaatgataaatggaaacagctgagcatgactcatagttaaagcgctagcagctgcttaaccgcaaaaccacatcctatgtaaagcttgccaatgacgtataacttgctccactgtaaaagtatataaccagtgctttgtgaagcttcgaggagtctctctgttgaggactttcgagttctcccttgaggctcccacagatacaataaatatttgagattgaaccctgtcaagtatctgtgtaatcttttctacctgtgaggtctcggaatccgggccgagaacttcgca</GBSeq_sequence>
+  </GBSeq>

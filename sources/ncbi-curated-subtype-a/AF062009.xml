@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF062009</GBSeq_locus>
+    <GBSeq_length>282</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>28-APR-1999</GBSeq_create-date>
+    <GBSeq_definition>HIV-1 patient MQ4 from Martinique, envelope glycoprotein V3 region (env) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AF062009</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF062009.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF062009.1|</GBSeqid>
+      <GBSeqid>gi|4691490</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human immunodeficiency virus 1 (HIV-1)</GBSeq_source>
+    <GBSeq_organism>Human immunodeficiency virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Primate lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..282</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ouka,M.</GBAuthor>
+          <GBAuthor>Menu,E.</GBAuthor>
+          <GBAuthor>Barin,F.</GBAuthor>
+          <GBAuthor>Bera,O.</GBAuthor>
+          <GBAuthor>Muller-Trutwin,M.C.</GBAuthor>
+          <GBAuthor>Cales-Quist,D.</GBAuthor>
+          <GBAuthor>Comlan-Mayaud,G.</GBAuthor>
+          <GBAuthor>Abel,S.</GBAuthor>
+          <GBAuthor>Martial,J.</GBAuthor>
+          <GBAuthor>Neisson-Vernant,C.</GBAuthor>
+          <GBAuthor>Sobeski,G.</GBAuthor>
+          <GBAuthor>Barre-Sinoussi,F.</GBAuthor>
+          <GBAuthor>Cesaire,R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Introduction of HIV-1 subtype A in the French West Indies</GBReference_title>
+        <GBReference_journal>J. Acquir. Immune Defic. Syndr. Hum. Retrovirol. 19 (3), 308-310 (1998)</GBReference_journal>
+        <GBReference_pubmed>9803976</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..282</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ouka,M.</GBAuthor>
+          <GBAuthor>Menu,E.</GBAuthor>
+          <GBAuthor>Barin,F.</GBAuthor>
+          <GBAuthor>Bera,O.</GBAuthor>
+          <GBAuthor>Muller-Trutwin,M.C.</GBAuthor>
+          <GBAuthor>Cales-Quist,D.</GBAuthor>
+          <GBAuthor>Comlan-Mayaud,G.</GBAuthor>
+          <GBAuthor>Abel,S.</GBAuthor>
+          <GBAuthor>Martial,J.</GBAuthor>
+          <GBAuthor>Neisson-Vernant,C.</GBAuthor>
+          <GBAuthor>Sobeski,G.</GBAuthor>
+          <GBAuthor>Barre-Sinoussi,F.</GBAuthor>
+          <GBAuthor>Cesaire,R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-APR-1998) ETS, Laboratoire de Biologie Moleculaire, Hopital Pierre Zobda Quitman, BP 632 97261, Fort de France Cedex, Martinique</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..282</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>282</GBInterval_to>
+            <GBInterval_accession>AF062009.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human immunodeficiency virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>patient MQ4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11676</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Martinique: French West Indies</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype A</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;282</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>282</GBInterval_to>
+            <GBInterval_accession>AF062009.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;282</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>282</GBInterval_to>
+            <GBInterval_accession>AF062009.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>V3 and flanking regions</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAD27931.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>IYQKQLDLNLSQHNATTIIVQLTKPVRINCTRPGNNTRKSVRIGPGQTFYATGDIIGDIRQAHCNXSRAEWNNTLQQVASQLRGYFKNTTIIFA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atctaccagaagcaattagatctgaacctgtcacaacacaatgccacaactataatagtacagttgactaaacctgtaagaattaattgtaccagacctggcaacaatacgagaaaaagtgtacgtataggaccagggcaaacattctatgcaacaggtgacataataggggatataagacaagcacattgtaatntcagtagagcagaatggaataacactttacaacaggtagctagtcaattaagggggtactttaagaataccacaataatcttcgct</GBSeq_sequence>
+  </GBSeq>

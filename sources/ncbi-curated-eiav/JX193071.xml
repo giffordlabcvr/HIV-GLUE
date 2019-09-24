@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>JX193071</GBSeq_locus>
+    <GBSeq_length>1464</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>01-MAY-2014</GBSeq_update-date>
+    <GBSeq_create-date>04-SEP-2012</GBSeq_create-date>
+    <GBSeq_definition>Equine infectious anemia virus strain Warsage clone 1 gag polyprotein (gag) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>JX193071</GBSeq_primary-accession>
+    <GBSeq_accession-version>JX193071.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|JX193071.1|</GBSeqid>
+      <GBSeqid>gi|402694376</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Equine infectious anemia virus</GBSeq_source>
+    <GBSeq_organism>Equine infectious anemia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Equine lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1464</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Caij,A.B.</GBAuthor>
+          <GBAuthor>Tignon,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Epidemiology and Genetic Characterization of Equine Infectious Anaemia Virus Strains Isolated in Belgium in 2010</GBReference_title>
+        <GBReference_journal>Transbound Emerg Dis (2012) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1111/tbed.12031</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>23173784</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1464</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Tignon,M.</GBAuthor>
+          <GBAuthor>Caij,A.B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (20-JUN-2012) Virology - Enzootic and (Re-)Emerging Viral Diseases, Veterinary and Agrochemical Research Centre, Groeselenberg 99, Brussels, BE 1180, Belgium</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1464</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1464</GBInterval_to>
+            <GBInterval_accession>JX193071.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Equine infectious anemia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Warsage</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>liver</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Equus caballus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11665</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Belgium</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>19-Mar-2010</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..&gt;1464</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1464</GBInterval_to>
+            <GBInterval_accession>JX193071.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..&gt;1464</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1464</GBInterval_to>
+            <GBInterval_accession>JX193071.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>gag polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AFQ90122.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MGDPVTWSKALKKLEKVTVQGSQKLTHGNCNWALSLVDLLHDTNFVKEEDWQLRDVIPLLEDVTQTLTGQEREAFEKTWWAITAVKMGLQINTVGDGKATYQLLKAKYEKKTHNEKRQSEPREEYPIIIDGAGNRNFRPLTSRGYTTWVNTIQQNNLLNEASVNLFGILSVDCTSEEMNAFLDVVPGQAGQKQVLLDLIDKIAEDWDNRHPLPNAPLVAPPQGPIPMTARFIRGLGVPRERQMEPAFDQFRQTYRQWIIEAMTEGIKIMIGKPKAQNIRQGPKEPYPDFVDRLLSQIKSEGHPSEITKFLTDTLTIQNANEECKTAMRHLRPEDTLEEKLYACRDIGTTTQKMMLLARALQSGLAGPMNGGTFKGGPLKAKQTCYNCGKPGHLSSQCRAPKVCFKCKEPGHFSKQCRNAPKNGRTGAQGKPQKQTFPVQQQQFSVKTEQSKEEKKLYPDLSQMQQEYKVKKQEDPEDLNLNSLWESRA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgggagacccagtgacatggagcaaagcgctcaagaagctagagaaggtgacggtacaagggtcccaaaagttgacacatggaaattgtaactgggcgctcagtttggtggatttattgcatgacaccaattttgtaaaagaggaggactggcaattaagggacgtcattccattgctggaggacgtaacccagacattgacaggccaagagagagaggcatttgagaaaacatggtgggcaataactgcggtaaagatgggcttacagattaatactgtgggcgatggaaaagcgacatatcaattgttgaaggcaaaatatgagaagaaaactcataacgaaaaaaggcagtctgagccccgagaggaatatccaatcataatagatggggctggaaataggaatttcagaccgctaacatcaagagggtatactacctgggtaaatacaatacaacagaataatttgttaaatgaagcaagtgtaaacttatttggcatactgtcagtagattgtacatcagaagaaatgaatgcatttttagatgtagtacctggtcaagcaggacaaaaacaggtattacttgatctgatagataagatagcagaagactgggacaacagacatccattgccaaatgctccacttgtggcaccaccacaagggcctatccctatgacagcaaggtttatcaggggcctcggagtacctagagaaagacaaatggaacctgcttttgatcagtttagacagacatatagacagtggattattgaagctatgacagaaggaatcaaaataatgattgggaagcctaaagcacaaaatattagacagggccctaaagagccttatccagattttgtagatagactattatctcagataaagagtgaaggacatccatcagaaatcactaagtttctgacagatacattgactattcagaatgcaaatgaggaatgtaaaacagctatgagacacttaaggccagaagatactttagaggaaaaattatatgcttgcagagatattggcaccacaacacagaaaatgatgttattggcaagagcacttcagagtggtcttgctggacctatgaacggaggaacattcaaaggaggacctttaaaggcaaaacaaacatgttacaattgtgggaaaccaggacatttatctagtcaatgtagagctcccaaagtgtgctttaaatgtaaggaacctggacatttctcaaagcagtgtagaaatgctccaaaaaacgggaggacaggggctcagggaaagccccaaaaacaaactttcccagtacaacaacagcagttttctgtgaaaacagagcagtcaaaggaggaaaagaaattatatccggatctgagtcagatgcaacaggaatacaaagtcaagaagcaggaggacccagaggatctcaatttgaacagtttgtgggagtctagagca</GBSeq_sequence>
+  </GBSeq>
