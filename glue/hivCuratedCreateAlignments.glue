@@ -8,8 +8,8 @@ alignment AL_HIV-1_MASTER_CURATED
   add member -w "species = 'HIV-1'"
   
   # Extract group M subtypes
-  extract child AL_HIV-1_A   --refName REF_A_AM279354
-  demote member AL_HIV-1_A   --whereClause "sequence.subtype = 'A'" 
+  extract child AL_HIV-1_A   --refName REF_A_AF484509
+  demote member AL_HIV-1_A   --whereClause "sequence.subtype = 'A'"
   extract child AL_HIV-1_B   --refName REF_MASTER_NC_001802
   demote member AL_HIV-1_B   --whereClause "sequence.subtype = 'B'" 
   extract child AL_HIV-1_C   --refName REF_C_U46016
