@@ -8,8 +8,6 @@ alignment AL_HIV-1_MASTER_CURATED
   add member -w "species = 'HIV-1'"
   
   # Extract group M subtypes
-  extract child AL_HIV-1_A   --refName REF_A_AF484509
-  demote member AL_HIV-1_A   --whereClause "sequence.subtype = 'A'"
   extract child AL_HIV-1_B   --refName REF_MASTER_NC_001802
   demote member AL_HIV-1_B   --whereClause "sequence.subtype = 'B'" 
   extract child AL_HIV-1_C   --refName REF_C_U46016
@@ -24,17 +22,8 @@ alignment AL_HIV-1_MASTER_CURATED
   derive segments AL_HIV-1_MASTER_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE
   exit
 
-alignment AL_HIV-1_A
-  derive segments AL_HIV-1_MASTER_UNCONSTRAINED --whereClause "sequence.subtype = 'A'" --existingMembersOnly --mergeStrategy OVERWRITE
-  exit
-
-alignment AL_HIV-1_C
-  derive segments AL_HIV-1_MASTER_UNCONSTRAINED --whereClause "sequence.subtype = 'C'" --existingMembersOnly --mergeStrategy OVERWRITE
-  exit
-
 
 #~# Create full genome alignments for HIV subtypes and CRFs
 
 compute alignment AL_HIV-1_B     -w "sequence.source.name = 'ncbi-curated-subtype-b'"  hivCompoundAligner 
-compute alignment AL_HIV-1_A     -w "sequence.source.name = 'ncbi-curated-subtype-a'"  hivCompoundAligner 
 compute alignment AL_HIV-1_C     -w "sequence.source.name = 'ncbi-curated-subtype-c'"  hivCompoundAligner 

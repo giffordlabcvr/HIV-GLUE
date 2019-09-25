@@ -1,3 +1,3 @@
   import source sources/ncbi-curated-biv/
-  #import source sources/ncbi-curated-fiv/
-  #import source sources/ncbi-curated-eiav/
+  import source sources/ncbi-curated-fiv/
+  import source sources/ncbi-curated-eiav/

@@ -2,8 +2,5 @@ module hivTextFilePopulatorLanlSequences
 #  populate -w "source.name = 'ncbi-curated-subtype-a'"  -f tabular/lanl_subtypeA_completegenomes.csv
 #  populate -w "source.name = 'ncbi-curated-subtype-a1'" -f tabular/lanl_subtypeA1_completegenomes.csv
   populate -w "source.name = 'ncbi-curated-subtype-b'"  -f tabular/lanl_subtypeB_completegenomes.csv
-#  populate -w "source.name = 'ncbi-curated-subtype-c'"  -f tabular/lanl_subtypeC_completegenomes.csv
-#  populate -w "source.name = 'ncbi-curated-subtype-f1'" -f tabular/lanl_subtypef1_completegenomes.csv
-#  populate -w "source.name = 'ncbi-curated-crf01'" -f tabular/lanl_CRF01_AE_completegenomes.csv
-#  populate -w "source.name = 'ncbi-curated-crf02'" -f tabular/lanl_CRF02_AG_completegenomes.csv
-#  exit 
+  populate -w "source.name = 'ncbi-curated-subtype-c'"  -f tabular/lanl_subtypeC_completegenomes.csv
+  exit 
