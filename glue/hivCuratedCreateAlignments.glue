@@ -36,5 +36,5 @@ alignment AL_HIV-1_C
 #~# Create full genome alignments for HIV subtypes and CRFs
 
 compute alignment AL_HIV-1_B     -w "sequence.source.name = 'ncbi-curated-subtype-b'"  hivCompoundAligner 
-#compute alignment AL_HIV-1_A     -w "sequence.source.name = 'ncbi-curated-subtype-a'"  hivCompoundAligner 
-#compute alignment AL_HIV-1_C     -w "sequence.source.name = 'ncbi-curated-subtype-c'"  hivCompoundAligner 
+compute alignment AL_HIV-1_A     -w "sequence.source.name = 'ncbi-curated-subtype-a'"  hivCompoundAligner 
+compute alignment AL_HIV-1_C     -w "sequence.source.name = 'ncbi-curated-subtype-c'"  hivCompoundAligner 

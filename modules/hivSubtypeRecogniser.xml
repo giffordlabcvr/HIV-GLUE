@@ -1,8 +1,6 @@
 <blastSequenceRecogniser>
 	<blastRunner/>
-	<referenceSequence>REF_A_AM279354</referenceSequence>
-	<referenceSequence>REF_A1_AF484509</referenceSequence>
-	<referenceSequence>REF_A2_AF286238</referenceSequence>
+	<referenceSequence>REF_A_AF484509</referenceSequence>
 	<referenceSequence>REF_B_NC_001802</referenceSequence>
 	<referenceSequence>REF_C_U46016</referenceSequence>
 	<referenceSequence>REF_D_K03454</referenceSequence>
@@ -16,21 +14,7 @@
 		<minimumIdentityPct>80</minimumIdentityPct>
 	  	<minimumBitScore>500</minimumBitScore>
 	  	<minimumTotalAlignLength>300</minimumTotalAlignLength>
-	  	<referenceSequence>REF_A_AM279354</referenceSequence>
-	</recognitionCategory>
-	<recognitionCategory>
-		<id>A1</id>
-		<minimumIdentityPct>80</minimumIdentityPct>
-	  	<minimumBitScore>500</minimumBitScore>
-	  	<minimumTotalAlignLength>300</minimumTotalAlignLength>
-	  	<referenceSequence>REF_A1_AF484509</referenceSequence>
-	</recognitionCategory>
-	<recognitionCategory>
-		<id>A2</id>
-		<minimumIdentityPct>80</minimumIdentityPct>
-	  	<minimumBitScore>500</minimumBitScore>
-	  	<minimumTotalAlignLength>300</minimumTotalAlignLength>
-	  	<referenceSequence>REF_A2_AF286238</referenceSequence>
+	  	<referenceSequence>REF_A_AF484509</referenceSequence>
 	</recognitionCategory>
 	<recognitionCategory>
 		<id>B</id>

@@ -1,10 +1,9 @@
   ## HIV-1M reference sequence declarations
 
   # Subtype A references  
-  create reference REF_A_AM279354      ncbi-refseqs AM279354
+  create reference REF_A_AF484509       ncbi-refseqs AF484509
 
   # Subtype A1 references  
-  create reference REF_A1_AF484509      ncbi-refseqs AF484509
   create reference REF_A1_U51190        ncbi-refseqs U51190
   create reference REF_A1_AF004885      ncbi-refseqs AF004885
   create reference REF_A1_AF069670      ncbi-refseqs AF069670

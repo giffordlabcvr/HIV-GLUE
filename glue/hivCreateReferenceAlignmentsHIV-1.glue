@@ -12,15 +12,21 @@ alignment AL_HIV-1_MASTER
   add member -w "source.name = 'ncbi-refseqs' and species = 'HIV-1'"
 
   # Extract group M subtypes
+  extract child AL_HIV-1_A_reference   --refName REF_A_AF484509
+  demote member AL_HIV-1_A_reference   --whereClause "sequence.subtype = 'A'"
+  demote member AL_HIV-1_A_reference   --whereClause "sequence.subtype = 'A1'"
+  demote member AL_HIV-1_A_reference   --whereClause "sequence.subtype = 'A2'"
+   
   extract child AL_HIV-1_B_reference   --refName REF_MASTER_NC_001802
   demote member AL_HIV-1_B_reference   --whereClause "sequence.subtype = 'B'" 
+  
   extract child AL_HIV-1_C_reference   --refName REF_C_U46016
   demote member AL_HIV-1_C_reference   --whereClause "sequence.subtype = 'C'" 
   exit
   
 #~# Set clade category
 
-alignment AL_HIV-1_MASTER              set field clade_category subtype
+alignment AL_HIV-1_MASTER             set field clade_category subtype
 alignment AL_HIV-1_B_reference        set field clade_category subtype
 alignment AL_HIV-1_C_reference        set field clade_category subtype
 
