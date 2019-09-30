@@ -132,7 +132,6 @@
   create reference REF_MELVmpf          fasta-refseqs MELVmpf
   
   # Colugo endogenous lentivirus
-
-
+  create reference REF_ELVgv            fasta-refseqs ELVgv
 
 
