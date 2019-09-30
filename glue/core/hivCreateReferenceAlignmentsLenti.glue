@@ -1,4 +1,4 @@
- #~# Import reference genome alignment for HIV-1 M group
+#~# Import reference genome alignment for HIV-1 M group
  
 module unconstrainedAlignmentImporter
   import AL_Lenti_MASTER_UNCONSTRAINED -f alignments/root/lentivirus-internal.fna
@@ -37,16 +37,19 @@ alignment AL_Lenti_MASTER
 
   # Extract the endogenous lineages
  
-  extract child AL_RELIik_reference   --refName REF_SRLV
-  demote member AL_Relik_reference   --whereClause "sequence.species_group = 'SRLV" 
+  extract child AL_RELIik_reference   --refName REF_RELIK
+  demote member AL_Relik_reference   --whereClause "sequence.species_group = 'RELIK" 
 
-  extract child AL_SRLV_reference   --refName REF_SRLV
-  demote member AL_SRLV_reference   --whereClause "sequence.species_group = 'SRLV" 
+  extract child AL_pSIVgml_reference   --refName REF_pSIVgml
+  demote member AL_pSIVgml_reference   --whereClause "sequence.species_group = 'pSIVgml" 
+
+  extract child AL_MELVmpf_reference   --refName REF_MELVmpf
+  demote member AL_MELVmpf_reference   --whereClause "sequence.species_group = 'MELVmpf" 
+
  
-
-
   exit
-  
+ 
+ 
 #~# Derive constrained alignment segments from unconstrained alignments
 alignment AL_Lenti_MASTER
   derive segments AL_Lenti_MASTER_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE

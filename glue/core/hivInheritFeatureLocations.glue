@@ -1,0 +1,28 @@
+reference REF_A_AF484509 
+  inherit feature-location AL_REF_HIV-1_MASTER whole_genome
+  inherit feature-location AL_REF_HIV-1_MASTER internal_coding
+  inherit feature-location AL_REF_HIV-1_MASTER gag
+  inherit feature-location AL_REF_HIV-1_MASTER pol
+  inherit feature-location AL_REF_HIV-1_MASTER gag-pol
+  inherit feature-location AL_REF_HIV-1_MASTER env
+  inherit feature-location AL_REF_HIV-1_MASTER vif
+  inherit feature-location AL_REF_HIV-1_MASTER vpu
+  inherit feature-location AL_REF_HIV-1_MASTER vpr
+  inherit feature-location AL_REF_HIV-1_MASTER tat
+  inherit feature-location AL_REF_HIV-1_MASTER nef
+  exit
+  
+reference REF_C_U46016 
+  inherit feature-location AL_REF_HIV-1_MASTER whole_genome
+  inherit feature-location AL_REF_HIV-1_MASTER internal_coding
+  inherit feature-location AL_REF_HIV-1_MASTER gag
+  inherit feature-location AL_REF_HIV-1_MASTER pol
+  inherit feature-location AL_REF_HIV-1_MASTER gag-pol
+  inherit feature-location AL_REF_HIV-1_MASTER env
+  inherit feature-location AL_REF_HIV-1_MASTER vif
+  inherit feature-location AL_REF_HIV-1_MASTER vpu
+  inherit feature-location AL_REF_HIV-1_MASTER vpr
+  inherit feature-location AL_REF_HIV-1_MASTER tat
+  inherit feature-location AL_REF_HIV-1_MASTER nef
+  exit
+

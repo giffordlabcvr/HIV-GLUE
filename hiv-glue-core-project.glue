@@ -4,7 +4,7 @@ create project hiv "GLUE project for human immunodeficiency virus (HIV-1)" --min
 
 schema-project hiv
 
-  run file glue/hivSchemaExtensions.glue
+  run file glue/core/hivSchemaExtensions.glue
 
   exit
 
@@ -13,32 +13,32 @@ project hiv
   #~#  HIV basic skeleton project 
 
   # Define settings for this project
-  run file glue/projectSettings.glue
+  run file glue/core/projectSettings.glue
 
   # Create modules used in project build
-  run file glue/hivModules.glue
+  run file glue/core/hivModules.glue
 
   # Import reference sequences from GenBank XML files 
-  run file glue/hivImportReferenceSources.glue  
+  run file glue/core/hivImportReferenceSources.glue  
  
   # Import reference sequence side-data
   module genbankXmlPopulator populate
   module refseqTextFilePopulator populate -f tabular/hiv-reference-data.csv
 
   # Create HIV-1/lentivirus reference sequences
-  run file glue/hivReferences.glue
+  run file glue/core/hivReferences.glue
 
   # Define HIV-1/lentivirus genome features
-  run file glue/hivFeatures.glue 
+  run file glue/core/hivFeatures.glue 
 
   # Attach feature locations to the HIV-1 master reference 
-  run file glue/hivFeatureLocations.glue
+  run file glue/core/hivFeatureLocations.glue
 
   # Import alignments and create constrained alignment tree
-  run file glue/hivCreateReferenceAlignmentsHIV-1.glue
+  run file glue/core/hivCreateReferenceAlignmentsHIV-1.glue
 
   # Inherit features from HIV-1 master reference to all other HIV-1 reference sequences
-  run file glue/inherit-feature-locations.glue
+  run file glue/core/hivInheritFeatureLocations.glue
 
   validate
   
