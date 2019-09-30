@@ -37,7 +37,7 @@ alignment AL_Lenti_MASTER
 
   # Extract the endogenous lineages
  
-  extract child AL_RELIik_reference   --refName REF_RELIK
+  extract child AL_Relik_reference   --refName REF_RELIK
   demote member AL_Relik_reference   --whereClause "sequence.species_group = 'RELIK" 
 
   extract child AL_pSIVgml_reference   --refName REF_pSIVgml
@@ -46,7 +46,8 @@ alignment AL_Lenti_MASTER
   extract child AL_MELVmpf_reference   --refName REF_MELVmpf
   demote member AL_MELVmpf_reference   --whereClause "sequence.species_group = 'MELVmpf" 
 
- 
+  extract child AL_ELVgv_reference   --refName REF_ELVgv
+  demote member AL_ELVgv_reference   --whereClause "sequence.species_group = 'ELVgv" 
   exit
  
  
@@ -54,4 +55,3 @@ alignment AL_Lenti_MASTER
 alignment AL_Lenti_MASTER
   derive segments AL_Lenti_MASTER_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE
   exit
-
