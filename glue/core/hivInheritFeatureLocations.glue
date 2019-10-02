@@ -1,28 +1,28 @@
-reference REF_A_AF484509 
-  inherit feature-location AL_HIV-1M_reference whole_genome
-  inherit feature-location AL_HIV-1M_reference internal_coding
-  inherit feature-location AL_HIV-1M_reference gag
-  inherit feature-location AL_HIV-1M_reference pol
-  inherit feature-location AL_HIV-1M_reference gag-pol
-  inherit feature-location AL_HIV-1M_reference env
-  inherit feature-location AL_HIV-1M_reference vif
-  inherit feature-location AL_HIV-1M_reference vpu
-  inherit feature-location AL_HIV-1M_reference vpr
-  inherit feature-location AL_HIV-1M_reference tat
-  inherit feature-location AL_HIV-1M_reference nef
+reference REF_HIV-1M_A_AF484509 
+  inherit feature-location AL_REF_HIV-1M whole_genome
+  inherit feature-location AL_REF_HIV-1M internal_coding
+  inherit feature-location AL_REF_HIV-1M gag
+  inherit feature-location AL_REF_HIV-1M pol
+  inherit feature-location AL_REF_HIV-1M gag-pol
+  inherit feature-location AL_REF_HIV-1M env
+  inherit feature-location AL_REF_HIV-1M vif
+  inherit feature-location AL_REF_HIV-1M vpu
+  inherit feature-location AL_REF_HIV-1M vpr
+  inherit feature-location AL_REF_HIV-1M tat
+  inherit feature-location AL_REF_HIV-1M nef
   exit
   
-reference REF_C_U46016 
-  inherit feature-location AL_HIV-1M_reference whole_genome
-  inherit feature-location AL_HIV-1M_reference internal_coding
-  inherit feature-location AL_HIV-1M_reference gag
-  inherit feature-location AL_HIV-1M_reference pol
-  inherit feature-location AL_HIV-1M_reference gag-pol
-  inherit feature-location AL_HIV-1M_reference env
-  inherit feature-location AL_HIV-1M_reference vif
-  inherit feature-location AL_HIV-1M_reference vpu
-  inherit feature-location AL_HIV-1M_reference vpr
-  inherit feature-location AL_HIV-1M_reference tat
-  inherit feature-location AL_HIV-1M_reference nef
+reference REF_HIV-1M_C_U46016 
+  inherit feature-location AL_REF_HIV-1M whole_genome
+  inherit feature-location AL_REF_HIV-1M internal_coding
+  inherit feature-location AL_REF_HIV-1M gag
+  inherit feature-location AL_REF_HIV-1M pol
+  inherit feature-location AL_REF_HIV-1M gag-pol
+  inherit feature-location AL_REF_HIV-1M env
+  inherit feature-location AL_REF_HIV-1M vif
+  inherit feature-location AL_REF_HIV-1M vpu
+  inherit feature-location AL_REF_HIV-1M vpr
+  inherit feature-location AL_REF_HIV-1M tat
+  inherit feature-location AL_REF_HIV-1M nef
   exit
 
