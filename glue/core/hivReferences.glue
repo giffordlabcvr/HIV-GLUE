@@ -92,25 +92,25 @@
   create reference REF_HIV2B	        ncbi-refseqs X61240
 
   ## Simian lentivirus reference sequence declarations
-  create reference SIVcol               ncbi-refseqs AF301156
-  create reference SIVcpz               ncbi-refseqs AY169968
-  create reference SIVden               ncbi-refseqs AJ580407
-  create reference SIVdrl1              ncbi-refseqs AY159321
-  create reference SIVgor               ncbi-refseqs FJ424871
-  create reference SIVgsn               ncbi-refseqs AF468659
-  create reference SIVlhoest            ncbi-refseqs AF075269
-  create reference SIVmac               ncbi-refseqs M33262
-  create reference SIVmnd               ncbi-refseqs AF328295
-  create reference SIVmus               ncbi-refseqs KF304707
-  create reference SIVocm               ncbi-refseqs FM165200
-  create reference SIVrcm               ncbi-refseqs AF382829
-  create reference SIVrtg               ncbi-refseqs KJ461716
-  create reference SIVsab               ncbi-refseqs U04005
-  create reference SIVsmm               ncbi-refseqs JX860430
-  create reference SIVsun               ncbi-refseqs AF131870
-  create reference SIVsyk               ncbi-refseqs AY523867
-  create reference SIVtal               ncbi-refseqs AY655744
-  create reference SIVwrc               ncbi-refseqs AM713177
+  create reference REF_SIVcol           ncbi-refseqs AF301156
+  create reference REF_SIVcpz           ncbi-refseqs AY169968
+  create reference REF_SIVden           ncbi-refseqs AJ580407
+  create reference REF_SIVdrl1              ncbi-refseqs AY159321
+  create reference REF_SIVgor               ncbi-refseqs FJ424871
+  create reference REF_SIVgsn               ncbi-refseqs AF468659
+  create reference REF_SIVlhoest            ncbi-refseqs AF075269
+  create reference REF_SIVmac               ncbi-refseqs M33262
+  create reference REF_SIVmnd               ncbi-refseqs AF328295
+  create reference REF_SIVmus               ncbi-refseqs KF304707
+  create reference REF_SIVocm               ncbi-refseqs FM165200
+  create reference REF_SIVrcm               ncbi-refseqs AF382829
+  create reference REF_SIVrtg               ncbi-refseqs KJ461716
+  create reference REF_SIVsab               ncbi-refseqs U04005
+  create reference REF_SIVsmm               ncbi-refseqs JX860430
+  create reference REF_SIVsun               ncbi-refseqs AF131870
+  create reference REF_SIVsyk               ncbi-refseqs AY523867
+  create reference REF_SIVtal               ncbi-refseqs AY655744
+  create reference REF_SIVwrc               ncbi-refseqs AM713177
   
   ## Non-primate lentivirus reference sequence declarations
   create reference REF_BIV              ncbi-refseqs M32690
@@ -122,7 +122,7 @@
 
   ## Endogenous lentivirus reference sequence declarations  
 
-  # pSIVgml  
+  # pREF_SIVgml  
   create reference REF_pSIVgml          fasta-refseqs pSIVgml
 
   # RELIK

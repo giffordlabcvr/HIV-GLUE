@@ -1,0 +1,172 @@
+#~# Create constrained alignment tree for reference sequences
+create alignment  AL_LENTI_MASTER -r REF_MASTER_NC_001802 
+alignment AL_LENTI_MASTER
+
+  set field displayName "Lentivirus"
+
+  # Add all members
+  add member -a
+
+  extract child AL_PLV_MASTER   --refName REF_MASTER_NC_001802
+  demote member AL_PLV_MASTER   --whereClause "sequence.subgroup = 'PLV'"
+
+  extract child AL_FIV_MASTER   --refName REF_FIV
+  demote member AL_FIV_MASTER   --whereClause "sequence.species = 'FIV'"
+
+  extract child AL_SRLV_MASTER   --refName REF_SRLV-A
+  demote member AL_SRLV_MASTER   --whereClause "sequence.species = 'SRLV'"
+
+  extract child AL_BIV_MASTER   --refName REF_BIV
+  demote member AL_BIV_MASTER   --whereClause "sequence.species = 'BIV'"
+
+  extract child AL_JDV_MASTER   --refName REF_JDV
+  demote member AL_JDV_MASTER   --whereClause "sequence.species = 'JDV'"
+
+  extract child AL_EIAV_MASTER   --refName REF_EIAV
+  demote member AL_EIAV_MASTER   --whereClause "sequence.species = 'EIAV'"
+
+  extract child AL_RELIK_MASTER  --refName REF_RELIK
+  demote member AL_RELIK_MASTER  --whereClause "sequence.species = 'RELIK'"
+
+  extract child AL_pSIVgml_MASTER  --refName REF_pSIVgml
+  demote member AL_pSIVgml_MASTER  --whereClause "sequence.species = 'pSIVgml'"
+
+  extract child AL_MELVmpf_MASTER  --refName REF_MELVmpf
+  demote member AL_MELVmpf_MASTER  --whereClause "sequence.species = 'MELVmpf'"
+
+  extract child AL_ELVgv_MASTER  --refName REF_ELVgv
+  demote member AL_ELVgv_MASTER  --whereClause "sequence.species = 'ELVgv'"
+
+  exit
+
+alignment AL_PLV_MASTER
+
+  set field displayName "Primate lentivirus (PLV))"
+
+  extract child AL_REF_HIV-1_MASTER   --refName REF_MASTER_NC_001802
+  demote member AL_REF_HIV-1_MASTER   --whereClause "sequence.species = 'HIV-1'" 
+  
+  # Extract SIVrcm
+  extract child AL_REF_SIVrcm   --refName REF_SIVrcm
+  demote member AL_REF_SIVrcm   --whereClause "sequence.species = 'SIVrcm'" 
+
+  # Extract SIVmnd
+  extract child AL_REF_SIVmnd   --refName REF_SIVmnd
+  demote member AL_REF_SIVmnd   --whereClause "sequence.species = 'SIVmnd'" 
+
+  # Extract SIVagm
+  #extract child AL_REF_SIVagm   --refName REF_SIVagm
+  #demote member AL_REF_SIVagm   --whereClause "sequence.species like 'SIVagm'" 
+
+  # Extract SIV-HIV2
+  extract child AL_REF_SIV-HIV2   --refName REF_HIV2A
+  demote member AL_REF_SIV-HIV2   --whereClause "sequence.species = 'HIV-2'" 
+
+  # Extract HIV-2A
+  extract child AL_REF_HIV-2A   --refName REF_HIV2A
+  demote member AL_REF_HIV-2A   --whereClause "sequence.species = 'HIV-2' and sequence.species_group = 'A'" 
+
+  # Extract HIV-2B
+  #extract child AL_REF_HIV-2B   --refName REF_HIV2B
+  #demote member AL_REF_HIV-2B   --whereClause "sequence.species = 'HIV-2' and sequence.species_group = 'B'" 
+
+  # Extract SIVwrc
+  extract child AL_REF_SIVwrc   --refName REF_SIVwrc
+  demote member AL_REF_SIVwrc   --whereClause "sequence.species = 'SIVwrc'" 
+
+  # Extract SIVocm
+  extract child AL_REF_SIVocm   --refName REF_SIVocm
+  demote member AL_REF_SIVocm   --whereClause "sequence.species = 'SIVocm'" 
+
+  # Extract SIVlhoest
+  extract child AL_REF_SIVlhoest   --refName REF_SIVlhoest
+  demote member AL_REF_SIVlhoest   --whereClause "sequence.species = 'SIVlhoest'" 
+
+  # Extract SIVsun
+  extract child AL_REF_SIVsun   --refName REF_SIVsun
+  demote member AL_REF_SIVsun   --whereClause "sequence.species = 'SIVsun'" 
+
+  # Extract SIVsyk
+  extract child AL_REF_SIVsyk   --refName REF_SIVden
+  demote member AL_REF_SIVsyk   --whereClause "sequence.species = 'SIVsyk'" 
+
+  # Extract SIVtal
+  extract child AL_REF_SIVtal   --refName REF_SIVtal
+  demote member AL_REF_SIVtal   --whereClause "sequence.species = 'SIVtal'" 
+
+  # Extract SIVden
+  extract child AL_REF_SIVden   --refName REF_SIVden
+  demote member AL_REF_SIVden   --whereClause "sequence.species = 'SIVden'" 
+
+  # Extract SIVrtg
+  extract child AL_REF_SIVrtg   --refName REF_SIVrtg
+  demote member AL_REF_SIVrtg   --whereClause "sequence.species = 'SIVrtg'" 
+
+  # Extract SIVmon
+  #extract child AL_REF_SIVmon   --refName REF_SIVmon
+  #demote member AL_REF_SIVmon   --whereClause "sequence.species = 'SIVmon'" 
+
+  # Extract SIVgsn
+  extract child AL_REF_SIVgsn   --refName REF_SIVgsn
+  demote member AL_REF_SIVgsn   --whereClause "sequence.species = 'SIVgsn'" 
+
+  exit
+
+
+alignment AL_REF_HIV-1_MASTER
+
+  set field displayName "Human immunodeficiency virus (HIV-1)"
+
+  # Extract group M 
+  extract child AL_HIV-1M_reference   --refName REF_MASTER_NC_001802
+  demote member AL_HIV-1M_reference   --whereClause "sequence.species_group = 'M'" 
+
+  # Extract group O
+  extract child AL_HIV-1O_reference   --refName REF_GrpO
+  demote member AL_HIV-1O_reference   --whereClause "sequence.species_group = 'O'" 
+
+  # Extract group N
+  extract child AL_HIV-1N_reference   --refName REF_GrpN
+  demote member AL_HIV-1N_reference   --whereClause "sequence.species_group = 'N'" 
+
+  # Extract group P
+  extract child AL_HIV-1P_reference   --refName REF_GrpP
+  demote member AL_HIV-1P_reference   --whereClause "sequence.species_group = 'P'" 
+
+  exit
+
+
+alignment AL_HIV-1M_reference
+
+  set field displayName "Human immunodeficiency virus (HIV-1) Group M"
+
+  # Extract group M subtypes
+  extract child AL_REF_HIV-1_A   --refName REF_A_AF484509
+  demote member AL_REF_HIV-1_A   --whereClause "sequence.subtype = 'A'"
+  demote member AL_REF_HIV-1_A   --whereClause "sequence.subtype = 'A1'"
+  demote member AL_REF_HIV-1_A   --whereClause "sequence.subtype = 'A2'"
+
+  extract child AL_REF_HIV-1_B   --refName REF_MASTER_NC_001802
+  demote member AL_REF_HIV-1_B   --whereClause "sequence.subtype = 'B'" 
+
+  extract child AL_REF_HIV-1_C   --refName REF_C_U46016
+  demote member AL_REF_HIV-1_C   --whereClause "sequence.subtype = 'C'" 
+
+  exit
+
+
+#~# Import reference genome alignment for SIVs group
+
+module unconstrainedAlignmentImporter
+  import AL_REF_HIV-1_UNCONSTRAINED -f alignments/internal/HIV.genome.refseqs.aln.fna
+  exit
+
+#~# Derive constrained alignment segments from unconstrained alignments
+
+alignment AL_REF_HIV-1_MASTER
+  derive segments AL_REF_HIV-1_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE
+  exit
+
+#alignment AL_PLV_MASTER
+#  derive segments AL_REF_PLV_UNCONSTRAINED-a --existingMembersOnly --mergeStrategy OVERWRITE
+#  exit
