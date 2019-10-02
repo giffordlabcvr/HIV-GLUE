@@ -1,6 +1,6 @@
 reference REF_HIV-1M_A_AF484509 
   inherit feature-location AL_REF_HIV-1M whole_genome
-  inherit feature-location AL_REF_HIV-1M internal_coding
+  inherit feature-location AL_REF_HIV-1M internal_region
   inherit feature-location AL_REF_HIV-1M gag
   inherit feature-location AL_REF_HIV-1M pol
   inherit feature-location AL_REF_HIV-1M gag-pol
@@ -14,7 +14,7 @@ reference REF_HIV-1M_A_AF484509
   
 reference REF_HIV-1M_C_U46016 
   inherit feature-location AL_REF_HIV-1M whole_genome
-  inherit feature-location AL_REF_HIV-1M internal_coding
+  inherit feature-location AL_REF_HIV-1M internal_region
   inherit feature-location AL_REF_HIV-1M gag
   inherit feature-location AL_REF_HIV-1M pol
   inherit feature-location AL_REF_HIV-1M gag-pol
