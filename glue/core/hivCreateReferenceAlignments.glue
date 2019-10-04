@@ -161,9 +161,9 @@ module unconstrainedAlignmentImporter
   import AL_REF_LENTI_UNCONSTRAINED -f alignments/root/lentivirus.aln.fna
   exit
 
-#module unconstrainedAlignmentImporter
-#  import AL_REF_PLV_UNCONSTRAINED -f alignments/internal/PLV.aln.fna
-#  exit
+module unconstrainedAlignmentImporter
+  import AL_REF_PLV_UNCONSTRAINED -f alignments/internal/plv.aln.fna
+  exit
 
 module unconstrainedAlignmentImporter
   import AL_REF_HIV-1_UNCONSTRAINED -f alignments/internal/HIV-1.aln.fna
@@ -177,9 +177,9 @@ alignment AL_REF_LENTI_MASTER
   derive segments AL_REF_LENTI_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE
   exit
 
-#alignment AL_REF_PLV_MASTER
-#  derive segments AL_REF_PLV_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE
-#  exit
+alignment AL_REF_PLV
+  derive segments AL_REF_PLV_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE
+  exit
 
 alignment AL_REF_HIV-1M
   derive segments AL_REF_HIV-1_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE
