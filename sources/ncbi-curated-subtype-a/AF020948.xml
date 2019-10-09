@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF020948</GBSeq_locus>
+    <GBSeq_length>626</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>24-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>20-SEP-1997</GBSeq_create-date>
+    <GBSeq_definition>HIV-1 strain TWA1 from Taiwan, p24 (gag) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AF020948</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF020948.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF020948.1|</GBSeqid>
+      <GBSeqid>gi|2415429</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human immunodeficiency virus 1 (HIV-1)</GBSeq_source>
+    <GBSeq_organism>Human immunodeficiency virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Primate lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..626</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lee,C.N.</GBAuthor>
+          <GBAuthor>Chen,M.Y.</GBAuthor>
+          <GBAuthor>Lin,H.S.</GBAuthor>
+          <GBAuthor>Lee,M.C.</GBAuthor>
+          <GBAuthor>Luo,C.C.</GBAuthor>
+          <GBAuthor>Twu,S.J.</GBAuthor>
+          <GBAuthor>Lin,R.Y.</GBAuthor>
+          <GBAuthor>Chuang,C.Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>HIV type 1 env subtype A variants in Taiwan</GBReference_title>
+        <GBReference_journal>AIDS Res. Hum. Retroviruses 14 (9), 807-809 (1998)</GBReference_journal>
+        <GBReference_pubmed>9643381</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..626</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lee,C.N.</GBAuthor>
+          <GBAuthor>Chen,M.Y.</GBAuthor>
+          <GBAuthor>Lin,H.S.</GBAuthor>
+          <GBAuthor>Lee,M.C.</GBAuthor>
+          <GBAuthor>Luo,C.C.</GBAuthor>
+          <GBAuthor>Twu,S.J.</GBAuthor>
+          <GBAuthor>Lin,R.Y.</GBAuthor>
+          <GBAuthor>Chuang,C.Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (28-AUG-1997) School of Medical Technology, College of Medicine, National Taiwan University, No.1, Chang-Te St., Taipei, Taiwan 10016, R. O. C.</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..626</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>626</GBInterval_to>
+            <GBInterval_accession>AF020948.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human immunodeficiency virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>TWA1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11676</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;626</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>626</GBInterval_to>
+            <GBInterval_accession>AF020948.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;626</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>626</GBInterval_to>
+            <GBInterval_accession>AF020948.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>p24</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAC27680.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>RTLNAWVKVIEEKAFSPEVIPMFSALSEGATPQDLNMMLNIVGGHQAAMQMFKDTIHEEAAEWDRLHPVHAGPIPPGQIREPRGSDIAGTTSTPQEQIGWMTSNPPFPVGDIYKRWIILGLNKIVRMYSPVSILDIKQGPKEPFRDYVDRFFKTLRAEQATQDVKNWMTETLLVQNANPDCKSILRALGSGATLEEMMTACQGVGGPG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ctaggactttgaatgcatgggttaaagtaatagaggaaaaggctttcagcccagaagtaatacccatgttctcagcattatcagaaggagccaccccacaagatttaaatatgatgctcaacatagtggggggacaccaggcagctatgcaaatgtttaaagataccatccatgaggaagctgcagaatgggacaggttacatccagtacatgcagggcctattccacccggccagattagagaaccaaggggaagtgacatagcaggaactactagtacccctcaagaacaaattggatggatgacaagcaatccacctttcccagtgggagatatctataaaagatggataatcctggggttaaataaaatagtaagaatgtatagtcctgttagcattttggatataaaacaagggccaaaagaacccttcagagattatgtagatagattctttaaaactctcagagctgagcaggctacacaggatgtaaaaaattggatgacagaaacattactggtccaaaatgcaaatccagattgtaagtccattttaagagcattaggatcaggggctacattagaagaaatgatgacagcatgccagggagtgggaggacccggc</GBSeq_sequence>
+  </GBSeq>

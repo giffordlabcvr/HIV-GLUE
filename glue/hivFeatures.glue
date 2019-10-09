@@ -250,3 +250,10 @@
   feature nef set metatag CODES_AMINO_ACIDS true
 #   feature nef set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
+  create feature asp -p internal_coding "asp"
+  feature asp set field displayName "asp"
+  feature asp set metatag OWN_CODON_NUMBERING true
+  feature asp set metatag INCLUDE_IN_SUMMARY true
+  feature asp set metatag CODES_AMINO_ACIDS true
+#   feature asp set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+

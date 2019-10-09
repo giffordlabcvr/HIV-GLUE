@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AJ304988</GBSeq_locus>
+    <GBSeq_length>2059</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>14-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>22-JAN-2001</GBSeq_create-date>
+    <GBSeq_definition>Feline immunodeficiency virus proviral env gene for envelope precursor glycoprotein, strain RP1, clone A</GBSeq_definition>
+    <GBSeq_primary-accession>AJ304988</GBSeq_primary-accession>
+    <GBSeq_accession-version>AJ304988.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|AJ304988.1|</GBSeqid>
+      <GBSeqid>gi|12407056</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>env gene</GBKeyword>
+      <GBKeyword>envelope precursor glycoprotein</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Feline immunodeficiency virus</GBSeq_source>
+    <GBSeq_organism>Feline immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Feline lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2059</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Fevereiro,M.</GBAuthor>
+          <GBAuthor>Duarte,A.</GBAuthor>
+          <GBAuthor>Tavares,L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Phylogenetic subtyping of five portuguese isolates of Feline Immunodeficiency Virus</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2059</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Fevereiro,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-JAN-2001) Fevereiro M., Departamento de Virologia, Laboratorio Nacional de Investigacao Veterinaria, Estrada de Benfica, 701, Lisboa, Lisboa 1549-011, Portugal</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2059</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2059</GBInterval_to>
+            <GBInterval_accession>AJ304988.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Feline immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>RP1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11673</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>A</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..2055</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2055</GBInterval_to>
+            <GBInterval_accession>AJ304988.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..2055</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2055</GBInterval_to>
+            <GBInterval_accession>AJ304988.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope precursor glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAC24827.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GOA:Q999V8</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR000328</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR018582</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>UniProtKB/TrEMBL:Q999V8</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>AQVVWRLPPLVVPVDETEIIFWDCWAPEEPACQDFLGTMIHLKANVNISIQEGPTLGNWAREIWATLFKKATRQCRRGRIWKRWNETITGPKGCANNTCYNISVVIPDYQCFVDRVDTWLQGKVNISLCLTGGKMLYNKVTKQLSYCTDPLQIPLINYTFGPNQTCMWNISLIKDPEIPKCGWWNQAAYYNSCQWEEANVTFQCQRTQSLPGSWVRRISSWRQRNRWEWRPDFESEKVKVSLQCNSTKNLTFAMRSSSDYYDIQGAWIEFGCYRKRSNTHTDARFRIRCRWNEGKNISLIDTCGTTLNVSKANPVDCTMRASTMYNCSLQNSFNLRIEDHIVHFNMTKAVEMYNIAGNWSCTSDLPKEWGYMKCNCTNETGSSGSNNKMKCPENQGILRNWYNPIAGIRQALMKYQVVKQPEYLVVPEEVMQYKSKQKRAAIHIMLALATVLSIAGAGTGATAIGMVTQYHQILATHQQALDKITEALKINNLRLVTLEHQVLVIGLKVEAIEKFLYTAFAMQKLGCNQNQFFCKIPRTLWTMYNMTINHTLWNHGNITLGDWYNQTKGLQEKFYEIIMDIEQNNVQGKTGIQQLQKWENWVGWIGKIPQYLKGLLGGMLGIGLGILLLIICLPTLVDCIRSCINKVLGYTVIAMPEIDDNEIQPSVELRRNGRQCGISEKEEE</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gctcaggtagtatggagacttccaccattagtagtgccagtagatgagacagaaataatattttgggattgttgggcgccagaggaaccagcctgtcaggatttcttggggacaatgatacatttaaaagcaaatgttaatataagtatacaagaaggacctacattgggaaattgggcgagggaaatatgggccactttatttaaaaaggctacaaggcaatgtagaaggggaagaatatggaagagatggaatgagactataacaggacctaaaggatgtgcaaataatacctgttataacatttcagtagtgatacctgattatcaatgttttgtagacagagtagatacatggttgcaagggaaagttaatatttcactatgtttgacaggaggaaagatgctatataataaagttacaaaacaattaagttactgtacagacccattacaaattccattaattaattatacatttggacctaatcaaacttgtatgtggaacatatctttaatcaaagaccctgagataccgaaatgtggatggtggaatcaggcagcttattataatagctgtcaatgggaagaggctaatgtgacatttcaatgtcaaagaacacaaagtctaccaggatcatgggttaggagaatttcttcatggagacaaaggaacagatgggaatggaggccagactttgaaagtgagaaagtaaaagtatcattacaatgtaatagtacaaaaaatttaacttttgcaatgagaagttcaagtgattattatgatatacaaggagcatggatagaatttggatgttatagaaagagatcaaacacccatacagacgcaagatttagaataagatgtagatggaatgaaggaaagaatatatcactcattgatacatgtgggactactttaaacgtctcaaaagccaaccctgtagattgtactatgagagcaagcactatgtacaattgttccttacaaaatagttttaatctgagaatagaggatcatattgtacattttaatatgacaaaagctgtggaaatgtataatattgctgggaattggtcttgtacatccgatttaccaaaagaatggggatatatgaagtgtaattgtacaaatgagactggaagctcgggaagcaacaacaaaatgaaatgccctgaaaatcagggtattttaagaaactggtacaatccaattgcaggaataagacaagcccttatgaagtatcaggtagtaaaacaaccagaatatttagtggtgccagaagaagttatgcagtataaatctaaacaaaaaagggccgctattcatatcatgctagctcttgctacggtgttatctatagctggggcaggaacaggtgccactgctattgggatggtaacacaatatcatcaaatcttggctactcatcaacaagcattggacaaaataactgaggcactgaaaataaataatttaagattagtcactttggaacatcaagtattagtgataggattaaaagtagaggctatagaaaaattcttatatactgcttttgctatgcaaaaattaggatgcaatcagaatcaattcttttgcaagattccccgaactctatggacaatgtataacatgactataaatcatacactttggaatcatggaaatataactttgggagattggtacaatcaaacaaaaggtttgcaagaaaaattttatgagataataatggatatagaacaaaataatgtgcaaggaaaaactggaatacaacaattacaaaaatgggaaaattgggtgggatggataggtaaaattcctcaatacctgaaaggacttcttggtggtatgctggggataggcctagggatcttactgcttataatatgtttacctacattagtagattgtataagaagttgtattaataaagtattaggatatacagttatcgcaatgcctgagatagatgataatgaaatacaaccatcagtggaattgaggagaaatggcaggcaatgtggcatatctgaaaaagaggaggaatgatgaa</GBSeq_sequence>
+  </GBSeq>

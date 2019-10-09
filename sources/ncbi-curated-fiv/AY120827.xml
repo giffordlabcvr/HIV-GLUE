@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY120827</GBSeq_locus>
+    <GBSeq_length>479</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>24-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>12-AUG-2002</GBSeq_create-date>
+    <GBSeq_definition>Feline immunodeficiency virus clone 611_98.3 nonfunctional polyprotein (pol) gene, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>AY120827</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY120827.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY120827.1|</GBSeqid>
+      <GBSeqid>gi|22212239</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Feline immunodeficiency virus</GBSeq_source>
+    <GBSeq_organism>Feline immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Feline lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..479</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Biek,R.</GBAuthor>
+          <GBAuthor>Rodrigo,A.G.</GBAuthor>
+          <GBAuthor>Holley,D.</GBAuthor>
+          <GBAuthor>Drummond,A.</GBAuthor>
+          <GBAuthor>Anderson,C.R. Jr.</GBAuthor>
+          <GBAuthor>Ross,H.A.</GBAuthor>
+          <GBAuthor>Poss,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Epidemiology, genetic diversity, and evolution of endemic feline immunodeficiency virus in a population of wild cougars</GBReference_title>
+        <GBReference_journal>J. Virol. 77 (17), 9578-9589 (2003)</GBReference_journal>
+        <GBReference_pubmed>12915571</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..479</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Biek,R.</GBAuthor>
+          <GBAuthor>Rodrigo,A.G.</GBAuthor>
+          <GBAuthor>Holley,D.</GBAuthor>
+          <GBAuthor>Drummond,A.</GBAuthor>
+          <GBAuthor>Anderson,C.R.</GBAuthor>
+          <GBAuthor>Poss,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (10-JUN-2002) Division of Biological Sciences, University of Montana, HS 104, Missoula, MT 59812, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..479</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>479</GBInterval_to>
+            <GBInterval_accession>AY120827.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Feline immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>peripheral blood mononuclear cells</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Puma concolor; free-ranging cougar</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11673</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>611_98.3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA: Wyoming, Snowy Range</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;479</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>479</GBInterval_to>
+            <GBInterval_accession>AY120827.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>pol</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>nonfunctional polyprotein due to mutation</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ctaataacccttggaatactcctatattttgtataaagaagaaatcaaagaaatggagaatgctaattgattttagagaacttaatgcaaaaacagaaaaaggagcaaaagtccaattaggattacctcacccatctggattacaaaagagaaagaatgtaacaattctagatataggaaatgcttattttaccatccctttagatcctgattatcagccatatacagcatttactttaccatctaagaataatcaaagtccaggaagaaggtatatttagaaatctcttccacaggggtggatcttgagtcccttaatataccagagcactttagataatattctacagccatttagaaagagatatgaaaaacagatagatatataccaatatatggatgatatttatataggatcagataaagaaataaaacaacacagaaaaattgttcaagaactacgagagttacttttatgg</GBSeq_sequence>
+  </GBSeq>

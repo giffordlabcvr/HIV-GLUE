@@ -19,25 +19,26 @@ project hiv
   run file glue/hivModules.glue
 
   # Import reference sequences from GenBank XML files 
-  import source sources/ncbi-refseqs/
-  import source sources/fasta-refseqs/
-  
+  run file glue/hivImportReferenceSources.glue  
+ 
   # Import reference sequence side-data
   module genbankXmlPopulator populate
   module refseqTextFilePopulator populate -f tabular/hiv-reference-data.csv
 
-  # Define features
+  # Create HIV-1/lentivirus reference sequences
+  run file glue/hivReferences.glue
+
+  # Define HIV-1/lentivirus genome features
   run file glue/hivFeatures.glue 
 
-  # Create reference sequences
-  run file glue/hivReferences.glue
+  # Attach feature locations to the HIV-1 master reference 
   run file glue/hivFeatureLocations.glue
 
-  # Import alignments
-  run file glue/hivAlignments.glue
+  # Inherit features from HIV-1 master reference to all other HIV-1 reference sequences
+  #run script glue/hivRefseqsInheritFeatureLocations.js
 
-  # Create 'alignment tree'
-  run file glue/hivAlignmentTree.glue
+  # Import alignments
+  run file glue/hivCreateReferenceAlignments.glue
 
   validate
-
+  

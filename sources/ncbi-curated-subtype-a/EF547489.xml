@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EF547489</GBSeq_locus>
+    <GBSeq_length>266</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>21-AUG-2007</GBSeq_create-date>
+    <GBSeq_definition>HIV-1 clone TV_441_V3 from South Africa envelope glycoprotein (env) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>EF547489</GBSeq_primary-accession>
+    <GBSeq_accession-version>EF547489.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|EF547489.1|</GBSeqid>
+      <GBSeqid>gi|156074186</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human immunodeficiency virus 1 (HIV-1)</GBSeq_source>
+    <GBSeq_organism>Human immunodeficiency virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Primate lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..266</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Wilkinson,E.</GBAuthor>
+          <GBAuthor>Engelbrecht,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular characterization of non-subtype C and recombinant HIV-1 viruses from Cape Town, South Africa</GBReference_title>
+        <GBReference_journal>Infect. Genet. Evol. 9 (5), 840-846 (2009)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.meegid.2009.05.001</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>19446657</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..266</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Jacobs,G.B.</GBAuthor>
+          <GBAuthor>Loxton,A.G.</GBAuthor>
+          <GBAuthor>Laten,A.</GBAuthor>
+          <GBAuthor>Robson,B.</GBAuthor>
+          <GBAuthor>van Rensburg,E.J.</GBAuthor>
+          <GBAuthor>Engelbrecht,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Emergence and diversity of different HIV-1 subtypes in South Africa, 2000-2001</GBReference_title>
+        <GBReference_journal>J. Med. Virol. 81 (11), 1852-1859 (2009)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1002/jmv.21609</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>19774685</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..266</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Engelbrecht,S.</GBAuthor>
+          <GBAuthor>Jacobs,G.B.</GBAuthor>
+          <GBAuthor>Loxton,A.G.</GBAuthor>
+          <GBAuthor>Laten,A.D.</GBAuthor>
+          <GBAuthor>Robson,B.A.</GBAuthor>
+          <GBAuthor>Janse van Rensburg,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (11-APR-2007) Medical Virology, National Health Laboratory Service (NHLS) and University of Stellenbosch, P.O. Box 19063, Tygerberg, Western Cape Province 7505, South Africa</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..266</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>266</GBInterval_to>
+            <GBInterval_accession>EF547489.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human immunodeficiency virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>TV441</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>plasma from female with heterosexual transmission as primary risk factor</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11676</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>TV_441_V3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>South Africa: Cape Town</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>26-Apr-2001</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>infected in South Africa;
+subtype: A</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;266</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>266</GBInterval_to>
+            <GBInterval_accession>EF547489.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;266</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>266</GBInterval_to>
+            <GBInterval_accession>EF547489.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>V3 region</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ABU46361.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>TNNAKTIIVQLDTPVKINCTRPNNNTRKSIRIGPGQAFYAHGDIIGNIRKAYCTINSSEWNAALKKVAVQLGQQFPNKTIVFKNSSGG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>acaaacaatgccaaaaccataatagtacagcttgatacgcctgtaaaaattaattgtactaggcccaacaacaatacaaggaaaagtatacgtataggaccaggacaagcgttctatgcacatggtgacataatcgggaacataagaaaagcatattgtactatcaatagctcagaatggaatgcagctttaaaaaaggtagctgtacaattaggccaacaattccctaataaaacaatagtatttaagaactcctcaggagggga</GBSeq_sequence>
+  </GBSeq>

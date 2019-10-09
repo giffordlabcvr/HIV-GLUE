@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF025699</GBSeq_locus>
+    <GBSeq_length>345</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>24-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>06-NOV-1997</GBSeq_create-date>
+    <GBSeq_definition>HIV-1 isolate LE17 from Lebanon, envelope glycoprotein C2V3 region (env) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AF025699</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF025699.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF025699.1|</GBSeqid>
+      <GBSeqid>gi|2586750</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human immunodeficiency virus 1 (HIV-1)</GBSeq_source>
+    <GBSeq_organism>Human immunodeficiency virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Primate lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..345</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Pieniazek,D.</GBAuthor>
+          <GBAuthor>Baggs,J.</GBAuthor>
+          <GBAuthor>Hu,D.J.</GBAuthor>
+          <GBAuthor>Matar,G.M.</GBAuthor>
+          <GBAuthor>Abdelnoor,A.M.</GBAuthor>
+          <GBAuthor>Mokhbat,J.E.</GBAuthor>
+          <GBAuthor>Uwaydah,M.</GBAuthor>
+          <GBAuthor>Bizri,A.R.</GBAuthor>
+          <GBAuthor>Ramos,A.</GBAuthor>
+          <GBAuthor>Janini,L.M.</GBAuthor>
+          <GBAuthor>Tanuri,A.</GBAuthor>
+          <GBAuthor>Fridlund,C.</GBAuthor>
+          <GBAuthor>Schable,C.</GBAuthor>
+          <GBAuthor>Heyndrickx,L.</GBAuthor>
+          <GBAuthor>Rayfield,M.A.</GBAuthor>
+          <GBAuthor>Heneine,W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Introduction of HIV-2 and multiple HIV-1 subtypes to Lebanon</GBReference_title>
+        <GBReference_journal>Emerging Infect. Dis. 4 (4), 649-656 (1998)</GBReference_journal>
+        <GBReference_pubmed>9866744</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..345</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Pieniazek,D.</GBAuthor>
+          <GBAuthor>Baggs,J.</GBAuthor>
+          <GBAuthor>Hu,D.J.</GBAuthor>
+          <GBAuthor>Matar,G.M.</GBAuthor>
+          <GBAuthor>Abdelnoor,A.M.</GBAuthor>
+          <GBAuthor>Mokhbat,J.E.</GBAuthor>
+          <GBAuthor>Uwaydah,M.</GBAuthor>
+          <GBAuthor>Bizri,A.R.</GBAuthor>
+          <GBAuthor>Ramos,C.A.</GBAuthor>
+          <GBAuthor>Janini,L.M.</GBAuthor>
+          <GBAuthor>Tanuri,A.</GBAuthor>
+          <GBAuthor>Rayfield,M.A.</GBAuthor>
+          <GBAuthor>Heyndrickx,L.</GBAuthor>
+          <GBAuthor>Heneine,W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (12-SEP-1997) HIV/Retrovirus Disease Branch, DASTLR, Centers for Disease Control and Prevention, 1600 Clifton Road, Mail Stop G-19, Atlanta, GA 30333, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..345</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>345</GBInterval_to>
+            <GBInterval_accession>AF025699.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human immunodeficiency virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>LE17</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11676</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype A from Lebanese patient living in Lebanon</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;345</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>345</GBInterval_to>
+            <GBInterval_accession>AF025699.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;345</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>345</GBInterval_to>
+            <GBInterval_accession>AF025699.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>C2V3 region</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAB82807.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>NITNNAKTIIVQLTQPVNITCSRPNNNTRKSIRIGPGQAFYATGDIIGDIRQAFCHVNRSEWNKALQQVATQLGSHFGNKTIIFTNSSGGDLEITTHSFNCGGEFFYCNTSGLFN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aatatcacaaacaatgccaaaaccataatagtacaacttacccagcctgtgaacattacctgtagcagacctaacaacaatacaagaaaaagtatacgtataggaccaggacaagccttctatgcaacaggtgacataataggggatataagacaagcattttgtcatgttaatagatcagaatggaataaagctttacaacaggtagctacacaattaggaagtcactttgggaacaaaacaataatctttactaactcctcaggaggggatctagaaatcacaacacatagttttaattgtggaggagaatttttctattgtaatacatcaggcctgtttaat</GBSeq_sequence>
+  </GBSeq>

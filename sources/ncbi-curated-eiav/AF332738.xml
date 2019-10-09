@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF332738</GBSeq_locus>
+    <GBSeq_length>530</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>14-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>20-MAR-2001</GBSeq_create-date>
+    <GBSeq_definition>Equine infectious anemia virus trans-activating protein (tat) mRNA, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>AF332738</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF332738.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF332738.1|</GBSeqid>
+      <GBSeqid>gi|13383844</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Equine infectious anemia virus</GBSeq_source>
+    <GBSeq_organism>Equine infectious anemia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Equine lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..530</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kong,X.-G.</GBAuthor>
+          <GBAuthor>Liu,X.-D.</GBAuthor>
+          <GBAuthor>Zhang,B.-S.</GBAuthor>
+          <GBAuthor>Sun,C.-Q.</GBAuthor>
+          <GBAuthor>Liu,Y.-G.</GBAuthor>
+          <GBAuthor>Zhou,J.-X.</GBAuthor>
+          <GBAuthor>Yang,W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Characterization of the transcription map of the donkey leukocyte attenuated equine infectious anemia virus</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..530</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kong,X.-G.</GBAuthor>
+          <GBAuthor>Liu,X.-D.</GBAuthor>
+          <GBAuthor>Zhang,B.-S.</GBAuthor>
+          <GBAuthor>Sun,C.-Q.</GBAuthor>
+          <GBAuthor>Liu,Y.-G.</GBAuthor>
+          <GBAuthor>Zhou,J.-X.</GBAuthor>
+          <GBAuthor>Yang,W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (02-JAN-2001) National Key Lab of Veterinary Biotechnology, Harbin Veterinary Research Institute, No. 427 Maduan St., Harbin, Heilongjiang 150001, P. R. China</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..530</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>530</GBInterval_to>
+            <GBInterval_accession>AF332738.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Equine infectious anemia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11665</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>spliced transcript from donkey adapted equine infectious anemia virus infected donkey peripheral blood</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..530</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>530</GBInterval_to>
+            <GBInterval_accession>AF332738.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>tat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;10..264</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>10</GBInterval_from>
+            <GBInterval_to>264</GBInterval_to>
+            <GBInterval_accession>AF332738.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>tat</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Tat; exons 1-4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>trans-activating protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAK21159.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>GRRPCLLNLADRRIPRTAEENLQTSSGGAPGHNTGRQESPPVSYHCQLCFLRSLGIDYLDSSLKKKNKQRQKAIKEGRPPKYLL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gggacctgagggcgcagaccctgcctgctgaacctggctgatcgtaggatccctaggacagcagaggagaacttacagacgtcttctggaggtgctcctggccacaacacaggaagacaggaatcaccaccagtcagctatcattgtcaactgtgtttcctgagatcattgggaattgactaccttgacagctcgctgaagaaaaagaacaagcaaagacagaaggccatcaaggagggaagaccacctaaatatctgttataagccataaagcagaaatggcagaggcaagagacacaagataccaagaagaaatgaaccggaaagaagagaaagaagataacaaaagaagaaataactggtggaagatagatcctcagaggcctcttgacaacgatgagtggtgcaggatcctccgccagtcgctacctgaggaaaaggtaccatcacagacatgcatcgcgaggagacatctgggcccaggaccagtgtcatgcgtacctggcagacgagactcatggctcagggga</GBSeq_sequence>
+  </GBSeq>

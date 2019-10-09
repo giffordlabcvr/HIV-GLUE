@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>J04541</GBSeq_locus>
+    <GBSeq_length>376</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>30-AUG-2002</GBSeq_update-date>
+    <GBSeq_create-date>02-AUG-1993</GBSeq_create-date>
+    <GBSeq_definition>Feline immunodeficiency virus long terminal repeat region</GBSeq_definition>
+    <GBSeq_primary-accession>J04541</GBSeq_primary-accession>
+    <GBSeq_accession-version>J04541.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|J04541.1|</GBSeqid>
+      <GBSeqid>gi|323955</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Feline immunodeficiency virus</GBSeq_source>
+    <GBSeq_organism>Feline immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Feline lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..376</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Olmsted,R.A.</GBAuthor>
+          <GBAuthor>Barnes,A.K.</GBAuthor>
+          <GBAuthor>Yamamoto,J.K.</GBAuthor>
+          <GBAuthor>Hirsch,V.M.</GBAuthor>
+          <GBAuthor>Purcell,R.H.</GBAuthor>
+          <GBAuthor>Johnson,P.R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular cloning of feline immunodeficiency virus</GBReference_title>
+        <GBReference_journal>Proc. Natl. Acad. Sci. U.S.A. 86 (7), 2448-2452 (1989)</GBReference_journal>
+        <GBReference_pubmed>2928341</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>Draft entry and computer readable sequence for [1] kindly provided by Olmsted,R.A., 17-FEB-1989.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..376</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>376</GBInterval_to>
+            <GBInterval_accession>J04541.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Feline immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Petaluma</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11673</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>pE20, pD32</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>passed in feline CRFK cells</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1..21</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>21</GBInterval_to>
+            <GBInterval_accession>J04541.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>polypurine tract</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>22..376</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>22</GBInterval_from>
+            <GBInterval_to>376</GBInterval_to>
+            <GBInterval_accession>J04541.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>long terminal repeat</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aaaaaagaaaaaagggtggactgggatgagtattggaaccctgaagaaatagaaagaatgcttatggactagggactgtttacgaacaaatgataaaaggaaatagctgagcatgactcatagttaaagcgctagcagctgcctaaccgcaaaaccacatcctatggaaagcttgctaatgacgtataagttgttccattgtaagagtatataaccagtgctttgtgaaacttcgaggagtctctttgttgaggacttttgagttctcccttgaggctcccacagatacaataaatatttgagattgaaccctgtcgagtatctgtgtaatcttttttacctgtgaggtctcggaatccgggccgagaacttcgca</GBSeq_sequence>
+  </GBSeq>

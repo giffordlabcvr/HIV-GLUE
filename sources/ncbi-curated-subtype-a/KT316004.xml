@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KT316004</GBSeq_locus>
+    <GBSeq_length>748</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>19-NOV-2015</GBSeq_update-date>
+    <GBSeq_create-date>19-NOV-2015</GBSeq_create-date>
+    <GBSeq_definition>HIV-1 isolate H271 from Togo pol protein (pol) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KT316004</GBSeq_primary-accession>
+    <GBSeq_accession-version>KT316004.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KT316004.1|</GBSeqid>
+      <GBSeqid>gi|952978393</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human immunodeficiency virus 1 (HIV-1)</GBSeq_source>
+    <GBSeq_organism>Human immunodeficiency virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Primate lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..748</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Konou,A.A.</GBAuthor>
+          <GBAuthor>Dagnra,A.Y.</GBAuthor>
+          <GBAuthor>Vidal,N.</GBAuthor>
+          <GBAuthor>Salou,M.</GBAuthor>
+          <GBAuthor>Adam,Z.</GBAuthor>
+          <GBAuthor>Singo-Tokofai,A.</GBAuthor>
+          <GBAuthor>Delaporte,E.</GBAuthor>
+          <GBAuthor>Prince-David,M.</GBAuthor>
+          <GBAuthor>Peeters,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Alarming rates of virological failure and drug resistance in patients on long-term antiretroviral treatment in routine HIV clinics in Togo</GBReference_title>
+        <GBReference_journal>AIDS 29 (18), 2527-2530 (2015)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1097/QAD.0000000000000906</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>26558549</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..748</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Konou,A.A.</GBAuthor>
+          <GBAuthor>Dagnra,A.Y.</GBAuthor>
+          <GBAuthor>Vidal,N.</GBAuthor>
+          <GBAuthor>Salou,M.</GBAuthor>
+          <GBAuthor>Adam,Z.</GBAuthor>
+          <GBAuthor>Singo-Tokofai,A.</GBAuthor>
+          <GBAuthor>Delaporte,E.</GBAuthor>
+          <GBAuthor>Prince-David,M.</GBAuthor>
+          <GBAuthor>Peeters,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (20-JUL-2015) UMI 233, Institut de Recherche pour le Developpement, 911 avenue Agropolis, Montpellier 34000, France</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Seqman v. 8.1.5 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..748</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>748</GBInterval_to>
+            <GBInterval_accession>KT316004.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human immunodeficiency virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>H271</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11676</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Togo</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2012</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype: A3</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;748</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>748</GBInterval_to>
+            <GBInterval_accession>KT316004.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>pol</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;748</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>748</GBInterval_to>
+            <GBInterval_accession>KT316004.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>pol</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>pol protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ALO23258.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>PISPIETVSVKLKPGMDGPKVKQWPLTEEKIKALTEICKEMEEEGKISKIGPENPYNTPIFAIKKKDGTKWRKLVDFRELNKRTQDFWEIQLGIPHPAGLKKNKSVTILDVGDAYFSVPLDKEFRKYTAFTIPSTNNETPGVRYQYNVLPQGWKGSPAIFQYSMTKILEPFRSKNPELVIYQYVDDLYVGSDLEIGQHRAKIDELREHLWKWGFYTPDKKHQKEPPFLRMGYELHPDKWTVQPIKLPE</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ttcccattagtcctattgaaactgtatcagtaaaattaaagccaggaatggatggcccaaaggttaaacaatggccattgacagaagaaaaaataaaagcattgacagaaatttgtaaagaaatggaagaggaaggaaaaatttcaaaaattgggcctgaaaatccatacaatactccaatatttgctataaagaaaaaggatggtactaaatggaggaaattagtagatttcagagagctcaataaaagaactcaggatttctgggaaattcaattaggaataccgcatccagcgggtttaaaaaagaacaaatcagtaacaatactggatgtgggggacgcatatttttcagttcctctagataaagaatttagaaagtatactgcgttcaccatacccagtacaaacaatgagacaccaggagtcagatatcagtacaatgtgctaccgcagggatggaagggatcaccagcaatattccagtatagcatgacaaagatcttagagccctttagatcaaaaaatccagaactagttatataccaatacgtggatgacttgtatgtaggatctgatttagaaatagggcagcatagagcaaaaatagatgaactaagggagcatctatggaaatggggattttacacaccagacaaaaaacatcagaaggaacctccatttctcaggatgggatatgaactccatcctgacaaatggacagtccagcctataaaattgccagaaaa</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>DQ323181</GBSeq_locus>
+    <GBSeq_length>335</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>31-DEC-2006</GBSeq_create-date>
+    <GBSeq_definition>HIV-1 isolate P321.9 from Senegal envelope glycoprotein (env) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>DQ323181</GBSeq_primary-accession>
+    <GBSeq_accession-version>DQ323181.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|DQ323181.1|</GBSeqid>
+      <GBSeqid>gi|87246473</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human immunodeficiency virus 1 (HIV-1)</GBSeq_source>
+    <GBSeq_organism>Human immunodeficiency virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Primate lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..335</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hamel,D.J.</GBAuthor>
+          <GBAuthor>Sankale,J.L.</GBAuthor>
+          <GBAuthor>Eisen,G.</GBAuthor>
+          <GBAuthor>Meloni,S.T.</GBAuthor>
+          <GBAuthor>Mullins,C.</GBAuthor>
+          <GBAuthor>Gueye-Ndiaye,A.</GBAuthor>
+          <GBAuthor>Mboup,S.</GBAuthor>
+          <GBAuthor>Kanki,P.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Twenty years of prospective molecular epidemiology in Senegal: changes in HIV diversity</GBReference_title>
+        <GBReference_journal>AIDS Res. Hum. Retroviruses 23 (10), 1189-1196 (2007)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1089/aid.2007.0037</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>17961103</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..335</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hamel,D.J.</GBAuthor>
+          <GBAuthor>Sankale,J.-L.</GBAuthor>
+          <GBAuthor>Eisen,G.</GBAuthor>
+          <GBAuthor>Seema,M.</GBAuthor>
+          <GBAuthor>Christopher,M.</GBAuthor>
+          <GBAuthor>Bueye-Ndiaye,A.</GBAuthor>
+          <GBAuthor>MBoup,S.</GBAuthor>
+          <GBAuthor>Kanki,P.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (12-DEC-2005) Immunology and Infectious Disease, Harvard School of Public Health, 651 Huntington Avenue, FXB-405, Boston, MA 02115, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..335</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>335</GBInterval_to>
+            <GBInterval_accession>DQ323181.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human immunodeficiency virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>P321.9</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>PBMCs from infected individual</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11676</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Senegal: Dakar</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;335</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>335</GBInterval_to>
+            <GBInterval_accession>DQ323181.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;335</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>335</GBInterval_to>
+            <GBInterval_accession>DQ323181.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ABD35305.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>VNPAVSTQILLNGSLAEGEVMIRSENISNNAKTIIVQLVEPVRINCTRPNNNTRKSVRIGPGQAFYATGDIIGKIRQAYCNVSGTKWNEVLQQVAEQLRTTLQKTIIFNQS</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agtcaacccagcagtatcaactcaaattttgttaaatggcagcctagcagagggagaggtaatgattagatctgagaatatctcaaacaatgccaaaaccataatagtacaacttgttgagcctgtaagaattaattgtaccagacccaacaacaatacaagaaaaagtgtgcgtataggaccaggacaagcattctatgcaacaggtgacataataggaaagataagacaagcatactgtaatgtcagtggaacaaaatggaatgaagttttacaacaggtagctgaacaattaagaaccacgttacaaaaaacaataatatttaatcaatcct</GBSeq_sequence>
+  </GBSeq>

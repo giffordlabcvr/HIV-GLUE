@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EIAG4590</GBSeq_locus>
+    <GBSeq_length>450</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>15-SEP-1989</GBSeq_update-date>
+    <GBSeq_create-date>02-AUG-1993</GBSeq_create-date>
+    <GBSeq_definition>Equine infectious anemia virus pol glycoprotein (3' end), S2 protein (complete cds), envelope protein (5' end)</GBSeq_definition>
+    <GBSeq_primary-accession>M21653</GBSeq_primary-accession>
+    <GBSeq_accession-version>M21653.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|M21653.1|EIAG4590</GBSeqid>
+      <GBSeqid>gi|323768</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>S2 protein</GBKeyword>
+      <GBKeyword>envelope protein</GBKeyword>
+      <GBKeyword>glycoprotein</GBKeyword>
+      <GBKeyword>pol polyprotein</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Equine infectious anemia virus</GBSeq_source>
+    <GBSeq_organism>Equine infectious anemia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Equine lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..450</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ball,J.M.</GBAuthor>
+          <GBAuthor>Payne,S.L.</GBAuthor>
+          <GBAuthor>Issel,C.J.</GBAuthor>
+          <GBAuthor>Montelaro,R.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>EIAV genomic organization: further characterization by sequencing of purified glycoproteins and cDNA</GBReference_title>
+        <GBReference_journal>Virology 165 (2), 601-605 (1988)</GBReference_journal>
+        <GBReference_pubmed>2841805</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>Original source text: Equine infectious anemia virus (EIAV) proviral RNA, and cDNA to viral RNA, clone lambda-12.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..450</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>450</GBInterval_to>
+            <GBInterval_accession>M21653.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Equine infectious anemia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11665</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mRNA</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;450</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>450</GBInterval_to>
+            <GBInterval_accession>M21653.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>pol-env gene mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transcription</GBQualifier_name>
+            <GBQualifier_value>CCATTAACCAGGACTAAGTTACTAATAAAGCCAAATTGAGTATTGTTGCAGGAAGCAAGACCCAACTACCATTGTCAGCTGTGTTTCCTGAGGTCTCTAGGAATTGATTACCTCGATGCTTCATTAAGGAAGAAGAATAAACAAAGACTGAAGGCAATCCAACAAGGAAGACAACCTCAATATTTGTTATAAGGTTTGATATATGGGATTATTTGGTAAAGGGGTAACATGGTCAGCATCGCATTCTATGGGGGGATCCCAGGGGGAATCTCAACCCCTATTACCCAACAGTCAGAAAAATCTAAGTGTGAGGAGAACACAATGTTTCAACCTTATTGTTATAATAATGACAGTAAGAACAGCATGGCAGAATCGAAGGAAGCAAGAGACCAAGAAATGAACCTGAAAGAAGAATCTAAAGAAGAAAAAAGAAGAAATGACTGGTGGAAA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..39</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>39</GBInterval_to>
+            <GBInterval_accession>M21653.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>pol glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAA43007.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>PLTRTKLLIKPN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>203..400</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>203</GBInterval_from>
+            <GBInterval_to>400</GBInterval_to>
+            <GBInterval_accession>M21653.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>S2 protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAA43008.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MGLFGKGVTWSASHSMGGSQGESQPLLPNSQKNLSVRRTQCFNLIVIIMTVRTAWQNRRKQETKK</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>229..&gt;450</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>229</GBInterval_from>
+            <GBInterval_to>450</GBInterval_to>
+            <GBInterval_accession>M21653.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>env glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAA43009.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MVSIAFYGGIPGGISTPITQQSEKSKCEENTMFQPYCYNNDSKNSMAESKEARDQEMNLKEESKEEKRRNDWWK</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ccattaaccaggactaagttactaataaagccaaattgagtattgttgcaggaagcaagacccaactaccattgtcagctgtgtttcctgaggtctctaggaattgattacctcgatgcttcattaaggaagaagaataaacaaagactgaaggcaatccaacaaggaagacaacctcaatatttgttataaggtttgatatatgggattatttggtaaaggggtaacatggtcagcatcgcattctatggggggatcccagggggaatctcaacccctattacccaacagtcagaaaaatctaagtgtgaggagaacacaatgtttcaaccttattgttataataatgacagtaagaacagcatggcagaatcgaaggaagcaagagaccaagaaatgaacctgaaagaagaatctaaagaagaaaaaagaagaaatgactggtggaaa</GBSeq_sequence>
+  </GBSeq>

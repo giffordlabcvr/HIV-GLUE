@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF048557</GBSeq_locus>
+    <GBSeq_length>105</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>21-APR-1998</GBSeq_create-date>
+    <GBSeq_definition>HIV-1 patient Q47 isolate C2-94 clone Q47Cf94E3 from Kenya, envelope glycoprotein V3 region (env) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AF048557</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF048557.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF048557.1|</GBSeqid>
+      <GBSeqid>gi|3065413</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human immunodeficiency virus 1 (HIV-1)</GBSeq_source>
+    <GBSeq_organism>Human immunodeficiency virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Primate lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..105</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Poss,M.</GBAuthor>
+          <GBAuthor>Rodrigo,A.G.</GBAuthor>
+          <GBAuthor>Gosink,J.J.</GBAuthor>
+          <GBAuthor>Learn,G.H.</GBAuthor>
+          <GBAuthor>de Vange Panteleeff,D.</GBAuthor>
+          <GBAuthor>Martin,H.L. Jr.</GBAuthor>
+          <GBAuthor>Bwayo,J.</GBAuthor>
+          <GBAuthor>Kreiss,J.K.</GBAuthor>
+          <GBAuthor>Overbaugh,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Evolution of envelope sequences from the genital tract and peripheral blood of women infected with clade A human immunodeficiency virus type 1</GBReference_title>
+        <GBReference_journal>J. Virol. 72 (10), 8240-8251 (1998)</GBReference_journal>
+        <GBReference_pubmed>9733867</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..105</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Poss,M.L.</GBAuthor>
+          <GBAuthor>Rodrigo,A.G.</GBAuthor>
+          <GBAuthor>Gosink,J.J.</GBAuthor>
+          <GBAuthor>Learn,G.H.</GBAuthor>
+          <GBAuthor>Panteleef,D.</GBAuthor>
+          <GBAuthor>Martin,H.L. Jr.</GBAuthor>
+          <GBAuthor>Bwayo,J.</GBAuthor>
+          <GBAuthor>Kreiss,J.K.</GBAuthor>
+          <GBAuthor>Overbaugh,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (13-FEB-1998) Microbiology, University of Washington, Seattle, WA 98195, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..105</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>105</GBInterval_to>
+            <GBInterval_accession>AF048557.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human immunodeficiency virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>C2-94</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11676</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>Q47Cf94E3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Kenya</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>sample 94KEQ47CfE3;
+from a subtype A provirus isolated from the cervical mucosa of Q47, an asymptomatic female commercial sex worker from Mombasa, Kenya; sample taken in February 1994</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;105</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>105</GBInterval_to>
+            <GBInterval_accession>AF048557.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;105</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>105</GBInterval_to>
+            <GBInterval_accession>AF048557.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>V3 region; the V1-V2 region from this clone is in the file with GenBank Accession Number AF048534</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAC61127.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>CTRPNNNTRRSVRIGPGQAFYATGDIIGDIRQAHC</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgtaccagacctaataacaatacaagaagaagtgtacgtataggaccaggacaagcattctatgcaacaggtgatataataggggatataagacaagcacattgt</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MK174373</GBSeq_locus>
+    <GBSeq_length>144</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-DEC-2018</GBSeq_update-date>
+    <GBSeq_create-date>26-DEC-2018</GBSeq_create-date>
+    <GBSeq_definition>Equine infectious anemia virus isolate PAN-BR-21 LTR repeat region</GBSeq_definition>
+    <GBSeq_primary-accession>MK174373</GBSeq_primary-accession>
+    <GBSeq_accession-version>MK174373.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MK174373.1|</GBSeqid>
+      <GBSeqid>gi|1540839388</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Equine infectious anemia virus</GBSeq_source>
+    <GBSeq_organism>Equine infectious anemia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..144</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Cursino AE</GBAuthor>
+          <GBAuthor>Vilela APP</GBAuthor>
+          <GBAuthor>Franco-Luiz APM</GBAuthor>
+          <GBAuthor>de Oliveira JG</GBAuthor>
+          <GBAuthor>Nogueira MF</GBAuthor>
+          <GBAuthor>Junior JPA</GBAuthor>
+          <GBAuthor>de Aguiar DM</GBAuthor>
+          <GBAuthor>Kroon EG</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Equine infectious anemia virus in naturally infected horses from the Brazilian Pantanal</GBReference_title>
+        <GBReference_journal>Arch. Virol. (2018) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1007/s00705-018-3877-8</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>29752558</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..144</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Cursino,A.E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (13-NOV-2018) Departamento de pos-graduacao em Microbiologia/ICB, Universidade Federal de Minas Gerais, Av. Presidente Antonio Carlos, 6627, Pampulha, Belo Horizonte, Minas Gerais 31270-901, Brazil</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..144</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>144</GBInterval_to>
+            <GBInterval_accession>MK174373.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Equine infectious anemia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>PAN-BR-21</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>PBMC</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Equus caballus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11665</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Brazil</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2015</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;144</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>144</GBInterval_to>
+            <GBInterval_accession>MK174373.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>acaagcctaataataaatataattctctactcagtcctgtgtttcaacttgtttggttttaagatcctacagttggcgcccgaacagggacctgagaagggcgcagaccctacctgctgaacctggctgatcgtaggatcccta</GBSeq_sequence>
+  </GBSeq>

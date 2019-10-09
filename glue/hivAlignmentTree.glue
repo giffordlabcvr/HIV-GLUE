@@ -11,7 +11,7 @@
     demote member AL_A1  --whereClause "sequence.subtype = 'A1'" 
     extract child AL_A2  --refName REF_A2_AF286238
     demote member AL_A2  --whereClause "sequence.subtype = 'A2'" 
-    extract child AL_B   --refName REF_B_NC_001802
+    extract child AL_B   --refName REF_MASTER_NC_001802
     demote member AL_B   --whereClause "sequence.subtype = 'B'" 
     extract child AL_C   --refName REF_C_U46016
     demote member AL_C   --whereClause "sequence.subtype = 'C'" 

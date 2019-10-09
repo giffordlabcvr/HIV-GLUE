@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>GQ370822</GBSeq_locus>
+    <GBSeq_length>494</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>24-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>09-SEP-2009</GBSeq_create-date>
+    <GBSeq_definition>Feline immunodeficiency virus isolate oma34pC12 reverse transcriptase polymerase gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>GQ370822</GBSeq_primary-accession>
+    <GBSeq_accession-version>GQ370822.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|GQ370822.1|</GBSeqid>
+      <GBSeqid>gi|257229070</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Feline immunodeficiency virus</GBSeq_source>
+    <GBSeq_organism>Feline immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Feline lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..494</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Brown,M.A.</GBAuthor>
+          <GBAuthor>Munkhtsog,B.</GBAuthor>
+          <GBAuthor>Troyer,J.L.</GBAuthor>
+          <GBAuthor>Ross,S.</GBAuthor>
+          <GBAuthor>Sellers,R.</GBAuthor>
+          <GBAuthor>Fine,A.E.</GBAuthor>
+          <GBAuthor>Swanson,W.F.</GBAuthor>
+          <GBAuthor>Roelke,M.E.</GBAuthor>
+          <GBAuthor>O'Brien,S.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Feline immunodeficiency virus (FIV) in wild Pallas' cats</GBReference_title>
+        <GBReference_journal>Vet. Immunol. Immunopathol. 134 (1-2), 90-95 (2010)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.vetimm.2009.10.014</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>19926144</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..494</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Brown,M.A.</GBAuthor>
+          <GBAuthor>Troyer,J.L.</GBAuthor>
+          <GBAuthor>O'Brien,S.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (03-JUL-2009) Laboratory of Genomic Diversity, National Cancer Institute, Frederick, MD 21702, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..494</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>494</GBInterval_to>
+            <GBInterval_accession>GQ370822.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Feline immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>oma34pC12</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Otocolobus manul (Pallas' cat)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11673</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Mongolia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>25-Apr-2001</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;494</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>494</GBInterval_to>
+            <GBInterval_accession>GQ370822.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>reverse transcriptase polymerase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ACV53053.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>PNNPWNTPIFCIKKKSGKWRMLIDFRTLNELTEKGAEVQLGLPHPAGLQERKQVTVLDIADAYFTIPLDPDYAPYTAFTLPKINNSGPGERFVWCSLPQGWVLSPLIYQSTLNNILKPFREQHPEIDLYQYMDDIYIGSDLGKKEHKQIVEELRKLLLWWGFETP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ccaaataatccctggaatacccctattttctgtataaaaaagaaatcagggaagtggagaatgttaatagattttagaaccttgaatgaattaacagaaaagggtgcagaagttcagttaggactacctcatccggcaggattacaagaaaggaaacaagtaacagtattggatattgcagatgcatattttactataccattggatccagactatgcaccatatactgcctttactctgcccaagataaataattcaggtccaggagaaagatttgtatggtgtagtttacctcaaggatgggtattaagtcccttaatttatcagagtacattaaataatattttaaaaccatttagagaacagcatccagaaatagatttataccaatatatggatgatatatatataggatcagatttaggaaagaaggagcataaacaaattgtagaggaattaaggaaattattattatggtggggatttgagacgcc</GBSeq_sequence>
+  </GBSeq>

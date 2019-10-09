@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KT758196</GBSeq_locus>
+    <GBSeq_length>1420</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-JAN-2016</GBSeq_update-date>
+    <GBSeq_create-date>25-JAN-2016</GBSeq_create-date>
+    <GBSeq_definition>HIV-1 isolate MDC060-1 from Cameroon reverse transcriptase gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KT758196</GBSeq_primary-accession>
+    <GBSeq_accession-version>KT758196.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KT758196.1|</GBSeqid>
+      <GBSeqid>gi|974999114</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human immunodeficiency virus 1 (HIV-1)</GBSeq_source>
+    <GBSeq_organism>Human immunodeficiency virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Primate lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1420</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Courtney,C.R.</GBAuthor>
+          <GBAuthor>Agyingi,L.</GBAuthor>
+          <GBAuthor>Fokou,A.</GBAuthor>
+          <GBAuthor>Christie,S.</GBAuthor>
+          <GBAuthor>Asaah,B.</GBAuthor>
+          <GBAuthor>Meli,J.</GBAuthor>
+          <GBAuthor>Ngai,J.</GBAuthor>
+          <GBAuthor>Hewlett,I.</GBAuthor>
+          <GBAuthor>Nyambi,P.N.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Monitoring HIV-1 Group M Subtypes in Yaounde, Cameroon Reveals Broad Genetic Diversity and a Novel CRF02_AG/F2 Infection</GBReference_title>
+        <GBReference_journal>AIDS Res. Hum. Retroviruses (2015) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1089/aid.2015.0286</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>26681241</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1420</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Courtney,C.R.</GBAuthor>
+          <GBAuthor>Agyingi,L.</GBAuthor>
+          <GBAuthor>Fokou,A.</GBAuthor>
+          <GBAuthor>Christie,S.</GBAuthor>
+          <GBAuthor>Asaah,B.</GBAuthor>
+          <GBAuthor>Ngai,J.</GBAuthor>
+          <GBAuthor>Hewlett,I.</GBAuthor>
+          <GBAuthor>Nyambi,P.N.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (15-SEP-2015) Microbiology, New York University School of Medicine, 550 First Ave., New York, NY 10016, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1420</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1420</GBInterval_to>
+            <GBInterval_accession>KT758196.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human immunodeficiency virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>MDC060-1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11676</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Cameroon</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1420</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1420</GBInterval_to>
+            <GBInterval_accession>KT758196.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>reverse transcriptase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ALZ50419.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>IGPENPYNTPVFAIKKKDSTKWRKLVDFRELNKRTQDFWEVQLGIPHPAGLKKKKSVTVLDVGDAYFSVPLHEDFRKYTAFTIPSVNNETPGVRYQYNVLPQGWKGSPAIFQSSMTKILDPFRAQNPEIVIYQYMDDLYVGSDLEIEQHRTKIEQLRAHLLKWGFTTPDKKHQKEPPFLWMGYELHPDKWTVQPIMLPDKDCWTVNDIQKLVGKLNWASQIYPGIQVRQLCKLLRGAKALTEVVPLTEEAELELAENREILKNPVHGVYYDPSKDLVAEIQKQGLDQWTYQVYQEPFKNLKTGKYARKRSAHTNDVKQLTEVVQKVATESIVIWGKTPKFKLPIQKETWEAWWMEYWQATWIPEWEFVNTPPLVKLWYQLEKDPIVGAETFYVDGAANRDTKIGKAGYVTDRGRQKVVPLTETTNQKTELHAIHLALQDSGSAVNIVTDSQYALGIIQAQPDRSDSELVNLI</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1420</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1420</GBInterval_to>
+            <GBInterval_accession>KT758196.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>p66</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>contains polymerase and RNase H domains</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>IGPENPYNTPVFAIKKKDSTKWRKLVDFRELNKRTQDFWEVQLGIPHPAGLKKKKSVTVLDVGDAYFSVPLHEDFRKYTAFTIPSVNNETPGVRYQYNVLPQGWKGSPAIFQSSMTKILDPFRAQNPEIVIYQYMDDLYVGSDLEIEQHRTKIEQLRAHLLKWGFTTPDKKHQKEPPFLWMGYELHPDKWTVQPIMLPDKDCWTVNDIQKLVGKLNWASQIYPGIQVRQLCKLLRGAKALTEVVPLTEEAELELAENREILKNPVHGVYYDPSKDLVAEIQKQGLDQWTYQVYQEPFKNLKTGKYARKRSAHTNDVKQLTEVVQKVATESIVIWGKTPKFKLPIQKETWEAWWMEYWQATWIPEWEFVNTPPLVKLWYQLEKDPIVGAETFYVDGAANRDTKIGKAGYVTDRGRQKVVPLTETTNQKTELHAIHLALQDSGSAVNIVTDSQYALGIIQAQPDRSDSELVNLI</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;1..1175</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1175</GBInterval_to>
+            <GBInterval_accession>KT758196.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>p51</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>contains polymerase domain</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>IGPENPYNTPVFAIKKKDSTKWRKLVDFRELNKRTQDFWEVQLGIPHPAGLKKKKSVTVLDVGDAYFSVPLHEDFRKYTAFTIPSVNNETPGVRYQYNVLPQGWKGSPAIFQSSMTKILDPFRAQNPEIVIYQYMDDLYVGSDLEIEQHRTKIEQLRAHLLKWGFTTPDKKHQKEPPFLWMGYELHPDKWTVQPIMLPDKDCWTVNDIQKLVGKLNWASQIYPGIQVRQLCKLLRGAKALTEVVPLTEEAELELAENREILKNPVHGVYYDPSKDLVAEIQKQGLDQWTYQVYQEPFKNLKTGKYARKRSAHTNDVKQLTEVVQKVATESIVIWGKTPKFKLPIQKETWEAWWMEYWQATWIPEWEFVNTPPLVKLWYQLEKDPIVGAETF</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aaattgggcctgaaaacccatacaatactccagtatttgctataaagaaaaaagacagcactaaatggagaaaattagtggatttcagagaactcaataaaagaactcaggacttctgggaagttcaattaggaataccacacccagcgggtttaaaaaagaaaaaatcagtaacagtactggatgtgggggatgcatacttctcagttcctttacatgaagactttagaaagtatactgcattcaccatacctagtgtaaacaatgagacaccaggagtcaggtatcagtacaatgtgcttccacagggatggaaagggtcaccagcaatattccagagtagcatgacaaaaatcttagatccctttagagcacaaaatccagaaatagttatctatcaatacatggatgacttatatgtgggatctgatttagaaatagagcagcatagaacaaaaatagagcagttgagggctcatctattgaaatggggatttactacaccagacaaaaagcatcaaaaagaacctccatttctctggatgggatatgaactccatcctgacaaatggacagtccagcctataatgctgccagataaagactgctggactgtcaatgacatacagaaattagtgggaaaattaaattgggcaagtcagatttatccaggaattcaagtaaggcagctgtgtaaactactcaggggagccaaagcactaacagaggtagtacccttgactgaggaagcagaattagagttggcagaaaatagggagattctaaaaaaccctgtgcatggagtctattatgacccatcaaaagacttagtagcagaaatacagaaacaaggattagaccaatggacatatcaagtttatcaagagccatttaaaaatctgaaaacaggaaaatatgcaagaaagaggtctgctcatactaatgatgtaaaacaattaacagaagtggtgcagaaagtggccacagaaagcatagtgatatggggaaagactcctaaatttaaactacccatacaaaaagaaacatgggaagcatggtggatggagtattggcaggctacctggattcctgaatgggagtttgtcaatacccctcccctagtaaaattatggtaccaattagaaaaagaccccatagtaggagcagagactttctatgtagatggggcagctaatagggatactaagataggaaaagcagggtatgtcactgacagaggaagacaaaaggtagttcccctaactgagacaacaaatcaaaagactgaattacatgcaatccatttagccttgcaggattcaggatcagcagtaaatatagtaacagactcacagtatgcattaggaatcattcaggcacaaccagacaggagtgattcagaattagtcaatctaataat</GBSeq_sequence>
+  </GBSeq>
