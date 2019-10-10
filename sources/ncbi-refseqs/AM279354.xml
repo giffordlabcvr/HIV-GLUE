@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AM279354</GBSeq_locus>
+    <GBSeq_length>2586</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>07-JUN-2007</GBSeq_update-date>
+    <GBSeq_create-date>07-JUN-2007</GBSeq_create-date>
+    <GBSeq_definition>Human immunodeficiency virus 1 proviral env gene for envelope protein, isolate 98CM.MP1014</GBSeq_definition>
+    <GBSeq_primary-accession>AM279354</GBSeq_primary-accession>
+    <GBSeq_accession-version>AM279354.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|AM279354.1|</GBSeqid>
+      <GBSeqid>gi|148725756</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>env gene</GBKeyword>
+      <GBKeyword>envelope protein</GBKeyword>
+      <GBKeyword>gp160</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Human immunodeficiency virus 1 (HIV-1)</GBSeq_source>
+    <GBSeq_organism>Human immunodeficiency virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Primate lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2586</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Njai,H.F.</GBAuthor>
+          <GBAuthor>Gali,Y.</GBAuthor>
+          <GBAuthor>Vanham,G.</GBAuthor>
+          <GBAuthor>Clybergh,C.</GBAuthor>
+          <GBAuthor>Jennes,W.</GBAuthor>
+          <GBAuthor>Vidal,N.</GBAuthor>
+          <GBAuthor>Butel,C.</GBAuthor>
+          <GBAuthor>Mpoudi-Ngolle,E.</GBAuthor>
+          <GBAuthor>Peeters,M.</GBAuthor>
+          <GBAuthor>Arien,K.K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>The predominance of Human Immunodeficiency Virus type 1 (HIV-1) circulating recombinant form 02 (CRF02_AG) in West Central Africa may be related to its replicative fitness</GBReference_title>
+        <GBReference_journal>Retrovirology 3, 40 (2006)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1186/1742-4690-3-40</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>16817969</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2586</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Vidal,N.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (07-JUN-2006) Vidal N., UMR145, I.R.D, 911 avenue Agropolis, 34394 Montpellier cedex 5, FRANCE</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2586</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2586</GBInterval_to>
+            <GBInterval_accession>AM279354.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human immunodeficiency virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>98CM.MP1014</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11676</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Cameroon</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype: A3</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..2586</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2586</GBInterval_to>
+            <GBInterval_accession>AM279354.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..2586</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2586</GBInterval_to>
+            <GBInterval_accession>AM279354.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>gp160; envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAK49351.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GOA:A5PFS2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR000328</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR000777</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>UniProtKB/TrEMBL:A5PFS2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MRVRGIQRNYAPLWRWGMIFLGMIIICKATENLWVTVXYGVPVWRDAETTLFCASDAKAYDXEVHNVWATHACVPTDPNPQEIELKNVTEKFNMWKNSMVEQMHADIISLWDQSLXPCVKLTPLCVTLRCHDFNSSNSNTSSASNISSGMQDMQGEIKNCSFNMTTELRDKQQKVSALFYRLDVVEINNNKSEYRLINCNTSAITQACPKVTFEPIPIHYCAPAGYAILKCNDXNFNGTGPCKNVSTVQCTHGIKPVVSTQLLLNGSLAEGNVXIRSENLTNNAKTIIVQLADPVNITCIRPNNNTRKSVHIGPGQAFYATGDIIGDIRQAHCNVXRXXWNNTLHKVAEQLRQYFXNKTIAFNKSSGGDLEITTHSFNCGGEFXYCNTSGLFNSTWNGTGSANNTGLNGXITLPCRIRQIVKMWQXVGQAMYAPPIQGIIRCESNITGLLLTRDGGNNNNTVETFRPGGGDMRDNWRSELYKYKVVKIEPLGVAPTRAKRRVVEREKRAVVGLGAVFLGFLGAAGSTMGAASITLTVQARQLLSGIVQQQSNLLRAIEAQQQLLKLTVWGIKQLQARVLAVERYLKDQQLLGIWGCSGKLICTTNVPWNSSWSNKSQNEIWBNMTWLQWDKEIDNYTXIIYRLLEESQNQQEKNEQDLLALDKWANLWTWFDISNWLWYIKIFIMVVGGLIGLRIVFAVLSIINRVRQGYSPLSFQTHTPNPEGPDRPERIEEEGGRQDRDRSIRLVSGFLALAWDDLRSLCLFSYHRLRDFILIVARIVELLGHNSLKGLRLGREGLKYLWNLLLYWGRELKSSAINLLNTIAIAVANWTDRVIEIGQRAGRAILNIPRRIRQGLERALI</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgagagtgagggggatacagaggaattacgcacccttgtggagatgggggatgatattccttggaatgataataatttgtaaggctacagaaaatttgtgggtcacggtctmctatggggtaccggtgtggagagacgcagagaccaccctattttgtgcatcagatgctaaagcatatgatcragaagtgcataatgtttgggctacacacgcctgtgtacccacagaccccaacccacaagaaatagaattgaaaaatgtgacagaaaagtttaacatgtggaaaaatagcatggtggagcagatgcatgcagatataatcagtctatgggaycaaagcctaaasccatgtgtaaagttaacccctctctgcgttactttaaggtgtcatgacttcaacagcagcaatagcaacacctctagcgccagcaacatatctagtggcatgcaagacatgcaaggggaaataaaaaactgctctttcaatatgaccacagaactaagagataagcaacagaaagtgtctgcacttttttataggcttgatgtagtagaaattaataataataaaagtgagtatagactaataaattgtaatacctcagccattacacaggcttgtccaaaggtaacctttgaaccaattcccatacattattgtgccccagctggttatgcgattctaaagtgtaatgatwagaatttcaatggaacagggccatgcaagaatgtcagcacagtacaatgcacacatggaatcaagccagtagtatcaactcaactgctgttgaatggcagtctagcagaaggaaatgtaaygattagatctgagaatctcacaaayaatgccaaaaccataatagtacagcttgctgatcctgtaaacattacttgtatcagacccaacaacaatacaagaaaaagtgtacatataggaccaggacaagcattctatgcaacaggtgacataataggggatataagacaagcacattgtaatgtcagwagaraaaawtggaataacactttacacaaggtagctgaacagttaagacagtactttawcaacaaaacaatagcattcaataaatcatcaggaggggatttagaaattacaacacatagctttaattgtggaggagaatttttmtattgcaatacatcaggcctgtttaatagtacttggaatgggactggcagcgctaataacacagggttaaatggtamtataactctcccatgcagaataagacaaattgtaaaaatgtggcagaragtaggacaagcaatgtatgcccctcccatccaaggaataataaggtgtgaatcaaacatyacaggactactattaacaagagatggagggaataataataatacagtggagactttcaggcctggaggaggagatatgagggacaattggagaagtgaattatacaagtacaaagtggtaaaaattgaaccactaggagtagcacccaccagggcaaagagaagagtggtggagagagaaaaaagagcagtagttggactgggagctgtcttccttgggttcttaggagcagcaggaagtactatgggcgcggcgtcaataacgctgacggtacaggccagacaattattgtctggcatagtacaacagcagagcaatctgctgagggctatagaggctcaacagcaactgttgaaactcacggtctggggcattaaacagctccaggcaagagtcctggctgtggaaagatacctaaaggatcaacagctcctaggaatttggggttgctctggaaaactcatctgcaccactaatgtgccctggaattctagttggagtaataaatctcagaatgaaatatggrataatatgacctggctgcaatgggataaagaaattgacaattacacagamataatatatagattacttgaagaatcgcagaaccagcaggaaaagaatgaacaagacttattggcattggacaagtgggcaaatctgtggacttggtttgacatatcaaattggttatggtatataaaaatatttataatggtagtagggggcttaataggattaagaatagtttttgctgtgctttctataataaatagagttaggcaggggtactcacctctctcatttcagacccataccccaaacccagagggacccgacaggcccgaaagaatcgaagaagaaggtggaaggcaagacagagacagatcgattcgattagtgagcggattcttagcacttgcctgggacgacctacggagcctgtgcctcttcagctaccaccgcttgagagacttcatcttgattgtagcgaggattgtggaacttctgggacacaacagtctcaagggactgagactggggcgggagggccttaaatatctgtggaatcttctgttatattgggggagagaactaaaaagcagcgctattaatttgcttaatacaatagcaatagcagtagctaactggacagacagagttatagaaataggacaaagagctggtagagctattctcaacatacctagaagaatcagacagggattagaaagggctttgatataa</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,29 @@
+#~# Create HIV-1 constrained alignment tree for curated sequence alignments
+
+create alignment  AL_HIV-1_MASTER_CURATED -r REF_MASTER_NC_001802
+
+alignment AL_HIV-1_MASTER_CURATED
+
+  set field displayName "Human immunodeficiency virus (HIV-1) curated sequences"
+  add member -w "species = 'HIV-1'"
+  
+  # Extract group M subtypes
+  extract child AL_HIV-1_B   --refName REF_MASTER_NC_001802
+  demote member AL_HIV-1_B   --whereClause "sequence.subtype = 'B'" 
+  extract child AL_HIV-1_C   --refName REF_C_U46016
+  demote member AL_HIV-1_C   --whereClause "sequence.subtype = 'C'" 
+
+  exit
+ 
+
+#~# Derive constrained alignment segments from unconstrained alignments
+ 
+alignment AL_HIV-1_MASTER_CURATED 
+  derive segments AL_HIV-1_MASTER_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE
+  exit
+
+
+#~# Create full genome alignments for HIV subtypes and CRFs
+
+compute alignment AL_HIV-1_B     -w "sequence.source.name = 'ncbi-curated-subtype-b'"  hivCompoundAligner 
+compute alignment AL_HIV-1_C     -w "sequence.source.name = 'ncbi-curated-subtype-c'"  hivCompoundAligner 

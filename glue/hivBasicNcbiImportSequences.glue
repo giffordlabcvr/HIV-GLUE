@@ -1,4 +1,0 @@
-# NCBI refseqs  
-create module --fileName modules/hivNcbiImporterReferences.xml
-module hivNcbiImporterReferences import	
-export source ncbi-refseqs

@@ -3,158 +3,176 @@
   <giNumberFieldName>gb_gi_number</giNumberFieldName>
   <specificPrimaryAccessions>
 
-	<primaryAccession>U54771</primaryAccession>
-	<primaryAccession>L39106</primaryAccession>
-	<primaryAccession>AF064699</primaryAccession>
-	<primaryAccession>AX149771</primaryAccession>
-	<primaryAccession>U51190</primaryAccession>
-	<primaryAccession>AF004885</primaryAccession>
-	<primaryAccession>AF069670</primaryAccession>
-	<primaryAccession>AF484509</primaryAccession>
-	<primaryAccession>AF286238</primaryAccession>
-	<primaryAccession>AF286237</primaryAccession>
-	<primaryAccession>NC_001802</primaryAccession>
-	<primaryAccession>U26942</primaryAccession>
-	<primaryAccession>M19921</primaryAccession>
-	<primaryAccession>KM390026</primaryAccession>
-	<primaryAccession>AY173951</primaryAccession>
-	<primaryAccession>AY423387</primaryAccession>
-	<primaryAccession>AY331295</primaryAccession>
-	<primaryAccession>U46016</primaryAccession>
-	<primaryAccession>U52953</primaryAccession>
-	<primaryAccession>AF067155</primaryAccession>
-	<primaryAccession>AY772699</primaryAccession>
-	<primaryAccession>AY008715</primaryAccession>
-	<primaryAccession>K03454</primaryAccession>
-	<primaryAccession>U88824</primaryAccession>
-	<primaryAccession>AY371157</primaryAccession>
-	<primaryAccession>AY253311</primaryAccession>
-	<primaryAccession>AF005494</primaryAccession>
-	<primaryAccession>AF077336</primaryAccession>
-	<primaryAccession>AF075703</primaryAccession>
-	<primaryAccession>AJ249238</primaryAccession>
-	<primaryAccession>AJ249236</primaryAccession>
-	<primaryAccession>AJ249237</primaryAccession>
-	<primaryAccession>AY371158</primaryAccession>
-	<primaryAccession>AF377956</primaryAccession>
-	<primaryAccession>AF385936</primaryAccession>
-	<primaryAccession>AF061642</primaryAccession>
-	<primaryAccession>AF061640</primaryAccession>
-	<primaryAccession>AF084936</primaryAccession>
-	<primaryAccession>U88826</primaryAccession>
-	<primaryAccession>AF005496</primaryAccession>
-	<primaryAccession>AF190127</primaryAccession>
-	<primaryAccession>AF190128</primaryAccession>
-	<primaryAccession>AF082394</primaryAccession>
-	<primaryAccession>AF082395</primaryAccession>
-	<primaryAccession>AJ249235</primaryAccession>
-	<primaryAccession>AJ249239</primaryAccession>
-	<primaryAccession>AY532635</primaryAccession>
-	<primaryAccession>DQ017382</primaryAccession>
-	<primaryAccession>DQ017383</primaryAccession>
-	<primaryAccession>AJ006022</primaryAccession>
-	<primaryAccession>L20571</primaryAccession>
-	<primaryAccession>AY169816</primaryAccession>
-	<primaryAccession>AY169811</primaryAccession>
-	<primaryAccession>AJ302646</primaryAccession>
-	<primaryAccession>AY169814</primaryAccession>
-	<primaryAccession>HQ179987</primaryAccession>
-	<primaryAccession>AY530889</primaryAccession>
-	<primaryAccession>M30502</primaryAccession>
-	<primaryAccession>AF082339</primaryAccession>
-	<primaryAccession>M31113</primaryAccession>
-	<primaryAccession>U27200</primaryAccession>
-	<primaryAccession>X61240</primaryAccession>
-	<primaryAccession>AF208027</primaryAccession>
-	<primaryAccession>KC693505</primaryAccession>
-	<primaryAccession>KY497574</primaryAccession>
-	<primaryAccession>KJ461716</primaryAccession>
-	<primaryAccession>KJ461715</primaryAccession>
-	<primaryAccession>KJ461714</primaryAccession>
-	<primaryAccession>AF301156</primaryAccession>
-	<primaryAccession>KF214240</primaryAccession>
-	<primaryAccession>KF214241</primaryAccession>
-	<primaryAccession>JQ866001</primaryAccession>
-	<primaryAccession>U42720</primaryAccession>
-	<primaryAccession>AY169968</primaryAccession>
-	<primaryAccession>KP861923</primaryAccession>
-	<primaryAccession>EF535993</primaryAccession>
-	<primaryAccession>DQ373065</primaryAccession>
-	<primaryAccession>DQ373064</primaryAccession>
-	<primaryAccession>DQ373063</primaryAccession>
-	<primaryAccession>EF535994</primaryAccession>
-	<primaryAccession>AF382828</primaryAccession>
-	<primaryAccession>AF447763</primaryAccession>
-	<primaryAccession>JQ768416</primaryAccession>
-	<primaryAccession>JN091690</primaryAccession>
-	<primaryAccession>AF103818</primaryAccession>
-	<primaryAccession>FJ919724</primaryAccession>
-	<primaryAccession>AY523865</primaryAccession>
-	<primaryAccession>AY523866</primaryAccession>
-	<primaryAccession>FJ424871</primaryAccession>
-	<primaryAccession>FJ424866</primaryAccession>
-	<primaryAccession>FJ424863</primaryAccession>
-	<primaryAccession>KP004989</primaryAccession>
-	<primaryAccession>KP004991</primaryAccession>
-	<primaryAccession>KP004990</primaryAccession>
-	<primaryAccession>M66437</primaryAccession>
-	<primaryAccession>AF468659</primaryAccession>
-	<primaryAccession>AF468658</primaryAccession>
-	<primaryAccession>AF188115</primaryAccession>
-	<primaryAccession>AF188116</primaryAccession>
-	<primaryAccession>AF075269</primaryAccession>
-	<primaryAccession>M33262</primaryAccession>
-	<primaryAccession>LC114462</primaryAccession>
-	<primaryAccession>M27470</primaryAccession>
-	<primaryAccession>AF367411</primaryAccession>
-	<primaryAccession>AF328295</primaryAccession>
-	<primaryAccession>AY159322</primaryAccession>
-	<primaryAccession>U79412</primaryAccession>
-	<primaryAccession>AY340701</primaryAccession>
-	<primaryAccession>EF070330</primaryAccession>
-	<primaryAccession>EF070329</primaryAccession>
-	<primaryAccession>KF304707</primaryAccession>
-	<primaryAccession>FM165200</primaryAccession>
-	<primaryAccession>HM803690</primaryAccession>
-	<primaryAccession>HM803689</primaryAccession>
-	<primaryAccession>AF382829</primaryAccession>
-	<primaryAccession>U04005</primaryAccession>
-	<primaryAccession>JX860430</primaryAccession>
-	<primaryAccession>JX860432</primaryAccession>
-	<primaryAccession>AF334679</primaryAccession>
-	<primaryAccession>JX860414</primaryAccession>
-	<primaryAccession>JQ864086</primaryAccession>
-	<primaryAccession>JX860407</primaryAccession>
-	<primaryAccession>M80194</primaryAccession>
-	<primaryAccession>AF131870</primaryAccession>
-	<primaryAccession>AY523867</primaryAccession>
-	<primaryAccession>L06042</primaryAccession>
-	<primaryAccession>AY655744</primaryAccession>
-	<primaryAccession>AM182197</primaryAccession>
-	<primaryAccession>U58991</primaryAccession>
-	<primaryAccession>M29975</primaryAccession>
-	<primaryAccession>KR862336</primaryAccession>
-	<primaryAccession>KR862363</primaryAccession>
-	<primaryAccession>KR862356</primaryAccession>
-	<primaryAccession>AM713177</primaryAccession>
-	<primaryAccession>AM937062</primaryAccession>
-	<primaryAccession>X14307</primaryAccession>
-	<primaryAccession>AY159321</primaryAccession>
-	<primaryAccession>M30931</primaryAccession>
-	<primaryAccession>X52154</primaryAccession>
-	<primaryAccession>DQ374658</primaryAccession>
-	<primaryAccession>AJ580407</primaryAccession>
-	<primaryAccession>AF349681</primaryAccession>
-	<primaryAccession>M32690</primaryAccession>
-	<primaryAccession>M16575</primaryAccession>
-	<primaryAccession>M25381</primaryAccession>
-	<primaryAccession>U03982</primaryAccession>
-	<primaryAccession>U21603</primaryAccession>
-	<primaryAccession>M33677</primaryAccession>
-	<primaryAccession>M60610</primaryAccession>	
-	<primaryAccession>AF188114</primaryAccession>	
-	<primaryAccession>DJ048201</primaryAccession>	
-	
+<primaryAccession>AF004885</primaryAccession>
+<primaryAccession>AF005494</primaryAccession>
+<primaryAccession>AF005496</primaryAccession>
+<primaryAccession>AF061640</primaryAccession>
+<primaryAccession>AF061642</primaryAccession>
+<primaryAccession>AF064699</primaryAccession>
+<primaryAccession>AF067155</primaryAccession>
+<primaryAccession>AF069670</primaryAccession>
+<primaryAccession>AF075269</primaryAccession>
+<primaryAccession>AF075703</primaryAccession>
+<primaryAccession>AF077336</primaryAccession>
+<primaryAccession>AF082339</primaryAccession>
+<primaryAccession>AF082394</primaryAccession>
+<primaryAccession>AF082395</primaryAccession>
+<primaryAccession>AF084936</primaryAccession>
+<primaryAccession>AF103818</primaryAccession>
+<primaryAccession>AF131870</primaryAccession>
+<primaryAccession>AF188114</primaryAccession>
+<primaryAccession>AF188115</primaryAccession>
+<primaryAccession>AF188116</primaryAccession>
+<primaryAccession>AF190127</primaryAccession>
+<primaryAccession>AF190128</primaryAccession>
+<primaryAccession>AF208027</primaryAccession>
+<primaryAccession>AF286237</primaryAccession>
+<primaryAccession>AF286238</primaryAccession>
+<primaryAccession>AF301156</primaryAccession>
+<primaryAccession>AF327877</primaryAccession>
+<primaryAccession>AF328295</primaryAccession>
+<primaryAccession>AF334679</primaryAccession>
+<primaryAccession>AF349681</primaryAccession>
+<primaryAccession>AF367411</primaryAccession>
+<primaryAccession>AF377956</primaryAccession>
+<primaryAccession>AF382828</primaryAccession>
+<primaryAccession>AF382829</primaryAccession>
+<primaryAccession>AF385936</primaryAccession>
+<primaryAccession>AF447763</primaryAccession>
+<primaryAccession>AF468658</primaryAccession>
+<primaryAccession>AF468659</primaryAccession>
+<primaryAccession>AF484509</primaryAccession>
+<primaryAccession>AJ006022</primaryAccession>
+<primaryAccession>AJ249235</primaryAccession>
+<primaryAccession>AJ249236</primaryAccession>
+<primaryAccession>AJ249237</primaryAccession>
+<primaryAccession>AJ249238</primaryAccession>
+<primaryAccession>AJ249239</primaryAccession>
+<primaryAccession>AJ302646</primaryAccession>
+<primaryAccession>AJ580407</primaryAccession>
+<primaryAccession>AM182197</primaryAccession>
+<primaryAccession>AM713177</primaryAccession>
+<primaryAccession>AM937062</primaryAccession>
+<primaryAccession>AX149771</primaryAccession>
+<primaryAccession>AY008715</primaryAccession>
+<primaryAccession>AY159321</primaryAccession>
+<primaryAccession>AY159322</primaryAccession>
+<primaryAccession>AY169811</primaryAccession>
+<primaryAccession>AY169814</primaryAccession>
+<primaryAccession>AY169816</primaryAccession>
+<primaryAccession>AY169968</primaryAccession>
+<primaryAccession>AY173951</primaryAccession>
+<primaryAccession>AY253311</primaryAccession>
+<primaryAccession>AY331295</primaryAccession>
+<primaryAccession>AY340701</primaryAccession>
+<primaryAccession>AY371157</primaryAccession>
+<primaryAccession>AY371158</primaryAccession>
+<primaryAccession>AY423387</primaryAccession>
+<primaryAccession>AY445885</primaryAccession>
+<primaryAccession>AY523865</primaryAccession>
+<primaryAccession>AY523866</primaryAccession>
+<primaryAccession>AY523867</primaryAccession>
+<primaryAccession>AY530889</primaryAccession>
+<primaryAccession>AY532635</primaryAccession>
+<primaryAccession>AY655744</primaryAccession>
+<primaryAccession>AY772699</primaryAccession>
+<primaryAccession>DJ048201</primaryAccession>
+<primaryAccession>DQ017382</primaryAccession>
+<primaryAccession>DQ017383</primaryAccession>
+<primaryAccession>DQ373063</primaryAccession>
+<primaryAccession>DQ373064</primaryAccession>
+<primaryAccession>DQ373065</primaryAccession>
+<primaryAccession>DQ374658</primaryAccession>
+<primaryAccession>EF070329</primaryAccession>
+<primaryAccession>EF070330</primaryAccession>
+<primaryAccession>EF455615</primaryAccession>
+<primaryAccession>EF535993</primaryAccession>
+<primaryAccession>EF535994</primaryAccession>
+<primaryAccession>FJ424863</primaryAccession>
+<primaryAccession>FJ424866</primaryAccession>
+<primaryAccession>FJ424871</primaryAccession>
+<primaryAccession>FJ919724</primaryAccession>
+<primaryAccession>FM165200</primaryAccession>
+<primaryAccession>HM803689</primaryAccession>
+<primaryAccession>HM803690</primaryAccession>
+<primaryAccession>HQ179987</primaryAccession>
+<primaryAccession>JN091690</primaryAccession>
+<primaryAccession>JQ768416</primaryAccession>
+<primaryAccession>JQ864086</primaryAccession>
+<primaryAccession>JQ866001</primaryAccession>
+<primaryAccession>JX860407</primaryAccession>
+<primaryAccession>JX860414</primaryAccession>
+<primaryAccession>JX860430</primaryAccession>
+<primaryAccession>JX860432</primaryAccession>
+<primaryAccession>K03454</primaryAccession>
+<primaryAccession>K03455</primaryAccession>
+<primaryAccession>KC693505</primaryAccession>
+<primaryAccession>KF214240</primaryAccession>
+<primaryAccession>KF214241</primaryAccession>
+<primaryAccession>KF304707</primaryAccession>
+<primaryAccession>KJ461714</primaryAccession>
+<primaryAccession>KJ461715</primaryAccession>
+<primaryAccession>KJ461716</primaryAccession>
+<primaryAccession>KM390026</primaryAccession>
+<primaryAccession>KP004989</primaryAccession>
+<primaryAccession>KP004990</primaryAccession>
+<primaryAccession>KP004991</primaryAccession>
+<primaryAccession>KP861923</primaryAccession>
+<primaryAccession>KR862336</primaryAccession>
+<primaryAccession>KR862356</primaryAccession>
+<primaryAccession>KR862363</primaryAccession>
+<primaryAccession>KY497574</primaryAccession>
+<primaryAccession>L06042</primaryAccession>
+<primaryAccession>L06906</primaryAccession>
+<primaryAccession>L20571</primaryAccession>
+<primaryAccession>L20587</primaryAccession>
+<primaryAccession>L39106</primaryAccession>
+<primaryAccession>LC114462</primaryAccession>
+<primaryAccession>M16575</primaryAccession>
+<primaryAccession>M19921</primaryAccession>
+<primaryAccession>M25381</primaryAccession>
+<primaryAccession>M27470</primaryAccession>
+<primaryAccession>M29975</primaryAccession>
+<primaryAccession>M30502</primaryAccession>
+<primaryAccession>M30931</primaryAccession>
+<primaryAccession>M31113</primaryAccession>
+<primaryAccession>M32690</primaryAccession>
+<primaryAccession>M33262</primaryAccession>
+<primaryAccession>M33677</primaryAccession>
+<primaryAccession>M60610</primaryAccession>
+<primaryAccession>M66437</primaryAccession>
+<primaryAccession>M80194</primaryAccession>
+<primaryAccession>NC_001802</primaryAccession>
+<primaryAccession>U03982</primaryAccession>
+<primaryAccession>U04005</primaryAccession>
+<primaryAccession>U21603</primaryAccession>
+<primaryAccession>U26942</primaryAccession>
+<primaryAccession>U27200</primaryAccession>
+<primaryAccession>U42720</primaryAccession>
+<primaryAccession>U46016</primaryAccession>
+<primaryAccession>U51190</primaryAccession>
+<primaryAccession>U52953</primaryAccession>
+<primaryAccession>U54771</primaryAccession>
+<primaryAccession>U56928</primaryAccession>
+<primaryAccession>U58991</primaryAccession>
+<primaryAccession>U79412</primaryAccession>
+<primaryAccession>U88824</primaryAccession>
+<primaryAccession>U88826</primaryAccession>
+<primaryAccession>X14307</primaryAccession>
+<primaryAccession>X52154</primaryAccession>
+<primaryAccession>X61240</primaryAccession>
+<primaryAccession>AY618998</primaryAccession>
+<primaryAccession>JN091691</primaryAccession>
+<primaryAccession>M76764</primaryAccession>
+<primaryAccession>M19499</primaryAccession>
+<primaryAccession>JQ864084</primaryAccession>
+<primaryAccession>JX648292</primaryAccession>
+<primaryAccession>JX648291</primaryAccession>
+<primaryAccession>MF370842</primaryAccession>
+<primaryAccession>MF370842</primaryAccession>
+<primaryAccession>L40990</primaryAccession>
+<primaryAccession>M83293</primaryAccession>
+
   </specificPrimaryAccessions>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>

@@ -7,11 +7,22 @@
 		<property>sequenceID</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
-	
+
+	<textFileColumn>
+		<header>Species-group</header>
+		<property>subgroup</property>
+	</textFileColumn>
+	<textFileColumn>
+		<header>Species</header>
+		<property>species</property>
+	</textFileColumn>
+	<textFileColumn>
+		<header>Group</header>
+		<property>species_group</property>
+	</textFileColumn>
 	<textFileColumn>
 		<header>Subtype</header>
 		<property>subtype</property>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
 
 	<textFileColumn>

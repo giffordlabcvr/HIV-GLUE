@@ -47,8 +47,8 @@
       add segment 309 331
       exit
 
-    add feature-location internal_coding
-    feature-location internal_coding
+    add feature-location internal_region
+    feature-location internal_region
       add segment 336 8963
       exit
 

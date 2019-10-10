@@ -1,3 +1,0 @@
-compute alignment AL_B hivCompoundAligner
-#compute alignment AL_C hivCompoundAligner
-#compute alignment AL_MASTER hivCompoundAligner -w "source.name = 'ncbi-pairsets'"
