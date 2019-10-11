@@ -1,7 +1,7 @@
   create module --fileName modules/hivGenbankXmlPopulator.xml genbankXmlPopulator
   create module --fileName modules/hivReferenceTextFilePopulator.xml refseqTextFilePopulator
   create module --fileName modules/unconstrainedAlignmentImporter.xml
-  create module --fileName modules/unconstrainedAlignmentImporter.xml
+  create module --fileName modules/hivTabularUtility.xml
   
   create module --fileName modules/kuiken2006CodonLabeler.xml kuiken2006CodonLabeler
   create module --fileName modules/hivFastaAlignmentExporter.xml 
