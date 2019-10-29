@@ -10,18 +10,11 @@ alignment AL_HIV-1_MASTER_CURATED
   # Extract group M subtypes
   extract child AL_HIV-1_B   --refName REF_MASTER_NC_001802
   demote member AL_HIV-1_B   --whereClause "sequence.subtype = 'B'" 
-  extract child AL_HIV-1_C   --refName REF_C_U46016
+  extract child AL_HIV-1_C   --refName REF_HIV-1M_C_U46016
   demote member AL_HIV-1_C   --whereClause "sequence.subtype = 'C'" 
 
   exit
  
-
-#~# Derive constrained alignment segments from unconstrained alignments
- 
-alignment AL_HIV-1_MASTER_CURATED 
-  derive segments AL_HIV-1_MASTER_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE
-  exit
-
 
 #~# Create full genome alignments for HIV subtypes and CRFs
 

@@ -1,6 +1,5 @@
 project hiv
 
-  delete alignment AL_HIV-1_MASTER_CURATED
   delete alignment AL_HIV-1_A 
   delete alignment AL_HIV-1_B        
   delete alignment AL_HIV-1_C        
