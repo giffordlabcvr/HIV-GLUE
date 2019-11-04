@@ -166,7 +166,7 @@ module unconstrainedAlignmentImporter
   exit
 
 module unconstrainedAlignmentImporter
-  import AL_REF_HIV-1_UNCONSTRAINED -f alignments/internal/HIV-1.aln.fna
+  import AL_REF_HIV-1_UNCONSTRAINED -f alignments/internal/hiv-1.aln.fna
   exit
 
 
