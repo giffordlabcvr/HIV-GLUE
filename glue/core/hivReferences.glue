@@ -1,5 +1,15 @@
   ## HIV-1M reference sequence declarations
 
+  # Subtype B references  
+  create reference REF_MASTER_AF033819        ncbi-refseqs AF033819
+  create reference REF_HIV-1M_B_NC_001802      ncbi-refseqs NC_001802
+  create reference REF_HIV-1M_B_KM390026       ncbi-refseqs KM390026
+  create reference REF_HIV-1M_B_U26942         ncbi-refseqs U26942
+  #create reference REF_HIV-1M_B_M19921         ncbi-refseqs M19921
+  #create reference REF_HIV-1M_B_AY173951       ncbi-refseqs AY173951
+  #create reference REF_HIV-1M_B_AY423387       ncbi-refseqs AY423387
+  #create reference REF_HIV-1M_B_AY331295       ncbi-refseqs AY331295  
+  
   # Subtype A references  
   create reference REF_HIV-1M_A_AF484509       ncbi-refseqs AF484509
 
@@ -11,16 +21,6 @@
   # Subtype A2 references  
   create reference REF_HIV-1M_A2_AF286238      ncbi-refseqs AF286238
   create reference REF_HIV-1M_A2_AF286237      ncbi-refseqs AF286237
-
-  # Subtype B references  
-  create reference REF_MASTER_NC_001802        ncbi-refseqs NC_001802
-  create reference REF_HIV-1M_B_NC_001802      ncbi-refseqs NC_001802
-  create reference REF_HIV-1M_B_KM390026       ncbi-refseqs KM390026
-  create reference REF_HIV-1M_B_U26942         ncbi-refseqs U26942
-  #create reference REF_HIV-1M_B_M19921         ncbi-refseqs M19921
-  #create reference REF_HIV-1M_B_AY173951       ncbi-refseqs AY173951
-  #create reference REF_HIV-1M_B_AY423387       ncbi-refseqs AY423387
-  #create reference REF_HIV-1M_B_AY331295       ncbi-refseqs AY331295
 
   # Subtype D references    
   create reference REF_HIV-1M_D_K03454         ncbi-refseqs K03454
