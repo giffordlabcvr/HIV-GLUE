@@ -94,7 +94,7 @@
       add segment 1632 1679
       exit
 
-   add feature-location p6	
+    add feature-location p6	
     feature-location p6
       add segment 1680 1835
       exit
@@ -149,7 +149,7 @@
     feature-location rev
       add segment 5516 5591 --spliceIndex 1
       add segment 7925 8199 --spliceIndex 2
-     exit
+      exit
 
     add feature-location vpu
     feature-location vpu
@@ -200,8 +200,155 @@
     feature-location 3R
       add segment 9086 9181
       exit
+            
+  exit 
+  
+   
+  # Define features on subtype A constrained reference (AF484509)
+  
+  reference REF_HIV-1M_A_AF484509 
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 8807
+      exit
+      
+    add feature-location internal_region
+    feature-location internal_region
+      add segment 1 8622
+      exit
+      
+    add feature-location gag
+    feature-location gag
+      add segment 1 1497
+      exit
+      
+    add feature-location gag-pol
+    feature-location gag-pol
+      add segment 1 1287  --spliceIndex 1
+      add segment 1288 1292 --translationModifier hivGagPolTranslationModifier --spliceIndex 2
+      add segment 1293 4301  --spliceIndex 3
+      exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 4246 4824
+      exit
+
+    add feature-location vpr
+    feature-location vpr
+      add segment 4764 5054
+      exit      
+      
+    add feature-location tat
+    feature-location tat
+      add segment 5035 5249 --spliceIndex 1
+      add segment 7569 7659 --spliceIndex 2
+      exit   
+      
+    add feature-location rev
+    feature-location rev
+      add segment 5174 5249 --spliceIndex 1
+      add segment 7569 7864 --spliceIndex 2
+      exit         
+      
+    add feature-location vpu
+    feature-location vpu
+      add segment 5276 5521
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 5439 8006
+      exit      
+      
+    add feature-location nef
+    feature-location nef
+      add segment 8008 8622
+      exit  
+      
+    add feature-location 3UTR
+    feature-location 3UTR
+      add segment 8291 8807
+      exit
+          
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8291 8807
+      exit      
+      
+  exit
+      
+  # Define features on the subtype C constrained reference (U46016)
+
+  reference REF_HIV-1M_C_U46016      
+  
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9031
+      exit
+      
+    add feature-location internal_region
+    feature-location internal_region
+      add segment 170 8817
+      exit
+
+    add feature-location gag
+    feature-location gag
+      add segment 170 1684
+      exit
+      
+    add feature-location pol
+    feature-location pol
+      add segment 1456 4488  
+      exit
+      
+    add feature-location vif
+    feature-location vif
+      add segment 4433 5011
+      exit
+
+    add feature-location vpr
+    feature-location vpr
+      add segment 4951 5241
+      exit  
+  
+    add feature-location tat
+    feature-location tat
+      add segment 5222 5350
+      exit   
+      
+    add feature-location rev
+    feature-location rev
+      add segment 5360 5435 --spliceIndex 1
+      add segment 7755 8002 --spliceIndex 2
+      exit    
+      
+    add feature-location vpu
+    feature-location vpu
+      add segment 5459 5719
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 5637 8192
+      exit      
+      
+    add feature-location nef
+    feature-location nef
+      add segment 8194 8817
+      exit              
+      
+    add feature-location 3UTR
+    feature-location 3UTR
+      add segment 8486 9031
+      exit
+          
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8486 9031
+      exit      
+      
+  exit
       
       
-  exit  
-
-
