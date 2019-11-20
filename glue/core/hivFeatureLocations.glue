@@ -230,6 +230,11 @@
       add segment 1293 4301  --spliceIndex 3
       exit
 
+    add feature-location pol
+    feature-location pol
+      add segment 1317 4298  
+      exit    
+    
     add feature-location vif
     feature-location vif
       add segment 4246 4824
@@ -297,6 +302,13 @@
     feature-location gag
       add segment 170 1684
       exit
+      
+    add feature-location gag-pol
+    feature-location gag-pol
+      add segment 170 1542 --spliceIndex 1
+      add segment 1543 1547 --translationModifier hivGagPolTranslationModifier --spliceIndex 2
+      add segment 1548 4488 --spliceIndex 3
+      exit      
       
     add feature-location pol
     feature-location pol
