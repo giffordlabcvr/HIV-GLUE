@@ -10,6 +10,7 @@
   create module --fileName modules/hivCompoundAligner.xml
   create module --fileName modules/hivMafftAligner.xml
   create module --fileName modules/hivSubtypeRecogniser.xml
+  create module --fileName modules/hivBlastFastaAlignmentImporter.xml
    
   #create module --fileName modules/hivPhylogenyImporter.xml hivPhyloImporter  
   #create module --fileName modules/hivMaxLikelihoodGenotyper.xml
