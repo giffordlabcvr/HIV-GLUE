@@ -1,6 +1,6 @@
-  # Define features on the master reference (strain HXB2, subtype B)
+  # Define features on NCBI refseq version of reference strain HXB2 (subtype B)
 
-  reference REF_MASTER_NC_001802
+  reference REF_HIV-1M_B_NC_001802
 
     add feature-location whole_genome
     feature-location whole_genome
