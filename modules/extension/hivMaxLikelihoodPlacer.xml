@@ -1,0 +1,14 @@
+<maxLikelihoodPlacer>
+
+	<raxmlEpaRunner>
+		<substitutionModel>GTRGAMMAI</substitutionModel>
+	</raxmlEpaRunner>
+
+
+	<!-- where the RAxML epa phylogeny will come from -->
+	<phyloAlignmentName>AL_HIV-1_MASTER</phyloAlignmentName>
+	<phyloFieldName>phylogeny</phyloFieldName>
+
+	<!-- where the alignment will come from -->
+	<alignmentAlignmentName>AL_UNCONSTRAINED_genome_REF</alignmentAlignmentName>
+</maxLikelihoodPlacer>
