@@ -21,9 +21,9 @@
       <GBSecondary-accn>AY126676</GBSecondary-accn>
       <GBSecondary-accn>AY126677</GBSecondary-accn>
     </GBSeq_secondary-accessions>
-    <GBSeq_source>Simian immunodeficiency virus</GBSeq_source>
+    <GBSeq_source>Simian immunodeficiency virus (SIV)</GBSeq_source>
     <GBSeq_organism>Simian immunodeficiency virus</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Primate lentivirus group</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>

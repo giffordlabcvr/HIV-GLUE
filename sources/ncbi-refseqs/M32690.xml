@@ -30,7 +30,7 @@
     </GBSeq_keywords>
     <GBSeq_source>Bovine immunodeficiency virus (BIV)</GBSeq_source>
     <GBSeq_organism>Bovine immunodeficiency virus</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Bovine lentivirus group</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>

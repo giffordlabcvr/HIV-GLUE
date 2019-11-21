@@ -6,19 +6,19 @@
     <GBSeq_strandedness>single</GBSeq_strandedness>
     <GBSeq_moltype>RNA</GBSeq_moltype>
     <GBSeq_topology>linear</GBSeq_topology>
-    <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>25-JUL-2016</GBSeq_update-date>
+    <GBSeq_division>SYN</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2018</GBSeq_update-date>
     <GBSeq_create-date>15-JUN-1989</GBSeq_create-date>
-    <GBSeq_definition>Human immunodeficiency virus type 1, NY5/BRU (LAV-1) recombinant clone pNL4-3</GBSeq_definition>
+    <GBSeq_definition>Synthetic construct gag polyprotein gene, complete cds; pol polyprotein (NH2-terminus uncertain) gene, partial cds; and vif protein, vpr protein, tat protein, rev protein, vpu protein, envelope polyprotein, and nef protein genes, complete cds</GBSeq_definition>
     <GBSeq_primary-accession>M19921</GBSeq_primary-accession>
     <GBSeq_accession-version>M19921.2</GBSeq_accession-version>
     <GBSeq_other-seqids>
       <GBSeqid>gb|M19921.2|HIVNL43</GBSeqid>
       <GBSeqid>gi|296556485</GBSeqid>
     </GBSeq_other-seqids>
-    <GBSeq_source>Human immunodeficiency virus 1 (HIV-1)</GBSeq_source>
-    <GBSeq_organism>Human immunodeficiency virus 1</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Primate lentivirus group</GBSeq_taxonomy>
+    <GBSeq_source>synthetic construct</GBSeq_source>
+    <GBSeq_organism>synthetic construct</GBSeq_organism>
+    <GBSeq_taxonomy>other sequences; artificial sequences</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>
@@ -88,15 +88,15 @@
         <GBFeature_quals>
           <GBQualifier>
             <GBQualifier_name>organism</GBQualifier_name>
-            <GBQualifier_value>Human immunodeficiency virus 1</GBQualifier_value>
+            <GBQualifier_value>synthetic construct</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>mol_type</GBQualifier_name>
-            <GBQualifier_value>genomic RNA</GBQualifier_value>
+            <GBQualifier_value>other RNA</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>db_xref</GBQualifier_name>
-            <GBQualifier_value>taxon:11676</GBQualifier_value>
+            <GBQualifier_value>taxon:32630</GBQualifier_value>
           </GBQualifier>
         </GBFeature_quals>
       </GBFeature>
@@ -189,7 +189,7 @@
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>transl_table</GBQualifier_name>
-            <GBQualifier_value>1</GBQualifier_value>
+            <GBQualifier_value>11</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>product</GBQualifier_name>
@@ -223,7 +223,7 @@
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>transl_table</GBQualifier_name>
-            <GBQualifier_value>1</GBQualifier_value>
+            <GBQualifier_value>11</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>product</GBQualifier_name>
@@ -256,7 +256,7 @@
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>transl_table</GBQualifier_name>
-            <GBQualifier_value>1</GBQualifier_value>
+            <GBQualifier_value>11</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>product</GBQualifier_name>
@@ -289,7 +289,7 @@
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>transl_table</GBQualifier_name>
-            <GBQualifier_value>1</GBQualifier_value>
+            <GBQualifier_value>11</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>product</GBQualifier_name>
@@ -345,7 +345,7 @@
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>transl_table</GBQualifier_name>
-            <GBQualifier_value>1</GBQualifier_value>
+            <GBQualifier_value>11</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>product</GBQualifier_name>
@@ -384,7 +384,7 @@
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>transl_table</GBQualifier_name>
-            <GBQualifier_value>1</GBQualifier_value>
+            <GBQualifier_value>11</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>product</GBQualifier_name>
@@ -468,7 +468,7 @@
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>transl_table</GBQualifier_name>
-            <GBQualifier_value>1</GBQualifier_value>
+            <GBQualifier_value>11</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>product</GBQualifier_name>
@@ -501,7 +501,7 @@
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>transl_table</GBQualifier_name>
-            <GBQualifier_value>1</GBQualifier_value>
+            <GBQualifier_value>11</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>product</GBQualifier_name>
@@ -534,7 +534,7 @@
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>transl_table</GBQualifier_name>
-            <GBQualifier_value>1</GBQualifier_value>
+            <GBQualifier_value>11</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>product</GBQualifier_name>

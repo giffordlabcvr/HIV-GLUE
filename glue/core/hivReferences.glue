@@ -1,78 +1,25 @@
-  ## HIV-1M reference sequence declarations
+  ## Reference sequence declarations
 
-  # Subtype B references  
-  create reference REF_MASTER_AF033819        ncbi-refseqs AF033819
+  # HIV-1M Subtype B  
+  create reference REF_MASTER_HXB2     ncbi-refseqs AF033819
+
   create reference REF_HIV-1M_B_NC_001802      ncbi-refseqs NC_001802
-  create reference REF_HIV-1M_B_KM390026       ncbi-refseqs KM390026
-  create reference REF_HIV-1M_B_U26942         ncbi-refseqs U26942
-  #create reference REF_HIV-1M_B_M19921         ncbi-refseqs M19921
-  #create reference REF_HIV-1M_B_AY173951       ncbi-refseqs AY173951
-  #create reference REF_HIV-1M_B_AY423387       ncbi-refseqs AY423387
-  #create reference REF_HIV-1M_B_AY331295       ncbi-refseqs AY331295  
-  
-  # Subtype A references  
   create reference REF_HIV-1M_A_AF484509       ncbi-refseqs AF484509
-
-  # Subtype A1 references  
-  create reference REF_HIV-1M_A1_U51190        ncbi-refseqs U51190
-  create reference REF_HIV-1M_A1_AF004885      ncbi-refseqs AF004885
-  create reference REF_HIV-1M_A1_AF069670      ncbi-refseqs AF069670
-  
-  # Subtype A2 references  
-  create reference REF_HIV-1M_A2_AF286238      ncbi-refseqs AF286238
-  create reference REF_HIV-1M_A2_AF286237      ncbi-refseqs AF286237
-
-  # Subtype D references    
-  create reference REF_HIV-1M_D_K03454         ncbi-refseqs K03454
-  create reference REF_HIV-1M_D_U88824         ncbi-refseqs U88824
-  create reference REF_HIV-1M_D_AY371157       ncbi-refseqs AY371157
-  create reference REF_HIV-1M_D_AY253311       ncbi-refseqs AY253311
-
-  # Subtype C references  
   create reference REF_HIV-1M_C_U46016         ncbi-refseqs U46016
-  create reference REF_HIV-1M_C_AY772699       ncbi-refseqs AY772699
-  create reference REF_HIV-1M_C_AF067155       ncbi-refseqs AF067155
-  create reference REF_HIV-1M_C_U52953         ncbi-refseqs U52953   
-  #create reference REF_HIV-1M_CRF08_AY008715   ncbi-refseqs AY008715 # CRF_08 BC 
 
-  # Subtype F references  
-  create reference REF_HIV-1M_F_AF077336       ncbi-refseqs AF077336
-  create reference REF_HIV-1M_F_AF075703       ncbi-refseqs AF075703  
-  create reference REF_HIV-1M_F_AF005494       ncbi-refseqs AF005494
-  create reference REF_HIV-1M_F_AJ249238       ncbi-refseqs AJ249238
-  create reference REF_HIV-1M_F_AJ249236       ncbi-refseqs AJ249236
-  create reference REF_HIV-1M_F_AF377956       ncbi-refseqs AF377956
-  create reference REF_HIV-1M_F_AY371158       ncbi-refseqs AY371158
-  create reference REF_HIV-1M_F_AJ249237       ncbi-refseqs AJ249237
-  create reference REF_HIV-1M_G_AF061642       ncbi-refseqs AF061642
-  create reference REF_HIV-1M_G_AF061640       ncbi-refseqs AF061640
-  create reference REF_HIV-1M_G_AF084936       ncbi-refseqs AF084936
-  create reference REF_HIV-1M_G_U88826         ncbi-refseqs U88826
-  create reference REF_HIV-1M_H_AF005496       ncbi-refseqs AF005496
-  create reference REF_HIV-1M_H_AF190127       ncbi-refseqs AF190127
-  create reference REF_HIV-1M_H_AF190128       ncbi-refseqs AF190128
-  create reference REF_HIV-1M_J_AF082394       ncbi-refseqs AF082394
-  create reference REF_HIV-1M_J_AF082395       ncbi-refseqs AF082395
-  create reference REF_HIV-1M_K_AJ249235       ncbi-refseqs AJ249235
-  create reference REF_HIV-1M_K_AJ249239       ncbi-refseqs AJ249239
+  # HIV-1 non-M 
+  create reference REF_HIV-1N	        ncbi-refseqs DQ017382
+  create reference REF_HIV-1O	        ncbi-refseqs L20571
+  create reference REF_HIV-1P	        ncbi-refseqs HQ179987
 
-  # CRFs  
-  create reference REF_HIV-1M_CRF01_U54771     ncbi-refseqs U54771
-  create reference REF_HIV-1M_CRF02_L39106     ncbi-refseqs L39106
-  create reference REF_HIV-1M_CRF06_AF064699   ncbi-refseqs AF064699
-
-  # HIV-1 non-M group reference sequence declarations
-  create reference REF_HIV-1N	            ncbi-refseqs DQ017382
-  create reference REF_HIV-1O	            ncbi-refseqs L20571
-  create reference REF_HIV-1P	            ncbi-refseqs HQ179987
-
-  ## HIV-2 reference sequence declarations
+  ## HIV-2 
   create reference REF_HIV2A	        ncbi-refseqs M30502
   create reference REF_HIV2B	        ncbi-refseqs X61240
 
-  ## Simian lentivirus reference sequence declarations
+  ## Simian lentiviruses
   create reference REF_SIVcol           ncbi-refseqs AF301156
-  create reference REF_SIVcpz           ncbi-refseqs AY169968
+  #create reference REF_SIVcpz           ncbi-refseqs AY169968
+  create reference REF_SIVcpz           ncbi-refseqs KP861923
   create reference REF_SIVden           ncbi-refseqs AJ580407
   create reference REF_SIVdrl1          ncbi-refseqs AY159321
   create reference REF_SIVgor           ncbi-refseqs FJ424871
@@ -100,17 +47,9 @@
   create reference REF_SRLV-B           ncbi-refseqs M33677
 
   ## Endogenous lentivirus reference sequence declarations  
-
-  # pREF_SIVgml  
   create reference REF_pSIVgml          fasta-refseqs pSIVgml
-
-  # RELIK
   create reference REF_RELIK            fasta-refseqs RELIK
-
-  # Mink endogenous lentivirus
   create reference REF_MELVmpf          fasta-refseqs MELVmpf
-  
-  # Colugo endogenous lentivirus
   create reference REF_ELVgv            fasta-refseqs ELVgv
 
 

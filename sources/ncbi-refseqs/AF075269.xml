@@ -16,9 +16,9 @@
       <GBSeqid>gb|AF075269.1|</GBSeqid>
       <GBSeqid>gi|3342102</GBSeqid>
     </GBSeq_other-seqids>
-    <GBSeq_source>Simian immunodeficiency virus</GBSeq_source>
+    <GBSeq_source>Simian immunodeficiency virus (SIV)</GBSeq_source>
     <GBSeq_organism>Simian immunodeficiency virus</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Primate lentivirus group</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>

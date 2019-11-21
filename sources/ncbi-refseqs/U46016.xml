@@ -23,7 +23,7 @@
     </GBSeq_keywords>
     <GBSeq_source>Human immunodeficiency virus 1 (HIV-1)</GBSeq_source>
     <GBSeq_organism>Human immunodeficiency virus 1</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Primate lentivirus group</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>

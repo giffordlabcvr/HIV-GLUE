@@ -23,7 +23,7 @@ project hiv
  
   # Import reference sequence side-data
   module genbankXmlPopulator populate
-  module refseqTextFilePopulator populate -f tabular/hiv-reference-data.csv
+  module refseqTextFilePopulator populate -f tabular/core/hiv-reference-data.csv
 
   # Create HIV-1/lentivirus reference sequences
   run file glue/core/hivReferences.glue
