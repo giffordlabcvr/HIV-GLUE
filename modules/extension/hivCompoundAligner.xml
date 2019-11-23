@@ -6,7 +6,7 @@
 		</codonAwareBlastAligner>
 		<!-- gag-pol should then give good homology for the rest of this region --> 
 		<codonAwareBlastAligner>
-			<featureName>gag-pol</featureName>
+			<featureName>pro-pol</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
 			<featureName>vif</featureName>

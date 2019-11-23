@@ -1,5 +1,9 @@
 #~# Create HIV-1 constrained alignment tree for curated sequence alignments
 
+delete alignment  AL_HIV-1_MASTER_CURATED
+delete alignment  AL_HIV-1_B
+delete alignment  AL_HIV-1_C
+
 create alignment  AL_HIV-1_MASTER_CURATED -r REF_MASTER_HXB2
 
 alignment AL_HIV-1_MASTER_CURATED
@@ -12,11 +16,9 @@ alignment AL_HIV-1_MASTER_CURATED
   demote member AL_HIV-1_B   --whereClause "sequence.subtype = 'B'" 
   extract child AL_HIV-1_C   --refName REF_HIV-1M_C_U46016
   demote member AL_HIV-1_C   --whereClause "sequence.subtype = 'C'" 
-
   exit
  
-
 #~# Create full genome alignments for HIV subtypes and CRFs
 
 compute alignment AL_HIV-1_B     -w "sequence.source.name = 'ncbi-curated-subtype-b'"  hivCompoundAligner 
-compute alignment AL_HIV-1_C     -w "sequence.source.name = 'ncbi-curated-subtype-c'"  hivCompoundAligner 
+#compute alignment AL_HIV-1_C     -w "sequence.source.name = 'ncbi-curated-subtype-c'"  hivCompoundAligner 

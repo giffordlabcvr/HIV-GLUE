@@ -164,7 +164,14 @@
   feature pol set metatag CODES_AMINO_ACIDS true
 #   feature pol set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
-  create feature prot -p pol "prot"
+  create feature pro-pol -p whole_genome "pro-pol polyprotein"
+  feature pro-pol set field displayName "pro-pol"
+  feature pro-pol set metatag OWN_CODON_NUMBERING true
+  feature pro-pol set metatag INCLUDE_IN_SUMMARY true
+  feature pro-pol set metatag CODES_AMINO_ACIDS true
+# feature pro-pol set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature prot -p pro-pol "prot"
   feature prot set field displayName "prot"
   feature prot set metatag OWN_CODON_NUMBERING true
   feature prot set metatag INCLUDE_IN_SUMMARY true
