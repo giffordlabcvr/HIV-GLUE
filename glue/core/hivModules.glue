@@ -6,6 +6,6 @@
   create module --fileName modules/core/hivFastaAlignmentExporter.xml 
   create module --fileName modules/core/hivFastaExporter.xml 
 
-  create module --fileName modules/core/hivCompoundAligner.xml
+
   create module --fileName modules/core/hivBlastFastaAlignmentImporter.xml
 

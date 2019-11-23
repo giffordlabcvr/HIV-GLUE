@@ -1,4 +1,3 @@
 
-  #import source sources/ncbi-curated-subtype-a/
-  import source sources/ncbi-curated-subtype-b/
-  import source sources/ncbi-curated-subtype-c/
+  import source sources/extension/ncbi-curated-subtype-b/
+  import source sources/extension/ncbi-curated-subtype-c/
