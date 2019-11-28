@@ -1,0 +1,224 @@
+
+name = SIVden;
+accession = AJ580407.1;
+
+Begin Features;
+ORF	gag	gag	479	2155
+ORF	polyermase	pol	1975	4989
+ORF	viral infectivity factor	vif	4931	5707
+ORF	regulator of expression	rev	5910	5974	8440	8620
+ORF	viral protein u	vpu	6092	6286
+ORF	viral protein r	vpr	5451	5792
+ORF	transactivator	tat	5789	5974	8440	8544
+ORF	envelope	env	6261	8855
+ORF	nef	nef	8689	9435
+Endblock;
+
+Begin Metadata;
+name = SIVagm;
+full_name = Simian immunodeficiency virus (African green monkey);
+virus_group      = Lentivirus;
+virus_subgroup   = Primate;
+virus_class      = II;
+accession = M30931.1;
+Endblock;
+
+Begin Features;
+ORF	gag	gag	431	1996
+ORF	polymerase	pol	1687	4827
+ORF	viral infectivity factor	vif	4763	5461
+ORF	viral protein x	vpx	5244	5603
+ORF	transactivator	tat	5554	5771	8013	8154
+ORF	regulator of expression	rev	5711	5771	8013	8221
+ORF	envelope	env	5778	8411
+ORF	nef	nef	8245	8934
+Endblock;
+
+Begin Metadata;
+name = SIVcol;
+full_name = Simian immunodeficiency virus (Colobus monkey SIVcolCGU1);
+virus_group      = Lentivirus;
+virus_subgroup   = Primate;
+virus_class      = II;
+accession = AF301156.1;
+Endblock;
+
+Begin Features;
+ORF	gag	gag	604	2052
+ORF	pol	pol	1914	4886
+ORF	vif	vif	4846	5325
+ORF	vpr	vpr	5238	5516
+ORF	tat	tat	5486	5632	7805	7894
+ORF	rev	rev	5526	5630	7806	8051
+ORF	env	env	5638	8151
+ORF	nef	nef	7934	8605
+Endblock;
+
+Begin Metadata;
+name =SIVcpz;
+full_name = Simian immunodeficiency virus (SIVcpz);
+virus_group   = Lentivirus;
+virus_subgroup   = Primate;
+virus_class      = II;
+accession = X52154.1;
+Endblock;
+
+Begin Features;
+ORF	gag	gag	827	2353
+ORF 	pol protein	pol	2449	5157    
+ORF	viral infectivity factor	vif	5102	5683
+ORF	viral protein r	vpr	5623	5913
+ORF 	transactivator	tat	5894	6111	8419	8503
+ORF 	viral protein u	vpu	6033	6386
+ORF 	regulator of expression	rev	6033	6111	8419	8714
+ORF 	envelope	env	6292	8856
+ORF 	nef	nef	8870	9487
+Endblock;
+
+
+Begin Metadata;
+name = SIVden;
+full_name = Simian immunodeficiency virus;
+virus_group      = Lentivirus;
+virus_subgroup   = Primate;
+virus_class      = II;
+accession = AJ580407.1;
+Endblock;
+
+Begin Features;
+ORF	gag	gag	479	2155
+ORF	polyermase	pol	1975	4989
+ORF	viral infectivity factor	vif	4931	5707
+ORF	regulator of expression	rev	5910	5974	8440	8620
+ORF	viral protein u	vpu	6092	6286
+ORF	viral protein r	vpr	5451	5792
+ORF	transactivator	tat	5789	5974	8440	8544
+ORF	envelope	env	6261	8855
+ORF	nef	nef	8689	9435
+Endblock;
+
+Begin Metadata;
+name = SIVgsn;
+full_name = Simian immunodeficiency virus;
+virus_group      = Lentivirus;
+virus_subgroup   = Primate;
+virus_class      = II;
+accession = AF468659.1;
+Endblock;
+
+Begin Features;
+ORF	gag protein	gag	449	1987
+ORF	polymerase	pol	1780	4827
+ORF	viral infectivity factor protein	vif	4772	5485
+ORF	regulator of expression	rev	5879	5967	8284	8602
+ORF	viral protein u	vpu	5975	6211
+ORF	viral protein r	vpr	5337	5738
+ORF	transactivator	tat	5593	5954	8283	8397
+ORF	envelope	env	6126	8771
+ORF	nef	nef	8605	9261
+Endblock;
+
+
+Begin Metadata;
+name             = SIVmac;
+full_name        = Simian immunodeficiency virus (rhesus macaque);
+virus_group      = Lentivirus;
+virus_subgroup   = Primate lentivirus;
+virus_class      = II;
+host_sci_name    = Macaca_mulatta;
+host_common_name = rhesus macaque;
+accession        = AY588946;
+Endblock;
+
+Begin Features;
+ORF	gag	gag	149	1681
+ORF	pol	pol	1324	4506
+ORF	vif	vif	4436	5080
+ORF	vpx	vpx	4908	5246
+ORF	vpr	vpr	5247	5552
+ORF	tat	tat	5398	5691	7903	7998
+ORF	rev	rev	5624	5693	7902	8155
+ORF	env	env	5700	8339
+ORF	nef	nef	8173	8964
+Endblock;
+
+
+Endblock;
+
+Begin Features;
+ORF	gag	gag	212	1777
+ORF	pol	pol	1525	4593
+ORF	vif	vif	4535	5203
+ORF	vpx	vpx	5034	5360
+ORF	vpr	vpr	5385	5687
+ORF	tat	tat	5605	5837	8116	8230
+ORF	rev	rev	5759	5837	8116	8360
+ORF	env	env	5962	8535
+ORF	nef	nef	8369	9043
+UTR	LTR	LTR	8703	9557
+Endblock;
+
+Begin Metadata;
+name             = SIVrcm;
+full_name        = Simian immunodeficiency virus (red-capped mangabeys);
+virus_group      = Lentivirus;
+virus_subgroup   = Primate lentivirus;
+virus_class      = II;
+host_sci_name    = Cercocebus_torquatus;
+host_common_name = red-capped mangabeys;
+accession        = AF349680;
+Endblock;
+
+Begin Features;
+ORF	gag	gag	212	1777
+ORF	pol	pol	1525	4593
+ORF	vif	vif	4535	5203
+ORF	vpx	vpx	5034	5360
+ORF	vpr	vpr	5385	5687
+ORF	tat	tat	5605	5837	8116	8230
+ORF	rev	rev	5759	5837	8116	8360
+ORF	env	env	5962	8535
+ORF	nef	nef	8369	9043
+UTR	LTR	LTR	8703	9557
+Endblock;
+
+
+Begin Metadata;
+name = SIVsmm;
+full_name = Simian immunodeficiency virus;
+virus_group   = Lentivirus;
+virus_subgroup   = Primates;
+virus_class      = II;
+accession = X14307.1;
+Endblock;
+
+Begin Features;
+ORF	gag	gag	1049	2572
+ORF 	polymerase	pol	2368	4554
+ORF	viral protein r	vpr	6140	6409
+ORF	viral protein x	vpx	5800	6138
+ORF	viral infectivity factor	vif	5328	5972
+ORF	envelope	env	6551	9208
+ORF	nef	nef	9042	9971
+Endblock;
+
+Begin Metadata;
+name = SIVsyk;
+full_name = Simian immunodeficiency virus (SIVsyk);
+virus_group      = Lentivirus;
+virus_subgroup   = Primate;
+virus_class      = II;
+accession = L06042.1;
+Endblock;
+
+Begin Features;
+ORF	gag	gag	795	2459
+ORF	polymerase	pol	2198	5293
+ORF	viral infectivity factor	vif	5238	5903
+ORF	vpr protein	vpr	5701	6042
+ORF	transactivator	tat	5988	6213	8352	8524
+ORF	regulator of expression	rev	6154	6214	8352	8524
+ORF	envelope	env	6225	8723
+ORF	nef protein	nef	8557	9279
+Endblock;
+
