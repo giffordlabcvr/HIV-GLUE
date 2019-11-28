@@ -3,15 +3,15 @@
 
   <head>
   
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125127932-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125127932-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
-  gtag('config', 'UA-125127932-1');
-</script>
+	  gtag('config', 'UA-125127932-1');
+	</script>
 
     <meta charset="UTF-8">
     <title>HIV-GLUE by giffordlabcvr</title>
@@ -21,129 +21,124 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
 
-
   </head>
+
   <body>
     <section class="page-header">
       <h1 class="project-name">HIV-GLUE</h1>
-      <h2 class="project-tagline">A GLUE project for the human immunodeficiency viruses.</h2>
+      <h2 class="project-tagline">Comparative analysis of HIV genome sequence data.</h2>
       <a href="https://github.com/giffordlabcvr/HIV-GLUE/zipball/master" class="btn">Download .zip</a>
       <a href="https://github.com/giffordlabcvr/HIV-GLUE/tarball/master" class="btn">Download .tar.gz</a>
-      <a href="https://github.com/giffordlabcvr/HIV-GLUE" class="btn">View on GitHub</a>
+      <a href="https://github.com/giffordlabcvr/HIV-GLUE/tree/master" class="btn">View on GitHub</a>
     </section>
 
     <section class="main-content">
 
+	   <h3>
+		 <a id="description" class="anchor" href="#description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Description</strong>
+	   </h3>
+
+	   <p>
+		 This is <b>HIV-GLUE</b>, a <a href="http://tools.glue.cvr.ac.uk/"><b>GLUE</b></a> project
+		 designed to support comparative genomic and evolutionary analysis of human immunodeficiency viruses
+		 and lentiviruses in general.
+	   </p>
+
+	   <h3>
+		 <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Sequence data</strong>
+	   </h3>
+	   
+	   <p>
+		 The sequence data in this project have been organised into the following
+		 <b>sources</b>:<br>
+	   </p>
+	   
+	   	   
+	   <p>	      
+		 <b>ncbi-refseqs</b>: Genome-length reference sequences of <a href="https://github.com/giffordlabcvr/HIV-GLUE/tree/master/sources/ncbi-refseqs">representative lentivirus species and substrains</a>.		 
+		 These
+		 <a href="https://github.com/giffordlabcvr/HIV-GLUE/tree/master/sources/ncbi-refseqs">XML-formatted files</a>
+		  are downloaded directly from <a href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI</a> using a GLUE module
+		 (see <a href="https://github.com/giffordlabcvr/HIV-GLUE/blob/master/modules/ncbiImporters/HIVNcbiImporterReferences.xml">here</a>)
+		 and are uniquely identified within this project by their <a target="_blank" href="https://www.ncbi.nlm.nih.gov/Sequin/acc.html">GenBank accession numbers</a>. 
+	   </p>
+	   	      	   
+	   <p>
+		 <b>fasta-refseqs</b>: 
+		 <a href="https://github.com/giffordlabcvr/HIV-GLUE/tree/master/sources/core/fasta-refseqs">ERV reference sequences</a>
+		 - best-guess estimates of the ancestral lentivirus sequences that gave rise to ERVs.
+		 Where possible these are consensus/ancestral sequences derived from alignments
+		 <a href="https://github.com/giffordlabcvr/HIV-GLUE/tree/master/alignments/tips">included in this project</a>.
+		 Sequence IDs used in this source correspond to the names of the unique ERV loci they represent
+		 (see <a href="https://retrovirology.biomedcentral.com/articles/10.1186/s12977-018-0442-1" target="_blank">here</a> for details).
+	   </p>
+ 
+	   <h3>
+	   <a id="sequenceSideData" class="anchor" href="#sequenceSideData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Sequence-associated data</strong>
+	   </h3>
+	   
+	   <p>
+         Sequences included in this project are linked to auxiliary data in tabular format, this includes:
+		 
+		 <ol>
+		   <li><a href="https://github.com/giffordlabcvr/HIV-GLUE/blob/master/tabular/core/hiv-reference-data.csv">Basic taxonomic data</a> for genome-length virus reference sequence in <b>ncbi-refseqs</b>.</li> 
+		 </ol>
+		 
+	   </p>
+		 
+
+	   <h3>
+	   <a id="glueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>GLUE project</strong>
+	   </h3>
+
+      	   
+	   <p>
+	
+         On computers with <a href="http://tools.glue.cvr.ac.uk/#/installation">GLUE installed</a>,
+         the <b>HIV-GLUE</b> project can be instantiated by navigating to the project folder,
+         initiating GLUE, and issuing the following command in the GLUE shell:
+         
+  <pre>
+  <code>Mode path: /
+  GLUE> run file hivCoreProject.glue</code></pre>
+		 
+	   </p>
 
 
 
+	   <h3>
+		 <a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Contributors</strong>
+	   </h3>
+	   
+	   <p>
 
-<h3>
-<a id="circoviridae-glue" class="anchor" href="#circoviridae-glue" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Description</strong>
-</h3>
+		 Access to this GitHub repository is currently restricted. To request access please contact:
 
-<p>
-This is HIV-GLUE: a GLUE project for the human immunodeficiency viruses (HIVs). 
-</p>
+		 <p>Robert J. Gifford (<a href="mailto:robert.gifford@glasgow.ac.uk">robert.gifford@glasgow.ac.uk</a>)</p>
+		 <p>Josh Singer (<a href="mailto:josh.singer@glasgow.ac.uk">josh.singer@glasgow.ac.uk</a>)</p>
+		 <p>Samantha Campbell (<a href="mailto:samantha.campbell@glasgow.ac.uk">samantha.campbell@glasgow.ac.uk</a>)</p>
+		 
+	   </p>
 
-<p>
-The human immunodeficiency viruses HIV-1 and HIV-2 cause acquired immunodeficiency syndrome (AIDS).
-</p>
+	   <h3>
+		 <a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>License</strong>
+	   </h3>
 
-<p>
-GLUE is an
-<a target="_blank" href="http://tools.glue.cvr.ac.uk">open source, data-centric bioinformatics environment</a>
-specialised for developing virus genome data resources (VGDR). 
-</p>
-
-<p>
-This GLUE project contains reference information for HIV-1 and HIV-2, including:
-
-<ol>
-<li>A set of <a href="https://github.com/giffordlabcvr/HIV-GLUE/blob/master/glue/hivReferences.glue">HIV-1 reference sequences</a> (i.e. existing HIV-1 sequences that are well-annotated) with associated metadata.</li>
-<li>A list of <a href="https://github.com/giffordlabcvr/HIV-GLUE/blob/master/glue/hivFeatures.glue"<a>genome features</a> and their specific locations on full genome reference sequences.</li>
-</ol>
-
-
-</p>
-
-
-<h3>
-<a id="whos-it-for" class="anchor" href="#whos-it-for" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Who can use this resource, and for what?</strong>
-</h3>
-
-<p>
-HIV-GLUE can be extended with new data and functionality.
-So far we have used HIV-GLUE to develop the following GLUE extension projects.
-
-<ul>
-<li><a href="https://giffordlabcvr.github.io/HIV-PAIRS/">HIV-PAIRS</a>
-- a GLUE project for HIV transmission pair data (Private Repo).
-</li>
-<li><a href="https://giffordlabcvr.github.io/HIV-CRNA/">HIV-CRNA</a>
-- a GLUE project in collaboration with the 
-<a target="_blank" href="https://sites.google.com/a/umich.edu/the-center-for-hiv-rna-studies/">Centre for HIV RNA studies</a>
- (Private Repo).
-</li>
-</ul>
-
-</p>
-
-
-<h3>
-<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Installation</strong>
-</h3>
-
-
-<p>
-You can install HIV-GLUE on computers running Windows, MacOSX or Linux.
-<br><br>
-1. Install GLUE, based on the <a href="http://tools.glue.cvr.ac.uk/#/installation">GLUE installation instructions</a>. 
-<br>
-2. Once GLUE is installed and working, clone the HIV-GLUE repository into your `gluetools/projects` directory.
-<br>
-3. Within the `gluetools/projects/HIV-GLUE` directory, start GLUE and build the HIV-GLUE extension by issuing the following command in GLUE:
-
-
-<pre>
-<code>Mode path: /
-GLUE> run file hiv.glue
-</code></pre>
-
-
-</p>
-
-
-<h3>
-	<a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Contributors</strong>
-</h3>
-
-<p>Robert J. Gifford (<a href="mailto:robert.gifford@glasgow.ac.uk">robert.gifford@glasgow.ac.uk</a>)</p>
-
-<p>Josh Singer (<a href="mailto:josh.singer@glasgow.ac.uk">josh.singer@glasgow.ac.uk</a>)</p>
-
-<p>Samantha Campbell (<a href="mailto:samantha.campbell@glasgow.ac.uk">samantha.campbell@glasgow.ac.uk</a>)</p>
-
-<p>Megan Robinson</p>
-
-<h3>
-	<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>License</strong>
-</h3>
-
-<p>
-This project is licensed under the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero General Public License v. 3.0</a>.
-</p>
+	   <p>
+		 This project is licensed under the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero General Public License v. 3.0</a>.
+	   </p>
 
 
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/giffordlabcvr/HIV-GLUE">HIV-GLUE</a> is maintained by <a href="https://github.com/giffordlabcvr">giffordlabcvr</a>.</span>
+	 <footer class="site-footer">
+	   <span class="site-footer-owner"><a href="https://github.com/giffordlabcvr/DIGS-tool">HIV-GLUE</a> is maintained by <a href="https://github.com/giffordlabcvr">giffordlabcvr</a>.</span>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+	   <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+	 </footer>
 
     </section>
 
 
   </body>
+  
 </html>
