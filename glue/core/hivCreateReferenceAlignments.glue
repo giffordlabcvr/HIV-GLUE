@@ -1,20 +1,11 @@
 #~# Create constrained alignment tree for reference sequences
-create alignment  AL_REF_LENTI_MASTER -r REF_MASTER_HXB2 
-alignment AL_REF_LENTI_MASTER
-
-  set field displayName "Lentivirus"
-
-  # Add all members
-  add member -a
-
-  extract child AL_REF_PLV   --refName REF_MASTER_HXB2
-  demote member AL_REF_PLV   --whereClause "sequence.subgroup = 'PLV'"
-
-  exit
-
+create alignment  AL_REF_PLV -r REF_MASTER_HXB2 
 alignment AL_REF_PLV
 
   set field displayName "Primate lentivirus (PLV))"
+ 
+   # Add all members
+  add member -a
 
   extract child AL_REF_HIV-1   --refName REF_MASTER_HXB2
   demote member AL_REF_HIV-1   --whereClause "sequence.species = 'HIV-1'" 
@@ -130,9 +121,6 @@ alignment AL_REF_HIV-1M
 
 #~# Import unconstrained reference alignments
 
-module unconstrainedAlignmentImporter
-  import AL_REF_LENTI_UNCONSTRAINED -f alignments/root/lentivirus.aln.fna
-  exit
 
 module unconstrainedAlignmentImporter
   import AL_REF_PLV_UNCONSTRAINED -f alignments/internal/plv.aln.fna
@@ -143,12 +131,8 @@ module unconstrainedAlignmentImporter
   exit
 
 
-
 #~# Derive constrained alignment segments from unconstrained alignments
 
-alignment AL_REF_LENTI_MASTER
-  derive segments AL_REF_LENTI_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE
-  exit
 
 alignment AL_REF_PLV
   derive segments AL_REF_PLV_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE

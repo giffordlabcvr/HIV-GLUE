@@ -1,6 +1,6 @@
 delete project hiv
 
-create project hiv "GLUE project for human immunodeficiency virus (HIV-1)" --minVersion 1.1.46
+create project hiv "GLUE project for human immunodeficiency virus (HIV-1)" --minVersion 1.1.65
 
 schema-project hiv
 
@@ -25,13 +25,13 @@ project hiv
   module genbankXmlPopulator populate
   module refseqTextFilePopulator populate -f tabular/core/hiv-reference-data.csv
 
-  # Create HIV-1/lentivirus reference sequences
+  # Create reference sequences
   run file glue/core/hivReferences.glue
 
-  # Define HIV-1/lentivirus genome features
+  # Define genome features
   run file glue/core/hivFeatures.glue 
 
-  # Attach feature locations to the HIV-1 master reference 
+  # Attach feature locations to the master reference 
   run file glue/core/hivFeatureLocations.glue
 
   # Import alignments and create constrained alignment tree

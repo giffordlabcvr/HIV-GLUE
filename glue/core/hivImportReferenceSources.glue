@@ -1,2 +1,1 @@
   import source sources/core/ncbi-refseqs/
-  import source sources/core/fasta-refseqs/
