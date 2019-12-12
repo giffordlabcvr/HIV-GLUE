@@ -39,18 +39,3 @@
   create reference REF_SIVtal           ncbi-refseqs AY655744
   create reference REF_SIVwrc           ncbi-refseqs AM713177
   
-  ## Non-primate lentivirus reference sequence declarations
-  create reference REF_BIV              ncbi-refseqs M32690
-  create reference REF_JDV              ncbi-refseqs U21603
-  create reference REF_EIAV             ncbi-refseqs M16575
-  create reference REF_FIV              ncbi-refseqs M25381
-  create reference REF_SRLV-A           ncbi-refseqs M60610
-  create reference REF_SRLV-B           ncbi-refseqs M33677
-
-  ## Endogenous lentivirus reference sequence declarations  
-  create reference REF_pSIVgml          fasta-refseqs pSIVgml
-  create reference REF_RELIK            fasta-refseqs RELIK
-  create reference REF_MELVmpf          fasta-refseqs MELVmpf
-  create reference REF_ELVgv            fasta-refseqs ELVgv
-
-
