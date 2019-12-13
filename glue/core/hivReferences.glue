@@ -1,7 +1,7 @@
   ## Reference sequence declarations
 
   # HIV-1M Subtype B  MASTER
-  create reference REF_MASTER_HXB2     ncbi-refseqs AF033819
+  create reference REF_MASTER_HXB2             ncbi-refseqs AF033819
 
   # Other group M references
   create reference REF_HIV-1M_B_NC_001802      ncbi-refseqs NC_001802
@@ -9,33 +9,11 @@
   create reference REF_HIV-1M_C_U46016         ncbi-refseqs U46016
 
   # HIV-1 non-M 
-  create reference REF_HIV-1N	        ncbi-refseqs DQ017382
-  create reference REF_HIV-1O	        ncbi-refseqs L20571
-  create reference REF_HIV-1P	        ncbi-refseqs HQ179987
-
-  ## HIV-2 
-  create reference REF_HIV2A	        ncbi-refseqs M30502
-  create reference REF_HIV2B	        ncbi-refseqs X61240
+  create reference REF_HIV-1N	               ncbi-refseqs DQ017382
+  create reference REF_HIV-1O	               ncbi-refseqs L20571
+  create reference REF_HIV-1P	               ncbi-refseqs HQ179987
 
   ## Simian lentiviruses
-  create reference REF_SIVcol           ncbi-refseqs AF301156
-  #create reference REF_SIVcpz           ncbi-refseqs AY169968
-  create reference REF_SIVcpz           ncbi-refseqs KP861923
-  create reference REF_SIVden           ncbi-refseqs AJ580407
-  create reference REF_SIVdrl1          ncbi-refseqs AY159321
-  create reference REF_SIVgor           ncbi-refseqs FJ424871
-  create reference REF_SIVgsn           ncbi-refseqs AF468659
-  create reference REF_SIVlhoest        ncbi-refseqs AF075269
-  create reference REF_SIVmac           ncbi-refseqs M33262
-  create reference REF_SIVmnd           ncbi-refseqs AF328295
-  create reference REF_SIVmus           ncbi-refseqs KF304707
-  create reference REF_SIVocm           ncbi-refseqs FM165200
-  create reference REF_SIVrcm           ncbi-refseqs AF382829
-  create reference REF_SIVrtg           ncbi-refseqs KJ461716
-  create reference REF_SIVsab           ncbi-refseqs U04005
-  create reference REF_SIVsmm           ncbi-refseqs JX860430
-  create reference REF_SIVsun           ncbi-refseqs AF131870
-  create reference REF_SIVsyk           ncbi-refseqs AY523867
-  create reference REF_SIVtal           ncbi-refseqs AY655744
-  create reference REF_SIVwrc           ncbi-refseqs AM713177
-  
+  create reference REF_SIVcpz                  ncbi-refseqs KP861923
+  create reference REF_SIVgor                  ncbi-refseqs FJ424871
+
