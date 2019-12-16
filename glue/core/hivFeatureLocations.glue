@@ -1,12 +1,11 @@
   # Define features on NCBI refseq version of reference strain HXB2 (subtype B)
 
-  reference REF_MASTER_HXB2
+  reference REF_MASTER_B_AF033819
 
     add feature-location whole_genome
     feature-location whole_genome
       add segment 1 9181
       exit
-
 
     add feature-location gag
     feature-location gag
@@ -25,7 +24,7 @@
            
     add feature-location pol
     feature-location pol
-      add segment 2102 4639  
+      add segment 1799 4642  
       exit
 
     add feature-location vif
@@ -62,9 +61,133 @@
 
     add feature-location nef
     feature-location nef
-      add segment 8343 8708
+      add segment 8343 8714
       exit
 
             
   exit 
   
+  # Define features on the subtype A reference (AF004885)
+
+  reference REF_HIV-1M_A_AF004885
+  
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9160
+      exit
+      
+    add feature-location gag
+    feature-location gag
+      add segment 254 1750
+      exit
+      
+    #add feature-location pol
+    #feature-location pol
+    #  add segment 1571 4554  
+    #  exit
+      
+    add feature-location vif
+    feature-location vif
+      add segment 4499 5077
+      exit
+      
+    add feature-location vpr
+    feature-location vpr
+      add segment 5017 5307
+      exit
+      
+    add feature-location tat
+    feature-location tat
+      add segment 5288 5502 --spliceIndex 1
+      add segment 7816 7906 --spliceIndex 2
+      exit
+      
+    add feature-location rev
+    feature-location rev
+      add segment 5427 5502 --spliceIndex 1
+      add segment 7816 8111 --spliceIndex 2
+      exit
+      
+    add feature-location vpu
+    feature-location vpu
+      add segment 5529 5774
+      exit
+      
+    add feature-location env
+    feature-location env
+      add segment 5692 8253
+      exit  
+      
+    add feature-location nef
+    feature-location nef
+      add segment 8255 8869
+      exit
+      
+  exit                  
+      
+  # Define features on the subtype C reference (U52953)
+
+  reference REF_HIV-1M_C_U52953
+  
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 8959
+      exit 
+      
+    add feature-location gag
+    feature-location gag
+      add segment 140 1630
+      exit
+      
+    add feature-location pol
+    feature-location pol
+      add segment 1452 4430  
+      exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 4378 4956
+      exit
+      
+    add feature-location vpr
+    feature-location vpr
+      add segment 4896 5186
+      exit      
+      
+    add feature-location tat
+    feature-location tat
+      add segment 5167 5381 --spliceIndex 1
+      add segment 7716 7806 --spliceIndex 2
+      exit      
+      
+    add feature-location rev
+    feature-location rev
+      add segment 5306 5381 --spliceIndex 1
+      add segment 7716 7963 --spliceIndex 2
+      exit
+      
+    add feature-location vpu
+    feature-location vpu
+      add segment 5405 5665
+      exit      
+      
+    add feature-location env
+    feature-location env
+      add segment 5583 8153
+      exit      
+      
+    add feature-location nef
+    feature-location nef
+      add segment 8155 8775
+      exit      
+      
+exit                   
+             
+      
+      
+      
+      
+      
+      
+      
+      

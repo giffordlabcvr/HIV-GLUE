@@ -1,5 +1,5 @@
 #~# Create constrained alignment tree for reference sequences
-create alignment  AL_REF_PLV -r REF_MASTER_HXB2 
+create alignment  AL_REF_PLV -r REF_MASTER_B_AF033819 
 alignment AL_REF_PLV
 
   set field displayName "Primate lentivirus (PLV))"
@@ -7,7 +7,7 @@ alignment AL_REF_PLV
    # Add all members
   add member -a
   
-  extract child AL_REF_HIV-1   --refName REF_MASTER_HXB2
+  extract child AL_REF_HIV-1   --refName REF_MASTER_B_AF033819
   demote member AL_REF_HIV-1   --whereClause "sequence.species = 'HIV-1'" 
   exit
 
@@ -17,7 +17,7 @@ alignment AL_REF_HIV-1
   set field displayName "Human immunodeficiency virus (HIV-1)"
 
   # Extract group M 
-  extract child AL_REF_HIV-1M   --refName REF_MASTER_HXB2
+  extract child AL_REF_HIV-1M   --refName REF_MASTER_B_AF033819
   demote member AL_REF_HIV-1M   --whereClause "sequence.species_group = 'M'" 
 
   # Extract group O
@@ -42,7 +42,7 @@ alignment AL_REF_HIV-1M
   extract child AL_REF_HIV-1_A   --refName REF_HIV-1M_A_AF004885
   demote member AL_REF_HIV-1_A   --whereClause "sequence.subtype = 'A'"
 
-  extract child AL_REF_HIV-1_B   --refName REF_MASTER_HXB2
+  extract child AL_REF_HIV-1_B   --refName REF_MASTER_B_AF033819
   demote member AL_REF_HIV-1_B   --whereClause "sequence.subtype = 'B'" 
 
   extract child AL_REF_HIV-1_C   --refName REF_HIV-1M_C_U52953
