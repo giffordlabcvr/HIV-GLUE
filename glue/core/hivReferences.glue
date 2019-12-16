@@ -4,9 +4,9 @@
   create reference REF_MASTER_HXB2             ncbi-refseqs AF033819
 
   # Other group M references
-  create reference REF_HIV-1M_B_NC_001802      ncbi-refseqs NC_001802
-  create reference REF_HIV-1M_A_AF484509       ncbi-refseqs AF484509
-  create reference REF_HIV-1M_C_U46016         ncbi-refseqs U46016
+  create reference REF_HIV-1M_B_AF033819       ncbi-refseqs AF033819
+  create reference REF_HIV-1M_C_U52953         ncbi-refseqs U52953
+  create reference REF_HIV-1M_A_AF004885       ncbi-refseqs AF004885
 
   # HIV-1 non-M 
   create reference REF_HIV-1N	               ncbi-refseqs DQ017382

@@ -39,15 +39,13 @@ alignment AL_REF_HIV-1M
   set field displayName "Human immunodeficiency virus (HIV-1) Group M"
 
   # Extract group M subtypes
-  extract child AL_REF_HIV-1_A   --refName REF_HIV-1M_A_AF484509
+  extract child AL_REF_HIV-1_A   --refName REF_HIV-1M_A_AF004885
   demote member AL_REF_HIV-1_A   --whereClause "sequence.subtype = 'A'"
-  demote member AL_REF_HIV-1_A   --whereClause "sequence.subtype = 'A1'"
-  demote member AL_REF_HIV-1_A   --whereClause "sequence.subtype = 'A2'"
 
   extract child AL_REF_HIV-1_B   --refName REF_MASTER_HXB2
   demote member AL_REF_HIV-1_B   --whereClause "sequence.subtype = 'B'" 
 
-  extract child AL_REF_HIV-1_C   --refName REF_HIV-1M_C_U46016
+  extract child AL_REF_HIV-1_C   --refName REF_HIV-1M_C_U52953
   demote member AL_REF_HIV-1_C   --whereClause "sequence.subtype = 'C'" 
   exit
 
@@ -55,23 +53,23 @@ alignment AL_REF_HIV-1M
 #~# Import unconstrained reference alignments
 
 
-module unconstrainedAlignmentImporter
-  import AL_REF_PLV_UNCONSTRAINED -f alignments/root/plv.aln.fna
-  exit
+#module unconstrainedAlignmentImporter
+#  import AL_REF_PLV_UNCONSTRAINED -f alignments/root/plv.aln.fna
+#  exit
 
-module unconstrainedAlignmentImporter
-  import AL_REF_HIV-1_UNCONSTRAINED -f alignments/internal/hiv-1.aln.fna
-  exit
+#module unconstrainedAlignmentImporter
+#  import AL_REF_HIV-1_UNCONSTRAINED -f alignments/internal/hiv-1.aln.fna
+#  exit
 
 
 #~# Derive constrained alignment segments from unconstrained alignments
 
 
-alignment AL_REF_PLV
-  derive segments AL_REF_PLV_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE
-  exit
+#alignment AL_REF_PLV
+#  derive segments AL_REF_PLV_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE
+#  exit
 
-alignment AL_REF_HIV-1M
-  derive segments AL_REF_HIV-1_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE
-  exit
+#alignment AL_REF_HIV-1M
+#  derive segments AL_REF_HIV-1_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE
+#  exit
 

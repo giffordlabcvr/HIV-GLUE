@@ -4,14 +4,17 @@
   <specificPrimaryAccessions>
 
 	
-	<!-- HIV-1/SIVcpz/SIVgor -->
+	<!-- HIV-1 group M subtype references -->
 	<primaryAccession>AF033819</primaryAccession>
-	<primaryAccession>NC_001802</primaryAccession>
-	<primaryAccession>AF484509</primaryAccession>
-	<primaryAccession>U46016</primaryAccession>
+	<primaryAccession>U52953</primaryAccession>
+	<primaryAccession>AF004885</primaryAccession>
+
+	<!-- HIV-1 groups O, N and P -->
 	<primaryAccession>DQ017382</primaryAccession>
 	<primaryAccession>L20571</primaryAccession>
 	<primaryAccession>HQ179987</primaryAccession>
+	
+	<!-- SIVcpz/SIVgor -->
 	<primaryAccession>KP861923</primaryAccession>
 	<primaryAccession>FJ424871</primaryAccession>	
 	

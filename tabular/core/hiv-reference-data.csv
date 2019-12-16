@@ -1,8 +1,7 @@
 Accession,Species-group,Species,Group,Subtype,Isolate,Year,Country,Host_common_name,Host,pubmedID
 AF033819,PLV,HIV-1,M,B,HXB2,1983,France,human,Homo sapiens,
-NC_001802,PLV,HIV-1,M,B,HXB2,1983,France,human,Homo sapiens,9362478
-AF484509,PLV,HIV-1,M,A,98UG57136,1998,Uganda,human,Homo sapiens,12487816
-U46016,PLV,HIV-1,M,C,ETH2220,1986,Ethiopia,human,Homo sapiens,8891112
+AF004885,PLV,HIV-1,M,A,Q23-CxC,1994,Kenya,human,Homo sapiens,12487816
+U52953,PLV,HIV-1,M,C,92BR025,1992,Brazil,human,Homo sapiens,8891112
 DQ017382,PLV,HIV-1,N,,04CM_1015_04,2004,Cameroon,human,Homo sapiens,
 L20571,PLV,HIV-1,O,,MVP5180,1991,Cameroon,human,Homo sapiens,
 HQ179987,PLV,HIV-1,P,,U14788,2006,Cameroon,human,Homo sapiens,
