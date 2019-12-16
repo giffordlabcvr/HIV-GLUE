@@ -11,14 +11,17 @@
 
 	<!-- HIV-1 groups O, N and P -->
 	<primaryAccession>DQ017382</primaryAccession>
+	<primaryAccession>AY618998</primaryAccession>
 	<primaryAccession>L20571</primaryAccession>
 	<primaryAccession>HQ179987</primaryAccession>
 	
 	<!-- SIVcpz/SIVgor -->
 	<primaryAccession>KP861923</primaryAccession>
+	<primaryAccession>X52154</primaryAccession>	
+	<primaryAccession>AF103818</primaryAccession>
 	<primaryAccession>FJ424871</primaryAccession>	
+	<primaryAccession>JN091691</primaryAccession>	
 	
-
   </specificPrimaryAccessions>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
