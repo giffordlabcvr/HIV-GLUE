@@ -52,24 +52,22 @@ alignment AL_REF_HIV-1M
 
 #~# Import unconstrained reference alignments
 
-
 #module unconstrainedAlignmentImporter
 #  import AL_REF_PLV_UNCONSTRAINED -f alignments/root/plv.aln.fna
 #  exit
 
-#module unconstrainedAlignmentImporter
-#  import AL_REF_HIV-1_UNCONSTRAINED -f alignments/internal/hiv-1.aln.fna
-#  exit
+module unconstrainedAlignmentImporter
+  import AL_REF_HIV-1_UNCONSTRAINED -f alignments/internal/hiv-1.aln.fna
+  exit
 
 
 #~# Derive constrained alignment segments from unconstrained alignments
-
 
 #alignment AL_REF_PLV
 #  derive segments AL_REF_PLV_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE
 #  exit
 
-#alignment AL_REF_HIV-1M
-#  derive segments AL_REF_HIV-1_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE
-#  exit
+alignment AL_REF_HIV-1M
+  derive segments AL_REF_HIV-1_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE
+  exit
 
