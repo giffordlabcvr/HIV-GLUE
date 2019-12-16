@@ -7,4 +7,4 @@
   create module --fileName modules/core/hivFastaExporter.xml 
   create module --fileName modules/core/hivGagPolTranslationModifier.xml
   create module --fileName modules/core/hivBlastFastaAlignmentImporter.xml
-
+  create module --fileName modules/extension/hivCompoundAligner.xml

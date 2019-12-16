@@ -33,7 +33,8 @@ project hiv
 
   # Attach feature locations to the master reference 
   run file glue/core/hivFeatureLocations.glue
-
+  run file glue/core/sivFeatureLocations.glue
+  
   # Import alignments and create constrained alignment tree
   run file glue/core/hivCreateReferenceAlignments.glue
 

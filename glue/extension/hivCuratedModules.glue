@@ -1,6 +1,5 @@
  
   create module --fileName modules/extension/hivTextFilePopulatorLanlSequences.xml
-  create module --fileName modules/extension/hivCompoundAligner.xml
 
   #create module --fileName modules/hivMafftAligner.xml
   #create module --fileName modules/hivSubtypeRecogniser.xml
