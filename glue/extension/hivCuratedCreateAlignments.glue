@@ -14,9 +14,12 @@ alignment  AL_REF_HIV-1M
   demote member AL_HIV-1_B   --whereClause "sequence.subtype = 'B'" 
   extract child AL_HIV-1_C   --refName REF_HIV-1M_C_U52953
   demote member AL_HIV-1_C   --whereClause "sequence.subtype = 'C'" 
+  extract child AL_HIV-1_A   --refName REF_HIV-1M_A_AF004885
+  demote member AL_HIV-1_A   --whereClause "sequence.subtype = 'A'" 
+
   exit
  
 #~# Create full genome alignments for HIV subtypes and CRFs
 
-#compute alignment AL_HIV-1_B     -w "sequence.source.name = 'ncbi-curated-subtype-b'"  hivCompoundAligner 
-#compute alignment AL_HIV-1_C     -w "sequence.source.name = 'ncbi-curated-subtype-c'"  hivCompoundAligner 
+compute alignment AL_HIV-1_B     -w "sequence.source.name = 'ncbi-curated-subtype-b'"  hivCompoundAligner 
+compute alignment AL_HIV-1_C     -w "sequence.source.name = 'ncbi-curated-subtype-c'"  hivCompoundAligner 

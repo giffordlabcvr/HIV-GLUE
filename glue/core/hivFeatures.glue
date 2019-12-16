@@ -128,7 +128,7 @@
   feature p2 set field displayName "p2"
   feature p2 set metatag OWN_CODON_NUMBERING true
   feature p2 set metatag INCLUDE_IN_SUMMARY true
-  feature p2 set metatag CODES_AMINO_ACIDS true#   feature p2 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+  feature p2 set metatag CODES_AMINO_ACIDS true
 
   create feature p7 -p gag "p7"
   feature p7 set field displayName "p7"
@@ -140,8 +140,8 @@
   feature p1 set field displayName "p1"
   feature p1 set metatag OWN_CODON_NUMBERING true
   feature p1 set metatag INCLUDE_IN_SUMMARY true
-  feature p1 set metatag CODES_AMINO_ACIDS true#   feature p1 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
-
+  feature p1 set metatag CODES_AMINO_ACIDS true
+  
   create feature p6 -p gag "p6"
   feature p6 set field displayName "p6"
   feature p6 set metatag OWN_CODON_NUMBERING true
@@ -158,14 +158,14 @@
   feature pro-pol set field displayName "pro-pol"
   feature pro-pol set metatag OWN_CODON_NUMBERING true
   feature pro-pol set metatag INCLUDE_IN_SUMMARY true
-  feature pro-pol set metatag CODES_AMINO_ACIDS true# feature pro-pol set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
-
+  feature pro-pol set metatag CODES_AMINO_ACIDS true
+  
   create feature pro -p pro-pol "protease"
   feature pro set field displayName "protease"
   feature pro set metatag OWN_CODON_NUMBERING true
   feature pro set metatag INCLUDE_IN_SUMMARY true
-  feature pro set metatag CODES_AMINO_ACIDS true#   feature prot set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
-
+  feature pro set metatag CODES_AMINO_ACIDS true
+  
   create feature RT -p pol "RT"
   feature RT set field displayName "RT"
   feature RT set metatag OWN_CODON_NUMBERING true
@@ -182,8 +182,8 @@
   feature vif set field displayName "vif"
   feature vif set metatag OWN_CODON_NUMBERING true
   feature vif set metatag INCLUDE_IN_SUMMARY true
-  feature vif set metatag CODES_AMINO_ACIDS true#   feature vif set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
-
+  feature vif set metatag CODES_AMINO_ACIDS true
+  
   create feature vpr -p whole_genome "vpr"
   feature vpr set field displayName "vpr"
   feature vpr set metatag OWN_CODON_NUMBERING true
