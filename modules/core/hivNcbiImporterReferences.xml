@@ -3,6 +3,8 @@
   <giNumberFieldName>gb_gi_number</giNumberFieldName>
   <specificPrimaryAccessions>
 
+	
+	<!-- HIV-1/SIVcpz/SIVgor -->
 	<primaryAccession>AF033819</primaryAccession>
 	<primaryAccession>NC_001802</primaryAccession>
 	<primaryAccession>AF484509</primaryAccession>
@@ -10,66 +12,8 @@
 	<primaryAccession>DQ017382</primaryAccession>
 	<primaryAccession>L20571</primaryAccession>
 	<primaryAccession>HQ179987</primaryAccession>
-	<primaryAccession>M30502</primaryAccession>
-	<primaryAccession>X61240</primaryAccession>
-	<primaryAccession>AF301156</primaryAccession>
-	<primaryAccession>AY169968</primaryAccession>
-	<primaryAccession>AJ580407</primaryAccession>
-	<primaryAccession>AY159321</primaryAccession>
-	<primaryAccession>FJ424871</primaryAccession>
-	<primaryAccession>AF468659</primaryAccession>
-	<primaryAccession>AF075269</primaryAccession>
-	<primaryAccession>M33262</primaryAccession>
-	<primaryAccession>AF328295</primaryAccession>
-	<primaryAccession>KF304707</primaryAccession>
-	<primaryAccession>FM165200</primaryAccession>
-	<primaryAccession>AF382829</primaryAccession>
-	<primaryAccession>KJ461716</primaryAccession>
-	<primaryAccession>U04005</primaryAccession>
-	<primaryAccession>JX860430</primaryAccession>
-	<primaryAccession>AF131870</primaryAccession>
-	<primaryAccession>AY523867</primaryAccession>
-	<primaryAccession>AY655744</primaryAccession>
-	<primaryAccession>AM713177</primaryAccession>
-	<primaryAccession>M32690</primaryAccession>
-	<primaryAccession>U21603</primaryAccession>
-	<primaryAccession>M16575</primaryAccession>
-	<primaryAccession>M25381</primaryAccession>
-	<primaryAccession>M60610</primaryAccession>
-	<primaryAccession>M33677</primaryAccession>
-
-	<!-- PLV ALIGN -->
 	<primaryAccession>KP861923</primaryAccession>
-	<primaryAccession>AF103818</primaryAccession>
-	<primaryAccession>JN091691</primaryAccession>
-	<primaryAccession>X52154</primaryAccession>
-	<primaryAccession>AY618998</primaryAccession>
-	<primaryAccession>AF082339</primaryAccession>
-	<primaryAccession>M76764</primaryAccession>
-	<primaryAccession>M19499</primaryAccession>
-	<primaryAccession>U27200</primaryAccession>
-	<primaryAccession>JQ864084</primaryAccession>
-	<primaryAccession>JX648292</primaryAccession>
-	<primaryAccession>JX648291</primaryAccession>
-	<primaryAccession>MF370842</primaryAccession>
-	<primaryAccession>M83293</primaryAccession>
-	<primaryAccession>U58991</primaryAccession>
-	<primaryAccession>M66437</primaryAccession>
-	<primaryAccession>LC114462</primaryAccession>
-	<primaryAccession>L40990</primaryAccession>
-	<primaryAccession>KP861923</primaryAccession>
-	
-	<!-- HIV ALIGN -->
-	<primaryAccession>KM390026</primaryAccession>
-	<primaryAccession>M19921</primaryAccession>
-	<primaryAccession>AF084936</primaryAccession>
-	<primaryAccession>AF385936</primaryAccession>
-	<primaryAccession>K03454</primaryAccession>
-	<primaryAccession>AF064699</primaryAccession>
-	<primaryAccession>L39106</primaryAccession>
-	<primaryAccession>AF004885</primaryAccession>
-	<primaryAccession>U54771</primaryAccession>
-	
+	<primaryAccession>FJ424871</primaryAccession>	
 	
 
   </specificPrimaryAccessions>

@@ -56,7 +56,7 @@ alignment AL_REF_HIV-1M
 
 
 module unconstrainedAlignmentImporter
-  import AL_REF_PLV_UNCONSTRAINED -f alignments/internal/plv.aln.fna
+  import AL_REF_PLV_UNCONSTRAINED -f alignments/root/plv.aln.fna
   exit
 
 module unconstrainedAlignmentImporter
