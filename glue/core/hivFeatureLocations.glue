@@ -1,4 +1,4 @@
-  # Define features on NCBI refseq version of reference strain HXB2 (subtype B)
+  # Define features on NCBI refseq version of HIV-1M reference strain HXB2 (subtype B)
 
   reference REF_MASTER_B_AF033819
 
@@ -67,7 +67,7 @@
             
   exit 
   
-  # Define features on the subtype A reference (AF004885)
+  # Define features on the HIV-1M subtype A reference (AF004885)
 
   reference REF_HIV-1M_A_AF004885
   
@@ -125,7 +125,7 @@
       
   exit                  
       
-  # Define features on the subtype C reference (U52953)
+  # Define features on the HIV-1M subtype C reference (U52953)
 
   reference REF_HIV-1M_C_U52953
   
@@ -184,10 +184,184 @@
 exit                   
              
       
+########		########		########
+    
+  # Define features on NCBI refseq version of HIV-1N reference strain (DQ017382)     
+ 
+  reference REF_HIV-1N_DQ017382   
+    
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 8926
+      exit 
       
+    add feature-location gag
+    feature-location gag
+      add segment 262 1797
+      exit
       
+    add feature-location pol
+    feature-location pol
+      add segment 1569 4613  
+      exit
+ 
+    add feature-location vif
+    feature-location vif
+      add segment 4546 5124
+      exit
       
+    add feature-location vpr
+    feature-location vpr
+      add segment 5064 5351
+      exit    
       
+    add feature-location tat
+    feature-location tat
+      add segment 5332 5546 --spliceIndex 1
+      add segment 7784 7874 --spliceIndex 2
+      exit      
       
+    add feature-location rev
+    feature-location rev
+      add segment 5471 5546 --spliceIndex 1
+      add segment 7784 8022 --spliceIndex 2
+      exit         
+ 
+    add feature-location vpu
+    feature-location vpu
+      add segment 5566 5790
+      exit      
       
+    add feature-location env
+    feature-location env
+      add segment 5729 8221
+      exit      
       
+    add feature-location nef
+    feature-location nef
+      add segment 8223 8861
+      exit      
+      
+exit 
+
+ 
+########		########		########
+ 
+  # Define features on NCBI refseq version of HIV-1O reference strain (AY618998)
+
+  reference REF_HIV-1O_AY618998       
+    
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9868
+      exit 
+      
+    add feature-location gag
+    feature-location gag
+      add segment 845 2335
+      exit
+      
+    add feature-location pol
+    feature-location pol
+      add segment 2155 5178  
+      exit
+      
+    add feature-location vif
+    feature-location vif
+      add segment 5093 5671
+      exit
+      
+    add feature-location vpr
+    feature-location vpr
+      add segment 5611 5913
+      exit            
+      
+    add feature-location tat
+    feature-location tat
+      add segment 5894 6105 --spliceIndex 1
+      add segment 8463 8544 --spliceIndex 2
+      exit      
+      
+    add feature-location rev
+    feature-location rev
+      add segment 6033 6105 --spliceIndex 1
+      add segment 8463 8701 --spliceIndex 2
+      exit      
+      
+    add feature-location vpu
+    feature-location vpu
+      add segment 6119 6376
+      exit      
+      
+    add feature-location env
+    feature-location env
+      add segment 6282 8900
+      exit      
+      
+    add feature-location nef
+    feature-location nef
+      add segment 8902 9537
+      exit      
+      
+exit    
+
+
+########		########		########
+ 
+  # Define features on NCBI refseq version of HIV-1P reference strain (HQ179987)
+
+  reference REF_HIV-1P_HQ179987  
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9238
+      exit                
+       
+    add feature-location gag
+    feature-location gag
+      add segment 276 1754
+      exit
+      
+    add feature-location pol
+    feature-location pol
+      add segment 1565 4588  
+      exit            
+      
+    add feature-location vif
+    feature-location vif
+      add segment 4512 5099
+      exit
+      
+    add feature-location vpr
+    feature-location vpr
+      add segment 5030 5326
+      exit              
+      
+    add feature-location tat
+    feature-location tat
+      add segment 5307 5519 --spliceIndex 1
+      #add segment 7937  --spliceIndex 2
+      exit      
+      
+    add feature-location rev
+    feature-location rev
+      add segment 5446 5521 --spliceIndex 1
+      add segment 7937 8169 --spliceIndex 2
+      exit       
+      
+    add feature-location vpu
+    feature-location vpu
+      add segment 5548 5784
+      exit      
+      
+    add feature-location env
+    feature-location env
+      add segment 5702 8368
+      exit      
+      
+    add feature-location nef
+    feature-location nef
+      add segment 8370 9023
+      exit      
+      
+exit       
