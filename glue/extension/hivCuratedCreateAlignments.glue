@@ -4,21 +4,22 @@ delete alignment  AL_HIV-1_MASTER_CURATED
 delete alignment  AL_HIV-1_B
 delete alignment  AL_HIV-1_C
 
-create alignment  AL_HIV-1_MASTER_CURATED -r REF_MASTER_HXB2
-
-alignment AL_HIV-1_MASTER_CURATED
+alignment  AL_REF_HIV-1M
 
   set field displayName "Human immunodeficiency virus (HIV-1) curated sequences"
   add member -w "species = 'HIV-1'"
   
   # Extract group M subtypes
-  extract child AL_HIV-1_B   --refName REF_MASTER_HXB2
+  extract child AL_HIV-1_B   --refName REF_MASTER_B_AF033819
   demote member AL_HIV-1_B   --whereClause "sequence.subtype = 'B'" 
-  extract child AL_HIV-1_C   --refName REF_HIV-1M_C_U46016
+  extract child AL_HIV-1_C   --refName REF_HIV-1M_C_U52953
   demote member AL_HIV-1_C   --whereClause "sequence.subtype = 'C'" 
+  extract child AL_HIV-1_A   --refName REF_HIV-1M_A_AF004885
+  demote member AL_HIV-1_A   --whereClause "sequence.subtype = 'A'" 
+
   exit
  
 #~# Create full genome alignments for HIV subtypes and CRFs
 
 compute alignment AL_HIV-1_B     -w "sequence.source.name = 'ncbi-curated-subtype-b'"  hivCompoundAligner 
-#compute alignment AL_HIV-1_C     -w "sequence.source.name = 'ncbi-curated-subtype-c'"  hivCompoundAligner 
+compute alignment AL_HIV-1_C     -w "sequence.source.name = 'ncbi-curated-subtype-c'"  hivCompoundAligner 
