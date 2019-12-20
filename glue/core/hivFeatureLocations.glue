@@ -76,12 +76,12 @@
 
     add feature-location pro
     feature-location pro
-      add segment 1637 2101
+      add segment 1637 2095
       exit
            
     add feature-location pol
     feature-location pol
-      add segment 2102 4642  
+      add segment 2096 4642  
       exit
 
     add feature-location vif
@@ -206,10 +206,20 @@ exit
     feature-location gag
       add segment 254 1750
       exit
-      
+ 
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 1549 4554  
+      exit
+
+    add feature-location pro
+    feature-location pro
+      add segment 1549 2007
+      exit
+           
     add feature-location pol
     feature-location pol
-      add segment 1571 4552  
+      add segment 2008 4554  
       exit
       
     add feature-location vif
