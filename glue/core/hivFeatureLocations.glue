@@ -7,6 +7,56 @@
       add segment 1 9181
       exit
 
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 181
+      exit
+
+    add feature-location 5R
+    feature-location 5R
+      add segment 1 96
+      exit
+
+    add feature-location 5U5
+    feature-location 5U5
+      add segment 97 181
+      exit
+      
+    add feature-location TAR
+    feature-location TAR
+      add segment 1 60
+      exit
+       
+    add feature-location 5UTR
+    feature-location 5UTR
+      add segment 182 335
+      exit
+     
+    add feature-location PBS
+    feature-location PBS
+      add segment 182 199
+      exit
+      
+    add feature-location DIS
+    feature-location DIS
+      add segment 240 279
+      exit
+      
+    add feature-location SD
+    feature-location SD
+      add segment 282 300
+      exit
+    
+    add feature-location PSI
+    feature-location PSI
+      add segment 309 331
+      exit
+
+    add feature-location internal_region
+    feature-location internal_region
+      add segment 336 8963
+      exit
+
     add feature-location gag
     feature-location gag
       add segment 336 1838

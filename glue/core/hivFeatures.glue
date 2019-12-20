@@ -5,11 +5,7 @@
 
   # Non-coding features
 
-  create feature 5UTR -p whole_genome "5' Untranslated region"
-  feature 5UTR set field displayName "5' UTR"
-  feature 5UTR set metatag INCLUDE_IN_SUMMARY true
-
-  create feature 5LTR -p 5UTR "5' long terminal repeat"
+  create feature 5LTR -p whole_genome "5' long terminal repeat"
   feature 5LTR set field displayName "5' LTR"
   feature 5LTR set metatag INCLUDE_IN_SUMMARY true
 
@@ -32,10 +28,6 @@
   create feature PolyA -p whole_genome "PolyA loop"
   feature PolyA set field displayName "PolyA"
   feature PolyA set metatag INCLUDE_IN_SUMMARY true
-
-  create feature PBS -p whole_genome "Primer-binding site"
-  feature PBS set field displayName "PBS"
-  feature PBS set metatag INCLUDE_IN_SUMMARY true
   
   create feature GSL3 -p whole_genome "gag stem loop 3"
   feature GSL3 set field displayName "GSL3"
@@ -84,6 +76,14 @@
   create feature 3U3 -p 5LTR "3' LTR unique 3' region"
   feature 3U3 set field displayName "3' U3"
   feature 3U3 set metatag INCLUDE_IN_SUMMARY true
+
+  create feature 5UTR -p whole_genome "5' Untranslated region"
+  feature 5UTR set field displayName "5' UTR"
+  feature 5UTR set metatag INCLUDE_IN_SUMMARY true
+
+  create feature PBS -p 5UTR "Primer-binding site"
+  feature PBS set field displayName "PBS"
+  feature PBS set metatag INCLUDE_IN_SUMMARY true
 
   create feature 3R -p 3LTR "3' LTR repeat region"
   feature 3R set field displayName "3' R"
