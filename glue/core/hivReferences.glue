@@ -4,7 +4,6 @@
   create reference REF_MASTER_B_AF033819       ncbi-refseqs AF033819
 
   # Other group M references
-  create reference REF_HIV-1M_B_AF033819       ncbi-refseqs AF033819
   create reference REF_HIV-1M_C_U52953         ncbi-refseqs U52953
   create reference REF_HIV-1M_A_AF004885       ncbi-refseqs AF004885
 
