@@ -27,10 +27,6 @@
       add segment 1 60
       exit
        
-    add feature-location 5UTR
-    feature-location 5UTR
-      add segment 182 335
-      exit
      
     add feature-location PBS
     feature-location PBS
@@ -50,6 +46,11 @@
     add feature-location PSI
     feature-location PSI
       add segment 309 331
+      exit
+
+    add feature-location 5UTR
+    feature-location 5UTR
+      add segment 1 356
       exit
 
     add feature-location internal_region
