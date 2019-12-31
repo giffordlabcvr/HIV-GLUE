@@ -17,21 +17,6 @@
     create field isolate_id VARCHAR 100     
     exit
 
-  table alignment
-    create field phylogeny VARCHAR 10000
-    create field clade_category VARCHAR 20
-    exit 
-
-  table variation
-    create field variation_category VARCHAR
-    create field aa_substitutions VARCHAR 50
-    create field aa_position INTEGER
-    create field variation_notes VARCHAR 500
-    exit
-
-  table member_floc_note
-    create field reference_nt_coverage_pct DOUBLE
-    exit
 
   # Schema extensions
   create custom-table isolate_data

@@ -1,5 +1,9 @@
-# Clean up previous extension build if it exists
-  run file glue/extension/hivCuratedDeletePreviousBuild.glue  
+run file glue/extension/hivCuratedDeletePreviousBuild.glue  
+
+schema-project hiv
+
+  run file glue/core/hivSchemaExtensions.glue
+  exit
 
 project hiv
 
