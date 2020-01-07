@@ -17,8 +17,8 @@
       add segment 1637 4639  
       exit
 
-    add feature-location prot
-    feature-location prot
+    add feature-location pro
+    feature-location pro
       add segment 1637 2098
       exit
            
