@@ -16,7 +16,7 @@ _.each(refSeqObjs, function(refSeqObj) {
 
 		for(var k = 0; k < nonCodingFeaturesToInherit.length; k++) {
 			var featureID = nonCodingFeaturesToInherit[k];
-			glue.logInfo(" Processing feature: "+featureID+"in reference "+refSeqObj.name);		
+			glue.logInfo(" Inheriting feature: "+featureID+" from REF_MASTER to "+refSeqObj.name);		
 
 			glue.inMode("reference/"+refSeqObj.name, function() {
 				glue.command(["inherit", "feature-location", 			
