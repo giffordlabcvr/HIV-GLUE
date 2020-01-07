@@ -38,4 +38,7 @@ project hiv
   # Import alignments and create constrained alignment tree
   run file glue/core/hivCreateReferenceAlignments.glue
 
+  # Inherit features from HIV-1 master reference to all other HIV-1 reference sequences
+  # run file glue/core/hivInheritFeatureLocations.glue
+
   validate
