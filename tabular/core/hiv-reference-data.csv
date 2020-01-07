@@ -1,13 +1,13 @@
-Accession,Species-group,Species,Group,Subtype,Isolate,Year,Country,Host_common_name,Host,pubmedID
-AF033819,PLV,HIV-1,M,B,HXB2,1983,France,human,Homo sapiens,NULL
-AF004885,PLV,HIV-1,M,A,Q23-CxC,1994,Kenya,human,Homo sapiens,12487816
-U52953,PLV,HIV-1,M,C,92BR025,1992,Brazil,human,Homo sapiens,8891112
-DQ017382,PLV,HIV-1,N,,04CM_1015_04,2004,Cameroon,human,Homo sapiens,16438650
-AY618998,PLV,HIV-1,O,,pCMO2.3,NK,Cameroon,human,Homo sapiens,NULL
-L20571,PLV,HIV-1,O,,MVP5180,1991,Cameroon,human,Homo sapiens,8107219
-HQ179987,PLV,HIV-1,P,,U14788,2006,Cameroon,human,Homo sapiens,21084486
-KP861923,PLV,SIVcpz,ptt,,LB715,2005,Cameroon,chimpanzee,Pan troglodytes troglodytes,25900654
-FJ424871,PLV,SIVgor,gor,,SIVgorCP684con,2004,Cameroon,gorilla,Gorilla gorilla,19073717
-X52154,PLV,SIVcpz,ptt,,NK,NK,Cameroon,chimpanzee,Pan troglodytes troglodytes,2188136
-AF103818,PLV,SIVcpz,ptt,,US-Marilyn,NK,Cameroon,chimpanzee,Pan troglodytes troglodytes,9989410
-JN091691,PLV,SIVcpz,pts,,TAN5,2006,Tanzania,chimpanzee,Pan troglodytes schweinfurthii,21775446
+Accession,Species,Group,Subtype,Isolate,Year,Country,Host_common_name,Host,pubmedID
+AF033819,HIV-1,M,B,HXB2,1983,France,human,Homo sapiens,NULL
+AF004885,HIV-1,M,A,Q23-CxC,1994,Kenya,human,Homo sapiens,12487816
+U52953,HIV-1,M,C,92BR025,1992,Brazil,human,Homo sapiens,8891112
+DQ017382,HIV-1,N,,04CM_1015_04,2004,Cameroon,human,Homo sapiens,16438650
+AY618998,HIV-1,O,,pCMO2.3,NK,Cameroon,human,Homo sapiens,NULL
+L20571,HIV-1,O,,MVP5180,1991,Cameroon,human,Homo sapiens,8107219
+HQ179987,HIV-1,P,,U14788,2006,Cameroon,human,Homo sapiens,21084486
+KP861923,SIVcpz,ptt,,LB715,2005,Cameroon,chimpanzee,Pan troglodytes troglodytes,25900654
+FJ424871,SIVgor,gor,,SIVgorCP684con,2004,Cameroon,gorilla,Gorilla gorilla,19073717
+X52154,SIVcpz,ptt,,NK,NK,Cameroon,chimpanzee,Pan troglodytes troglodytes,2188136
+AF103818,SIVcpz,ptt,,US-Marilyn,NK,Cameroon,chimpanzee,Pan troglodytes troglodytes,9989410
+JN091691,SIVcpz,Western,,TAN5,2006,Tanzania,chimpanzee,Pan troglodytes schweinfurthii,21775446

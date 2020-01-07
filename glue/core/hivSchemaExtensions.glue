@@ -9,7 +9,6 @@
     create field update_date DATE
     create field species_group VARCHAR 100
     create field species VARCHAR 100
-    create field subgroup VARCHAR 100
     create field subtype VARCHAR 100
     create field recogniser_subtype VARCHAR 100
     create field host VARCHAR 100
