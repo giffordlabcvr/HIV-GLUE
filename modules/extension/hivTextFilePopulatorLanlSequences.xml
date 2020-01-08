@@ -9,10 +9,6 @@
 	</textFileColumn>
 
 	<textFileColumn>
-		<header>Species-group</header>
-		<property>subgroup</property>
-	</textFileColumn>
-	<textFileColumn>
 		<header>Species</header>
 		<property>species</property>
 	</textFileColumn>

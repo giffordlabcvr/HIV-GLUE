@@ -2,7 +2,7 @@ run file glue/extension/hivCuratedDeletePreviousBuild.glue
 
 schema-project hiv
 
-  run file glue/core/hivSchemaExtensions.glue
+  run file glue/extension/hivCuratedSchemaExtensions.glue
   exit
 
 project hiv
