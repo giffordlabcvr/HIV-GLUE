@@ -7,10 +7,11 @@
   create reference REF_HIV-1M_C_JN188292       ncbi-refseqs JN188292
   create reference REF_HIV-1M_A1_KU749402      ncbi-refseqs KU749402
   create reference REF_HIV-1M_F1_KU168275      ncbi-refseqs KU168275
+  create reference REF_HIV-1M_G_KU168300       ncbi-refseqs KU168300
+  create reference REF_HIV-1M_H_KU168273       ncbi-refseqs KU168273
   create reference REF_HIV-1M_CRF12_AF385935   ncbi-refseqs AF385935
   create reference REF_HIV-1M_CRF01_EF036536   ncbi-refseqs EF036536
   create reference REF_HIV-1M_CRF07_KC503852   ncbi-refseqs KC503852
-  create reference REF_HIV-1M_H_KU168273       ncbi-refseqs KU168273
 
   # HIV-1 non-M 
   create reference REF_HIV-1N_AJ006022	       ncbi-refseqs AJ006022
@@ -18,9 +19,9 @@
   create reference REF_HIV-1P_GU111555	       ncbi-refseqs GU111555
 
   ## Simian lentiviruses
-  create reference REF_SIVcpz_ptt_KP861923     ncbi-refseqs KP861923
-  create reference REF_SIVcpz_ptt_X52154       ncbi-refseqs X52154
-  create reference REF_SIVcpz_ptt_AF103818     ncbi-refseqs AF103818
-  create reference REF_SIVgor_FJ424871         ncbi-refseqs FJ424871
-  create reference REF_SIVcpz_pts_JN091691     ncbi-refseqs JN091691
+  create reference REF_SIVgor_P_KP004990       ncbi-refseqs KP004990
+  create reference REF_SIVgor_O_KP004991       ncbi-refseqs KP004991
+  create reference REF_SIVcpz_N_JN835460       ncbi-refseqs JN835460
+  create reference REF_SIVcpz_M_JN835461       ncbi-refseqs JN835461
+  create reference REF_SIVcpz_TAN_EF394356     ncbi-refseqs EF394356
 

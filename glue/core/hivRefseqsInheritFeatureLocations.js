@@ -20,7 +20,7 @@ _.each(refSeqObjs, function(refSeqObj) {
 
 			glue.inMode("reference/"+refSeqObj.name, function() {
 				glue.command(["inherit", "feature-location", 			
-					"AL_REF_HIV-1_UNCONSTRAINED", "-l", "REF_MASTER_B_AF033819", featureID]);
+					"AL_ROOT_UNCONSTRAINED", "-l", "REF_MASTER_B_AF033819", featureID]);
 			});
 			
 		}

@@ -21,6 +21,10 @@
   feature 5U3 set field displayName "5' U5"
   feature 5U3 set metatag INCLUDE_IN_SUMMARY true
 
+  create feature 5UTR -p whole_genome "5' Untranslated region"
+  feature 5UTR set field displayName "5' UTR"
+  feature 5UTR set metatag INCLUDE_IN_SUMMARY true
+
   create feature TAR -p 5LTR "Trans-activation response element"
   feature TAR set field displayName "TAR"
   feature TAR set metatag INCLUDE_IN_SUMMARY true
@@ -65,25 +69,21 @@
   feature RRE set field displayName "RRE"
   feature RRE set metatag INCLUDE_IN_SUMMARY true
 
-  create feature 3UTR -p whole_genome "3' Untranslated region"
-  feature 3UTR set field displayName "3' UTR"
-  feature 3UTR set metatag INCLUDE_IN_SUMMARY true
+  create feature PPT -p whole_genome "Polypurine tract"
+  feature PPT set field displayName "PPT"
+  feature PPT set metatag INCLUDE_IN_SUMMARY true
 
-  create feature 3LTR -p 3UTR "3' long terminal repeat"
+  create feature PBS -p whole_genome "Primer-binding site"
+  feature PBS set field displayName "PBS"
+  feature PBS set metatag INCLUDE_IN_SUMMARY true
+
+  create feature 3LTR -p whole_genome "3' long terminal repeat"
   feature 3LTR set field displayName "3' LTR"
   feature 3LTR set metatag INCLUDE_IN_SUMMARY true
 
-  create feature 3U3 -p 5LTR "3' LTR unique 3' region"
+  create feature 3U3 -p 3LTR "3' LTR unique 3' region"
   feature 3U3 set field displayName "3' U3"
   feature 3U3 set metatag INCLUDE_IN_SUMMARY true
-
-  create feature 5UTR -p whole_genome "5' Untranslated region"
-  feature 5UTR set field displayName "5' UTR"
-  feature 5UTR set metatag INCLUDE_IN_SUMMARY true
-
-  create feature PBS -p 5UTR "Primer-binding site"
-  feature PBS set field displayName "PBS"
-  feature PBS set metatag INCLUDE_IN_SUMMARY true
 
   create feature 3R -p 3LTR "3' LTR repeat region"
   feature 3R set field displayName "3' R"

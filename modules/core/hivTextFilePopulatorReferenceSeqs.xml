@@ -1,5 +1,5 @@
 <textFilePopulator>
-	<columnDelimiterRegex>,</columnDelimiterRegex>
+	<columnDelimiterRegex>\t</columnDelimiterRegex>
 	<textFileColumn>
 		<identifier>true</identifier>
 		<header>Accession</header>

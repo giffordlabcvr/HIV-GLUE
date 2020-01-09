@@ -23,7 +23,7 @@ project hiv
  
   # Import reference sequence side-data
   module genbankXmlPopulator populate
-  module refseqTextFilePopulator populate -f tabular/core/hiv-reference-data.csv
+  module refseqTextFilePopulator populate -f tabular/core/hiv-reference-data.tsv
 
   # Create reference sequences
   run file glue/core/hivReferences.glue
@@ -33,7 +33,7 @@ project hiv
 
   # Attach feature locations to the master reference 
   run file glue/core/hivFeatureLocations.glue
-  run file glue/core/sivFeatureLocations.glue
+  #run file glue/core/sivFeatureLocations.glue
   
   # Import alignments and create constrained alignment tree
   run file glue/core/hivCreateReferenceAlignments.glue
