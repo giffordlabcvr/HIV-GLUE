@@ -26,8 +26,7 @@
     feature-location TAR
       add segment 1 60
       exit
-       
-     
+         
     add feature-location PBS
     feature-location PBS
       add segment 182 199
@@ -122,145 +121,26 @@
       add segment 8343 8714
       exit
 
-            
+    add feature-location PPT
+    feature-location PPT
+      add segment 8615 8630
+      exit
+      
+    add feature-location 3U3
+    feature-location 3U3
+      add segment 8631 9085
+      exit
+
+    add feature-location 3R
+    feature-location 3R
+      add segment 9086	9181
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8631 9181
+      exit
+       
   exit 
   
-      
-  # Define features on the subtype C reference (U52953)
-
-  reference REF_HIV-1M_C_U52953
-  
-    add feature-location whole_genome
-    feature-location whole_genome
-      add segment 1 8959
-      exit 
-      
-    add feature-location gag
-    feature-location gag
-      add segment 140 1630
-      exit
-
-    add feature-location pro-pol
-    feature-location pro-pol
-      add segment 1432 4167  
-      exit
- 
-    add feature-location pro
-    feature-location pro
-      add segment 1432 1896  
-      exit
-     
-    add feature-location pol
-    feature-location pol
-      add segment 1897 4167  
-      exit
-
-    add feature-location vif
-    feature-location vif
-      add segment 4378 4956
-      exit
-      
-    add feature-location vpr
-    feature-location vpr
-      add segment 4896 5186
-      exit      
-      
-    add feature-location tat
-    feature-location tat
-      add segment 5167 5381 --spliceIndex 1
-      add segment 7716 7806 --spliceIndex 2
-      exit      
-      
-    add feature-location rev
-    feature-location rev
-      add segment 5306 5381 --spliceIndex 1
-      add segment 7716 7963 --spliceIndex 2
-      exit
-      
-    add feature-location vpu
-    feature-location vpu
-      add segment 5405 5665
-      exit      
-      
-    add feature-location env
-    feature-location env
-      add segment 5583 8153
-      exit      
-      
-    add feature-location nef
-    feature-location nef
-      add segment 8155 8775
-      exit      
-      
-exit                   
-             
-      
-  # Define features on the subtype A reference (AF004885)
-  reference REF_HIV-1M_A_AF004885
-  
-    add feature-location whole_genome
-    feature-location whole_genome
-      add segment 1 9160
-      exit
-      
-    add feature-location gag
-    feature-location gag
-      add segment 254 1750
-      exit
- 
-    add feature-location pro-pol
-    feature-location pro-pol
-      add segment 1549 4554  
-      exit
-
-    add feature-location pro
-    feature-location pro
-      add segment 1549 2007
-      exit
-           
-    add feature-location pol
-    feature-location pol
-      add segment 2008 4554  
-      exit
-      
-    add feature-location vif
-    feature-location vif
-      add segment 4499 5077
-      exit
-      
-    add feature-location vpr
-    feature-location vpr
-      add segment 5017 5307
-      exit
-      
-    add feature-location tat
-    feature-location tat
-      add segment 5288 5502 --spliceIndex 1
-      add segment 7816 7906 --spliceIndex 2
-      exit
-      
-    add feature-location rev
-    feature-location rev
-      add segment 5427 5502 --spliceIndex 1
-      add segment 7816 8111 --spliceIndex 2
-      exit
-      
-    add feature-location vpu
-    feature-location vpu
-      add segment 5529 5774
-      exit
-      
-    add feature-location env
-    feature-location env
-      add segment 5692 8253
-      exit  
-      
-    add feature-location nef
-    feature-location nef
-      add segment 8255 8869
-      exit
-      
-  exit                  
-   
-      
       
