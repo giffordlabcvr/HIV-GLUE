@@ -6,22 +6,27 @@
 	
 	<!-- HIV-1 group M subtype references -->
 	<primaryAccession>AF033819</primaryAccession>
-	<primaryAccession>U52953</primaryAccession>
-	<primaryAccession>AF004885</primaryAccession>
+	<primaryAccession>JN188292</primaryAccession>
+	<primaryAccession>KU749402</primaryAccession>
+	<primaryAccession>KU168275</primaryAccession>
+	<primaryAccession>AF385935</primaryAccession>
+	<primaryAccession>EF036536</primaryAccession>
+	<primaryAccession>KC503852</primaryAccession>
+	<primaryAccession>KU168273</primaryAccession>
 
 	<!-- HIV-1 groups O, N and P -->
-	<primaryAccession>DQ017382</primaryAccession>
-	<primaryAccession>AY618998</primaryAccession>
-	<primaryAccession>L20571</primaryAccession>
-	<primaryAccession>HQ179987</primaryAccession>
-	
+	<primaryAccession>GU111555</primaryAccession>
+	<primaryAccession>AJ006022</primaryAccession>
+	<primaryAccession>KU168292</primaryAccession>
+
 	<!-- SIVcpz/SIVgor -->
 	<primaryAccession>KP861923</primaryAccession>
-	<primaryAccession>X52154</primaryAccession>	
+	<primaryAccession>X52154</primaryAccession>
 	<primaryAccession>AF103818</primaryAccession>
-	<primaryAccession>FJ424871</primaryAccession>	
-	<primaryAccession>JN091691</primaryAccession>	
-	
+	<primaryAccession>FJ424871</primaryAccession>
+	<primaryAccession>JN091691</primaryAccession>
+
+
   </specificPrimaryAccessions>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
