@@ -1,5 +1,3 @@
-run file glue/extension/hivCuratedDeletePreviousBuild.glue  
-
 schema-project hiv
 
   run file glue/extension/hivCuratedSchemaExtensions.glue
@@ -7,7 +5,8 @@ schema-project hiv
 
 project hiv
 
-  #~#  Build the project extension with 'curated' sequences
+  #~#  Delete previous build
+  run file glue/extension/hivCuratedDeletePreviousBuild.glue  
 
   # Create modules used in project build
   run file glue/extension/hivCuratedModules.glue

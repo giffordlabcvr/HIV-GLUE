@@ -9,13 +9,15 @@
 	</textFileColumn>
 
 	<textFileColumn>
-		<header>Species</header>
+		<header>Organism</header>
 		<property>species</property>
 	</textFileColumn>
+	
 	<textFileColumn>
 		<header>Group</header>
 		<property>species_group</property>
 	</textFileColumn>
+	
 	<textFileColumn>
 		<header>Subtype</header>
 		<property>subtype</property>

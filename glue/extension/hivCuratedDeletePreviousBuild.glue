@@ -1,14 +1,2 @@
-project hiv
-
-  delete alignment AL_HIV-1_A 
-  delete alignment AL_HIV-1_B        
-  delete alignment AL_HIV-1_C        
-  delete alignment AL_HIV-1_D        
-  delete alignment AL_HIV-1_F        
-  delete alignment AL_HIV-1_01_AE    
-  delete alignment AL_HIV-1_02_AG    
-  delete alignment AL_HIV-1_06_AGJK  
-
   delete source --whereClause "name like 'ncbi-curated%'"
-  exit
- 
+

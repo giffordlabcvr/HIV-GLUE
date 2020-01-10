@@ -1,3 +1,7 @@
-  import source sources/extension/ncbi-curated-subtype-a/
+  #import source sources/extension/ncbi-curated-subtype-a/
   import source sources/extension/ncbi-curated-subtype-b/
-  import source sources/extension/ncbi-curated-subtype-c/
+  #import source sources/extension/ncbi-curated-subtype-c/
+
+  import source sources/extension/ncbi-curated-group-n/
+  import source sources/extension/ncbi-curated-group-p/
+  import source sources/extension/ncbi-curated-group-o/

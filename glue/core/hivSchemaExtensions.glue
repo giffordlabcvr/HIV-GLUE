@@ -16,10 +16,15 @@
     create field isolate_id VARCHAR 100     
     exit
 
+  table alignment
+    create field phylogeny VARCHAR 10000
+    create field clade_category VARCHAR 20
+    exit 
 
   table member_floc_note
     create field reference_nt_coverage_pct DOUBLE
     exit
+
 
   # Schema extensions
   create custom-table isolate_data

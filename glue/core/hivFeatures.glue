@@ -172,11 +172,11 @@
   feature RT set metatag INCLUDE_IN_SUMMARY true
   feature RT set metatag CODES_AMINO_ACIDS true
 
-  create feature integrase -p pol "integrase"
-  feature integrase set field displayName "integrase"
-  feature integrase set metatag OWN_CODON_NUMBERING true
-  feature integrase set metatag INCLUDE_IN_SUMMARY true
-  feature integrase set metatag CODES_AMINO_ACIDS true
+  create feature IN -p pol "IN"
+  feature IN set field displayName "IN"
+  feature IN set metatag OWN_CODON_NUMBERING true
+  feature IN set metatag INCLUDE_IN_SUMMARY true
+  feature IN set metatag CODES_AMINO_ACIDS true
   
   create feature vif -p whole_genome "vif"
   feature vif set field displayName "vif"
