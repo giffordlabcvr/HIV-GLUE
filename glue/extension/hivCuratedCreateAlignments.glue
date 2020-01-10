@@ -1,15 +1,11 @@
 # Delete any previously created alignments of same name
-delete alignment AL_HIV-1_O
-delete alignment AL_HIV-1_N
-delete alignment AL_HIV-1_P
-delete alignment AL_HIV-1_M
 delete alignment AL_HIV-1O
 delete alignment AL_HIV-1N
 delete alignment AL_HIV-1P
 delete alignment AL_HIV-1M
-delete alignment AL_HIV-1_A
-delete alignment AL_HIV-1_B
-delete alignment AL_HIV-1_C
+delete alignment AL_HIV-1M_A
+delete alignment AL_HIV-1M_B
+delete alignment AL_HIV-1M_C
 
 # Create constrained alignment tree for curated sequence alignments
 
@@ -20,41 +16,43 @@ alignment AL_PLV
    # Add all members
   add member -a
 
-  # Extract group O
-  extract child AL_HIV-1O       --refName REF_HIV-1O_AY618998
-  demote member AL_HIV-1O       --whereClause "sequence.source.name = 'ncbi-curated-group-o'"
+  # Extract group M master reference 
+  extract child AL_REF_HIV-1M   --refName REF_MASTER_B_AF033819
+  demote member AL_REF_HIV-1M   --whereClause "sequence.source.name = 'ncbi-refseqs' and sequence.species_group = 'M'" 
 
-  # Extract group N
-  extract child AL_HIV-1N       --refName REF_HIV-1N_DQ017382
-  demote member AL_HIV-1N       --whereClause "sequence.source.name = 'ncbi-curated-group-n'" 
+  # Extract group N master reference 
+  extract child AL_REF_HIV-1N   --refName REF_HIV-1N_AJ006022
+  demote member AL_REF_HIV-1N   --whereClause "sequence.source.name = 'ncbi-refseqs' and sequence.species_group = 'N'" 
 
-  # Extract group P
-  extract child AL_HIV-1P       --refName REF_HIV-1P_HQ179987
-  demote member AL_HIV-1P       --whereClause "sequence.source.name = 'ncbi-curated-group-p'"
+  # Extract group O master reference 
+  extract child AL_REF_HIV-1O   --refName REF_HIV-1O_KU168292
+  demote member AL_REF_HIV-1O   --whereClause "sequence.source.name = 'ncbi-refseqs' and sequence.species_group = 'O'" 
 
-  # Extract group M  
-  extract child AL_HIV-1M       --refName REF_MASTER_B_AF033819
-  demote member AL_HIV-1M       --whereClause "sequence.source.name like 'ncbi-curated-subtype%' or sequence.source.name like 'ncbi-curated-crf%' or sequence.source.name = 'ncbi-refseqs' and sequence.species_group = 'M'" 
+  # Extract group P master reference 
+  extract child AL_REF_HIV-1P   --refName REF_HIV-1P_GU111555
+  demote member AL_REF_HIV-1P   --whereClause "sequence.source.name = 'ncbi-refseqs' and sequence.species_group = 'P'" 
+
   exit
 
-alignment AL_HIV-1M
+alignment AL_REF_HIV-1M
 
   set field displayName "Human immunodeficiency virus (HIV-1) Group M"
 
   # Extract group M subtypes
-  extract child AL_HIV-1_A   --refName REF_HIV-1M_A_AF004885
-  demote member AL_HIV-1_A   --whereClause "sequence.subtype = 'A'"
+  extract child AL_HIV-1M_A   --refName REF_HIV-1M_A1_KU749402
+  demote member AL_HIV-1M_A   --whereClause "sequence.subtype = 'A'"
 
-  extract child AL_HIV-1_B   --refName REF_MASTER_B_AF033819
-  demote member AL_HIV-1_B   --whereClause "sequence.subtype = 'B'" 
+  extract child AL_HIV-1M_B   --refName REF_MASTER_B_AF033819
+  demote member AL_HIV-1M_B   --whereClause "sequence.subtype = 'B'" 
 
-  extract child AL_HIV-1_C   --refName REF_HIV-1M_C_U52953
-  demote member AL_HIV-1_C   --whereClause "sequence.subtype = 'C'" 
+  extract child AL_HIV-1M_C   --refName REF_HIV-1M_C_JN188292
+  demote member AL_HIV-1M_C   --whereClause "sequence.subtype = 'C'" 
   exit
+
 
 
 #~# Compute full genome alignments 
 
-compute alignment AL_HIV-1_A     -w "sequence.source.name = 'ncbi-curated-subtype-a'"  hivCompoundAligner 
-compute alignment AL_HIV-1_B     -w "sequence.source.name = 'ncbi-curated-subtype-b'"  hivCompoundAligner 
-compute alignment AL_HIV-1_C     -w "sequence.source.name = 'ncbi-curated-subtype-c'"  hivCompoundAligner 
+compute alignment AL_HIV-1M_A     -w "sequence.source.name = 'ncbi-curated-subtype-a'"  hivCompoundAligner 
+compute alignment AL_HIV-1M_B     -w "sequence.source.name = 'ncbi-curated-subtype-b'"  hivCompoundAligner 
+compute alignment AL_HIV-1M_C     -w "sequence.source.name = 'ncbi-curated-subtype-c'"  hivCompoundAligner 

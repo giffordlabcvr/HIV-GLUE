@@ -1,5 +1,7 @@
+  delete custom-table alignment
+  delete custom-table variation
 
-  table alignment
+ table alignment
     create field phylogeny VARCHAR 10000
     create field clade_category VARCHAR 20
     exit 
@@ -9,8 +11,4 @@
     create field aa_substitutions VARCHAR 50
     create field aa_position INTEGER
     create field variation_notes VARCHAR 500
-    exit
-
-  table member_floc_note
-    create field reference_nt_coverage_pct DOUBLE
     exit
