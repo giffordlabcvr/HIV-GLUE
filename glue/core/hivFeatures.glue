@@ -1,10 +1,8 @@
   create feature whole_genome "Whole HIV-1 genome"
-
   feature whole_genome set field displayName "Whole genome"
   feature whole_genome set metatag INCLUDE_IN_SUMMARY true
 
   # Non-coding features
-
   create feature 5LTR -p whole_genome "5' long terminal repeat"
   feature 5LTR set field displayName "5' LTR"
   feature 5LTR set metatag INCLUDE_IN_SUMMARY true
@@ -94,7 +92,6 @@
   feature 3U3 set metatag INCLUDE_IN_SUMMARY true
 
   # Coding features
-
   create feature internal_region -p whole_genome "internal region (bounded by LTRs)"
   feature internal_region set field displayName "internal region"
   feature internal_region set metatag OWN_CODON_NUMBERING true
