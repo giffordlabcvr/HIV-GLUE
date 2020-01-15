@@ -1,17 +1,17 @@
 Accession	Species	Group	Subtype	Isolate	Year	Country	Host	Host_common_name	pubmedID
 AF033819	HIV-1	M	B	HXB2	1983	France	Homo sapiens	human	NULL
-JN188292	HIV-1	M	C			South Africa	Homo sapiens	human	
-KU749402	HIV-1	M	A1			Ukraine	Homo sapiens	human	
-KU168275	HIV-1	M	F1				Homo sapiens	human	
-AF385935	HIV-1	M	CRF12			Uruguay	Homo sapiens	human	
-EF036536	HIV-1	M	CRF01			China	Homo sapiens	human	
-KC503852	HIV-1	M	CRF07				Homo sapiens	human	
-KU168273	HIV-1	M	H				Homo sapiens	human	
-AJ006022	HIV-1	N					Homo sapiens	human	
-KU168292	HIV-1	O					Homo sapiens	human	
-GU111555	HIV-1	P					Homo sapiens	human	
-KP004990	SIVgor	P		SIVgor-BPID15	2013	Cameroon	Gorilla gorilla	gorilla	
-KP004991	SIVgor	O		SIVgor-BQID2	2012	Cameroon	Gorilla gorilla	gorilla	
-JN835460	SIVcpz	N		SIVcpzEK505.c2		Cameroon	Chimpanzee	chimpanzee	
-JN835461	SIVcpz	M		SIVcpzMB897		Cameroon	Chimpanzee	chimpanzee	
-EF394356	SIVcpz	pts		SIVcpzTAN1		Tanzania	Chimpanzee	chimpanzee	
+JN188292	HIV-1	M	C	pZAC	1981	South Africa	Homo sapiens	human	23170185
+KU749402	HIV-1	M	A1	DEMA112UA014	2012	Ukraine	Homo sapiens	human	NULL
+KU168275	HIV-1	M	F1	LA21LeAn	2003		Homo sapiens	human	26699702
+AF385935	HIV-1	M	CRF12	URTR35	1999	Uruguay	Homo sapiens	human	15585101
+EF036536	HIV-1	M	CRF01	Fj061	2006	China	Homo sapiens	human	17451347
+KC503852	HIV-1	M	CRF07	pXJDC6291-2-6	2005	China	Homo sapiens	human	24324545
+KU168273	HIV-1	M	H	LA19KoSa	2004	Democratic Republic of the Congo	Homo sapiens	human	26699702
+AJ006022	HIV-1	N		YBF30	1995	Cameroon	Homo sapiens	human	9734396
+KU168292	HIV-1	O		LA49RBF189	2005	Cameroon	Homo sapiens	human	26699702
+GU111555	HIV-1	P		RBF168	2009	France	Homo sapiens	human	NULL
+KP004990	SIVgor	P		SIVgor-BPID15	2013	Cameroon	Gorilla gorilla	gorilla	25733890
+KP004991	SIVgor	O		SIVgor-BQID2	2012	Cameroon	Gorilla gorilla	gorilla	25733890
+JN835460	SIVcpz	N		SIVcpzEK505.c2		Cameroon	Chimpanzee	chimpanzee	22505456
+JN835461	SIVcpz	M		SIVcpzMB897		Cameroon	Chimpanzee	chimpanzee	22505456
+EF394356	SIVcpz	pts		SIVcpzTAN1		Tanzania	Chimpanzee	chimpanzee	17494082
