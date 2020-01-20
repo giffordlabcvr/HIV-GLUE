@@ -1,0 +1,400 @@
+
+  reference REF_MASTER_C_JN188292
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9181
+      exit
+
+    add feature-location internal_region
+    feature-location internal_region
+      add segment 792 9066
+      exit
+
+    add feature-location gag
+    feature-location gag
+      add segment 792 2270
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 2075 5074  
+      exit
+
+    #add feature-location pro
+    #feature-location pro
+    #  add segment 2075 5074
+    #  exit
+           
+    #add feature-location pol
+    #feature-location pol
+    #  add segment 2075 5074  
+    #  exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 5019 5597
+      exit
+
+    add feature-location vpr
+    feature-location vpr
+      add segment 5537 5827
+      exit
+
+    add feature-location tat
+    feature-location tat
+      add segment 5808 6022 --spliceIndex 1
+      add segment 8336 7970 --spliceIndex 2
+      exit
+
+    add feature-location rev
+    feature-location rev
+      add segment 5947 6022 --spliceIndex 1
+      add segment 8336 8583 --spliceIndex 2
+      exit
+
+    add feature-location vpu
+    feature-location vpu
+      add segment 6046 6306
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 6224 8773
+      exit
+
+    add feature-location nef
+    feature-location nef
+      add segment 8775 9398
+      exit
+
+      
+  exit 
+
+
+  reference REF_HIV-1M_F1_KU168275
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9745
+      exit
+
+    add feature-location internal_region
+    feature-location internal_region
+      add segment 792 9066
+      exit
+
+    add feature-location gag
+    feature-location gag
+      add segment 817 2310
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 2109 5123  
+      exit
+
+    #add feature-location pro
+    #feature-location pro
+    #  add segment 2075 5074
+    #  exit
+           
+    #add feature-location pol
+    #feature-location pol
+    #  add segment 2075 5074  
+    #  exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 5068 5876
+      exit
+
+    add feature-location vpr
+    feature-location vpr
+      add segment 5586 5827
+      exit
+
+    add feature-location tat
+    feature-location tat
+      add segment 5857 6071 --spliceIndex 1
+      add segment 8370 8644 --spliceIndex 2
+      exit
+
+    add feature-location rev
+    feature-location rev
+      add segment 5996 6071 --spliceIndex 1
+      add segment 8370 8583 --spliceIndex 2
+      exit
+
+    add feature-location vpu
+    feature-location vpu
+      add segment 6098 6343
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 6261 8786
+      exit
+
+    add feature-location nef
+    feature-location nef
+      add segment 8788 9411
+      exit
+
+      
+  exit 
+
+
+
+  reference REF_HIV-1N_AJ006022
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9182
+      exit
+
+    add feature-location internal_region
+    feature-location internal_region
+      add segment 193 8675
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 192
+      exit
+
+    add feature-location 5R
+    feature-location 5R
+      add segment 15 71
+      exit
+
+    add feature-location 5U5
+    feature-location 5U5
+      add segment 72 192
+      exit
+      
+    add feature-location TAR
+    feature-location TAR
+      add segment 44 50
+      exit
+         
+    add feature-location gag-pol
+    feature-location gag-pol
+      add segment 348 1652 --spliceIndex 1
+      add segment 1653 1657 --translationModifier hivGagPolTranslationModifier --spliceIndex 2
+      add segment 1658 4702 --spliceIndex 3
+      exit
+
+    add feature-location gag
+    feature-location gag
+      add segment 348 1886
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 1658 4702  
+      exit
+
+    #add feature-location pro
+    #feature-location pro
+    #  add segment 2075 5074
+    #  exit
+           
+    #add feature-location pol
+    #feature-location pol
+    #  add segment 2075 5074  
+    #  exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 4635 5213
+      exit
+
+    add feature-location vpr
+    feature-location vpr
+      add segment 5153 5440
+      exit
+
+    add feature-location tat
+    feature-location tat
+      add segment 5421 5636 --spliceIndex 1
+      add segment 7931 8020 --spliceIndex 2
+      exit
+
+    add feature-location rev
+    feature-location rev
+      add segment 5560 5634 --spliceIndex 1
+      add segment 7932 8168 --spliceIndex 2
+      exit
+
+    add feature-location vpu
+    feature-location vpu
+      add segment 5655 5906
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 5839 8367
+      exit
+
+    add feature-location nef
+    feature-location nef
+      add segment 8369 9007
+      exit
+      
+    add feature-location 3U3
+    feature-location 3U3
+      add segment 8676 9137
+      exit
+
+    add feature-location 3R
+    feature-location 3R
+      add segment 9138	9182
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8676 9182
+      exit      
+  exit 
+
+
+
+  reference REF_HIV-1O_KU168292
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9916
+      exit
+
+
+    add feature-location gag
+    feature-location gag
+      add segment 853 2349
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 2109 5192  
+      exit
+
+    #add feature-location pro
+    #feature-location pro
+    #  add segment 2075 5074
+    #  exit
+           
+    #add feature-location pol
+    #feature-location pol
+    #  add segment 2109 5074  
+    #  exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 5107 5685
+      exit
+
+    add feature-location vpr
+    feature-location vpr
+      add segment 5625 5927
+      exit
+
+    add feature-location tat
+    feature-location tat
+      add segment 5908 6119 --spliceIndex 1
+      add segment 8543 8624 --spliceIndex 2
+      exit
+
+    add feature-location rev
+    feature-location rev
+      add segment 6047 6119 --spliceIndex 1
+      add segment 8543 8781 --spliceIndex 2
+      exit
+
+    add feature-location vpu
+    feature-location vpu
+      add segment 6133 6384
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 6290 8980
+      exit
+
+    add feature-location nef
+    feature-location nef
+      add segment 8982 9623
+      exit
+      
+  exit 
+
+
+
+  reference REF_HIV-1P_GU111555
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9869
+      exit
+
+    add feature-location gag
+    feature-location gag
+      add segment 835 2319
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 2133 5144  
+      exit
+
+    #add feature-location pro
+    #feature-location pro
+    #  add segment 2075 5074
+    #  exit
+           
+    #add feature-location pol
+    #feature-location pol
+    #  add segment 2109 5074  
+    #  exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 5077 5664
+      exit
+
+    add feature-location vpr
+    feature-location vpr
+      add segment 5595 5891
+      exit
+
+    #add feature-location tat
+    #feature-location tat
+    #  add segment 5872 6086 --spliceIndex 1
+    #  add segment 8543 8624 --spliceIndex 2
+    #  exit
+
+    add feature-location rev
+    feature-location rev
+      add segment 6011 6086 --spliceIndex 1
+      add segment 8478 8716 --spliceIndex 2
+      exit
+
+    add feature-location vpu
+    feature-location vpu
+      add segment 6113 6349
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 6267 8915
+      exit
+
+    add feature-location nef
+    feature-location nef
+      add segment 8915 9544
+      exit
+      
+  exit 
+
+
+
+
