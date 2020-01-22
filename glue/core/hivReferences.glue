@@ -7,7 +7,7 @@
   create reference REF_HIV-1M_C_JN188292       ncbi-refseqs JN188292
   create reference REF_HIV-1M_A1_KU749402      ncbi-refseqs KU749402
   create reference REF_HIV-1M_F1_KU168275      ncbi-refseqs KU168275
-  create reference REF_HIV-1M_G_KU168300       ncbi-refseqs KU168300
+  create reference REF_HIV-1M_G_                                ncbi-refseqs KU168300
   create reference REF_HIV-1M_H_KU168273       ncbi-refseqs KU168273
   create reference REF_HIV-1M_CRF12_AF385935   ncbi-refseqs AF385935
   create reference REF_HIV-1M_CRF01_EF036536   ncbi-refseqs EF036536
