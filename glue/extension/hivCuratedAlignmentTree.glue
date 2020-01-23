@@ -66,5 +66,4 @@ compute alignment AL_HIV-1N hivCompoundAligner
 compute alignment AL_HIV-1M_B hivCompoundAligner 
 compute alignment AL_HIV-1M_C hivCompoundAligner 
 #compute alignment AL_HIV-1M_A hivCompoundAligner 
-
-compute alignment AL_HIV-1Mcrf01 hivCompoundAligner 
+#compute alignment AL_HIV-1Mcrf01 hivCompoundAligner 
