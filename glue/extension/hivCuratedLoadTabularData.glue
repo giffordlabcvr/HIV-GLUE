@@ -1,7 +1,5 @@
-create module --fileName modules/extension/hivTextFilePopulatorLanlSequences.xml
-
 delete module hivTextFilePopulatorLanlSequences
-
+create module --fileName modules/extension/hivTextFilePopulatorLanlSequences.xml
 module hivTextFilePopulatorLanlSequences
 
   populate -w "source.name = 'ncbi-curated-group-p'"    -f tabular/extension/lanl_groupP_completegenomes.csv
@@ -9,7 +7,7 @@ module hivTextFilePopulatorLanlSequences
   populate -w "source.name = 'ncbi-curated-group-o'"    -f tabular/extension/lanl_groupO_completegenomes.csv
 
   populate -w "source.name = 'ncbi-curated-subtype-b'"  -f tabular/extension/lanl_subtypeB_completegenomes.csv
-  #populate -w "source.name = 'ncbi-curated-subtype-a'"  -f tabular/extension/lanl_subtypeA_completegenomes.csv  
-  #populate -w "source.name = 'ncbi-curated-subtype-c'"  -f tabular/extension/lanl_subtypeC_completegenomes.csv
+  populate -w "source.name = 'ncbi-curated-subtype-a'"  -f tabular/extension/lanl_subtypeA_completegenomes.csv  
+  populate -w "source.name = 'ncbi-curated-subtype-c'"  -f tabular/extension/lanl_subtypeC_completegenomes.csv
 
   exit 
