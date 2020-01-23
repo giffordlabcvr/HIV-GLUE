@@ -1,5 +1,4 @@
 # Delete any previously created alignments of same name
-
 delete alignment AL_HIV-1M
 delete alignment AL_HIV-1M
 delete alignment AL_HIV-1N
@@ -8,8 +7,9 @@ delete alignment AL_HIV-1P
 delete alignment AL_HIV-1M_A
 delete alignment AL_HIV-1M_B
 delete alignment AL_HIV-1M_C
-
-
+delete alignment AL_HIV-1M_F1
+delete alignment AL_HIV-1Mcrf01
+ 
 # Create constrained alignment tree for curated sequence alignments
 alignment AL_ROOT
 
@@ -31,8 +31,8 @@ alignment AL_ROOT
   # Extract group P master reference 
   extract child AL_HIV-1P   --refName REF_HIV-1P_GU111555
   demote member AL_HIV-1P   --whereClause "sequence.species_group = 'P'" 
-
   exit
+
 
 alignment AL_HIV-1M
 
@@ -48,14 +48,16 @@ alignment AL_HIV-1M
   extract child AL_HIV-1M_C     --refName REF_HIV-1M_C_JN188292
   demote member AL_HIV-1M_C     --whereClause "sequence.subtype = 'C'" 
 
-  extract child AL_HIV-1Mcrf01  --refName REF_HIV-1M_C_JN188292
-  demote member AL_HIV-1Mcrf01  --whereClause "sequence.subtype = '01_AE'" 
+  extract child AL_HIV-1M_F1    --refName REF_HIV-1M_F1_KU168275
+  demote member AL_HIV-1M_F1    --whereClause "sequence.subtype = 'F1'" 
 
+  extract child AL_HIV-1Mcrf01  --refName REF_HIV-1M_CRF01_EF036536
+  demote member AL_HIV-1Mcrf01  --whereClause "sequence.subtype = 'CRF01_AE'" 
   exit
 
 
 
-#~# Compute full genome alignments 
+# Compute full genome alignments 
 
 
 compute alignment AL_HIV-1O hivCompoundAligner 
