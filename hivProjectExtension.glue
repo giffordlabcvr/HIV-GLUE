@@ -1,15 +1,8 @@
-schema-project hiv
-
-  run file glue/extension/hivCuratedSchemaExtensions.glue
-  exit
 
 project hiv
 
   #~#  Delete previous build
   run file glue/extension/hivCuratedDeletePreviousBuild.glue  
-
-  # Create modules used in project build
-  run file glue/extension/hivCuratedModules.glue
 
   # Import reference sequences from GenBank XML files 
   run file glue/extension/hivCuratedImportSources.glue  
@@ -21,7 +14,7 @@ project hiv
   run file glue/extension/hivCuratedLoadTabularData.glue  
  
   # Import alignments
-  run file glue/extension/hivCuratedCreateAlignments.glue
+  #run file glue/extension/hivCuratedCreateAlignments.glue
 
   validate
   

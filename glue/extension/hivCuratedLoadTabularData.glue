@@ -1,3 +1,7 @@
+create module --fileName modules/extension/hivTextFilePopulatorLanlSequences.xml
+
+delete module hivTextFilePopulatorLanlSequences
+
 module hivTextFilePopulatorLanlSequences
 
   populate -w "source.name = 'ncbi-curated-group-p'"    -f tabular/extension/lanl_groupP_completegenomes.csv
