@@ -1,6 +1,7 @@
   import source sources/extension/ncbi-curated-subtype-b/
   import source sources/extension/ncbi-curated-subtype-c/
   import source sources/extension/ncbi-curated-subtype-f1/
+  import source sources/extension/ncbi-curated-crf01/
 
   import source sources/extension/ncbi-curated-group-n/
   import source sources/extension/ncbi-curated-group-p/

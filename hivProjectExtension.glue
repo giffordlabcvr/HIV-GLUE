@@ -1,4 +1,4 @@
-
+# Build HIV project extension
 project hiv
 
   # Delete any extension build items from previous build
@@ -14,7 +14,7 @@ project hiv
   run file glue/extension/hivCuratedLoadTabularData.glue  
  
   # Import alignments
-  #run file glue/extension/hivCuratedCreateAlignments.glue
+  run file glue/extension/hivCuratedAlignmentTree.glue
 
   validate
   
