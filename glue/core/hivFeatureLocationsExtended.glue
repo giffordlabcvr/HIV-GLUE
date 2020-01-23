@@ -1,9 +1,9 @@
 
-  reference REF_MASTER_C_JN188292
+  reference REF_HIV-1M_C_JN188292 
 
     add feature-location whole_genome
     feature-location whole_genome
-      add segment 1 9181
+      add segment 1 9897
       exit
 
     add feature-location internal_region
@@ -44,7 +44,7 @@
     add feature-location tat
     feature-location tat
       add segment 5808 6022 --spliceIndex 1
-      add segment 8336 7970 --spliceIndex 2
+      add segment 8336 8426 --spliceIndex 2
       exit
 
     add feature-location rev
@@ -106,24 +106,24 @@
 
     add feature-location vif
     feature-location vif
-      add segment 5068 5876
+      add segment 5068 5646
       exit
 
     add feature-location vpr
     feature-location vpr
-      add segment 5586 5827
+      add segment 5586 5876
       exit
 
     add feature-location tat
     feature-location tat
       add segment 5857 6071 --spliceIndex 1
-      add segment 8370 8644 --spliceIndex 2
+      add segment 8370 8460 --spliceIndex 2
       exit
 
     add feature-location rev
     feature-location rev
       add segment 5996 6071 --spliceIndex 1
-      add segment 8370 8583 --spliceIndex 2
+      add segment 8370 8644 --spliceIndex 2
       exit
 
     add feature-location vpu
@@ -143,8 +143,6 @@
 
       
   exit 
-
-
 
 
 
@@ -214,8 +212,6 @@
       
       
   exit 
-
-
 
 
   reference REF_HIV-1N_AJ006022
@@ -469,7 +465,7 @@
 
 
 
-  reference REF_SIV-pts_EF394356
+  reference REF_SIVcpz_pts_EF394356
 
     add feature-location whole_genome
     feature-location whole_genome
