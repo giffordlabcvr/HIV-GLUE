@@ -1,8 +1,8 @@
 
 project hiv
 
-  #~#  Delete previous build
-  run file glue/extension/hivCuratedDeletePreviousBuild.glue  
+  # Delete any extension build items from previous build
+  delete source --whereClause "name like 'ncbi-curated%'" 
 
   # Import reference sequences from GenBank XML files 
   run file glue/extension/hivCuratedImportSources.glue  

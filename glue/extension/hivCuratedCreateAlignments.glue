@@ -53,11 +53,12 @@ alignment AL__HIV-1M
 
 #~# Compute full genome alignments 
 
-compute alignment AL_HIV-1M_B     -w "sequence.source.name = 'ncbi-curated-subtype-b'"  hivCompoundAligner 
-compute alignment AL_HIV-1M_A     -w "sequence.source.name = 'ncbi-curated-subtype-a'"  hivCompoundAligner 
-compute alignment AL_HIV-1M_C     -w "sequence.source.name = 'ncbi-curated-subtype-c'"  hivCompoundAligner 
 
 compute alignment AL_HIV-1O       -w "sequence.source.name = 'ncbi-curated-group-o'"  hivCompoundAligner 
 compute alignment AL_HIV-1P       -w "sequence.source.name = 'ncbi-curated-group-p'"  hivCompoundAligner
 compute alignment AL_HIV-1N       -w "sequence.source.name = 'ncbi-curated-group-n'"  hivCompoundAligner 
+
+compute alignment AL_HIV-1M_B     -w "sequence.source.name = 'ncbi-curated-subtype-b'"  hivCompoundAligner 
+compute alignment AL_HIV-1M_C     -w "sequence.source.name = 'ncbi-curated-subtype-c'"  hivCompoundAligner 
+#compute alignment AL_HIV-1M_A     -w "sequence.source.name = 'ncbi-curated-subtype-a'"  hivCompoundAligner 
 

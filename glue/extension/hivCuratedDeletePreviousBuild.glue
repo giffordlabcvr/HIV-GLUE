@@ -1,2 +1,0 @@
-  delete source --whereClause "name like 'ncbi-curated%'"
-

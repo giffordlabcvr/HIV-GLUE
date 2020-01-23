@@ -2,6 +2,7 @@
   table sequence
     create field primary_accession VARCHAR
     create field accession_version VARCHAR
+    create field gb_gi_number VARCHAR
     create field length INTEGER
     create field pubmed_id VARCHAR
     create field lab_construct BOOLEAN
