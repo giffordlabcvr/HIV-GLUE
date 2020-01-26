@@ -212,7 +212,6 @@
     feature-location nef
       add segment 8775 9398
       exit
-
       
   exit 
 
@@ -286,7 +285,6 @@
       add segment 8788 9411
       exit
 
-      
   exit 
 
 
@@ -356,6 +354,75 @@
       exit
             
   exit 
+
+
+  reference REF_HIV-1M_CRF07_KC503852 
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9804
+      exit
+
+    add feature-location gag
+    feature-location gag
+      add segment 713 2200
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 1993 5004  
+      exit
+
+    #add feature-location pro
+    #feature-location pro
+    #  add segment 2075 5074
+    #  exit
+           
+    #add feature-location pol
+    #feature-location pol
+    #  add segment 2075 5074  
+    #  exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 4949 5527
+      exit
+
+    add feature-location vpr
+    feature-location vpr
+      add segment 5467 5757
+      exit
+
+    add feature-location tat
+    feature-location tat
+      add segment 5738 5952 --spliceIndex 1
+      add segment 8277 8367 --spliceIndex 2
+      exit
+
+    add feature-location rev
+    feature-location rev
+      add segment 5877 5952 --spliceIndex 1
+      add segment 8277 8524 --spliceIndex 2
+      exit
+
+    add feature-location vpu
+    feature-location vpu
+      add segment 5969 6214
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 6132 8714
+      exit
+
+    add feature-location nef
+    feature-location nef
+      add segment 8716 9336
+      exit
+
+      
+  exit 
+
 
 
   reference REF_HIV-1N_AJ006022
