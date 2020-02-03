@@ -62,13 +62,13 @@
       add segment 336 1838
       exit
 
-    add feature-location MA
-    feature-location MA
+    add feature-location matrix
+    feature-location matrix
       add segment 339 731
       exit
 
-    add feature-location CA
-    feature-location CA
+    add feature-location capsid
+    feature-location capsid
       add segment 732 1424
       exit
 
@@ -77,8 +77,8 @@
       add segment 1425 1466
       exit
 
-   add feature-location NC
-    feature-location NC
+   add feature-location nucleocapsid
+    feature-location nucleocapsid
       add segment 1680 1835
       exit
 

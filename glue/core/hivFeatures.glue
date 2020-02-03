@@ -127,11 +127,11 @@
   feature p2 set metatag INCLUDE_IN_SUMMARY true
   feature p2 set metatag CODES_AMINO_ACIDS true
 
-  create feature p7 -p gag "p7"
-  feature p7 set field displayName "p7"
-  feature p7 set metatag OWN_CODON_NUMBERING true
-  feature p7 set metatag INCLUDE_IN_SUMMARY true
-  feature p7 set metatag CODES_AMINO_ACIDS true
+  create feature nucleocapsid -p gag "nucleocapsid"
+  feature nucleocapsid set field displayName "nucleocapsid"
+  feature nucleocapsid set metatag OWN_CODON_NUMBERING true
+  feature nucleocapsid set metatag INCLUDE_IN_SUMMARY true
+  feature nucleocapsid set metatag CODES_AMINO_ACIDS true
 
   create feature p1 -p gag "p1"
   feature p1 set field displayName "p1"
