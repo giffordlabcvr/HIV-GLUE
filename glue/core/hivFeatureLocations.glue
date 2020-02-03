@@ -62,7 +62,32 @@
       add segment 336 1838
       exit
 
-    add feature-location gag-pol
+    add feature-location MA
+    feature-location MA
+      add segment 339 731
+      exit
+
+    add feature-location CA
+    feature-location CA
+      add segment 732 1424
+      exit
+
+     add feature-location p2
+    feature-location p2
+      add segment 1425 1466
+      exit
+
+   add feature-location NC
+    feature-location NC
+      add segment 1680 1835
+      exit
+
+    add feature-location p6
+    feature-location p6
+      add segment 1680 1835
+      exit
+
+   add feature-location gag-pol
     feature-location gag-pol
       add segment 336 1634 --spliceIndex 1
       add segment 1635 1639 --translationModifier hivGagPolTranslationModifier --spliceIndex 2
