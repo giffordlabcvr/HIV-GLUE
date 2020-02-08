@@ -62,32 +62,7 @@
       add segment 336 1838
       exit
 
-    add feature-location matrix
-    feature-location matrix
-      add segment 339 731
-      exit
-
-    add feature-location capsid
-    feature-location capsid
-      add segment 732 1424
-      exit
-
-     add feature-location p2
-    feature-location p2
-      add segment 1425 1466
-      exit
-
-   add feature-location nucleocapsid
-    feature-location nucleocapsid
-      add segment 1680 1835
-      exit
-
-    add feature-location p6
-    feature-location p6
-      add segment 1680 1835
-      exit
-
-   add feature-location gag-pol
+    add feature-location gag-pol
     feature-location gag-pol
       add segment 336 1634 --spliceIndex 1
       add segment 1635 1639 --translationModifier hivGagPolTranslationModifier --spliceIndex 2
@@ -311,6 +286,7 @@
       exit
 
   exit 
+
 
 
 

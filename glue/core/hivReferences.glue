@@ -10,6 +10,7 @@
   create reference REF_HIV-1M_G_KU168300       ncbi-refseqs KU168300
   create reference REF_HIV-1M_H_KU168273       ncbi-refseqs KU168273
   create reference REF_HIV-1M_CRF12_AF385935   ncbi-refseqs AF385935
+
   create reference REF_HIV-1M_CRF01_EF036536   ncbi-refseqs EF036536
   create reference REF_HIV-1M_CRF07_KC503852   ncbi-refseqs KC503852
 
