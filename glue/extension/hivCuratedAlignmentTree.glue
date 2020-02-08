@@ -1,19 +1,19 @@
 # Delete any previously created alignments of same name
-delete alignment AL_HIV-1M
-delete alignment AL_HIV-1M
 delete alignment AL_HIV-1N
 delete alignment AL_HIV-1O
 delete alignment AL_HIV-1P
+delete alignment AL_HIV-1M
 delete alignment AL_HIV-1M_A
 delete alignment AL_HIV-1M_B
 delete alignment AL_HIV-1M_C
 delete alignment AL_HIV-1M_F1
 delete alignment AL_HIV-1Mcrf01
- 
+delete alignment AL_HIV-1Mcrf02
+
 # Create constrained alignment tree for curated sequence alignments
 alignment AL_ROOT
 
-   # Add all members
+  # Add all members
   add member -a
 
   # Extract group M master reference 
@@ -60,10 +60,11 @@ alignment AL_HIV-1M
 # Compute full genome alignments 
 
 
-compute alignment AL_HIV-1O hivCompoundAligner 
-compute alignment AL_HIV-1P hivCompoundAligner
-compute alignment AL_HIV-1N hivCompoundAligner 
-compute alignment AL_HIV-1M_B hivCompoundAligner 
-compute alignment AL_HIV-1M_C hivCompoundAligner 
-#compute alignment AL_HIV-1M_A hivCompoundAligner 
-#compute alignment AL_HIV-1Mcrf01 hivCompoundAligner 
+#compute alignment AL_HIV-1O hivCompoundAligner 
+#compute alignment AL_HIV-1P hivCompoundAligner
+#compute alignment AL_HIV-1N hivCompoundAligner 
+compute alignment AL_HIV-1M_A hivCompoundAligner
+#compute alignment AL_HIV-1M_B hivCompoundAligner 
+#compute alignment AL_HIV-1M_C hivCompoundAligner 
+
+compute alignment AL_HIV-1Mcrf01 hivCompoundAligner 
