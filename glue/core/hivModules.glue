@@ -2,10 +2,9 @@
   create module --fileName modules/core/hivTabularUtility.xml
   create module --fileName modules/core/hivGagPolTranslationModifier.xml
   create module --fileName modules/core/hivBlastFastaAlignmentImporter.xml
-
+  create module --fileName modules/core/hivGenbankXmlPopulator.xml
   create module --fileName modules/core/unconstrainedAlignmentImporter.xml
-
-  create module --fileName modules/core/kuiken2006CodonLabeler.xml kuiken2006CodonLabeler  
+  create module --fileName modules/core/kuiken2006CodonLabeler.xml  
   create module --fileName modules/core/hivFastaAlignmentExporter.xml 
   create module --fileName modules/core/hivFastaExporter.xml 
   create module --fileName modules/extension/hivCompoundAligner.xml

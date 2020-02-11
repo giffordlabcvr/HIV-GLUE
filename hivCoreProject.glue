@@ -21,12 +21,12 @@ project hiv
   # Import reference sequences from GenBank XML files 
   #import source sources/core/fasta-refseqs/
   import source sources/core/ncbi-refseqs/
-      
-  # Import reference sequence side-data
-  module refseqTextFilePopulator populate -f tabular/core/hiv-reference-data.tsv
 
   # Create reference sequences
   run file glue/core/hivReferences.glue
+      
+  # Import reference sequence side-data
+  module refseqTextFilePopulator populate -f tabular/core/hiv-reference-data.tsv
 
   # Define genome features
   run file glue/core/hivFeatures.glue 
