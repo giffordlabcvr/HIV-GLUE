@@ -52,6 +52,11 @@
       add segment 1 356
       exit
 
+    add feature-location TSS
+    feature-location TSS
+      add segment 1 3
+      exit
+
     add feature-location internal_region
     feature-location internal_region
       add segment 336 8963

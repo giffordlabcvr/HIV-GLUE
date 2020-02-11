@@ -23,6 +23,10 @@
   feature 5UTR set field displayName "5' UTR"
   feature 5UTR set metatag INCLUDE_IN_SUMMARY true
 
+  create feature TSS -p whole_genome "Transcription start site"
+  feature TSS set field displayName "Transcription start site"
+  feature TSS set metatag INCLUDE_IN_SUMMARY true
+
   create feature TAR -p 5LTR "Trans-activation response element"
   feature TAR set field displayName "TAR"
   feature TAR set metatag INCLUDE_IN_SUMMARY true
