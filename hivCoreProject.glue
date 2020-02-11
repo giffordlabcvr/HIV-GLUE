@@ -19,10 +19,10 @@ project hiv
   run file glue/core/hivModules.glue
 
   # Import reference sequences from GenBank XML files 
-  run file glue/core/hivImportReferenceSources.glue  
- 
+  #import source sources/core/fasta-refseqs/
+  import source sources/core/ncbi-refseqs/
+      
   # Import reference sequence side-data
-  module genbankXmlPopulator populate
   module refseqTextFilePopulator populate -f tabular/core/hiv-reference-data.tsv
 
   # Create reference sequences

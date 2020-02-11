@@ -4,7 +4,7 @@
 
     add feature-location whole_genome
     feature-location whole_genome
-      add segment 1 9181
+      add segment 1 9180
       exit
 
     add feature-location 5LTR
@@ -89,6 +89,8 @@
       add segment 4587 5165
       exit
 
+    # Deleted 5316 from GenBank
+    
     add feature-location vpr
     feature-location vpr
       add segment 5105 5341
@@ -96,49 +98,49 @@
 
     add feature-location tat
     feature-location tat
-      add segment 5377 5591 --spliceIndex 1
-      add segment 7925 7970 --spliceIndex 2
+      add segment 5376 5590 --spliceIndex 1
+      add segment 7924 7969 --spliceIndex 2
       exit
 
     add feature-location rev
     feature-location rev
-      add segment 5516 5591 --spliceIndex 1
-      add segment 7925 8196 --spliceIndex 2
+      add segment 5515 5590 --spliceIndex 1
+      add segment 7924 8195 --spliceIndex 2
       exit
 
     add feature-location vpu
     feature-location vpu
-      add segment 5608 5856
+      add segment 5607 5855
       exit
 
     add feature-location env
     feature-location env
-      add segment 5771 8338
+      add segment 5770 8337
       exit
 
     add feature-location nef
     feature-location nef
-      add segment 8343 8714
+      add segment 8342 8713
       exit
 
     add feature-location PPT
     feature-location PPT
-      add segment 8615 8630
+      add segment 8614 8629
       exit
       
     add feature-location 3U3
     feature-location 3U3
-      add segment 8631 9085
+      add segment 8630 9084
       exit
 
     add feature-location 3R
     feature-location 3R
-      add segment 9086	9181
+      add segment 9085	9180
       exit
 
     add feature-location 3LTR
     feature-location 3LTR
-      add segment 8631 9181
+      add segment 8630 9180
       exit
        
   exit 
@@ -148,12 +150,12 @@
 
     add feature-location whole_genome
     feature-location whole_genome
-      add segment 1 9897
+      add segment 1 9162
       exit
 
     add feature-location internal_region
     feature-location internal_region
-      add segment 792 9066
+      add segment 337 9066
       exit
 
     add feature-location gag
@@ -424,127 +426,6 @@
       
   exit 
 
-
-
-
-
-  reference REF_HIV-1M_CRF12_AF385935 
-
-    add feature-location whole_genome
-    feature-location whole_genome
-      add segment 1 9762
-      exit
-
-    add feature-location gag
-    feature-location gag
-      add segment 810 2306
-      exit
-
-    add feature-location pro-pol
-    feature-location pro-pol
-      add segment 2090 5119  
-      exit
-
-    add feature-location vif
-    feature-location vif
-      add segment 5064 5642
-      exit
-
-    add feature-location vpr
-    feature-location vpr
-      add segment 5582 5872
-      exit
-
-    add feature-location tat
-    feature-location tat
-      add segment 5853 6067 --spliceIndex 1
-      add segment 8402 8492 --spliceIndex 2
-      exit
-
-    add feature-location rev
-    feature-location rev
-      add segment 5992 6067 --spliceIndex 1
-      add segment 8402 8676 --spliceIndex 2
-      exit
-
-    add feature-location vpu
-    feature-location vpu
-      add segment 6084 6329
-      exit
-
-    add feature-location env
-    feature-location env
-      add segment 6247 7644
-      exit
-
-    add feature-location nef
-    feature-location nef
-      add segment 8820 9437
-      exit
-
-      
-  exit 
-
-
-
-
-
-  reference REF_HIV-1M_CRF01_EF036536 
-
-    add feature-location whole_genome
-    feature-location whole_genome
-      add segment 1 9778
-      exit
-
-    add feature-location gag
-    feature-location gag
-      add segment 808 2319
-      exit
-
-    add feature-location pro-pol
-    feature-location pro-pol
-      add segment 2103 5123  
-      exit
-
-    add feature-location vif
-    feature-location vif
-      add segment 5068 5646
-      exit
-
-    add feature-location vpr
-    feature-location vpr
-      add segment 5586 5876
-      exit
-
-    add feature-location tat
-    feature-location tat
-      add segment 5857 6057 --spliceIndex 1
-      add segment 8429 8512 --spliceIndex 2
-      exit
-
-    add feature-location rev
-    feature-location rev
-      add segment 5996 6071 --spliceIndex 1
-      add segment 8429 8700 --spliceIndex 2
-      exit
-
-    add feature-location vpu
-    feature-location vpu
-      add segment 6095 6361
-      exit
-
-    add feature-location env
-    feature-location env
-      add segment 6280 8844
-      exit
-
-    add feature-location nef
-    feature-location nef
-      add segment 8846 9475
-      exit
-
-      
-  exit 
 
 
   reference REF_HIV-1N_AJ006022
