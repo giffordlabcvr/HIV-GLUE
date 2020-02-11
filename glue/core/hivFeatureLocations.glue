@@ -144,6 +144,65 @@
   exit 
      
 
+  reference REF_HIV-1M_A1_KU749402 
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9836
+      exit
+
+    add feature-location gag
+    feature-location gag
+      add segment 1008 2504
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 2297 5308  
+      exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 5253 5597 
+      exit
+
+    add feature-location vpr
+    feature-location vpr
+      add segment 5771 6055
+      exit
+
+    add feature-location tat
+    feature-location tat
+      add segment 6036 6250 --spliceIndex 1
+      add segment 8600 8690 --spliceIndex 2
+      exit
+
+    add feature-location rev
+    feature-location rev
+      add segment 6175 6250 --spliceIndex 1
+      add segment 8600 8874 --spliceIndex 2
+      exit
+
+    add feature-location vpu
+    feature-location vpu
+      add segment 6271 6516
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 6434 9016
+      exit
+
+    add feature-location nef
+    feature-location nef
+      add segment 9019 9639
+      exit
+      
+  exit 
+
+
+
+
   reference REF_HIV-1M_C_JN188292 
 
     add feature-location whole_genome
@@ -165,16 +224,6 @@
     feature-location pro-pol
       add segment 2075 5074  
       exit
-
-    #add feature-location pro
-    #feature-location pro
-    #  add segment 2075 5074
-    #  exit
-           
-    #add feature-location pol
-    #feature-location pol
-    #  add segment 2075 5074  
-    #  exit
 
     add feature-location vif
     feature-location vif
@@ -288,8 +337,6 @@
   exit 
 
 
-
-
   reference REF_HIV-1M_G_KU168300
 
     add feature-location whole_genome
@@ -352,6 +399,63 @@
     add feature-location nef
     feature-location nef
       add segment 8495 9082
+      exit
+            
+  exit 
+
+
+  reference REF_HIV-1M_H_KU168273
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9760
+      exit
+
+    add feature-location gag
+    feature-location gag
+      add segment 827 2335
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 2134 5139  
+      exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 5084 5662
+      exit
+
+    add feature-location vpr
+    feature-location vpr
+      add segment 5602 5892
+      exit
+
+    add feature-location tat
+    feature-location tat
+      add segment 5873 6087 --spliceIndex 1
+      add segment 8424 8469 --spliceIndex 2
+      exit
+
+    add feature-location rev
+    feature-location rev
+      add segment 6012 6087 --spliceIndex 1
+      add segment 8424 8698 --spliceIndex 2
+      exit
+
+    add feature-location vpu
+    feature-location vpu
+      add segment 6101 6343                                                                                                                                                         
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 6261 8840
+      exit
+
+    add feature-location nef
+    feature-location nef
+      add segment 8842 9456
       exit
             
   exit 
@@ -1009,7 +1113,7 @@
 
     add feature-location tat
     feature-location tat
-      add segment 5177 5391 --spliceIndex 1
+      add segment 5177 5392 --spliceIndex 1
       exit
 
     add feature-location rev
@@ -1036,3 +1140,59 @@
       
   exit 
 
+
+  reference REF_SIVgor_O_KP004991
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9241
+      exit
+
+    add feature-location gag
+    feature-location gag
+      add segment 257 1753
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 1567 4596  
+      exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 4511 5107
+      exit
+
+    add feature-location vpr
+    feature-location vpr
+      add segment 5029 5331
+      exit
+
+    add feature-location tat
+    feature-location tat
+      add segment 5312 5523 --spliceIndex 1
+      add segment 7929 8064 --spliceIndex 2
+      exit
+
+    add feature-location rev
+    feature-location rev
+      add segment 5451 5523 --spliceIndex 1
+      add segment 7929 8167 --spliceIndex 2
+      exit
+
+    add feature-location vpu
+    feature-location vpu
+      add segment 5537 5794
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 5712 8366
+      exit
+
+    add feature-location nef
+    feature-location nef
+      add segment 8368 9000
+      exit
+      
+  exit 

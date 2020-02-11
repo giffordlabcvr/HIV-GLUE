@@ -94,8 +94,6 @@
   # Coding features
   create feature internal_region -p whole_genome "internal region (bounded by LTRs)"
   feature internal_region set field displayName "internal region"
-  feature internal_region set metatag OWN_CODON_NUMBERING true
-  feature internal_region set metatag INCLUDE_IN_SUMMARY true
 
   create feature gag-pol -p whole_genome "gag-pol"
   feature gag-pol set field displayName "gag-pol"
