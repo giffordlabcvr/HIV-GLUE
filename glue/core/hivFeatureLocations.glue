@@ -166,6 +166,16 @@
       add segment 2297 5308  
       exit
 
+    add feature-location pro
+    feature-location pro
+      add segment 2303 2761
+      exit
+           
+    add feature-location pol
+    feature-location pol
+      add segment 2762 5308  
+      exit
+
     add feature-location vif
     feature-location vif
       add segment 5253 5597 
@@ -230,6 +240,16 @@
       add segment 2075 5074  
       exit
 
+    add feature-location pro
+    feature-location pro
+      add segment 2081 2527
+      exit
+           
+    add feature-location pol
+    feature-location pol
+      add segment 2528 5074  
+      exit
+
     add feature-location vif
     feature-location vif
       add segment 5019 5597
@@ -292,15 +312,15 @@
       add segment 2109 5123  
       exit
 
-    #add feature-location pro
-    #feature-location pro
-    #  add segment 2075 5074
-    #  exit
+    add feature-location pro
+    feature-location pro
+      add segment 2115 2576
+      exit
            
-    #add feature-location pol
-    #feature-location pol
-    #  add segment 2075 5074  
-    #  exit
+    add feature-location pol
+    feature-location pol
+      add segment 2577 5123  
+      exit
 
     add feature-location vif
     feature-location vif
@@ -359,15 +379,15 @@
       add segment 2108 5113  
       exit
 
-    #add feature-location pro
-    #feature-location pro
-    #  add segment 2075 5074
-    #  exit
+    add feature-location pro
+    feature-location pro
+      add segment 2114 2566
+      exit
            
-    #add feature-location pol
-    #feature-location pol
-    #  add segment 2109 5074  
-    #  exit
+    add feature-location pol
+    feature-location pol
+      add segment 2567 5113  
+      exit
 
     add feature-location vif
     feature-location vif
@@ -424,6 +444,16 @@
     add feature-location pro-pol
     feature-location pro-pol
       add segment 2134 5139  
+      exit
+
+    add feature-location pro
+    feature-location pro
+      add segment 2140 2592
+      exit
+           
+    add feature-location pol
+    feature-location pol
+      add segment 2593 5139  
       exit
 
     add feature-location vif
@@ -483,15 +513,15 @@
       add segment 1993 5004  
       exit
 
-    #add feature-location pro
-    #feature-location pro
-    #  add segment 2075 5074
-    #  exit
+    add feature-location pro
+    feature-location pro
+      add segment 1999 2457
+      exit
            
-    #add feature-location pol
-    #feature-location pol
-    #  add segment 2075 5074  
-    #  exit
+    add feature-location pol
+    feature-location pol
+      add segment 2458 5004  
+      exit
 
     add feature-location vif
     feature-location vif
@@ -551,6 +581,17 @@
       add segment 2090 5119  
       exit
 
+
+    add feature-location pro
+    feature-location pro
+      add segment 2096 2572
+      exit
+           
+    add feature-location pol
+    feature-location pol
+      add segment 2573 5119  
+      exit
+
     add feature-location vif
     feature-location vif
       add segment 5064 5642
@@ -593,8 +634,6 @@
 
 
 
-
-
   reference REF_HIV-1M_CRF01_EF036536 
 
     add feature-location whole_genome
@@ -610,6 +649,16 @@
     add feature-location pro-pol
     feature-location pro-pol
       add segment 2103 5123  
+      exit
+
+    add feature-location pro
+    feature-location pro
+      add segment 2109 2576
+      exit
+           
+    add feature-location pol
+    feature-location pol
+      add segment 2577 5123  
       exit
 
     add feature-location vif
@@ -1159,6 +1208,7 @@
     feature-location pro-pol
       add segment 1567 4596  
       exit
+
 
     add feature-location vif
     feature-location vif
