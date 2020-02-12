@@ -751,15 +751,15 @@
       add segment 1658 4702  
       exit
 
-    #add feature-location pro
-    #feature-location pro
-    #  add segment 2075 5074
-    #  exit
+    add feature-location pro
+    feature-location pro
+      add segment 1664 2143
+      exit
            
-    #add feature-location pol
-    #feature-location pol
-    #  add segment 2075 5074  
-    #  exit
+    add feature-location pol
+    feature-location pol
+      add segment 2144 4702  
+      exit
 
     add feature-location vif
     feature-location vif
@@ -834,15 +834,15 @@
       add segment 2109 5192  
       exit
 
-    #add feature-location pro
-    #feature-location pro
-    #  add segment 2075 5074
-    #  exit
+    add feature-location pro
+    feature-location pro
+      add segment 2169 2615
+      exit
            
-    #add feature-location pol
-    #feature-location pol
-    #  add segment 2109 5074  
-    #  exit
+    add feature-location pol
+    feature-location pol
+      add segment 2616 5192  
+      exit
 
     add feature-location vif
     feature-location vif
@@ -902,15 +902,15 @@
       add segment 2133 5144  
       exit
 
-    #add feature-location pro
-    #feature-location pro
-    #  add segment 2075 5074
-    #  exit
+    add feature-location pro
+    feature-location pro
+      add segment 2139 2585
+      exit
            
-    #add feature-location pol
-    #feature-location pol
-    #  add segment 2109 5074  
-    #  exit
+    add feature-location pol
+    feature-location pol
+      add segment 2586 5144  
+	  exit
 
     add feature-location vif
     feature-location vif
@@ -969,15 +969,15 @@
       add segment 1741 4740  
       exit
 
-    #add feature-location pro
-    #feature-location pro
-    #  add segment 2075 5074
-    #  exit
+    add feature-location pro
+    feature-location pro
+      add segment 1894 2193
+      exit
            
-    #add feature-location pol
-    #feature-location pol
-    #  add segment 2109 5074  
-    #  exit
+    add feature-location pol
+    feature-location pol
+      add segment 2194 4740  
+      exit
 
     add feature-location vif
     feature-location vif
@@ -1034,6 +1034,16 @@
     add feature-location pro-pol
     feature-location pro-pol
       add segment 1639 4680  
+      exit
+
+    add feature-location pro
+    feature-location pro
+      add segment 1645 2121
+      exit
+           
+    add feature-location pol
+    feature-location pol
+      add segment 2122 4680  
       exit
 
     add feature-location vif
@@ -1094,6 +1104,16 @@
       add segment 1627 4662
       exit
 
+    add feature-location pro
+    feature-location pro
+      add segment 1633 2115
+      exit
+           
+    add feature-location pol
+    feature-location pol
+      add segment 2116 4662  
+      exit
+
     add feature-location vif
     feature-location vif
       add segment 4607 5185
@@ -1152,6 +1172,16 @@
       add segment 1441 4467  
       exit
 
+    add feature-location pro
+    feature-location pro
+      add segment 1447 1890
+      exit
+           
+    add feature-location pol
+    feature-location pol
+      add segment 1891 4467  
+      exit
+
     add feature-location vif
     feature-location vif
       add segment 4382 4960
@@ -1172,7 +1202,6 @@
       add segment 5316 5392 --spliceIndex 1
       add segment 7820 8057 --spliceIndex 2
       exit
-
 
     add feature-location vpu
     feature-location vpu
@@ -1209,6 +1238,15 @@
       add segment 1567 4596  
       exit
 
+    add feature-location pro
+    feature-location pro
+      add segment 1573 2019
+      exit
+           
+    add feature-location pol
+    feature-location pol
+      add segment 2020 4596  
+      exit
 
     add feature-location vif
     feature-location vif
