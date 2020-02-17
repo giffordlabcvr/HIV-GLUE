@@ -24,7 +24,7 @@
       
     add feature-location TAR
     feature-location TAR
-      add segment 1 60
+      add segment 22 59
       exit
          
     add feature-location PBS
@@ -106,6 +106,11 @@
     feature-location nucleocapsid
       add segment 1467 1631
       exit
+      
+    add feature-location FE
+    feature location FE  
+      add segment 1631 1637
+      exit
 
     add feature-location gag-pol
     feature-location gag-pol
@@ -137,6 +142,16 @@
     add feature-location IN
     feature-location IN
       add segment 3776 4642  
+      exit
+      
+    add feature-location cPPT
+    feature-location cPPT
+      add segment 4325 4346
+      exit
+      
+    add feature-location CTS
+    feature-location CTS
+      add segment 4415 4444
       exit
     
     add feature-location vif
