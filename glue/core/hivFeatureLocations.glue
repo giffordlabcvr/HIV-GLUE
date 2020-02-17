@@ -144,7 +144,7 @@
 
     add feature-location 3TSS
     feature-location 3TSS
-      add segment 9084 9086
+      add segment 9085 9087
       exit
 
 

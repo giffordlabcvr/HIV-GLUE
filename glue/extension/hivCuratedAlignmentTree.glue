@@ -7,8 +7,8 @@ delete alignment AL_HIV-1M_A
 delete alignment AL_HIV-1M_B
 delete alignment AL_HIV-1M_C
 delete alignment AL_HIV-1M_F1
-delete alignment AL_HIV-1Mcrf01
-delete alignment AL_HIV-1Mcrf02
+delete alignment AL_HIV-1M_crf01
+delete alignment AL_HIV-1M_crf02
 
 # Create constrained alignment tree for curated sequence alignments
 alignment AL_ROOT
@@ -51,12 +51,11 @@ alignment AL_HIV-1M
   extract child AL_HIV-1M_F1    --refName REF_HIV-1M_F1_KU168275
   demote member AL_HIV-1M_F1    --whereClause "sequence.subtype = 'F1'" 
 
-  extract child AL_HIV-1Mcrf01  --refName REF_HIV-1M_CRF01_EF036536
-  demote member AL_HIV-1Mcrf01  --whereClause "sequence.subtype = 'CRF01_AE'" 
+  extract child AL_HIV-1M_crf01  --refName REF_HIV-1M_CRF01_EF036536
+  demote member AL_HIV-1M_crf01  --whereClause "sequence.subtype = 'CRF01_AE'" 
 
-  extract child AL_HIV-1Mcrf02  --refName REF_HIV-1M_CRF02_AB049811
-  demote member AL_HIV-1Mcrf02  --whereClause "sequence.subtype = 'CRF02_AG'" 
-
+  extract child AL_HIV-1M_crf02  --refName REF_HIV-1M_CRF02_AB049811
+  demote member AL_HIV-1M_crf02  --whereClause "sequence.subtype = 'CRF02_AG'" 
 
   exit
 
@@ -69,6 +68,6 @@ compute alignment AL_HIV-1N hivCompoundAligner
 compute alignment AL_HIV-1M_A hivCompoundAligner
 compute alignment AL_HIV-1M_B hivCompoundAligner 
 compute alignment AL_HIV-1M_C hivCompoundAligner 
-compute alignment AL_HIV-1Mcrf01 hivCompoundAligner 
-compute alignment AL_HIV-1Mcrf02 hivCompoundAligner
+compute alignment AL_HIV-1M_crf01 hivCompoundAligner 
+compute alignment AL_HIV-1M_crf02 hivCompoundAligner
 
