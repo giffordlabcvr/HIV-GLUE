@@ -1,5 +1,5 @@
 //list of parent features which should be transferred - the parent of the list elements is 'whole_genome'
-var nonCodingFeaturesToInherit = ["PBS", "TAR", "PSI", "TSS"];
+var nonCodingFeaturesToInherit = ["PBS", "TAR", "PSI", "TSS", "3TSS"];
 
 //initially remove all feature location annotations from the reference sequences with the exception of the master
 //glue.command(["multi-delete", "feature_location", "-w", "referenceSequence.name != 'REF_MASTER_B_AF033819'"]);
