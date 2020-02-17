@@ -32,6 +32,11 @@
       add segment 182 199
       exit
       
+    add feature-location SL1
+    feature-location SL1
+      add segment 237 280
+      exit     
+        
     add feature-location DIS
     feature-location DIS
       add segment 240 279
@@ -41,11 +46,26 @@
     feature-location SD
       add segment 282 300
       exit
+      
+    add feature-location SL2
+    feature-location SL2
+      add segment 282 280
+      exit   
+      
+    add feature-location SL3
+    feature-location SL3
+      add segment 312 325
+      exit   
     
     add feature-location PSI
     feature-location PSI
-      add segment 309 331
+      add segment 227 335
       exit
+
+    add feature-location SL4
+    feature-location SL4
+      add segment 336 356
+      exit   
 
     add feature-location 5UTR
     feature-location 5UTR
