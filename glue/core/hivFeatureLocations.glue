@@ -49,7 +49,7 @@
       
     add feature-location SL2
     feature-location SL2
-      add segment 282 280
+      add segment 282 300
       exit   
       
     add feature-location SL3
@@ -108,7 +108,7 @@
       exit
       
     add feature-location FE
-    feature location FE  
+    feature-location FE  
       add segment 1631 1637
       exit
 
