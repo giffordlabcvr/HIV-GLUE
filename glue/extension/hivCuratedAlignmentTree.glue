@@ -54,13 +54,15 @@ alignment AL_HIV-1M
   extract child AL_HIV-1Mcrf01  --refName REF_HIV-1M_CRF01_EF036536
   demote member AL_HIV-1Mcrf01  --whereClause "sequence.subtype = 'CRF01_AE'" 
 
+  extract child AL_HIV-1Mcrf02  --refName REF_HIV-1M_CRF02_AB049811
+  demote member AL_HIV-1Mcrf02  --whereClause "sequence.subtype = 'CRF02_AG'" 
+
+
   exit
 
 
 
 # Compute full genome alignments 
-
-
 compute alignment AL_HIV-1O hivCompoundAligner 
 compute alignment AL_HIV-1P hivCompoundAligner
 compute alignment AL_HIV-1N hivCompoundAligner 
@@ -68,3 +70,5 @@ compute alignment AL_HIV-1M_A hivCompoundAligner
 compute alignment AL_HIV-1M_B hivCompoundAligner 
 compute alignment AL_HIV-1M_C hivCompoundAligner 
 compute alignment AL_HIV-1Mcrf01 hivCompoundAligner 
+compute alignment AL_HIV-1Mcrf02 hivCompoundAligner
+
