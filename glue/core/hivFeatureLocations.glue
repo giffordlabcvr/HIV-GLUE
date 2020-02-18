@@ -226,6 +226,13 @@
       add segment 9086	9181
       exit
 
+
+    add feature-location 3TSS
+    feature-location 3TSS
+      add segment 9084 9086
+      exit
+
+
     add feature-location 3LTR
     feature-location 3LTR
       add segment 8631 9181

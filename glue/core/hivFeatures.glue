@@ -107,6 +107,10 @@
   feature 3R set field displayName "3' R"
   feature 3R set metatag INCLUDE_IN_SUMMARY true
 
+  create feature 3TSS -p 3LTR "3' Transcription start site"
+  feature 3TSS set field displayName "3' Transcription start site"
+  feature 3TSS set metatag INCLUDE_IN_SUMMARY true
+
   create feature 3U5 -p 3LTR "3' LTR unique 5' region"
   feature 3U3 set field displayName "3' U5"
   feature 3U3 set metatag INCLUDE_IN_SUMMARY true
