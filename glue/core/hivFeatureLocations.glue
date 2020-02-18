@@ -30,12 +30,7 @@
     add feature-location PBS
     feature-location PBS
       add segment 182 199
-      exit
-      
-    add feature-location SL1
-    feature-location SL1
-      add segment 237 280
-      exit     
+      exit   
         
     add feature-location DIS
     feature-location DIS
@@ -46,11 +41,6 @@
     feature-location SD
       add segment 282 300
       exit
-      
-    add feature-location SL2
-    feature-location SL2
-      add segment 282 300
-      exit   
       
     add feature-location SL3
     feature-location SL3
@@ -190,12 +180,37 @@
     feature-location surface
       add segment 5861 7303
       exit  
+
+    add feature-location V1
+    feature-location V1
+      add segment 6161 6241
+      exit
+
+    add feature-location V2
+    feature-location V2
+      add segment 6239 6358
+      exit
+      
+    add feature-location V3
+    feature-location V3
+      add segment 6656 6736
+      exit
+      
+    add feature-location V4
+    feature-location V4
+      add segment 6923 7024
+      exit 
+      
+    add feature-location V5
+    feature-location V5
+      add segment 7148 7180
+      exit  
       
     add feature-location transmembrane
     feature-location transmembrane
       add segment 7304 8338
-      exit
-
+      exit      
+               
     add feature-location asp
     feature-location asp
       add segment 6919 7488
