@@ -34,14 +34,14 @@
   create feature PolyA -p whole_genome "PolyA loop"
   feature PolyA set field displayName "PolyA"
   feature PolyA set metatag INCLUDE_IN_SUMMARY true
-  
-  create feature GSL3 -p whole_genome "gag stem loop 3"
-  feature GSL3 set field displayName "GSL3"
-  feature GSL3 set metatag INCLUDE_IN_SUMMARY true
-  
-  create feature PSL1 -p whole_genome "pol stem loop 1"
-  feature PSL1 set field displayName "PSL1"
-  feature PSL1 set metatag INCLUDE_IN_SUMMARY true
+
+  create feature SL3 -p whole_genome "stem loop 3"
+  feature SL3 set field displayName "SL3"
+  feature SL3 set metatag INCLUDE_IN_SUMMARY true
+
+  create feature SL4 -p whole_genome "stem loop 4"
+  feature SL4 set field displayName "SL4"
+  feature SL4 set metatag INCLUDE_IN_SUMMARY true
 
   create feature DIS -p whole_genome "Dimerisation initiation site"
   feature DIS set field displayName "DIS"
@@ -228,6 +228,36 @@
   feature transmembrane set metatag OWN_CODON_NUMBERING true
   feature transmembrane set metatag INCLUDE_IN_SUMMARY true
   feature transmembrane set metatag CODES_AMINO_ACIDS true
+
+  create feature V1 -p env "V1"
+  feature V1 set field displayName "V1"
+  feature V1 set metatag OWN_CODON_NUMBERING true
+  feature V1 set metatag INCLUDE_IN_SUMMARY true
+  feature V1 set metatag CODES_AMINO_ACIDS true
+  
+  create feature V2 -p env "V2"
+  feature V2 set field displayName "V2"
+  feature V2 set metatag OWN_CODON_NUMBERING true
+  feature V2 set metatag INCLUDE_IN_SUMMARY true
+  feature V2 set metatag CODES_AMINO_ACIDS true
+  
+  create feature V3 -p env "V3"
+  feature V3 set field displayName "V3"
+  feature V3 set metatag OWN_CODON_NUMBERING true
+  feature V3 set metatag INCLUDE_IN_SUMMARY true
+  feature V3 set metatag CODES_AMINO_ACIDS true
+  
+  create feature V4 -p env "V4"
+  feature V4 set field displayName "V4"
+  feature V4 set metatag OWN_CODON_NUMBERING true
+  feature V4 set metatag INCLUDE_IN_SUMMARY true
+  feature V4 set metatag CODES_AMINO_ACIDS true  
+  
+  create feature V5 -p env "V5"
+  feature V5 set field displayName "V5"
+  feature V5 set metatag OWN_CODON_NUMBERING true
+  feature V5 set metatag INCLUDE_IN_SUMMARY true
+  feature V5 set metatag CODES_AMINO_ACIDS true 
 
   create feature nef -p whole_genome "nef"
   feature nef set field displayName "nef"

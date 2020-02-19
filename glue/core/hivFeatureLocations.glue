@@ -24,14 +24,14 @@
       
     add feature-location TAR
     feature-location TAR
-      add segment 1 60
+      add segment 22 59
       exit
          
     add feature-location PBS
     feature-location PBS
       add segment 182 199
-      exit
-      
+      exit   
+        
     add feature-location DIS
     feature-location DIS
       add segment 240 279
@@ -41,11 +41,21 @@
     feature-location SD
       add segment 282 300
       exit
+      
+    add feature-location SL3
+    feature-location SL3
+      add segment 312 325
+      exit   
     
     add feature-location PSI
     feature-location PSI
-      add segment 309 331
+      add segment 227 335
       exit
+
+    add feature-location SL4
+    feature-location SL4
+      add segment 336 356
+      exit   
 
     add feature-location 5UTR
     feature-location 5UTR
@@ -65,6 +75,31 @@
     add feature-location gag
     feature-location gag
       add segment 336 1838
+      exit
+     
+    add feature-location matrix
+    feature-location matrix
+      add segment 336 731
+      exit     
+      
+    add feature-location capsid
+    feature-location capsid
+      add segment 732 1427
+      exit
+
+    add feature-location p2
+    feature-location p2
+      add segment 1428 1466
+      exit
+
+    add feature-location nucleocapsid
+    feature-location nucleocapsid
+      add segment 1467 1631
+      exit
+      
+    add feature-location FE
+    feature-location FE  
+      add segment 1631 1637
       exit
 
     add feature-location gag-pol
@@ -89,6 +124,26 @@
       add segment 2096 4642  
       exit
 
+   	add feature-location RT
+   	feature-location RT
+   	  add segment 2096 3775
+   	  exit
+
+    add feature-location IN
+    feature-location IN
+      add segment 3776 4642  
+      exit
+      
+    add feature-location cPPT
+    feature-location cPPT
+      add segment 4325 4346
+      exit
+      
+    add feature-location CTS
+    feature-location CTS
+      add segment 4415 4444
+      exit
+    
     add feature-location vif
     feature-location vif
       add segment 4587 5165
@@ -120,7 +175,52 @@
     feature-location env
       add segment 5771 8338
       exit
+      
+    add feature-location surface
+    feature-location surface
+      add segment 5861 7303
+      exit  
 
+    add feature-location V1
+    feature-location V1
+      add segment 6161 6241
+      exit
+
+    add feature-location V2
+    feature-location V2
+      add segment 6239 6358
+      exit
+      
+    add feature-location V3
+    feature-location V3
+      add segment 6656 6736
+      exit
+      
+    add feature-location V4
+    feature-location V4
+      add segment 6923 7024
+      exit 
+      
+    add feature-location V5
+    feature-location V5
+      add segment 7148 7180
+      exit  
+      
+    add feature-location transmembrane
+    feature-location transmembrane
+      add segment 7304 8338
+      exit      
+               
+    add feature-location asp
+    feature-location asp
+      add segment 6919 7488
+      exit
+      
+    add feature-location RRE
+    feature-location RRE
+      add segment 7256 7607
+	  exit
+	  
     add feature-location nef
     feature-location nef
       add segment 8343 8714
