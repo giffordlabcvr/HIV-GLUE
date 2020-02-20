@@ -40,7 +40,7 @@ alignment AL_HIV-1M
 
   # Extract group M subtypes
   extract child AL_HIV-1M_A     --refName REF_HIV-1M_A1_KU749402
-  demote member AL_HIV-1M_A     --whereClause "sequence.subtype like 'A'"
+  demote member AL_HIV-1M_A     --whereClause "sequence.subtype like 'A%'"
 
   extract child AL_HIV-1M_B     --refName REF_MASTER_B_AF033819
   demote member AL_HIV-1M_B     --whereClause "sequence.subtype = 'B'" 
