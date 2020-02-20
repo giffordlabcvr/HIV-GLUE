@@ -33,6 +33,9 @@ project hiv
 
   # Attach feature locations to the reference sequences 
   run file glue/core/hivFeatureLocations.glue
+
+  # Attach feature locations to the reference sequences 
+  run file glue/core/hivVariations.glue
   
   # Import root alignments and create constrained alignment tree
   run file glue/core/hivRootAlignment.glue
