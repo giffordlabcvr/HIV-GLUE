@@ -9,5 +9,25 @@ reference REF_MASTER_B_AF033819
     exit
                                     
   exit
+
+  feature-location gag
+  
+    # Gag late domains
+    create variation ptsap_late_domain -t aminoAcidRegexPolymorphism --labeledCodon 50 450
+    variation ptsap_late_domain
+      set metatag REGEX_AA_PATTERN P[TS]AP
+    exit
+    create variation lxxlf_late_domain -t aminoAcidRegexPolymorphism --labeledCodon 50 450
+    variation lxxlf_late_domain
+      set metatag REGEX_AA_PATTERN L[A-Z][A-Z]]LF
+    exit
+    create variation ypxl_late_domain -t aminoAcidRegexPolymorphism --labeledCodon 50 450
+    variation ypxl_late_domain
+      set metatag REGEX_AA_PATTERN YP[A-Z]L
+    exit
+
+
+                            
+  exit
   
 exit
