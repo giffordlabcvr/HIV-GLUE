@@ -1,4 +1,4 @@
-  # Define features on NCBI refseq version of reference strain HXB2 (subtype B)
+  # Define feature locations on project reference sequences
 
   reference REF_MASTER_B_AF033819
 
