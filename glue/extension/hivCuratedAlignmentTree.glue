@@ -6,7 +6,9 @@ delete alignment AL_HIV-1M
 delete alignment AL_HIV-1M_A
 delete alignment AL_HIV-1M_B
 delete alignment AL_HIV-1M_C
-delete alignment AL_HIV-1M_F1
+delete alignment AL_HIV-1M_D
+delete alignment AL_HIV-1M_F
+delete alignment AL_HIV-1M_G
 delete alignment AL_HIV-1M_crf01
 delete alignment AL_HIV-1M_crf02
 
@@ -48,8 +50,14 @@ alignment AL_HIV-1M
   extract child AL_HIV-1M_C     --refName REF_HIV-1M_C_JN188292
   demote member AL_HIV-1M_C     --whereClause "sequence.subtype = 'C'" 
 
-  extract child AL_HIV-1M_F1    --refName REF_HIV-1M_F1_KU168275
-  demote member AL_HIV-1M_F1    --whereClause "sequence.subtype = 'F1'" 
+  extract child AL_HIV-1M_D     --refName REF_HIV-1M_D_AB485648
+  demote member AL_HIV-1M_D     --whereClause "sequence.subtype = 'D'" 
+
+  extract child AL_HIV-1M_F     --refName REF_HIV-1M_F1_KU168275
+  demote member AL_HIV-1M_F     --whereClause "sequence.subtype = 'F%'" 
+
+  extract child AL_HIV-1M_G     --refName REF_HIV-1M_G_KU168300
+  demote member AL_HIV-1M_G     --whereClause "sequence.subtype = 'G'" 
 
   extract child AL_HIV-1M_crf01  --refName REF_HIV-1M_CRF01_EF036536
   demote member AL_HIV-1M_crf01  --whereClause "sequence.subtype = 'CRF01_AE'" 
@@ -62,12 +70,17 @@ alignment AL_HIV-1M
 
 
 # Compute full genome alignments 
+compute alignment AL_HIV-1M_A hivCompoundAligner
+compute alignment AL_HIV-1M_B hivCompoundAligner 
+compute alignment AL_HIV-1M_C hivCompoundAligner
+compute alignment AL_HIV-1M_D hivCompoundAligner  
+compute alignment AL_HIV-1M_F hivCompoundAligner 
+compute alignment AL_HIV-1M_G hivCompoundAligner 
+
+compute alignment AL_HIV-1M_crf01 hivCompoundAligner 
+compute alignment AL_HIV-1M_crf02 hivCompoundAligner
+
 compute alignment AL_HIV-1O hivCompoundAligner 
 compute alignment AL_HIV-1P hivCompoundAligner
 compute alignment AL_HIV-1N hivCompoundAligner 
-compute alignment AL_HIV-1M_A hivCompoundAligner
-compute alignment AL_HIV-1M_B hivCompoundAligner 
-compute alignment AL_HIV-1M_C hivCompoundAligner 
-compute alignment AL_HIV-1M_crf01 hivCompoundAligner 
-compute alignment AL_HIV-1M_crf02 hivCompoundAligner
 

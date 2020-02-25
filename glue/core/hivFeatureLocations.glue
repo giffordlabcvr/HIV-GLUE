@@ -397,6 +397,79 @@
   exit 
 
 
+
+  reference REF_HIV-1M_D_AB485648 
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9633
+      exit
+
+    add feature-location internal_region
+    feature-location internal_region
+      add segment 634 9087
+      exit
+
+    add feature-location gag
+    feature-location gag
+      add segment 789 2309
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 2087 5113  
+      exit
+
+    add feature-location pro
+    feature-location pro
+      add segment 2093 2566
+      exit
+           
+    add feature-location pol
+    feature-location pol
+      add segment 2567 5113  
+      exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 5058 5636
+      exit
+
+    add feature-location vpr
+    feature-location vpr
+      add segment 5576 5866
+      exit
+
+    add feature-location tat
+    feature-location tat
+      add segment 5847 6061 --spliceIndex 1
+      add segment 8377 8422 --spliceIndex 2
+      exit
+
+    add feature-location rev
+    feature-location rev
+      add segment 5986 6061 --spliceIndex 1
+      add segment 8377 8651 --spliceIndex 2
+      exit
+
+    add feature-location vpu
+    feature-location vpu
+      add segment 6078 6323
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 6241 8793
+      exit
+
+    add feature-location nef
+    feature-location nef
+      add segment 8795 9418
+      exit
+      
+  exit 
+
+
   reference REF_HIV-1M_F1_KU168275
 
     add feature-location whole_genome
