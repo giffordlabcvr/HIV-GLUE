@@ -1,0 +1,2 @@
+
+alignment AL_HIV-1M_B variation member scan -r REF_MASTER_B_AF033819 -f env -v n-linked-glycosylation --showMatchesAsTable 
