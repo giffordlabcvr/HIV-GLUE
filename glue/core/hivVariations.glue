@@ -5,7 +5,7 @@ reference REF_MASTER_B_AF033819
     # Glycosylation site
     create variation n-linked-glycosylation -t aminoAcidRegexPolymorphism --labeledCodon 1 856
     variation n-linked-glycosylation    
-      set metatag REGEX_AA_PATTERN N[A-O][Q-Z][ST]  #Asn–X–Ser/Thr consensus sequence, where X is any amino acid except proline (Pro).
+      set metatag REGEX_AA_PATTERN N[A-Z][ST]  #Asn–X–Ser/Thr consensus sequence, where X is any amino acid except proline (Pro).
     exit
                                     
   exit
