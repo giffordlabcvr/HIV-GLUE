@@ -25,9 +25,79 @@ reference REF_MASTER_B_AF033819
     variation ypxl_late_domain
       set metatag REGEX_AA_PATTERN YP[A-Z]L
     exit
-
-
                             
   exit
   
 exit
+
+
+reference REF_HIV-1M_C_JN188292
+
+  feature-location env
+  
+    # Glycosylation site
+    create variation n-linked-glycosylation -t aminoAcidRegexPolymorphism --labeledCodon 1 856
+    variation n-linked-glycosylation    
+      set metatag REGEX_AA_PATTERN N[A-O][Q-Z][ST]  #Asn–X–Ser/Thr consensus sequence, where X is any amino acid except proline (Pro).
+    exit
+                                    
+  exit
+
+  feature-location gag
+  
+    # Gag late domains
+    create variation ptsap_late_domain -t aminoAcidRegexPolymorphism --labeledCodon 50 450
+    variation ptsap_late_domain
+      set metatag REGEX_AA_PATTERN P[TS]AP
+    exit
+    
+    create variation lxxlf_late_domain -t aminoAcidRegexPolymorphism --labeledCodon 50 450
+    variation lxxlf_late_domain
+      set metatag REGEX_AA_PATTERN L[A-Z][A-Z]]LF
+    exit
+    
+    create variation ypxl_late_domain -t aminoAcidRegexPolymorphism --labeledCodon 50 450
+    variation ypxl_late_domain
+      set metatag REGEX_AA_PATTERN YP[A-Z]L
+    exit
+                            
+  exit
+  
+exit
+
+
+
+reference REF_HIV-1M_A1_KU749402
+
+  feature-location env
+  
+    # Glycosylation site
+    create variation n-linked-glycosylation -t aminoAcidRegexPolymorphism --labeledCodon 1 856
+    variation n-linked-glycosylation    
+      set metatag REGEX_AA_PATTERN N[A-O][Q-Z][ST]  #Asn–X–Ser/Thr consensus sequence, where X is any amino acid except proline (Pro).
+    exit
+                                    
+  exit
+
+  feature-location gag
+  
+    # Gag late domains
+    create variation ptsap_late_domain -t aminoAcidRegexPolymorphism --labeledCodon 50 450
+    variation ptsap_late_domain
+      set metatag REGEX_AA_PATTERN P[TS]AP
+    exit
+    create variation lxxlf_late_domain -t aminoAcidRegexPolymorphism --labeledCodon 50 450
+    variation lxxlf_late_domain
+      set metatag REGEX_AA_PATTERN L[A-Z][A-Z]]LF
+    exit
+    create variation ypxl_late_domain -t aminoAcidRegexPolymorphism --labeledCodon 50 450
+    variation ypxl_late_domain
+      set metatag REGEX_AA_PATTERN YP[A-Z]L
+    exit
+                            
+  exit
+  
+exit
+
+
+
