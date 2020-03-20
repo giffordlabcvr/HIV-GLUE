@@ -1,17 +1,21 @@
-# Build HIV project extension
+# Build extension to HIV project 
 project hiv
 
   # Delete any extension build items from previous build
   delete source --whereClause "name like 'ncbi-curated%'" 
 
   # Import reference sequences from GenBank XML files 
-  run file glue/extension/hivCuratedImportSources.glue  
+  run file glue/extension/hivExtensionImportSources.glue  
 
   # Populate fields using tabular file data
-  run file glue/extension/hivCuratedLoadTabularData.glue  
+  run file glue/extension/hivExtensionLoadTabularData.glue  
  
   # Import alignments
-  run file glue/extension/hivCuratedAlignmentTree.glue
+  run file glue/extension/hivExtensionAlignmentTree.glue
+
+  # Record feature presence
+  run file glue/extension/hivExtensionRecordFeaturePresence.glue
+
 
   validate
   

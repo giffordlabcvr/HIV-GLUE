@@ -35,12 +35,17 @@ project hiv
   run file glue/core/hivFeatureLocations.glue
 
   # Attach feature locations to the reference sequences 
-  run file glue/core/hivVariations.glue
+  #run file glue/core/hivVariations.glue
   
   # Import root alignments and create constrained alignment tree
   run file glue/core/hivRootAlignment.glue
 
   # Inherit features from HIV-1 master reference to other reference sequences
   run script glue/core/hivRefseqsInheritFeatureLocations.js
+
+  # Create alignments
+  run file glue/extension/hivExtensionRecordFeaturePresence.glue
+
+
 
   validate

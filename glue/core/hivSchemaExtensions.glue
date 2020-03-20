@@ -26,7 +26,6 @@
     create field reference_nt_coverage_pct DOUBLE
     exit
 
-
   # Schema extensions
   create custom-table isolate_data
 
@@ -42,5 +41,3 @@
   exit
 
   create link sequence isolate_data
-
-
