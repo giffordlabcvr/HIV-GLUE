@@ -99,10 +99,10 @@
   feature 3U3 set field displayName "3' U5"
   feature 3U3 set metatag INCLUDE_IN_SUMMARY true
 
-  # Coding features
   create feature internal_region -p whole_genome "internal region (bounded by LTRs)"
   feature internal_region set field displayName "internal region"
 
+  # Coding features
   create feature gag-pol -p whole_genome "gag-pol"
   feature gag-pol set field displayName "gag-pol"
   feature gag-pol set metatag OWN_CODON_NUMBERING true
