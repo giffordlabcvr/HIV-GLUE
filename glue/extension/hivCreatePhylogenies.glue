@@ -1,0 +1,126 @@
+  delete module raxmlPhylogenyGenerator
+  delete module hivPhyloUtility
+  delete module hivFigTreeAnnotationExporter
+  
+  create module -t raxmlPhylogenyGenerator
+  create module -f modules/extension/hivPhyloUtility.xml
+  create module -f modules/extension/hivFigTreeAnnotationExporter.xml
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_HIV-1N -a -o trees/hiv-n.tre NEWICK_BOOTSTRAPS 
+    exit
+    
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_HIV-1O -a -o trees/hiv-o.tre NEWICK_BOOTSTRAPS
+    exit
+    
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_HIV-1P -a -o trees/hiv-p.tre NEWICK_BOOTSTRAPS
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_HIV-1M_A -a -o trees/hiv-ma.tre NEWICK_BOOTSTRAPS
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_HIV-1M_B -a -o trees/hiv-mb.tre NEWICK_BOOTSTRAPS
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_HIV-1M_C -a -o trees/hiv-mc.tre NEWICK_BOOTSTRAPS
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_HIV-1M_D -a -o trees/hiv-md.tre NEWICK_BOOTSTRAPS
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_HIV-1M_F -a -o trees/hiv-mf.tre NEWICK_BOOTSTRAPS
+    exit
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_HIV-1M_G -a -o trees/hivb-mg.tre NEWICK_BOOTSTRAPS
+    exit
+
+
+  module hivPhyloUtility
+	reroot-phylogeny \
+      --inputFile trees/hiv-n.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/hiv-n.MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/hiv-o.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/hiv-o.MidpointRerooted.tree NEWICK_BOOTSTRAPS
+    exit
+
+	reroot-phylogeny \
+      --inputFile trees/hiv-p.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/hiv-p.MidpointRerooted.tree NEWICK_BOOTSTRAPS
+    exit
+    
+	reroot-phylogeny \
+      --inputFile trees/hiv-ma.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/hiv-ma.MidpointRerooted.tree NEWICK_BOOTSTRAPS
+    exit
+    
+	reroot-phylogeny \
+      --inputFile trees/hiv-mb.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/hiv-mb.MidpointRerooted.tree NEWICK_BOOTSTRAPS
+    exit
+    
+	reroot-phylogeny \
+      --inputFile trees/hiv-mc.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/hiv-mc.MidpointRerooted.tree NEWICK_BOOTSTRAPS
+    exit
+    
+	reroot-phylogeny \
+      --inputFile trees/hiv-md.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/hiv-md.MidpointRerooted.tree NEWICK_BOOTSTRAPS
+    exit
+    
+	reroot-phylogeny \
+      --inputFile trees/hiv-mf.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/hiv-mf.MidpointRerooted.tree NEWICK_BOOTSTRAPS
+    exit
+    
+	reroot-phylogeny \
+      --inputFile trees/hiv-mg.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/hiv-mg.MidpointRerooted.tree NEWICK_BOOTSTRAPS
+    exit
+    
+	reroot-phylogeny \
+      --inputFile trees/hiv-mcrf01.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/hiv-mcrf01.MidpointRerooted.tree NEWICK_BOOTSTRAPS
+    exit
+    
+	reroot-phylogeny \
+      --inputFile trees/hiv-mcrf02.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/hiv-mcrf02.MidpointRerooted.tree NEWICK_BOOTSTRAPS
+    exit
+
+
+
+  module hivFigTreeAnnotationExporter 
+    export figtree-annotation AL_HIV-1N -f trees/hiv1N_FigtreeAnnotations.tsv
+    export figtree-annotation AL_HIV-1O -f trees/hiv1O_FigtreeAnnotations.tsv
+    export figtree-annotation AL_HIV-1P -f trees/hiv1P_FigtreeAnnotations.tsv
+    export figtree-annotation AL_HIV-1M_A -f trees/hiv1Ma_FigtreeAnnotations.tsv
+    export figtree-annotation AL_HIV-1M_B -f trees/hiv1Mb_FigtreeAnnotations.tsv
+    export figtree-annotation AL_HIV-1M_C -f trees/hiv1Mc_FigtreeAnnotations.tsv
+    export figtree-annotation AL_HIV-1M_D -f trees/hiv1Md_FigtreeAnnotations.tsv
+    export figtree-annotation AL_HIV-1M_F -f trees/hiv1Mf_FigtreeAnnotations.tsv
+    export figtree-annotation AL_HIV-1M_crf01 -f trees/hiv1Mcrf01_FigtreeAnnotations.tsv
+    export figtree-annotation AL_HIV-1M_crf02 -f trees/hiv1Mcrf02_FigtreeAnnotations.tsv
+  exit
+  
