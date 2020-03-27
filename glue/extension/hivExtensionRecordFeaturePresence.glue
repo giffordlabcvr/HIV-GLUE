@@ -1,4 +1,6 @@
+  multi-delete member_floc_note -w "member.sequence.source.name like 'ncbi-curated%'"  
   delete module hivFeaturePresenceRecorder
+
   create module -f modules/extension/hivFeaturePresenceRecorder.xml
 
   module hivFeaturePresenceRecorder 
