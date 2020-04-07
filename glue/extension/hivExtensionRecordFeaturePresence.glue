@@ -1,0 +1,19 @@
+  multi-delete member_floc_note -w "member.sequence.source.name like 'ncbi-curated%'"  
+  delete module hivFeaturePresenceRecorder
+
+  create module -f modules/extension/hivFeaturePresenceRecorder.xml
+
+  module hivFeaturePresenceRecorder 
+    record feature-presence AL_ROOT --recursive -w "sequence.source.name = 'ncbi-curated-group-n'" -f whole_genome --descendentFeatures
+    record feature-presence AL_ROOT --recursive -w "sequence.source.name = 'ncbi-curated-group-o'" -f whole_genome --descendentFeatures
+    record feature-presence AL_ROOT --recursive -w "sequence.source.name = 'ncbi-curated-group-p'" -f whole_genome --descendentFeatures
+    record feature-presence AL_ROOT --recursive -w "sequence.source.name = 'ncbi-curated-crf01'" -f whole_genome --descendentFeatures
+    record feature-presence AL_ROOT --recursive -w "sequence.source.name = 'ncbi-curated-crf02'" -f whole_genome --descendentFeatures
+    record feature-presence AL_ROOT --recursive -w "sequence.source.name = 'ncbi-curated-subtype-a'" -f whole_genome --descendentFeatures
+    record feature-presence AL_ROOT --recursive -w "sequence.source.name = 'ncbi-curated-subtype-b'" -f whole_genome --descendentFeatures
+    record feature-presence AL_ROOT --recursive -w "sequence.source.name = 'ncbi-curated-subtype-c'" -f whole_genome --descendentFeatures
+    record feature-presence AL_ROOT --recursive -w "sequence.source.name = 'ncbi-curated-subtype-d'" -f whole_genome --descendentFeatures
+    record feature-presence AL_ROOT --recursive -w "sequence.source.name = 'ncbi-curated-subtype-f1'" -f whole_genome --descendentFeatures
+    record feature-presence AL_ROOT --recursive -w "sequence.source.name = 'ncbi-curated-subtype-g'" -f whole_genome --descendentFeatures
+    exit
+

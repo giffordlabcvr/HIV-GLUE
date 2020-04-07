@@ -43,4 +43,9 @@ project hiv
   # Inherit features from HIV-1 master reference to other reference sequences
   run script glue/core/hivRefseqsInheritFeatureLocations.js
 
+  # Create alignments
+  run file glue/extension/hivExtensionRecordFeaturePresence.glue
+
+
+
   validate

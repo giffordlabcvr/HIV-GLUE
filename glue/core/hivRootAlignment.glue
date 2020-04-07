@@ -10,7 +10,6 @@ module unconstrainedAlignmentImporter
   import AL_ROOT_UNCONSTRAINED -f alignments/root/hiv-1-root.fna
   exit
 
-
 # Derive constrained alignment segments from unconstrained alignments
 alignment AL_ROOT
   derive segments AL_ROOT_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE
