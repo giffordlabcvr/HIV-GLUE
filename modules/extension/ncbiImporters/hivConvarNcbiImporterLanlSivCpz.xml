@@ -1,0 +1,40 @@
+<ncbiImporter>
+  <sourceName>ncbi-curated-siv-cpz</sourceName>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <specificPrimaryAccessions>
+
+	<primaryAccession>AF103818</primaryAccession>
+	<primaryAccession>AF115393</primaryAccession>
+	<primaryAccession>AF382828</primaryAccession>
+	<primaryAccession>AF447763</primaryAccession>
+	<primaryAccession>AJ271369</primaryAccession>
+	<primaryAccession>AY169968</primaryAccession>
+	<primaryAccession>DQ373063</primaryAccession>
+	<primaryAccession>DQ373064</primaryAccession>
+	<primaryAccession>DQ373065</primaryAccession>
+	<primaryAccession>DQ373066</primaryAccession>
+	<primaryAccession>DQ374657</primaryAccession>
+	<primaryAccession>DQ374658</primaryAccession>
+	<primaryAccession>EF394356</primaryAccession>
+	<primaryAccession>EF394357</primaryAccession>
+	<primaryAccession>EF394358</primaryAccession>
+	<primaryAccession>EF535993</primaryAccession>
+	<primaryAccession>EF535994</primaryAccession>
+	<primaryAccession>FR686510</primaryAccession>
+	<primaryAccession>FR686511</primaryAccession>
+	<primaryAccession>GQ217539</primaryAccession>
+	<primaryAccession>JN091690</primaryAccession>
+	<primaryAccession>JN091691</primaryAccession>
+	<primaryAccession>JN835460</primaryAccession>
+	<primaryAccession>JN835461</primaryAccession>
+	<primaryAccession>JN835462</primaryAccession>
+	<primaryAccession>JQ768416</primaryAccession>
+	<primaryAccession>JQ866001</primaryAccession>
+	<primaryAccession>JX178450</primaryAccession>
+	<primaryAccession>U42720</primaryAccession>
+	<primaryAccession>X52154</primaryAccession>
+		
+  </specificPrimaryAccessions>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
