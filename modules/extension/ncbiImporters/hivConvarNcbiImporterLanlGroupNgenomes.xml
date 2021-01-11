@@ -1,0 +1,21 @@
+<ncbiImporter>
+  <sourceName>ncbi-curated-group-n</sourceName>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <specificPrimaryAccessions>
+
+	<primaryAccession>AJ006022</primaryAccession>
+	<primaryAccession>AJ271370</primaryAccession>
+	<primaryAccession>AY532635</primaryAccession>
+	<primaryAccession>DQ017382</primaryAccession>
+	<primaryAccession>DQ017383</primaryAccession>
+	<primaryAccession>GQ324958</primaryAccession>
+	<primaryAccession>GQ324959</primaryAccession>
+	<primaryAccession>GQ324962</primaryAccession>
+	<primaryAccession>JN572926</primaryAccession>
+	<primaryAccession>KY498771</primaryAccession>
+	<primaryAccession>MF767262</primaryAccession>
+	
+  </specificPrimaryAccessions>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

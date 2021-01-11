@@ -1,0 +1,36 @@
+<ncbiImporter>
+
+  <sourceName>ncbi-refseqs</sourceName>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <specificPrimaryAccessions>
+	
+	<!-- HIV-1 group M subtype references -->
+	<primaryAccession>AF033819</primaryAccession>
+	<primaryAccession>JN188292</primaryAccession>
+	<primaryAccession>AB485648</primaryAccession>
+	<primaryAccession>KU749402</primaryAccession>
+	<primaryAccession>KU168275</primaryAccession>
+	<primaryAccession>AF385935</primaryAccession>
+	<primaryAccession>EF036536</primaryAccession>
+	<primaryAccession>KC503852</primaryAccession>
+	<primaryAccession>KU168273</primaryAccession>
+	<primaryAccession>KU168300</primaryAccession>
+
+	<!-- HIV-1 groups O, N and P -->
+	<primaryAccession>AJ006022</primaryAccession>
+	<primaryAccession>KU168292</primaryAccession>
+	<primaryAccession>GU111555</primaryAccession>
+
+	<!-- SIVcpz/SIVgor -->
+	<primaryAccession>KP004990</primaryAccession>
+	<primaryAccession>KP004991</primaryAccession>
+	<primaryAccession>JN835460</primaryAccession>
+	<primaryAccession>JN835461</primaryAccession>
+	<primaryAccession>EF394356</primaryAccession>
+
+
+  </specificPrimaryAccessions>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+  
+</ncbiImporter>

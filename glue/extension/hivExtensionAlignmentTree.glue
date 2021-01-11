@@ -1,0 +1,86 @@
+# Delete any previously created alignments of same name
+delete alignment AL_HIV-1N
+delete alignment AL_HIV-1O
+delete alignment AL_HIV-1P
+delete alignment AL_HIV-1M
+delete alignment AL_HIV-1M_A
+delete alignment AL_HIV-1M_B
+delete alignment AL_HIV-1M_C
+delete alignment AL_HIV-1M_D
+delete alignment AL_HIV-1M_F
+delete alignment AL_HIV-1M_G
+delete alignment AL_HIV-1M_crf01
+delete alignment AL_HIV-1M_crf02
+
+# Create constrained alignment tree for curated sequence alignments
+alignment AL_ROOT
+
+  # Add all members
+  add member -a
+
+  # Extract group M master reference 
+  extract child AL_HIV-1M   --refName REF_MASTER_B_AF033819
+  demote member AL_HIV-1M   --whereClause "sequence.species_group = 'M'" 
+
+  # Extract group N master reference 
+  extract child AL_HIV-1N   --refName REF_HIV-1N_AJ006022
+  demote member AL_HIV-1N   --whereClause "sequence.species_group = 'N'" 
+
+  # Extract group O master reference 
+  extract child AL_HIV-1O   --refName REF_HIV-1O_KU168292
+  demote member AL_HIV-1O   --whereClause "sequence.species_group = 'O'" 
+
+  # Extract group P master reference 
+  extract child AL_HIV-1P   --refName REF_HIV-1P_GU111555
+  demote member AL_HIV-1P   --whereClause "sequence.species_group = 'P'" 
+  exit
+
+
+alignment AL_HIV-1M
+
+  set field displayName "Human immunodeficiency virus (HIV-1) Group M"
+
+  # Extract group M subtypes
+  extract child AL_HIV-1M_A     --refName REF_HIV-1M_A1_KU749402
+  demote member AL_HIV-1M_A     --whereClause "sequence.subtype like 'A%'"
+
+  extract child AL_HIV-1M_B     --refName REF_MASTER_B_AF033819
+  demote member AL_HIV-1M_B     --whereClause "sequence.subtype = 'B'" 
+
+  extract child AL_HIV-1M_C     --refName REF_HIV-1M_C_JN188292
+  demote member AL_HIV-1M_C     --whereClause "sequence.subtype = 'C'" 
+
+  extract child AL_HIV-1M_D     --refName REF_HIV-1M_D_AB485648
+  demote member AL_HIV-1M_D     --whereClause "sequence.subtype = 'D'" 
+
+  extract child AL_HIV-1M_F     --refName REF_HIV-1M_F1_KU168275
+  demote member AL_HIV-1M_F     --whereClause "sequence.subtype = 'F%'" 
+
+  extract child AL_HIV-1M_G     --refName REF_HIV-1M_G_KU168300
+  demote member AL_HIV-1M_G     --whereClause "sequence.subtype = 'G'" 
+
+  extract child AL_HIV-1M_crf01  --refName REF_HIV-1M_CRF01_EF036536
+  demote member AL_HIV-1M_crf01  --whereClause "sequence.subtype = 'CRF01_AE'" 
+
+  extract child AL_HIV-1M_crf02  --refName REF_HIV-1M_CRF02_AB049811
+  demote member AL_HIV-1M_crf02  --whereClause "sequence.subtype = 'CRF02_AG'" 
+
+  exit
+
+
+
+# Compute full genome alignments 
+compute alignment AL_HIV-1M_A hivCompoundAligner
+compute alignment AL_HIV-1M_B hivCompoundAligner 
+compute alignment AL_HIV-1M_C hivCompoundAligner
+compute alignment AL_HIV-1M_D hivCompoundAligner  
+compute alignment AL_HIV-1M_F hivCompoundAligner 
+compute alignment AL_HIV-1M_G hivCompoundAligner 
+
+compute alignment AL_HIV-1M_crf01 hivCompoundAligner 
+compute alignment AL_HIV-1M_crf02 hivCompoundAligner
+
+compute alignment AL_HIV-1O hivCompoundAligner 
+compute alignment AL_HIV-1P hivCompoundAligner
+compute alignment AL_HIV-1N hivCompoundAligner 
+

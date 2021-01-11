@@ -1,0 +1,78 @@
+<genbankXmlPopulator>
+	<gbPrimaryAccession>
+		<propertyPopulator property="primary_accession"/>
+	</gbPrimaryAccession>
+
+	<gbAccessionVersion>
+		<propertyPopulator property="accession_version"/>
+	</gbAccessionVersion>
+
+	<gbLength>
+		<propertyPopulator property="length"/>
+	</gbLength>
+
+	<gbUpdateDate>
+		<propertyPopulator property="update_date"/>
+	</gbUpdateDate>
+
+	<gbCreateDate>
+		<propertyPopulator property="create_date"/>
+	</gbCreateDate>
+
+	<gbReference>
+		<gbRefPubmed>
+			<propertyPopulator property="pubmed_id"/>
+		</gbRefPubmed>
+	</gbReference>
+	
+	<gbDivision>
+		<propertyPopulator property="lab_construct">
+			<matchPattern>PAT</matchPattern>
+			<outputTemplate>true</outputTemplate>
+		</propertyPopulator>
+	</gbDivision>
+	
+	<gbFeature key="source">
+
+		<gbQualifier name="isolate">
+			<propertyPopulator property="isolate_data.isolate"/>
+		</gbQualifier>
+		<gbQualifier name="country">
+			<propertyPopulator property="isolate_data.country"/>
+			<propertyPopulator property="isolate_data.place_sampled">
+				<matchPattern>^.*:(.*)$</matchPattern>
+				<outputTemplate>${g1?trim}</outputTemplate>
+			</propertyPopulator>
+		</gbQualifier>
+				
+
+		<gbQualifier name="note">
+			<propertyPopulator property="subtype">
+				<matchPattern>subtype:(.*)</matchPattern>
+				<outputTemplate>${g1?trim}</outputTemplate>
+
+				<valueConverter>
+					<matchPattern>.*clade B.*</matchPattern>
+					<outputTemplate>B</outputTemplate>
+				</valueConverter>
+
+			</propertyPopulator>
+		</gbQualifier>		
+		
+		<gbQualifier name="collection_date">
+			<propertyPopulator property="isolate_data.collection_month_day">
+				<matchPattern>(\d{2})-[A-Za-z]{3}-\d{4}</matchPattern>
+				<outputTemplate>${g1}</outputTemplate>
+			</propertyPopulator>
+			<propertyPopulator property="isolate_data.collection_month">
+				<matchPattern>\d{2}-([A-Za-z]{3})-\d{4}</matchPattern>
+				<outputTemplate>${g1?upper_case}</outputTemplate>
+			</propertyPopulator>
+			<propertyPopulator property="isolate_data.collection_year">
+				<matchPattern>(\d{4})</matchPattern>
+				<outputTemplate>${g1}</outputTemplate>
+			</propertyPopulator>
+		</gbQualifier>
+		
+	</gbFeature>
+</genbankXmlPopulator>

@@ -1,0 +1,43 @@
+  # Core schema
+  table sequence
+    create field primary_accession VARCHAR
+    create field accession_version VARCHAR
+    create field gb_gi_number VARCHAR
+    create field length INTEGER
+    create field pubmed_id VARCHAR
+    create field lab_construct BOOLEAN
+    create field create_date DATE
+    create field update_date DATE
+    create field species_group VARCHAR 100
+    create field species VARCHAR 100
+    create field subtype VARCHAR 100
+    create field recogniser_subtype VARCHAR 100
+    create field host VARCHAR 100
+    create field host_common_name VARCHAR 100
+    create field isolate_id VARCHAR 100     
+    exit
+
+  table alignment
+    create field phylogeny VARCHAR 10000
+    create field clade_category VARCHAR 20
+    exit 
+
+  table member_floc_note
+    create field reference_nt_coverage_pct DOUBLE
+    exit
+
+  # Schema extensions
+  create custom-table isolate_data
+
+  table isolate_data
+    create field isolate VARCHAR 100
+    create field sample_date DATE
+    create field place_sampled VARCHAR 100
+    create field country_iso VARCHAR
+    create field country VARCHAR 200
+    create field collection_year INTEGER 
+    create field collection_month VARCHAR
+    create field collection_month_day INTEGER
+  exit
+
+  create link sequence isolate_data

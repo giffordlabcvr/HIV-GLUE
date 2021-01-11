@@ -1,0 +1,48 @@
+delete project hiv
+
+create project hiv "GLUE project for human immunodeficiency virus (HIV-1)" --minVersion 1.1.65
+
+schema-project hiv
+
+  run file glue/core/hivSchemaExtensions.glue
+
+  exit
+
+project hiv
+
+  #~#  HIV basic skeleton project 
+
+  # Define settings for this project
+  run file glue/core/projectSettings.glue
+
+  # Create modules used in project build
+  run file glue/core/hivModules.glue
+
+  # Import reference sequences from GenBank XML files 
+  #import source sources/core/fasta-refseqs/
+  import source sources/core/ncbi-refseqs/
+
+  # Create reference sequences
+  run file glue/core/hivReferences.glue
+      
+  # Import reference sequence side-data
+  module refseqTextFilePopulator populate -f tabular/core/hiv-reference-data.tsv
+
+  # Define genome features
+  run file glue/core/hivFeatures.glue 
+
+  # Attach feature locations to the reference sequences 
+  run file glue/core/hivFeatureLocations.glue
+
+  # Attach feature locations to the reference sequences 
+  #run file glue/core/hivVariations.glue
+  
+  # Import root alignments and create constrained alignment tree
+  run file glue/core/hivRootAlignment.glue
+
+  # Inherit features from HIV-1 master reference to other reference sequences
+  #run script glue/core/hivRefseqsInheritFeatureLocations.js
+
+
+
+  validate

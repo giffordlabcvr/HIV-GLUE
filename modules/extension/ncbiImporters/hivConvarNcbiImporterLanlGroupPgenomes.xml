@@ -1,0 +1,15 @@
+<ncbiImporter>
+  <sourceName>ncbi-curated-group-p</sourceName>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <specificPrimaryAccessions>
+
+	<primaryAccession>GQ328744</primaryAccession>
+	<primaryAccession>GU111555</primaryAccession>
+	<primaryAccession>HQ179987</primaryAccession>
+	<primaryAccession>JA446000</primaryAccession>
+	<primaryAccession>KY953207</primaryAccession>
+
+  </specificPrimaryAccessions>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

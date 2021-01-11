@@ -1,0 +1,38 @@
+# Create importer modules 
+create module -f modules/extension/ncbiImporters/hivConvarNcbiImporterLanlCRF01genomes.xml 
+create module -f modules/extension/ncbiImporters/hivConvarNcbiImporterLanlCRF02genomes.xml
+create module -f modules/extension/ncbiImporters/hivConvarNcbiImporterLanlGroupNgenomes.xml
+create module -f modules/extension/ncbiImporters/hivConvarNcbiImporterLanlGroupOgenomes.xml
+create module -f modules/extension/ncbiImporters/hivConvarNcbiImporterLanlGroupPgenomes.xml
+create module -f modules/extension/ncbiImporters/hivConvarNcbiImporterLanlSubAgenomes.xml
+create module -f modules/extension/ncbiImporters/hivConvarNcbiImporterLanlSubBgenomes.xml
+create module -f modules/extension/ncbiImporters/hivConvarNcbiImporterLanlSubCgenomes.xml
+create module -f modules/extension/ncbiImporters/hivConvarNcbiImporterLanlSubF1genomes.xml
+create module -f modules/extension/ncbiImporters/hivConvarNcbiImporterLanlSivGor.xml
+create module -f modules/extension/ncbiImporters/hivConvarNcbiImporterLanlSivCpz.xml
+
+# Download NCBI sequences 
+module hivConvarNcbiImporterLanlCRF01genomes import
+module hivConvarNcbiImporterLanlCRF02genomes import
+module hivConvarNcbiImporterLanlGroupNgenomes import
+module hivConvarNcbiImporterLanlGroupOgenomes import
+module hivConvarNcbiImporterLanlGroupPgenomes import
+module hivConvarNcbiImporterLanlSubAgenomes import
+module hivConvarNcbiImporterLanlSubBgenomes import
+module hivConvarNcbiImporterLanlSubCgenomes import
+module hivConvarNcbiImporterLanlSubF1genomes import
+module hivConvarNcbiImporterLanlSivGor import
+module hivConvarNcbiImporterLanlSivCpz import
+
+# Export sources 
+export source sources/ncbi-curated-crf01/
+export source sources/ncbi-curated-crf02/
+export source sources/ncbi-curated-group-o/
+export source sources/ncbi-curated-group-p/
+export source sources/ncbi-curated-group-n/
+export source sources/ncbi-curated-subtype-a/
+export source sources/ncbi-curated-subtype-b/
+export source sources/ncbi-curated-subtype-c/
+export source sources/ncbi-curated-subtype-f1/
+export source sources/ncbi-curated-siv-cpz/
+export source sources/ncbi-curated-siv-gor/

@@ -1,0 +1,17 @@
+delete module hivTextFilePopulatorLanlSequences
+create module --fileName modules/extension/hivTextFilePopulatorLanlSequences.xml
+module hivTextFilePopulatorLanlSequences
+
+  populate -w "source.name = 'ncbi-curated-group-p'"     -f tabular/extension/lanl_groupP_completegenomes.csv
+  populate -w "source.name = 'ncbi-curated-group-n'"     -f tabular/extension/lanl_groupN_completegenomes.csv
+  populate -w "source.name = 'ncbi-curated-group-o'"     -f tabular/extension/lanl_groupO_completegenomes.csv
+  populate -w "source.name = 'ncbi-curated-subtype-a'"   -f tabular/extension/lanl_subtypeA_completegenomes.csv
+  populate -w "source.name = 'ncbi-curated-subtype-b'"   -f tabular/extension/lanl_subtypeB_completegenomes.csv
+  populate -w "source.name = 'ncbi-curated-subtype-c'"   -f tabular/extension/lanl_subtypeC_completegenomes.csv
+  populate -w "source.name = 'ncbi-curated-subtype-d'"   -f tabular/extension/lanl_subtypeD_completegenomes.csv
+  populate -w "source.name = 'ncbi-curated-subtype-f1'"  -f tabular/extension/lanl_subtypeF1_completegenomes.csv
+  populate -w "source.name = 'ncbi-curated-subtype-g'"   -f tabular/extension/lanl_subtypeG_completegenomes.csv
+  populate -w "source.name = 'ncbi-curated-crf01'"       -f tabular/extension/lanl_CRF01_AE_completegenomes.csv
+  populate -w "source.name = 'ncbi-curated-crf02'"       -f tabular/extension/lanl_CRF02_AG_completegenomes.csv
+  
+  exit 

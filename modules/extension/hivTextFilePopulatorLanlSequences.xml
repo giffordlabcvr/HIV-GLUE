@@ -1,0 +1,33 @@
+<textFilePopulator>
+	<columnDelimiterRegex>,</columnDelimiterRegex>
+	
+	<textFileColumn>
+		<identifier>true</identifier>
+		<header>Accession</header>
+		<property>sequenceID</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+	</textFileColumn>
+
+	<textFileColumn>
+		<header>Organism</header>
+		<property>species</property>
+	</textFileColumn>
+	
+	<textFileColumn>
+		<header>Group</header>
+		<property>species_group</property>
+	</textFileColumn>
+	
+	<textFileColumn>
+		<header>Subtype</header>
+		<property>subtype</property>
+	</textFileColumn>
+
+	<textFileColumn>
+		<header>Name</header>
+		<property>isolate_id</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+	</textFileColumn>
+			
+	
+</textFilePopulator>

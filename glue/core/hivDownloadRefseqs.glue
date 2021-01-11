@@ -1,0 +1,9 @@
+# Get refseqs from NCBI
+
+delete module ncbiImporter
+create module -f modules/core/hivNcbiImporterReferences.xml ncbiImporter
+
+# Download NCBI sequences 
+module ncbiImporter import
+
+export source ncbi-refseqs

@@ -1,0 +1,40 @@
+<compoundAligner>
+	<aligners>
+		<!-- gag should correctly align the region spanning the ribosomal slippage in gag-pol --> 
+		<codonAwareBlastAligner>
+			<featureName>gag</featureName>
+		</codonAwareBlastAligner>
+		<!-- gag-pol should then give good homology for the rest of this region --> 
+		<codonAwareBlastAligner>
+			<featureName>pro-pol</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>vif</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>vpr</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>vpu</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>env</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>tat</featureName>
+			<!-- this can help pick up the short second part of the tat spliced gene
+			     unnecessary at moment because this part is contained within env -->
+			<!--
+			<blastRunner>
+				<generalSearch>
+					<word_size>2</word_size>
+				</generalSearch>
+			</blastRunner>
+			-->
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>nef</featureName>
+		</codonAwareBlastAligner>
+		<blastAligner/>
+	</aligners>
+</compoundAligner>

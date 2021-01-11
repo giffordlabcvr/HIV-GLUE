@@ -1,0 +1,14 @@
+import source sources/extension/ncbi-curated-subtype-a/
+import source sources/extension/ncbi-curated-subtype-b/
+import source sources/extension/ncbi-curated-subtype-c/
+import source sources/extension/ncbi-curated-subtype-d/
+import source sources/extension/ncbi-curated-subtype-f1/
+import source sources/extension/ncbi-curated-subtype-g/
+import source sources/extension/ncbi-curated-crf01/
+import source sources/extension/ncbi-curated-crf02/
+
+import source sources/extension/ncbi-curated-group-n/
+import source sources/extension/ncbi-curated-group-p/
+import source sources/extension/ncbi-curated-group-o/
+import source sources/extension/ncbi-curated-siv-cpz/
+import source sources/extension/ncbi-curated-siv-gor/

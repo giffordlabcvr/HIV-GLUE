@@ -1,0 +1,18 @@
+<ncbiImporter>
+  <sourceName>ncbi-curated-siv-gor</sourceName>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <specificPrimaryAccessions>
+
+	<primaryAccession>FJ424863</primaryAccession>
+	<primaryAccession>FJ424864</primaryAccession>
+	<primaryAccession>FJ424865</primaryAccession>
+	<primaryAccession>FJ424866</primaryAccession>
+	<primaryAccession>FJ424871</primaryAccession>
+	<primaryAccession>KP004989</primaryAccession>
+	<primaryAccession>KP004990</primaryAccession>
+	<primaryAccession>KP004991</primaryAccession>
+
+  </specificPrimaryAccessions>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
