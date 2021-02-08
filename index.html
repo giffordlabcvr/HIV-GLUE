@@ -18,8 +18,7 @@
     <section class="page-header">
       <h1 class="project-name">HIV-GLUE</h1>
       <h2 class="project-tagline">Comparative analysis of HIV genome sequence data.</h2>
-      <a href="https://github.com/giffordlabcvr/HIV-GLUE/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/giffordlabcvr/HIV-GLUE/tarball/master" class="btn">Download .tar.gz</a>
+      <a href="https://github.com/giffordlabcvr/HIV-GLUE/zipball/master" class="btn">Download</a>
       <a href="https://github.com/giffordlabcvr/HIV-GLUE/tree/master" class="btn">View on GitHub</a>
     </section>
 
@@ -31,52 +30,10 @@
 
 	   <p>
 		 This is <b>HIV-GLUE</b>, a <a href="http://glue-tools.cvr.gla.ac.uk/"><b>GLUE</b></a> project
-		 designed to support comparative genomic analysis of human 
-		 immunodeficiency viruses (HIVs) and other primate lentiviruses.
+		 designed to support comparative genomic analysis of <b>human 
+		 immunodeficiency virus type 1 (HIV-1)</b>.
 	   </p>
 
-	   <h3>
-		 <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Sequence data</strong>
-	   </h3>
-	   
-	   <p>
-		 The sequence data in this project have been organised into the following
-		 <b>sources</b>:
-	     <br>
-	   </p>
-	   
-	   	   
-	   <p>	      
-		 <b>ncbi-refseqs</b>: Genome-length reference sequences of <a href="https://github.com/giffordlabcvr/HIV-GLUE/blob/master/tabular/core/hiv-reference-data.csv">representative lentivirus species and substrains</a>.		 
-		 These
-		 <a href="https://github.com/giffordlabcvr/HIV-GLUE/tree/master/sources/core/ncbi-refseqs">XML-formatted files</a>
-		  are downloaded directly from <a href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI GenBank</a> using a GLUE module
-		 (see <a href="https://github.com/giffordlabcvr/HIV-GLUE/blob/master/modules/core/HIVNcbiImporterReferences.xml">here</a>)
-		 and are uniquely identified within this project by their <a target="_blank" href="https://www.ncbi.nlm.nih.gov/Sequin/acc.html">GenBank accession numbers</a>. 
-	   </p>
-	   	      	   
-	   <p>
-		 <b>fasta-refseqs</b>: 
-		 <a href="https://github.com/giffordlabcvr/HIV-GLUE/tree/master/sources/core/fasta-refseqs">ERV reference sequences</a>
-		 - best-guess estimates of the ancestral lentivirus sequences that gave rise to ERVs.
-		 Where possible these are consensus/ancestral sequences derived from alignments
-		 <a href="https://github.com/giffordlabcvr/HIV-GLUE/tree/master/alignments/tips">included in this project</a>.
-		 Sequence IDs used in this source correspond to the names of the unique ERV loci they represent
-		 (see <a href="https://retrovirology.biomedcentral.com/articles/10.1186/s12977-018-0442-1" target="_blank">here</a> for details).
-	   </p>
- 
-	   <h3>
-	   <a id="sequenceSideData" class="anchor" href="#sequenceSideData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Sequence-associated data</strong>
-	   </h3>
-	   
-	   <p>
-         Sequences included in this project are linked to auxiliary data in tabular format, this includes:
-		 
-		 <ol>
-		   <li><a href="https://github.com/giffordlabcvr/HIV-GLUE/blob/master/tabular/core/hiv-reference-data.csv">Basic taxonomic data</a> for genome-length virus reference sequence in <b>ncbi-refseqs</b>.</li> 
-		 </ol>
-		 
-	   </p>
 		 
 
 	   <h3>
@@ -98,6 +55,99 @@
 
 
 
+
+	   <h3>
+	   <a id="WhatGlueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>What is a GLUE project?</strong>
+	   </h3>
+       <hr>
+
+
+	   <p>
+		 <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/"><b>GLUE</b></a> is an open, integrated
+		 software toolkit that provides functionality for storage and interpretation of
+		 sequence data. 
+	   </p>
+
+	   <p>
+		 <b>GLUE</b> supports the development of <b>“projects”</b> containing the data items
+		 required for comparative genomic analysis 
+		 (e.g.  sequences, multiple sequence alignments, genome feature annotations,
+		 and other sequence-associated data). 
+	   </p>
+
+	   <p>
+		 Projects are loaded into the <b>GLUE "engine"</b>, creating a relational database
+		 that represents the semantic relationships between data items.
+		 This provides a robust foundation for the implementation of <b>systematic
+		 comparative analyses</b> and the development of <b>sequence-based resources</b>. 
+	   </p>
+
+	   <p>		 
+		  The core schema of this database can be extended to accommodate
+		  the idiosyncrasies of different projects, and
+		  GLUE provides a scripting layer (based on JavaScript) for developing custom
+		  analysis tools. 
+	   </p>
+
+	   <p>
+		  Hosting of GLUE projects in an online version control system (e.g. GitHub) provides
+		  a mechanism for their stable, collaborative development.
+	   </p>
+	   
+	   
+
+		   
+		 <p>
+		   Some examples of '<b>sequence-based resources</b>' built for viruses using GLUE include:
+
+		 </p>
+		   
+		   
+
+		 <p>
+
+		 <ul>
+		 		 
+		   <li> 
+			 <a target="_blank" href="http://cov-glue.cvr.gla.ac.uk/"><b>COV-GLUE</b></a>: 
+			 A GLUE resource for tracking genetic variation in SARS-COV2.
+			 CoV-GLUE contains a database of amino acid replacements, insertions and
+			 deletions which have been observed in GISAID hCoV-19 sequences sampled from the pandemic
+		   </li>
+		   <br>
+		   
+		   <li>
+			 <a target="_blank" href="http://rabv-glue.cvr.gla.ac.uk/"><b>RABV-GLUE</b></a>:
+			 Tailored toward epidemiological tracking of rabies virus (RABV).
+			 Includes a database of RABV sequences and metadata from NCBI, updated daily and arranged into major and minor clades, and
+			 an analysis tool providing genotyping, analysis and visualisation of submitted FASTA sequences.
+ 		   </li>
+ 		   <br>
+		   
+		   <li>
+			 <a target="_blank" href="http://hcv-glue.cvr.gla.ac.uk/"><b>HCV-GLUE</b></a>:
+			 This GLUE resource aims to support analysis of drug resistance and vaccine
+			 escape in hepatitis C virus (HCV).
+			 A database of HCV sequences and metadata from NCBI, updated daily and arranged
+			 into clades (genotypes, subtypes). As well as pre-built multiple-sequence
+			 alignments of NCBI sequences, it includes an analysis tool providing genotyping,
+			 drug resistance analysis and visualisation of submitted FASTA sequences.
+           </li>
+	   
+		 </ul>
+
+		   
+		 </p>
+
+
+
+
+
+
+
+
+
+
 	   <h3>
 		 <a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Contributors</strong>
 	   </h3>
@@ -107,8 +157,7 @@
 		 Access to this GitHub repository is currently restricted. To request access please contact:
 
 		 <p>Robert J. Gifford (<a href="mailto:robert.gifford@glasgow.ac.uk">robert.gifford@glasgow.ac.uk</a>)</p>
-		 <p>Josh Singer (<a href="mailto:josh.singer@glasgow.ac.uk">josh.singer@glasgow.ac.uk</a>)</p>
-		 <p>Samantha Campbell (<a href="mailto:samantha.campbell@glasgow.ac.uk">samantha.campbell@glasgow.ac.uk</a>)</p>
+
 		 
 	   </p>
 
